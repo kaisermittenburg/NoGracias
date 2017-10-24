@@ -1,6 +1,6 @@
 ﻿namespace NoGracias
 {
-    partial class Form1
+    partial class MainMenuForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // MainMenu
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(1239, 879);
+            this.Name = "MainMenu";
+            this.Text = "Main Menu";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
     }
 }
-
