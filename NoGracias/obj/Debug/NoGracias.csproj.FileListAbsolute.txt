@@ -9,3 +9,14 @@ C:\Users\Kaiser\projects\NoGracias\NoGracias\obj\Debug\NoGracias.exe
 C:\Users\Kaiser\projects\NoGracias\NoGracias\obj\Debug\NoGracias.pdb
 C:\Users\Kaiser\projects\NoGracias\NoGracias\obj\Debug\NoGracias.CardTableForm.resources
 C:\Users\Kaiser\projects\NoGracias\NoGracias\obj\Debug\NoGracias.MainMenuForm.resources
+C:\Users\Andrew\Desktop\EECS_448\Project3\NoGracias\NoGracias\bin\Debug\NoGracias.exe.config
+C:\Users\Andrew\Desktop\EECS_448\Project3\NoGracias\NoGracias\bin\Debug\NoGracias.exe
+C:\Users\Andrew\Desktop\EECS_448\Project3\NoGracias\NoGracias\bin\Debug\NoGracias.pdb
+C:\Users\Andrew\Desktop\EECS_448\Project3\NoGracias\NoGracias\obj\Debug\NoGracias.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\Desktop\EECS_448\Project3\NoGracias\NoGracias\obj\Debug\NoGracias.CardTableForm.resources
+C:\Users\Andrew\Desktop\EECS_448\Project3\NoGracias\NoGracias\obj\Debug\NoGracias.MainMenuForm.resources
+C:\Users\Andrew\Desktop\EECS_448\Project3\NoGracias\NoGracias\obj\Debug\NoGracias.Properties.Resources.resources
+C:\Users\Andrew\Desktop\EECS_448\Project3\NoGracias\NoGracias\obj\Debug\NoGracias.csproj.GenerateResource.Cache
+C:\Users\Andrew\Desktop\EECS_448\Project3\NoGracias\NoGracias\obj\Debug\NoGracias.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\Desktop\EECS_448\Project3\NoGracias\NoGracias\obj\Debug\NoGracias.exe
+C:\Users\Andrew\Desktop\EECS_448\Project3\NoGracias\NoGracias\obj\Debug\NoGracias.pdb
