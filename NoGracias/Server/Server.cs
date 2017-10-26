@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace NoGracias.Server
 {
-    class Server
+    class GameServer
     {
         private static readonly Socket Server_Socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
         private static readonly List<Socket> Client_Sockets = new List<Socket>();
@@ -16,7 +16,7 @@ namespace NoGracias.Server
         private const int PORT = 11203;
         private static readonly byte[] Buffer = new byte[BUFFER_SIZE];
 
-        Server()
+        public GameServer()
         {
             //Setup
             ServerSetup();
@@ -27,13 +27,17 @@ namespace NoGracias.Server
         private void ServerSetup()
         {
             //TODO set title of server form to "Server" or whatever
+            //TODO write to server form console that the server is setting up
 
+            Console.WriteLine("Setting up server...");
             //Bind socket
             Server_Socket.Bind(new IPEndPoint(IPAddress.Any, PORT));
             //Tell socket to listen
             Server_Socket.Listen(0);
             //Get async connection request
             Server_Socket.BeginAccept(Accept, null);
+            Console.WriteLine("Server setup complete");
+            Console.WriteLine("Server IP Address: " + GetLocalIPAddress() + "\nPort Number: " + PORT);
 
             //TODO set form elements (ip address, port, currently connected, etc)
         }
@@ -58,7 +62,8 @@ namespace NoGracias.Server
 
             Client_Sockets.Add(temp);
             temp.BeginReceive(Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, temp);
-            //TODO write to server form "console" that player has connected
+            //TODO write to server form "console" that player has connected 
+            Console.WriteLine("Player Connected"); //FOR NOW
             Server_Socket.BeginAccept(Accept, null);
         }
 
@@ -74,6 +79,7 @@ namespace NoGracias.Server
             catch(SocketException)
             {
                 //TODO print to form "Client Disconnected"
+                Console.WriteLine("Player Disconnected");//FOR NOW
                 temp.Close();
                 Client_Sockets.Remove(temp);
                 return;
@@ -85,6 +91,7 @@ namespace NoGracias.Server
             string message = Encoding.ASCII.GetString(Recieved_Buffer);
 
             //TODO write to server form "console" 
+            Console.WriteLine(message); //FOR NOW
 
             if (message.ToLower() == "exit")
             {
