@@ -23,7 +23,16 @@ namespace NoGracias.Server
             //Shutdown
             ServerShutdown();
         }
-        
+
+        #region AbleOpus Adapted Code
+        //The following code in this region has been adapted from a repo called NetworkingSamples by GitHub user AbleOpus
+        //User: https://github.com/AbleOpus
+        //Repo: https://github.com/AbleOpus/NetworkingSamples
+        //We have not directly copy and pasted ANY of this user's code, however, this is a very common and generic 
+        //way of using sockets in C#, so our code is very similar, in many places, nearly word for word to AbleOpus's code, 
+        //and quite similar to many other examples of socket usage on the internet.
+        //This is the primary resource we used to learn about socket usage in C#. 
+
         private void ServerSetup()
         {
             //TODO set title of server form to "Server" or whatever
@@ -55,7 +64,7 @@ namespace NoGracias.Server
             {
                 temp = Server_Socket.EndAccept(AR);
             }
-            catch(ObjectDisposedException )
+            catch (ObjectDisposedException)
             {
                 return; //TODO determine what to do here
             }
@@ -76,7 +85,7 @@ namespace NoGracias.Server
             {
                 recieved = temp.EndReceive(AR);
             }
-            catch(SocketException)
+            catch (SocketException)
             {
                 //TODO print to form "Client Disconnected"
                 Console.WriteLine("Player Disconnected");//FOR NOW
@@ -98,12 +107,15 @@ namespace NoGracias.Server
                 temp.Shutdown(SocketShutdown.Both);
                 temp.Close();
                 Client_Sockets.Remove(temp);
-                
+
                 //TODO write to server form "console" that a player disconnected
                 //TODO handle player disconnect in game driver.
             }
             //TODO send message to communication helper, which will help the game driver progress.
         }
+
+        #endregion
+
 
         /*Method: GetLocalIPAddress() 
          *Source: https://stackoverflow.com/questions/6803073/get-local-ip-address 
