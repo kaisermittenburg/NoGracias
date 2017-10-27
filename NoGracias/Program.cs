@@ -22,7 +22,7 @@ namespace NoGracias
             GameServer DebugServer = new GameServer();
 
             //Start Main Menu Form
-            Application.Run(new MainMenuForm());
+            Application.Run(new CardTableForm());
         }
     }
 }

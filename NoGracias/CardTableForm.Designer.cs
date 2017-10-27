@@ -97,6 +97,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1628, 830);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.textBox2);
@@ -122,6 +124,15 @@
 		private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private void DrawEllipse()
+        {
+            System.Drawing.Pen myPen = new System.Drawing.Pen(System.Drawing.Color.Red);
+            System.Drawing.Graphics formGraphics;
+            formGraphics = this.CreateGraphics();
+            formGraphics.DrawEllipse(myPen, new System.Drawing.Rectangle(0, 0, 200, 300));
+            myPen.Dispose();
+            formGraphics.Dispose();
+        }
     }
 }
 
