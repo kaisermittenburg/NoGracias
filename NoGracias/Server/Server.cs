@@ -28,10 +28,18 @@ namespace NoGracias.Server
         //The following code in this region has been adapted from a repo called NetworkingSamples by GitHub user AbleOpus
         //User: https://github.com/AbleOpus
         //Repo: https://github.com/AbleOpus/NetworkingSamples
-        //We have not directly copy and pasted ANY of this user's code, however, this is a very common and generic 
-        //way of using sockets in C#, so our code is very similar, in many places, nearly word for word to AbleOpus's code, 
-        //and quite similar to many other examples of socket usage on the internet.
+        //Modified by Kaiser Mittenburg, Team Purple C#bras
         //This is the primary resource we used to learn about socket usage in C#. 
+        
+        //License for NetworkingSamples:
+            //#An Unconditional Licence
+            //
+            //Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software, either in source code form or as a compiled binary, 
+            //for any purpose, commercial or non-commercial, and by any means.
+            //
+            //THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+            //FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN 
+            //ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
         private void ServerSetup()
         {
