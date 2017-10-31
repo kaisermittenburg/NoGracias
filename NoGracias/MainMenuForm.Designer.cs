@@ -1,32 +1,75 @@
 ﻿using System;
 using System.Net.Sockets;
 using System.Text;
+using System.Windows.Forms;
 
 namespace NoGracias
 {
     partial class MainMenuForm
     {
+        private static int attempts = 0;
+
         public string IP
         {
             get { return IP_textbox.Text; }
-            set { IP_textbox.Text = value; }
+            set
+            {
+                this.IP_textbox.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.IP_textbox.Text = value;
+                });
+            }
         }
         public string Port
         {
             get { return Port_textbox.Text; }
-            set { Port_textbox.Text = value; }
+            set
+            {
+                this.Port_textbox.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.Port_textbox.Text = value;
+                });
+            }
         }
         public string PlayerName
         {
             get { return PlayerName_textbox.Text; }
-            set { PlayerName_textbox.Text = value; }
+            set
+            {
+                this.PlayerName_textbox.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.PlayerName_textbox.Text = value;
+                });
+            }
         }
         public string ConnectedPlayers
         {
             get { return ConnectedPlayers_textbox.Text; }
-            set { ConnectedPlayers_textbox.Text = value; }
+            set
+            {
+                this.PlayerName_textbox.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.ConnectedPlayers_textbox.AppendText(", " + value);
+                });
+            }
         }
-           
+        public string Status
+        {
+            get { return Status_Textbox.Text; }
+            set
+            {
+                this.Status_Textbox.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.Status_Textbox.AppendText("\r\n" + value);
+                });
+            }
+        }
+
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -65,6 +108,8 @@ namespace NoGracias
             this.Ready_Up_Button = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.Connect_Button = new System.Windows.Forms.Button();
+            this.Status_Label = new System.Windows.Forms.Label();
+            this.Status_Textbox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // IP_textbox
@@ -156,7 +201,7 @@ namespace NoGracias
             // 
             this.Ready_Up_Button.Enabled = false;
             this.Ready_Up_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ready_Up_Button.Location = new System.Drawing.Point(715, 500);
+            this.Ready_Up_Button.Location = new System.Drawing.Point(715, 785);
             this.Ready_Up_Button.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Ready_Up_Button.Name = "Ready_Up_Button";
             this.Ready_Up_Button.Size = new System.Drawing.Size(182, 58);
@@ -177,7 +222,7 @@ namespace NoGracias
             // Connect_Button
             // 
             this.Connect_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Connect_Button.Location = new System.Drawing.Point(417, 500);
+            this.Connect_Button.Location = new System.Drawing.Point(417, 785);
             this.Connect_Button.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Connect_Button.Name = "Connect_Button";
             this.Connect_Button.Size = new System.Drawing.Size(182, 58);
@@ -186,11 +231,32 @@ namespace NoGracias
             this.Connect_Button.UseVisualStyleBackColor = true;
             this.Connect_Button.Click += new System.EventHandler(this.Connect_Button_Click);
             // 
+            // Status_Label
+            // 
+            this.Status_Label.AutoSize = true;
+            this.Status_Label.Location = new System.Drawing.Point(325, 468);
+            this.Status_Label.Name = "Status_Label";
+            this.Status_Label.Size = new System.Drawing.Size(56, 20);
+            this.Status_Label.TabIndex = 17;
+            this.Status_Label.Text = "Status";
+            // 
+            // Status_Textbox
+            // 
+            this.Status_Textbox.Location = new System.Drawing.Point(417, 468);
+            this.Status_Textbox.Multiline = true;
+            this.Status_Textbox.Name = "Status_Textbox";
+            this.Status_Textbox.ReadOnly = true;
+            this.Status_Textbox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.Status_Textbox.Size = new System.Drawing.Size(480, 282);
+            this.Status_Textbox.TabIndex = 18;
+            // 
             // MainMenuForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1239, 879);
+            this.Controls.Add(this.Status_Textbox);
+            this.Controls.Add(this.Status_Label);
             this.Controls.Add(this.Connect_Button);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.Ready_Up_Button);
@@ -245,10 +311,6 @@ namespace NoGracias
 
         private Socket ClientSocket;
 
-        private const int PORT = 11203;
-
-       
-            
             //ConnectToServer();
             //RequestLoop();
             //Exit();
@@ -258,22 +320,17 @@ namespace NoGracias
         {
             ClientSocket = new Socket
             (AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            int attempts = 0;
+            
 
             while (!ClientSocket.Connected)
             {
                 try
                 {
-                    string server_ip;
-                    string server_port;
-                    Console.WriteLine("Enter the Server IP address");
-                    server_ip = Console.ReadLine();
-                    Console.WriteLine("Enter the Server Port");
-                    server_port = Console.ReadLine();
                     attempts++;
-                    Console.WriteLine("Connection attempt " + attempts);
-                    // Change IPAddress.Loopback to a remote IP to connect to a remote host.
-                    ClientSocket.Connect(server_ip, int.Parse(server_port)); //IPAddress.Loopback, PORT);
+                    Console.WriteLine("Connection attempt " + attempts); //DEBUG
+                    Status = "Connection attempt " + attempts;
+
+                    ClientSocket.Connect(IP, int.Parse(Port)); //IPAddress.Loopback, PORT);
                 }
                 catch (SocketException)
                 {
@@ -281,17 +338,17 @@ namespace NoGracias
                 }
             }
 
-            Console.Clear();
             Console.WriteLine("Connected");
+            Status = "Connected";
         }
 
         private void RequestLoop()
         {
             Console.WriteLine(@"<Type ""exit"" to properly disconnect client>");
-
+            Status = @"<Type ""exit"" to properly disconnect client>";
             while (true)
             {
-                SendRequest();
+                //SendRequest(); //TODO fix this call when kaiser figures out what to do
                 ReceiveResponse();
             }
         }
@@ -307,10 +364,8 @@ namespace NoGracias
             Environment.Exit(0);
         }
 
-        private void SendRequest()
+        private void SendRequest(string request)
         {
-            Console.Write("Send a request: ");
-            string request = Console.ReadLine();
             SendString(request);
 
             if (request.ToLower() == "exit")
@@ -342,5 +397,7 @@ namespace NoGracias
         #endregion
 
         private System.Windows.Forms.Button Connect_Button;
+        private Label Status_Label;
+        private TextBox Status_Textbox;
     }
 }

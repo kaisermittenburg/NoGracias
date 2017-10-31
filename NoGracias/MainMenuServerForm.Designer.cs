@@ -344,7 +344,7 @@ namespace NoGracias
 
         #endregion
 
-        //Print to "console"
+        //Print to server form "console"
         public void CPrint(string s)
         {
             //Status_textbox.AppendText("\r\n" + s);
