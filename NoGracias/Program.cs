@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using NoGracias.Server;
+using System.Threading;
 
 namespace NoGracias
 {
@@ -15,14 +16,39 @@ namespace NoGracias
         [STAThread]
         static void Main()
         {
+            
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            //Start Server for debugging
-            GameServer DebugServer = new GameServer();
+
+            MainMenuForm MainMenu = new MainMenuForm();
+            MainMenuServerForm ServerForm = new MainMenuServerForm();
 
             //Start Main Menu Form
-            Application.Run(new CardTableForm());
+
+            //Application.Run(MainMenu);
+
+
+            
+
+            //var thread = new Thread(ThreadStart);
+            //thread.TrySetApartmentState(ApartmentState.STA);
+            //thread.Start(ServerForm);
+
+
+            //Start Server Form
+            Application.Run(ServerForm);
+
+
+            
+           
+        }
+        private static void ThreadStart(Object form)
+        {
+            MainMenuServerForm form1 = (MainMenuServerForm)form;
+            //Application.Run(new frmTwo()); // <-- other form started on its own UI thread
+            GameServer Server = new GameServer(form1);
         }
     }
 }
