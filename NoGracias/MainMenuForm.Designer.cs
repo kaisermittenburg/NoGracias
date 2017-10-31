@@ -1,4 +1,8 @@
-﻿namespace NoGracias
+﻿using System;
+using System.Net.Sockets;
+using System.Text;
+
+namespace NoGracias
 {
     partial class MainMenuForm
     {
@@ -49,7 +53,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-
             this.IP_textbox = new System.Windows.Forms.TextBox();
             this.Port_textbox = new System.Windows.Forms.TextBox();
             this.PlayerName_textbox = new System.Windows.Forms.TextBox();
@@ -59,10 +62,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Ready_Up_Button = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.Connect_Button = new System.Windows.Forms.Button();
             this.SuspendLayout();
-
+            // 
             // IP_textbox
             // 
             this.IP_textbox.Location = new System.Drawing.Point(417, 226);
@@ -109,7 +113,6 @@
             // 
             // label2
             // 
-
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(321, 289);
@@ -131,7 +134,6 @@
             // label4
             // 
             this.label4.AutoSize = true;
-
             this.label4.BackColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(321, 418);
             this.label4.Name = "label4";
@@ -141,7 +143,6 @@
             // 
             // label5
             // 
-
             this.label5.BackColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(263, 168);
             this.label5.Name = "label5";
@@ -151,20 +152,20 @@
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // button1
+            // Ready_Up_Button
             // 
-
-            this.button1.Location = new System.Drawing.Point(501, 490);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(267, 58);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Enter The Game";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Ready_Up_Button.Enabled = false;
+            this.Ready_Up_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ready_Up_Button.Location = new System.Drawing.Point(715, 500);
+            this.Ready_Up_Button.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Ready_Up_Button.Name = "Ready_Up_Button";
+            this.Ready_Up_Button.Size = new System.Drawing.Size(182, 58);
+            this.Ready_Up_Button.TabIndex = 14;
+            this.Ready_Up_Button.Text = "Ready Up";
+            this.Ready_Up_Button.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-
             this.button2.Location = new System.Drawing.Point(28, 32);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
@@ -173,20 +174,31 @@
             this.button2.Text = "Server";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // Connect_Button
+            // 
+            this.Connect_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Connect_Button.Location = new System.Drawing.Point(417, 500);
+            this.Connect_Button.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Connect_Button.Name = "Connect_Button";
+            this.Connect_Button.Size = new System.Drawing.Size(182, 58);
+            this.Connect_Button.TabIndex = 16;
+            this.Connect_Button.Text = "Connect";
+            this.Connect_Button.UseVisualStyleBackColor = true;
+            this.Connect_Button.Click += new System.EventHandler(this.Connect_Button_Click);
+            // 
             // MainMenuForm
             // 
-
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1239, 879);
+            this.Controls.Add(this.Connect_Button);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Ready_Up_Button);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-
             this.Controls.Add(this.ConnectedPlayers_textbox);
             this.Controls.Add(this.PlayerName_textbox);
             this.Controls.Add(this.Port_textbox);
@@ -201,24 +213,6 @@
 
         #endregion
 
-        #region ManipulationMethods
-        public void SetIPTextbox(string IP)
-        {
-            IP_textbox.Text = IP;
-        }
-        public void SetPortTextbox(string Port)
-        {
-            Port_textbox.Text = Port;
-        }
-        public void SetPlayerNameTextbox(string PlayerName)
-        {
-            PlayerName_textbox.Text = PlayerName;
-        }
-        public void SetConnectedPlayersTextbox(string ConnectedPlayers)
-        {
-            ConnectedPlayers_textbox.Text = ConnectedPlayers;
-        }
-        #endregion
 
         private System.Windows.Forms.TextBox IP_textbox;
 		private System.Windows.Forms.TextBox Port_textbox;
@@ -229,7 +223,124 @@
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label4;
 		private System.Windows.Forms.Label label5;
-		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.Button Ready_Up_Button;
 		private System.Windows.Forms.Button button2;
-	}
+
+        #region AbleOpus Adapted Code
+        //The following code in this c# "region" has been adapted from a repo called NetworkingSamples by GitHub user AbleOpus
+        //User: https://github.com/AbleOpus
+        //Repo: https://github.com/AbleOpus/NetworkingSamples
+        //Modified by Kaiser Mittenburg, Team Purple C#bras
+        //This is the primary resource we used to learn about socket usage in C#. 
+
+        //    License for NetworkingSamples:
+        //    #An Unconditional Licence
+        //
+        //    Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software, either in source code form or as a compiled binary, 
+        //    for any purpose, commercial or non-commercial, and by any means.
+        //
+        //    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+        //    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN 
+        //    ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+        private Socket ClientSocket;
+
+        private const int PORT = 11203;
+
+       
+            
+            //ConnectToServer();
+            //RequestLoop();
+            //Exit();
+       
+
+        private void ConnectToServer()
+        {
+            ClientSocket = new Socket
+            (AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            int attempts = 0;
+
+            while (!ClientSocket.Connected)
+            {
+                try
+                {
+                    string server_ip;
+                    string server_port;
+                    Console.WriteLine("Enter the Server IP address");
+                    server_ip = Console.ReadLine();
+                    Console.WriteLine("Enter the Server Port");
+                    server_port = Console.ReadLine();
+                    attempts++;
+                    Console.WriteLine("Connection attempt " + attempts);
+                    // Change IPAddress.Loopback to a remote IP to connect to a remote host.
+                    ClientSocket.Connect(server_ip, int.Parse(server_port)); //IPAddress.Loopback, PORT);
+                }
+                catch (SocketException)
+                {
+                    Console.Clear();
+                }
+            }
+
+            Console.Clear();
+            Console.WriteLine("Connected");
+        }
+
+        private void RequestLoop()
+        {
+            Console.WriteLine(@"<Type ""exit"" to properly disconnect client>");
+
+            while (true)
+            {
+                SendRequest();
+                ReceiveResponse();
+            }
+        }
+
+        /// <summary>
+        /// Close socket and exit program.
+        /// </summary>
+        private void Exit()
+        {
+            SendString("exit"); // Tell the server we are exiting
+            ClientSocket.Shutdown(SocketShutdown.Both);
+            ClientSocket.Close();
+            Environment.Exit(0);
+        }
+
+        private void SendRequest()
+        {
+            Console.Write("Send a request: ");
+            string request = Console.ReadLine();
+            SendString(request);
+
+            if (request.ToLower() == "exit")
+            {
+                Exit();
+            }
+        }
+
+        /// <summary>
+        /// Sends a string to the server with ASCII encoding.
+        /// </summary>
+        private void SendString(string text)
+        {
+            byte[] buffer = Encoding.ASCII.GetBytes(text);
+            ClientSocket.Send(buffer, 0, buffer.Length, SocketFlags.None);
+        }
+
+        private void ReceiveResponse()
+        {
+            var buffer = new byte[2048];
+            int received = ClientSocket.Receive(buffer, SocketFlags.None);
+            if (received == 0) return;
+            var data = new byte[received];
+            Array.Copy(buffer, data, received);
+            string text = Encoding.ASCII.GetString(data);
+            Console.WriteLine(text);
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button Connect_Button;
+    }
 }

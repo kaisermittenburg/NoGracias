@@ -36,5 +36,15 @@ namespace NoGracias
         {
 
         }
+
+        private void Connect_Button_Click(object sender, EventArgs e)
+        {
+            ConnectToServer();
+
+            Connect_Button.Enabled = false;
+            Ready_Up_Button.Enabled = true;
+
+            RequestLoop();
+        }
     }
 }

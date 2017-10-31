@@ -63,6 +63,7 @@
     <Compile Include="MainMenuServerForm.Designer.cs">
       <DependentUpon>MainMenuServerForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Messages.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Server\CommunicationHelper.cs" />

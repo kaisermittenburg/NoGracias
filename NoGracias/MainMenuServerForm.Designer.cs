@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace NoGracias
 {
-	partial class MainMenuServerForm
-	{
-        
+    partial class MainMenuServerForm
+    {
+
         public string IP
         {
             get { return IP_textbox.Text; }
@@ -27,27 +27,27 @@ namespace NoGracias
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-		/// <summary>
-		/// Clean up any resources being used.
-		/// </summary>
-		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-		protected override void Dispose(bool disposing)
-		{
-			if (disposing && (components != null))
-			{
-				components.Dispose();
-			}
-			base.Dispose(disposing);
-		}
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
 
-		#region Windows Form Designer generated code
+        #region Windows Form Designer generated code
 
-		/// <summary>
-		/// Required method for Designer support - do not modify
-		/// the contents of this method with the code editor.
-		/// </summary>
-		private void InitializeComponent()
-		{
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
             this.button2 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -182,19 +182,22 @@ namespace NoGracias
             this.ResumeLayout(false);
             this.PerformLayout();
 
-		}
+        }
 
-		#endregion
+        #endregion
 
-		private System.Windows.Forms.Button button2;
-		private System.Windows.Forms.Label label5;
-		private System.Windows.Forms.Label label2;
-		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.TextBox Status_textbox;
-		private System.Windows.Forms.TextBox Port_textbox;
-		private System.Windows.Forms.TextBox IP_textbox;
-		private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox Status_textbox;
+        private System.Windows.Forms.TextBox Port_textbox;
+        private System.Windows.Forms.TextBox IP_textbox;
+        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button StartServerButton;
+
+
+
 
         #region ServerCode
         private Socket Server_Socket;
@@ -203,27 +206,8 @@ namespace NoGracias
         private const int PORT = 11203;
         private readonly byte[] Buffer = new byte[BUFFER_SIZE];
 
-
-        //Print to "console"
-        public void CPrint(string s)
-        {
-            //Status_textbox.AppendText("\r\n" + s);
-
-            this.Status_textbox.Invoke((MethodInvoker)delegate {
-                // Running on the UI thread
-                this.Status_textbox.AppendText("\r\n" + s);
-            });
-        }
-
-
-            //Setup
-            
-            
-           
-        
-
         #region AbleOpus Adapted Code
-        //The following code in this region has been adapted from a repo called NetworkingSamples by GitHub user AbleOpus
+        //The following code in this c# "region" has been adapted from a repo called NetworkingSamples by GitHub user AbleOpus
         //User: https://github.com/AbleOpus
         //Repo: https://github.com/AbleOpus/NetworkingSamples
         //Modified by Kaiser Mittenburg, Team Purple C#bras
@@ -357,6 +341,19 @@ namespace NoGracias
         }
 
         private System.Windows.Forms.Button ShutdownServerButton;
+
+        #endregion
+
+        //Print to "console"
+        public void CPrint(string s)
+        {
+            //Status_textbox.AppendText("\r\n" + s);
+
+            this.Status_textbox.Invoke((MethodInvoker)delegate
+            {
+                // Running on the UI thread
+                this.Status_textbox.AppendText("\r\n" + s);
+            });
+        }
     }
-    #endregion
 }
