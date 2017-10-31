@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using System.Windows.Forms;
 
 namespace NoGracias
 {
@@ -55,7 +56,8 @@ namespace NoGracias
             this.Port_textbox = new System.Windows.Forms.TextBox();
             this.IP_textbox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.StartServer = new System.Windows.Forms.Button();
+            this.StartServerButton = new System.Windows.Forms.Button();
+            this.ShutdownServerButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button2
@@ -101,30 +103,30 @@ namespace NoGracias
             // 
             // Status_textbox
             // 
-            this.Status_textbox.ReadOnly = true;
             this.Status_textbox.Location = new System.Drawing.Point(453, 392);
             this.Status_textbox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Status_textbox.Multiline = true;
             this.Status_textbox.Name = "Status_textbox";
+            this.Status_textbox.ReadOnly = true;
             this.Status_textbox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.Status_textbox.Size = new System.Drawing.Size(480, 285);
             this.Status_textbox.TabIndex = 18;
             // 
             // Port_textbox
             // 
-            this.Port_textbox.Enabled = false;
             this.Port_textbox.Location = new System.Drawing.Point(453, 342);
             this.Port_textbox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Port_textbox.Name = "Port_textbox";
+            this.Port_textbox.ReadOnly = true;
             this.Port_textbox.Size = new System.Drawing.Size(480, 26);
             this.Port_textbox.TabIndex = 17;
             // 
             // IP_textbox
             // 
-            this.IP_textbox.Enabled = false;
             this.IP_textbox.Location = new System.Drawing.Point(453, 280);
             this.IP_textbox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.IP_textbox.Name = "IP_textbox";
+            this.IP_textbox.ReadOnly = true;
             this.IP_textbox.Size = new System.Drawing.Size(480, 26);
             this.IP_textbox.TabIndex = 16;
             // 
@@ -137,22 +139,35 @@ namespace NoGracias
             this.label3.TabIndex = 27;
             this.label3.Text = "Status";
             // 
-            // StartServer
+            // StartServerButton
+            //
+            this.StartServerButton.Enabled = true;
+            this.StartServerButton.Location = new System.Drawing.Point(64, 612);
+            this.StartServerButton.Name = "StartServerButton";
+            this.StartServerButton.Size = new System.Drawing.Size(173, 65);
+            this.StartServerButton.TabIndex = 28;
+            this.StartServerButton.Text = "Start Server";
+            this.StartServerButton.UseVisualStyleBackColor = true;
+            this.StartServerButton.Click += new System.EventHandler(this.StartServer_Click);
             // 
-            this.StartServer.Location = new System.Drawing.Point(64, 612);
-            this.StartServer.Name = "StartServer";
-            this.StartServer.Size = new System.Drawing.Size(173, 65);
-            this.StartServer.TabIndex = 28;
-            this.StartServer.Text = "Start Server";
-            this.StartServer.UseVisualStyleBackColor = true;
-            this.StartServer.Click += new System.EventHandler(this.StartServer_Click);
+            // ShutdownServerButton
+            // 
+            this.ShutdownServerButton.Enabled = false;
+            this.ShutdownServerButton.Location = new System.Drawing.Point(269, 612);
+            this.ShutdownServerButton.Name = "ShutdownServerButton";
+            this.ShutdownServerButton.Size = new System.Drawing.Size(126, 65);
+            this.ShutdownServerButton.TabIndex = 29;
+            this.ShutdownServerButton.Text = "Shutdown";
+            this.ShutdownServerButton.UseVisualStyleBackColor = true;
+            this.ShutdownServerButton.Click += new System.EventHandler(this.ShutdownServerButton_Click);
             // 
             // MainMenuServerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1108, 689);
-            this.Controls.Add(this.StartServer);
+            this.Controls.Add(this.ShutdownServerButton);
+            this.Controls.Add(this.StartServerButton);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label5);
@@ -179,20 +194,25 @@ namespace NoGracias
 		private System.Windows.Forms.TextBox Port_textbox;
 		private System.Windows.Forms.TextBox IP_textbox;
 		private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button StartServer;
+        private System.Windows.Forms.Button StartServerButton;
 
         #region ServerCode
-        private static readonly Socket Server_Socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-        private static readonly List<Socket> Client_Sockets = new List<Socket>();
+        private Socket Server_Socket;
+        private List<Socket> Client_Sockets = new List<Socket>();
         private const int BUFFER_SIZE = 2048;
         private const int PORT = 11203;
-        private static readonly byte[] Buffer = new byte[BUFFER_SIZE];
+        private readonly byte[] Buffer = new byte[BUFFER_SIZE];
 
 
         //Print to "console"
         public void CPrint(string s)
         {
-            Status_textbox.AppendText("\r\n" + s);
+            //Status_textbox.AppendText("\r\n" + s);
+
+            this.Status_textbox.Invoke((MethodInvoker)delegate {
+                // Running on the UI thread
+                this.Status_textbox.AppendText("\r\n" + s);
+            });
         }
 
 
@@ -221,8 +241,8 @@ namespace NoGracias
 
         private void ServerSetup()
         {
-            //TODO set title of server form to "Server" or whatever
-            //TODO write to server form console that the server is setting up
+            Server_Socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            Client_Sockets = new List<Socket>();
 
             Console.WriteLine("Setting up server...");
             CPrint("Setting up server...");
@@ -236,24 +256,22 @@ namespace NoGracias
             Console.WriteLine("Server setup complete");
             CPrint("Server setup complete");
             Console.WriteLine("Server IP Address: " + GetLocalIPAddress() + "\nPort Number: " + PORT);
-            CPrint("Server IP Address: " + GetLocalIPAddress());
-            CPrint("Port Number: " + PORT);
-            for(int i = 0; i < 100; i++)
-            {
-                CPrint("Test");
-            }
 
             IP = GetLocalIPAddress();
             Port = PORT.ToString();
-
-
-
-            //TODO set form elements (ip address, port, currently connected, etc)
         }
 
         private void ServerShutdown()
         {
+            foreach (Socket socket in Client_Sockets)
+            {
+                socket.Shutdown(SocketShutdown.Both);
+                socket.Close();
+            }
 
+            Server_Socket.Close();
+            Console.WriteLine("Server successfully shut down");
+            CPrint("Server seccessfully shut down");
         }
 
         private void Accept(IAsyncResult AR)
@@ -273,6 +291,7 @@ namespace NoGracias
             temp.BeginReceive(Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, temp);
             //TODO write to server form "console" that player has connected 
             Console.WriteLine("Player Connected"); //FOR NOW
+            CPrint("Player connected");
             Server_Socket.BeginAccept(Accept, null);
         }
 
@@ -289,6 +308,7 @@ namespace NoGracias
             {
                 //TODO print to form "Client Disconnected"
                 Console.WriteLine("Player Disconnected");//FOR NOW
+                CPrint("Player Disconnected");
                 temp.Close();
                 Client_Sockets.Remove(temp);
                 return;
@@ -301,6 +321,7 @@ namespace NoGracias
 
             //TODO write to server form "console" 
             Console.WriteLine(message); //FOR NOW
+            CPrint(message);
 
             if (message.ToLower() == "exit")
             {
@@ -335,7 +356,7 @@ namespace NoGracias
             throw new Exception("No network adapters with an IPv4 address in the system!");
         }
 
-        
+        private System.Windows.Forms.Button ShutdownServerButton;
     }
     #endregion
 }

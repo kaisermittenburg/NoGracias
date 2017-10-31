@@ -24,10 +24,18 @@ namespace NoGracias
 
         private void StartServer_Click(object sender, EventArgs e)
         {
-            StartServer.Enabled = false;
+            Status_textbox.Clear();
+            StartServerButton.Enabled = false;
+            ShutdownServerButton.Enabled = true;
             ServerSetup();
+            Console.ReadLine(); //Keep on this thread
         }
 
-        
+        private void ShutdownServerButton_Click(object sender, EventArgs e)
+        {
+            StartServerButton.Enabled = true;
+            ShutdownServerButton.Enabled = false;
+            ServerShutdown();
+        }
     }
 }
