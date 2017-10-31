@@ -28,6 +28,7 @@ namespace NoGracias
             StartServerButton.Enabled = false;
             ShutdownServerButton.Enabled = true;
             ServerSetup();
+            Console.ReadLine(); //Keep on this thread
         }
 
         private void ShutdownServerButton_Click(object sender, EventArgs e)

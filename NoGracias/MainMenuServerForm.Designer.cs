@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using System.Windows.Forms;
 
 namespace NoGracias
 {
@@ -206,7 +207,12 @@ namespace NoGracias
         //Print to "console"
         public void CPrint(string s)
         {
-            Status_textbox.AppendText("\r\n" + s);
+            //Status_textbox.AppendText("\r\n" + s);
+
+            this.Status_textbox.Invoke((MethodInvoker)delegate {
+                // Running on the UI thread
+                this.Status_textbox.AppendText("\r\n" + s);
+            });
         }
 
 
