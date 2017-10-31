@@ -1,5 +1,6 @@
 ﻿namespace NoGracias
 {
+    using Microsoft.VisualBasic.PowerPacks;
     partial class CardTableForm
     {
         /// <summary>
@@ -43,7 +44,7 @@
             this.pictureBox3.BackColor = System.Drawing.Color.White;
             this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
             this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox3.Location = new System.Drawing.Point(611, 511);
+            this.pictureBox3.Location = new System.Drawing.Point(677, 587);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(108, 141);
             this.pictureBox3.TabIndex = 3;
@@ -51,7 +52,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(675, 535);
+            this.textBox2.Location = new System.Drawing.Point(741, 611);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(44, 22);
             this.textBox2.TabIndex = 4;
@@ -63,7 +64,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.White;
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Location = new System.Drawing.Point(581, 511);
+            this.pictureBox1.Location = new System.Drawing.Point(647, 587);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(108, 141);
             this.pictureBox1.TabIndex = 5;
@@ -74,7 +75,7 @@
             this.pictureBox2.BackColor = System.Drawing.Color.White;
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox2.Location = new System.Drawing.Point(631, 511);
+            this.pictureBox2.Location = new System.Drawing.Point(697, 587);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(108, 141);
             this.pictureBox2.TabIndex = 6;
@@ -109,15 +110,23 @@
 		private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private void DrawEllipse()
-        {
-            System.Drawing.Pen myPen = new System.Drawing.Pen(System.Drawing.Color.Red);
-            System.Drawing.Graphics formGraphics;
-            formGraphics = this.CreateGraphics();
-            formGraphics.DrawEllipse(myPen, new System.Drawing.Rectangle(0, 0, 200, 300));
-            myPen.Dispose();
-            formGraphics.Dispose();
-        }
+
+        //shape
+        ShapeContainer canvas = new ShapeContainer();
+        // To draw an oval, substitute 
+        // OvalShape for RectangleShape.
+        RectangleShape theShape = new RectangleShape();
+        // Set the form as the parent of the ShapeContainer.
+        canvas.Parent = this;
+        // Set the ShapeContainer as the parent of the Shape.
+        theShape.Parent = canvas;
+        // Set the size of the shape.
+        theShape.Size = new System.Drawing.Size(200, 300);
+        // Set the location of the shape.
+        theShape.Location = new System.Drawing.Point(100, 100);
+        // To draw a rounded rectangle, add the following code:
+        theShape.CornerRadius = 12;
+
     }
 }
 
