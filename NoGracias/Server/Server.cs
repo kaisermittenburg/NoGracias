@@ -5,6 +5,8 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
+using NoGracias;
+using System.Windows.Forms;
 
 namespace NoGracias.Server
 {
@@ -15,9 +17,12 @@ namespace NoGracias.Server
         private const int BUFFER_SIZE = 2048;
         private const int PORT = 11203;
         private static readonly byte[] Buffer = new byte[BUFFER_SIZE];
+        MainMenuServerForm ServerForm;
 
-        public GameServer()
+        public GameServer(MainMenuServerForm form)
         {
+            ServerForm = form;
+
             //Setup
             ServerSetup();
             //Shutdown
@@ -55,6 +60,11 @@ namespace NoGracias.Server
             Server_Socket.BeginAccept(Accept, null);
             Console.WriteLine("Server setup complete");
             Console.WriteLine("Server IP Address: " + GetLocalIPAddress() + "\nPort Number: " + PORT);
+
+            ServerForm.IP = GetLocalIPAddress();
+            ServerForm.Port = PORT.ToString();
+
+            
 
             //TODO set form elements (ip address, port, currently connected, etc)
         }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace NoGracias
 {
-	public partial class MainMenuServer : Form
+	public partial class MainMenuServerForm : Form
 	{
-		public MainMenuServer()
+		public MainMenuServerForm()
 		{
 			InitializeComponent();
 		}
@@ -21,5 +21,13 @@ namespace NoGracias
 		{
 
 		}
-	}
+
+        private void StartServer_Click(object sender, EventArgs e)
+        {
+            StartServer.Enabled = false;
+            ServerSetup();
+        }
+
+        
+    }
 }

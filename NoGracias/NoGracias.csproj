@@ -57,11 +57,11 @@
     <Compile Include="MainMenuForm.Designer.cs">
       <DependentUpon>MainMenuForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainMenuServer.cs">
+    <Compile Include="MainMenuServerForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainMenuServer.Designer.cs">
-      <DependentUpon>MainMenuServer.cs</DependentUpon>
+    <Compile Include="MainMenuServerForm.Designer.cs">
+      <DependentUpon>MainMenuServerForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -74,8 +74,8 @@
     <EmbeddedResource Include="MainMenuForm.resx">
       <DependentUpon>MainMenuForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainMenuServer.resx">
-      <DependentUpon>MainMenuServer.cs</DependentUpon>
+    <EmbeddedResource Include="MainMenuServerForm.resx">
+      <DependentUpon>MainMenuServerForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
