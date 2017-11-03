@@ -415,8 +415,6 @@ namespace NoGracias
 
         private void ReceiveLoop()
         {
-            Console.WriteLine(@"<Type ""exit"" to properly disconnect client>");
-            Status = @"<Type ""exit"" to properly disconnect client>";
             while (true)
             {
                 //SendRequest(); //TODO fix this call when kaiser figures out what to do
@@ -453,12 +451,18 @@ namespace NoGracias
             var data = new byte[received];
             Array.Copy(buffer, data, received);
             string message = Encoding.ASCII.GetString(data);
-            Console.WriteLine(message); //debugging
+            Console.WriteLine("Message from server...  " + message); //debugging
 
 
             if(message == Messages.SEND_PLAYER_NAME_TO_SERVER.ToString())
             {
                 SendMessage(PlayerName);
+                Console.WriteLine("Sent Name");
+            }
+
+            if(message == Messages.ALERT_PLAYER_JOINED.ToString())
+            {
+                ReceivePlayerName();
             }
 
             
@@ -471,28 +475,31 @@ namespace NoGracias
             var data = new byte[received];
             Array.Copy(buffer, data, received);
             string message = Encoding.ASCII.GetString(data);
-            Console.WriteLine(message); //debugging
-
-            NumberOfPlayers++;
-
-            switch(NumberOfPlayers)
+            Console.WriteLine("Receive player name...  " + message); //debugging
+            if (message != PlayerName)
             {
-                case 2:
-                    this.checkBox2.Visible = true;
-                    this.checkBox2.Text = message;
-                    break;
-                case 3:
-                    this.checkBox3.Visible = true;
-                    this.checkBox3.Text = message;
-                    break;
-                case 4:
-                    this.checkBox4.Visible = true;
-                    this.checkBox4.Text = message;
-                    break;
-                case 5:
-                    this.checkBox5.Visible = true;
-                    this.checkBox5.Text = message;
-                    break;
+                NumberOfPlayers++;
+
+                switch (NumberOfPlayers)
+                {
+                    case 2:
+                        this.checkBox2.Visible = true;
+                        this.checkBox2.Text = message;
+                        break;
+                    case 3:
+                        this.checkBox3.Visible = true;
+                        this.checkBox3.Text = message;
+                        break;
+                    case 4:
+                        this.checkBox4.Visible = true;
+                        this.checkBox4.Text = message;
+                        break;
+                    case 5:
+                        this.checkBox5.Visible = true;
+                        this.checkBox5.Text = message;
+                        break;
+                }
+                this.Refresh();
             }
         
         }

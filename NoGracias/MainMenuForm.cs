@@ -47,6 +47,8 @@ namespace NoGracias
             you_checkBox.Visible = true;
             you_checkBox.Text = PlayerName;
 
+            this.Refresh();
+
             ReceiveLoop(); //Will get here after player name is sent. 
         }
 
