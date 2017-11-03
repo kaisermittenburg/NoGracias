@@ -276,14 +276,16 @@ namespace NoGracias
             }
 
             Clients.Add(new Player(temp));
-            temp.BeginReceive(Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, temp);
-            //TODO write to server form "console" that player has connected 
-            Console.WriteLine("Player Connected"); //FOR NOW
-            CPrint("Player connected");
-
             //Get Name From Player
             byte[] data = Encoding.ASCII.GetBytes(Messages.SEND_PLAYER_NAME_TO_SERVER.ToString());
             temp.Send(data);
+            //Put Socket in receive state
+            temp.BeginReceive(Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, temp);
+            
+            Console.WriteLine("Player Connected");
+            CPrint("Player connected");
+
+            
 
             Server_Socket.BeginAccept(Accept, null);
         }
@@ -333,18 +335,22 @@ namespace NoGracias
             }
             else
             {
-                Console.WriteLine("Text is an invalid request");
-                CPrint(message + "-- Text is an invalid request");
-                byte[] data = Encoding.ASCII.GetBytes("Invalid request");
-                temp.Send(data);
-                Console.WriteLine("Warning Sent");
-                CPrint("Warning sent");
+                Clients.Where(x => x.mSocket == temp).FirstOrDefault().mName = message;
             }
+            //else
+            //{
+            //    Console.WriteLine("Text is an invalid request");
+            //    CPrint(message + "-- Text is an invalid request");
+            //    byte[] data = Encoding.ASCII.GetBytes("Invalid request");
+            //    temp.Send(data);
+            //    Console.WriteLine("Warning Sent");
+            //    CPrint("Warning sent");
+            //}
 
             
             
             //TODO send message to communication helper, which will help the game driver progress.
-            temp.BeginReceive(Recieved_Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, temp);
+            //temp.BeginReceive(Recieved_Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, temp);
         }
 
         #endregion
