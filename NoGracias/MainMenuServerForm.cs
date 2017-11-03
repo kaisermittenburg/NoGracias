@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -27,8 +29,20 @@ namespace NoGracias
             Status_textbox.Clear();
             StartServerButton.Enabled = false;
             ShutdownServerButton.Enabled = true;
+            this.Refresh();
             ServerSetup();
+
+            var thread = new Thread(ReadyUp);
+            thread.TrySetApartmentState(ApartmentState.STA);
+            thread.Start();
+
+            var thread2 = new Thread(AlertNewPlayer);
+            thread2.TrySetApartmentState(ApartmentState.STA);
+            thread2.Start();
+
+
             Console.ReadLine(); //Keep on this thread
+            //Debug.Assert(false); //Don't get here
         }
 
         private void ShutdownServerButton_Click(object sender, EventArgs e)

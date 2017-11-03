@@ -24,6 +24,7 @@ namespace NoGracias
 
             MainMenuForm MainMenu = new MainMenuForm();
             MainMenuServerForm ServerForm = new MainMenuServerForm();
+            CardTableForm Table = new CardTableForm();
 
             //Start Main Menu Form
 
@@ -38,7 +39,7 @@ namespace NoGracias
 
 
             //Start Server Form
-            Application.Run(ServerForm);
+            Application.Run(MainMenu);
 
 
             

@@ -5,12 +5,15 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Windows.Forms;
+using System.Linq;
+using NoGracias.Communication;
+using System.Threading.Tasks;
 
 namespace NoGracias
 {
-	partial class MainMenuServerForm
-	{
-        
+    partial class MainMenuServerForm
+    {
+
         public string IP
         {
             get { return IP_textbox.Text; }
@@ -21,33 +24,36 @@ namespace NoGracias
             get { return Port_textbox.Text; }
             set { Port_textbox.Text = value; }
         }
+        private int NumberOfPlayers = 0;
+        private List<string> ToAlert = new List<string>();
+        private bool JoiningIsDone = false;
 
         /// <summary>
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-		/// <summary>
-		/// Clean up any resources being used.
-		/// </summary>
-		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-		protected override void Dispose(bool disposing)
-		{
-			if (disposing && (components != null))
-			{
-				components.Dispose();
-			}
-			base.Dispose(disposing);
-		}
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
 
-		#region Windows Form Designer generated code
+        #region Windows Form Designer generated code
 
-		/// <summary>
-		/// Required method for Designer support - do not modify
-		/// the contents of this method with the code editor.
-		/// </summary>
-		private void InitializeComponent()
-		{
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
             this.button2 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -58,6 +64,11 @@ namespace NoGracias
             this.label3 = new System.Windows.Forms.Label();
             this.StartServerButton = new System.Windows.Forms.Button();
             this.ShutdownServerButton = new System.Windows.Forms.Button();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // button2
@@ -140,8 +151,7 @@ namespace NoGracias
             this.label3.Text = "Status";
             // 
             // StartServerButton
-            //
-            this.StartServerButton.Enabled = true;
+            // 
             this.StartServerButton.Location = new System.Drawing.Point(64, 612);
             this.StartServerButton.Name = "StartServerButton";
             this.StartServerButton.Size = new System.Drawing.Size(173, 65);
@@ -161,11 +171,66 @@ namespace NoGracias
             this.ShutdownServerButton.UseVisualStyleBackColor = true;
             this.ShutdownServerButton.Click += new System.EventHandler(this.ShutdownServerButton_Click);
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(995, 392);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(76, 24);
+            this.checkBox1.TabIndex = 30;
+            this.checkBox1.Text = "NULL";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(995, 422);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(76, 24);
+            this.checkBox2.TabIndex = 31;
+            this.checkBox2.Text = "NULL";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(995, 452);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(76, 24);
+            this.checkBox3.TabIndex = 32;
+            this.checkBox3.Text = "NULL";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(995, 482);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(76, 24);
+            this.checkBox4.TabIndex = 33;
+            this.checkBox4.Text = "NULL";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // checkBox5
+            // 
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Location = new System.Drawing.Point(995, 512);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(76, 24);
+            this.checkBox5.TabIndex = 34;
+            this.checkBox5.Text = "NULL";
+            this.checkBox5.UseVisualStyleBackColor = true;
+            // 
             // MainMenuServerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1108, 689);
+            this.ClientSize = new System.Drawing.Size(1348, 707);
+            this.Controls.Add(this.checkBox5);
+            this.Controls.Add(this.checkBox4);
+            this.Controls.Add(this.checkBox3);
+            this.Controls.Add(this.checkBox2);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.ShutdownServerButton);
             this.Controls.Add(this.StartServerButton);
             this.Controls.Add(this.label3);
@@ -182,48 +247,28 @@ namespace NoGracias
             this.ResumeLayout(false);
             this.PerformLayout();
 
-		}
-
-		#endregion
-
-		private System.Windows.Forms.Button button2;
-		private System.Windows.Forms.Label label5;
-		private System.Windows.Forms.Label label2;
-		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.TextBox Status_textbox;
-		private System.Windows.Forms.TextBox Port_textbox;
-		private System.Windows.Forms.TextBox IP_textbox;
-		private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button StartServerButton;
-
-        #region ServerCode
-        private Socket Server_Socket;
-        private List<Socket> Client_Sockets = new List<Socket>();
-        private const int BUFFER_SIZE = 2048;
-        private const int PORT = 11203;
-        private readonly byte[] Buffer = new byte[BUFFER_SIZE];
-
-
-        //Print to "console"
-        public void CPrint(string s)
-        {
-            //Status_textbox.AppendText("\r\n" + s);
-
-            this.Status_textbox.Invoke((MethodInvoker)delegate {
-                // Running on the UI thread
-                this.Status_textbox.AppendText("\r\n" + s);
-            });
         }
 
+        #endregion
 
-            //Setup
-            
-            
-           
-        
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox Status_textbox;
+        private System.Windows.Forms.TextBox Port_textbox;
+        private System.Windows.Forms.TextBox IP_textbox;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button StartServerButton;
+
+
+
+
+        #region ServerCode
+
 
         #region AbleOpus Adapted Code
-        //The following code in this region has been adapted from a repo called NetworkingSamples by GitHub user AbleOpus
+        //The following code in this c# "region" has been adapted from a repo called NetworkingSamples by GitHub user AbleOpus
         //User: https://github.com/AbleOpus
         //Repo: https://github.com/AbleOpus/NetworkingSamples
         //Modified by Kaiser Mittenburg, Team Purple C#bras
@@ -239,10 +284,16 @@ namespace NoGracias
         //FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN 
         //ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+        private Socket Server_Socket;
+        private List<Player> Clients = new List<Player>();
+        private const int BUFFER_SIZE = 2048;
+        private const int PORT = 11203;
+        private readonly byte[] Buffer = new byte[BUFFER_SIZE];
+
         private void ServerSetup()
         {
             Server_Socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            Client_Sockets = new List<Socket>();
+            Clients = new List<Player>();
 
             Console.WriteLine("Setting up server...");
             CPrint("Setting up server...");
@@ -263,10 +314,10 @@ namespace NoGracias
 
         private void ServerShutdown()
         {
-            foreach (Socket socket in Client_Sockets)
+            foreach (Player player in Clients)
             {
-                socket.Shutdown(SocketShutdown.Both);
-                socket.Close();
+                player.mSocket.Shutdown(SocketShutdown.Both);
+                player.mSocket.Close();
             }
 
             Server_Socket.Close();
@@ -286,12 +337,22 @@ namespace NoGracias
             {
                 return; //TODO determine what to do here
             }
+            //New Player
+            NumberOfPlayers++;
+            Clients.Add(new Player(temp, NumberOfPlayers));
 
-            Client_Sockets.Add(temp);
+            //Get Name From Player
+            byte[] data = Encoding.ASCII.GetBytes(Messages.SEND_PLAYER_NAME_TO_SERVER.ToString());
+            Player player = Clients.Where(x => x.mSocket == temp).FirstOrDefault();
+            player.mState = PlayerState.WAITING_FOR_RESPONSE;
+            temp.Send(data);
+
+            //Put Socket in receive state
             temp.BeginReceive(Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, temp);
-            //TODO write to server form "console" that player has connected 
-            Console.WriteLine("Player Connected"); //FOR NOW
+            
+            Console.WriteLine("Player Connected");
             CPrint("Player connected");
+   
             Server_Socket.BeginAccept(Accept, null);
         }
 
@@ -306,11 +367,10 @@ namespace NoGracias
             }
             catch (SocketException)
             {
-                //TODO print to form "Client Disconnected"
                 Console.WriteLine("Player Disconnected");//FOR NOW
                 CPrint("Player Disconnected");
                 temp.Close();
-                Client_Sockets.Remove(temp);
+                Clients.RemoveAll(x => x.mSocket == temp);
                 return;
             }
 
@@ -319,24 +379,142 @@ namespace NoGracias
             Array.Copy(Buffer, Recieved_Buffer, recieved);
             string message = Encoding.ASCII.GetString(Recieved_Buffer);
 
-            //TODO write to server form "console" 
             Console.WriteLine(message); //FOR NOW
             CPrint(message);
 
-            if (message.ToLower() == "exit")
+            if (message.ToLower() == "get time") // Client requested time
+            {
+                Console.WriteLine("Text is a get time request");
+                byte[] data = Encoding.ASCII.GetBytes(DateTime.Now.ToLongTimeString());
+                temp.Send(data);
+                Console.WriteLine("Time sent to client");
+            }
+            else if (message.ToLower() == "exit")
             {
                 temp.Shutdown(SocketShutdown.Both);
                 temp.Close();
-                Client_Sockets.Remove(temp);
+                Clients.RemoveAll(x => x.mSocket == temp);
 
                 //TODO write to server form "console" that a player disconnected
                 //TODO handle player disconnect in game driver.
             }
+            else if (message == Messages.SEND_READYUP_TO_SERVER.ToString())
+            {
+                Clients.Where(x => x.mSocket == temp).FirstOrDefault().mState = PlayerState.READY;
+                //TODO
+            }
+            else //Name was sent
+            {
+                ToAlert.Add(message);
+                var player = Clients.Where(x => x.mSocket == temp).FirstOrDefault();
+                player.mName = message;
+                player.mState = PlayerState.IDLE;
+
+                //Add player to server form
+                switch(NumberOfPlayers)
+                {
+                    case 1:
+                        this.checkBox1.Invoke((MethodInvoker)delegate
+                        {
+                            // Running on the UI thread
+                            this.checkBox1.Visible = true;
+                            this.checkBox1.Text = message;
+                        });
+                        break;
+                    case 2:
+                        this.checkBox2.Invoke((MethodInvoker)delegate
+                        {
+                            // Running on the UI thread
+                            this.checkBox2.Visible = true;
+                            this.checkBox2.Text = message;
+                        });
+                        break;
+                    case 3:
+                        this.checkBox3.Invoke((MethodInvoker)delegate
+                        {
+                            // Running on the UI thread
+                            this.checkBox3.Visible = true;
+                            this.checkBox3.Text = message;
+                        });
+                        break;
+                    case 4:
+                        this.checkBox4.Invoke((MethodInvoker)delegate
+                        {
+                            // Running on the UI thread
+                            this.checkBox4.Visible = true;
+                            this.checkBox4.Text = message;
+                        });
+                        break;
+                    case 5:
+                        this.checkBox5.Invoke((MethodInvoker)delegate
+                        {
+                            // Running on the UI thread
+                            this.checkBox5.Visible = true;
+                            this.checkBox5.Text = message;
+                        });
+                        break;
+                }
+                this.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.Refresh();
+                });
+            }
+            //else
+            //{
+            //    Console.WriteLine("Text is an invalid request");
+            //    CPrint(message + "-- Text is an invalid request");
+            //    byte[] data = Encoding.ASCII.GetBytes("Invalid request");
+            //    temp.Send(data);
+            //    Console.WriteLine("Warning Sent");
+            //    CPrint("Warning sent");
+            //}
+
+            
+            
             //TODO send message to communication helper, which will help the game driver progress.
+            //temp.BeginReceive(Recieved_Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, temp);
         }
 
         #endregion
 
+        private void AlertNewPlayer()
+        {
+            while (!JoiningIsDone)
+            {
+                if (ToAlert.Count > 0)
+                {
+                    string name = ToAlert[0];
+                    foreach (Player player in Clients)
+                    {
+                        byte[] data = Encoding.ASCII.GetBytes(Messages.ALERT_PLAYER_JOINED.ToString());
+                        player.mSocket.Send(data);
+                        Console.WriteLine("Sent Player Alert");
+                        System.Threading.Thread.Sleep(250); //wait, then send another message
+                        Console.WriteLine("spept");
+                        data = Encoding.ASCII.GetBytes(name);
+                        player.mSocket.Send(data);
+                        Console.WriteLine("Sent name");
+                        //player.mSocket.BeginReceive(Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, player.mSocket);//KHM may break here
+
+
+                        ///////////////////////////debug//////////////////
+
+                        data = Encoding.ASCII.GetBytes(Messages.ALERT_PLAYER_JOINED.ToString());
+                        player.mSocket.Send(data);
+                        Console.WriteLine("Sent Player Alert");
+                        System.Threading.Thread.Sleep(250); //wait, then send another message
+                        Console.WriteLine("spept");
+                        data = Encoding.ASCII.GetBytes("Brock");
+                        player.mSocket.Send(data);
+                        Console.WriteLine("Sent name");
+                    }
+                    System.Threading.Thread.Sleep(100);
+                    ToAlert.RemoveAt(0);
+                    System.Threading.Thread.Sleep(100);
+                }
+            }
+        }
 
         /*Method: GetLocalIPAddress() 
          *Source: https://stackoverflow.com/questions/6803073/get-local-ip-address 
@@ -357,6 +535,58 @@ namespace NoGracias
         }
 
         private System.Windows.Forms.Button ShutdownServerButton;
+
+        #endregion
+
+        private void ReadyUp()
+        {
+            bool AllReady = false;
+            while(!AllReady)
+            {
+                AllReady = true;
+                if (Clients.Count != 0)
+                {
+                    foreach (var player in Clients.ToList())
+                    {
+                        if (player.mState == PlayerState.READY)
+                        {
+
+                        }
+                        else
+                        {
+                            AllReady = false;
+                            break; //No need to continue, at least one is not ready
+                        }
+                    }
+                }
+                else
+                {
+                    AllReady = false;
+                }
+                
+                //Debugging to show that thread is still cycling
+                
+                //CPrint(AllReady.ToString());
+                //Console.WriteLine(AllReady.ToString());
+            }
+        }
+
+        //Print to server form "console"
+        public void CPrint(string s)
+        {
+            //Status_textbox.AppendText("\r\n" + s);
+
+            this.Status_textbox.Invoke((MethodInvoker)delegate
+            {
+                // Running on the UI thread
+                this.Status_textbox.AppendText("\r\n" + s);
+            });
+        }
+
+        private CheckBox checkBox1;
+        private CheckBox checkBox2;
+        private CheckBox checkBox3;
+        private CheckBox checkBox4;
+        private CheckBox checkBox5;
     }
-    #endregion
 }
