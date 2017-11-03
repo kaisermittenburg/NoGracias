@@ -35,9 +35,11 @@ namespace NoGracias
             thread.TrySetApartmentState(ApartmentState.STA);
             thread.Start();
 
+            var thread2 = new Thread(AlertNewPlayer);
+            thread2.TrySetApartmentState(ApartmentState.STA);
+            thread2.Start();
 
-            
-            
+
             Console.ReadLine(); //Keep on this thread
             //Debug.Assert(false); //Don't get here
         }

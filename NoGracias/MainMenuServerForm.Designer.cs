@@ -7,6 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Linq;
 using NoGracias.Communication;
+using System.Threading.Tasks;
 
 namespace NoGracias
 {
@@ -23,6 +24,9 @@ namespace NoGracias
             get { return Port_textbox.Text; }
             set { Port_textbox.Text = value; }
         }
+        private int NumberOfPlayers = 0;
+        private List<string> ToAlert = new List<string>();
+        private bool JoiningIsDone = false;
 
         /// <summary>
         /// Required designer variable.
@@ -60,6 +64,11 @@ namespace NoGracias
             this.label3 = new System.Windows.Forms.Label();
             this.StartServerButton = new System.Windows.Forms.Button();
             this.ShutdownServerButton = new System.Windows.Forms.Button();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // button2
@@ -142,8 +151,7 @@ namespace NoGracias
             this.label3.Text = "Status";
             // 
             // StartServerButton
-            //
-            this.StartServerButton.Enabled = true;
+            // 
             this.StartServerButton.Location = new System.Drawing.Point(64, 612);
             this.StartServerButton.Name = "StartServerButton";
             this.StartServerButton.Size = new System.Drawing.Size(173, 65);
@@ -163,11 +171,66 @@ namespace NoGracias
             this.ShutdownServerButton.UseVisualStyleBackColor = true;
             this.ShutdownServerButton.Click += new System.EventHandler(this.ShutdownServerButton_Click);
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(995, 392);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(76, 24);
+            this.checkBox1.TabIndex = 30;
+            this.checkBox1.Text = "NULL";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(995, 422);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(76, 24);
+            this.checkBox2.TabIndex = 31;
+            this.checkBox2.Text = "NULL";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(995, 452);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(76, 24);
+            this.checkBox3.TabIndex = 32;
+            this.checkBox3.Text = "NULL";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(995, 482);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(76, 24);
+            this.checkBox4.TabIndex = 33;
+            this.checkBox4.Text = "NULL";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // checkBox5
+            // 
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Location = new System.Drawing.Point(995, 512);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(76, 24);
+            this.checkBox5.TabIndex = 34;
+            this.checkBox5.Text = "NULL";
+            this.checkBox5.UseVisualStyleBackColor = true;
+            // 
             // MainMenuServerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1108, 689);
+            this.ClientSize = new System.Drawing.Size(1348, 707);
+            this.Controls.Add(this.checkBox5);
+            this.Controls.Add(this.checkBox4);
+            this.Controls.Add(this.checkBox3);
+            this.Controls.Add(this.checkBox2);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.ShutdownServerButton);
             this.Controls.Add(this.StartServerButton);
             this.Controls.Add(this.label3);
@@ -274,20 +337,22 @@ namespace NoGracias
             {
                 return; //TODO determine what to do here
             }
+            //New Player
+            NumberOfPlayers++;
+            Clients.Add(new Player(temp, NumberOfPlayers));
 
-            Clients.Add(new Player(temp));
             //Get Name From Player
             byte[] data = Encoding.ASCII.GetBytes(Messages.SEND_PLAYER_NAME_TO_SERVER.ToString());
-            Clients.Where(x => x.mSocket == temp).FirstOrDefault().mState = PlayerState.WAITING_FOR_RESPONSE;
+            Player player = Clients.Where(x => x.mSocket == temp).FirstOrDefault();
+            player.mState = PlayerState.WAITING_FOR_RESPONSE;
             temp.Send(data);
+
             //Put Socket in receive state
             temp.BeginReceive(Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, temp);
             
             Console.WriteLine("Player Connected");
             CPrint("Player connected");
-
-            
-
+   
             Server_Socket.BeginAccept(Accept, null);
         }
 
@@ -337,12 +402,38 @@ namespace NoGracias
             {
                 Clients.Where(x => x.mSocket == temp).FirstOrDefault().mState = PlayerState.READY;
             }
-            else
+            else //Name was sent
             {
+                ToAlert.Add(message);
                 var player = Clients.Where(x => x.mSocket == temp).FirstOrDefault();
                 player.mName = message;
                 player.mState = PlayerState.IDLE;
 
+                //Add player to server form
+                switch(NumberOfPlayers)
+                {
+                    case 1:
+                        this.checkBox1.Visible = true;
+                        this.checkBox1.Text = message;
+                        break;
+                    case 2:
+                        this.checkBox2.Visible = true;
+                        this.checkBox2.Text = message;
+                        break;
+                    case 3:
+                        this.checkBox3.Visible = true;
+                        this.checkBox3.Text = message;
+                        break;
+                    case 4:
+                        this.checkBox4.Visible = true;
+                        this.checkBox4.Text = message;
+                        break;
+                    case 5:
+                        this.checkBox5.Visible = true;
+                        this.checkBox5.Text = message;
+                        break;
+                }
+                ToAlert.Add(message);
             }
             //else
             //{
@@ -362,6 +453,26 @@ namespace NoGracias
 
         #endregion
 
+        private void AlertNewPlayer()
+        {
+            while (!JoiningIsDone)
+            {
+                if (ToAlert.Count > 0)
+                {
+                    string name = ToAlert[1];
+                    foreach (Player player in Clients)
+                    {
+                        byte[] data = Encoding.ASCII.GetBytes(Messages.ALERT_PLAYER_JOINED.ToString());
+                        player.mSocket.Send(data);
+                        System.Threading.Thread.Sleep(100); //wait, then send another message
+                        data = Encoding.ASCII.GetBytes(name);
+                        player.mSocket.Send(data);
+                        player.mSocket.BeginReceive(Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, player.mSocket);//KHM may break here
+                    }
+                    ToAlert.RemoveAt(1);
+                }
+            }
+        }
 
         /*Method: GetLocalIPAddress() 
          *Source: https://stackoverflow.com/questions/6803073/get-local-ip-address 
@@ -426,5 +537,11 @@ namespace NoGracias
                 this.Status_textbox.AppendText("\r\n" + s);
             });
         }
+
+        private CheckBox checkBox1;
+        private CheckBox checkBox2;
+        private CheckBox checkBox3;
+        private CheckBox checkBox4;
+        private CheckBox checkBox5;
     }
 }

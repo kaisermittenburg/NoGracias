@@ -10,6 +10,8 @@ namespace NoGracias
     {
         private static int attempts = 0;
 
+        private int NumberOfPlayers = 0;
+
         public string IP
         {
             get { return IP_textbox.Text; }
@@ -111,6 +113,11 @@ namespace NoGracias
             this.Connect_Button = new System.Windows.Forms.Button();
             this.Status_Label = new System.Windows.Forms.Label();
             this.Status_Textbox = new System.Windows.Forms.TextBox();
+            this.you_checkBox = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // IP_textbox
@@ -252,11 +259,70 @@ namespace NoGracias
             this.Status_Textbox.Size = new System.Drawing.Size(480, 282);
             this.Status_Textbox.TabIndex = 18;
             // 
+            // you_checkBox
+            // 
+            this.you_checkBox.AutoSize = true;
+            this.you_checkBox.Location = new System.Drawing.Point(1032, 259);
+            this.you_checkBox.Name = "you_checkBox";
+            this.you_checkBox.Size = new System.Drawing.Size(76, 24);
+            this.you_checkBox.TabIndex = 19;
+            this.you_checkBox.Text = "NULL";
+            this.you_checkBox.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(1032, 302);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(76, 24);
+            this.checkBox2.TabIndex = 20;
+            this.checkBox2.Text = "NULL";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.Visible = false;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(1032, 342);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(76, 24);
+            this.checkBox3.TabIndex = 21;
+            this.checkBox3.Text = "NULL";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3.Visible = false;
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(1032, 383);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(76, 24);
+            this.checkBox4.TabIndex = 22;
+            this.checkBox4.Text = "NULL";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBox4.Visible = false;
+            // 
+            // checkBox5
+            // 
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Location = new System.Drawing.Point(1032, 418);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(76, 24);
+            this.checkBox5.TabIndex = 23;
+            this.checkBox5.Text = "NULL";
+            this.checkBox5.UseVisualStyleBackColor = true;
+            this.checkBox5.Visible = false;
+            // 
             // MainMenuForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1239, 879);
+            this.ClientSize = new System.Drawing.Size(1444, 886);
+            this.Controls.Add(this.checkBox5);
+            this.Controls.Add(this.checkBox4);
+            this.Controls.Add(this.checkBox3);
+            this.Controls.Add(this.checkBox2);
+            this.Controls.Add(this.you_checkBox);
             this.Controls.Add(this.Status_Textbox);
             this.Controls.Add(this.Status_Label);
             this.Controls.Add(this.Connect_Button);
@@ -396,11 +462,49 @@ namespace NoGracias
 
             
         }
+        private void ReceivePlayerName()
+        {
+            var buffer = new byte[2048];
+            int received = ClientSocket.Receive(buffer, SocketFlags.None);
+            if (received == 0) return;
+            var data = new byte[received];
+            Array.Copy(buffer, data, received);
+            string message = Encoding.ASCII.GetString(data);
+            Console.WriteLine(message); //debugging
+
+            NumberOfPlayers++;
+
+            switch(NumberOfPlayers)
+            {
+                case 2:
+                    this.checkBox2.Visible = true;
+                    this.checkBox2.Text = message;
+                    break;
+                case 3:
+                    this.checkBox3.Visible = true;
+                    this.checkBox3.Text = message;
+                    break;
+                case 4:
+                    this.checkBox4.Visible = true;
+                    this.checkBox4.Text = message;
+                    break;
+                case 5:
+                    this.checkBox5.Visible = true;
+                    this.checkBox5.Text = message;
+                    break;
+            }
+        
+        }
 
         #endregion
 
         private System.Windows.Forms.Button Connect_Button;
         private Label Status_Label;
         private TextBox Status_Textbox;
+        private CheckBox you_checkBox;
+        private CheckBox checkBox2;
+        private CheckBox checkBox3;
+        private CheckBox checkBox4;
+        private CheckBox checkBox5;
     }
 }

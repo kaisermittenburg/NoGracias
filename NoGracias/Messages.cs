@@ -17,6 +17,8 @@ namespace NoGracias.Communication
         SEND_PLAYER_NAME_TO_SERVER,
         RECEIVE_CONNECTION_UPDATE_FROM_SERVER,     //--Status, new players joined, ready-up status, etc...
         SEND_READYUP_TO_SERVER,                    //--Tells server that the player is ready 
+        ALERT_PLAYER_JOINED,
+        ALERT_PLAYER_READY_UPPED,
 
         #endregion
 

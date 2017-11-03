@@ -12,12 +12,13 @@ namespace NoGracias
         public Socket mSocket;
         public string mName;
         public PlayerState mState;
+        public int mPlayerNumber;
         
 
-        public Player(Socket socket)
+        public Player(Socket socket, int PlayerNumber)
         {
             this.mSocket = socket;
-            
+            mPlayerNumber = PlayerNumber;
         }
 
     }
