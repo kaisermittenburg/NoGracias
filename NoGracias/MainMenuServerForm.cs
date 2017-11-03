@@ -29,6 +29,7 @@ namespace NoGracias
             Status_textbox.Clear();
             StartServerButton.Enabled = false;
             ShutdownServerButton.Enabled = true;
+            this.Refresh();
             ServerSetup();
 
             var thread = new Thread(ReadyUp);

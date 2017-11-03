@@ -401,6 +401,7 @@ namespace NoGracias
             else if (message == Messages.SEND_READYUP_TO_SERVER.ToString())
             {
                 Clients.Where(x => x.mSocket == temp).FirstOrDefault().mState = PlayerState.READY;
+                //TODO
             }
             else //Name was sent
             {
@@ -413,7 +414,7 @@ namespace NoGracias
                 switch(NumberOfPlayers)
                 {
                     case 1:
-                        this.Status_textbox.Invoke((MethodInvoker)delegate
+                        this.checkBox1.Invoke((MethodInvoker)delegate
                         {
                             // Running on the UI thread
                             this.checkBox1.Visible = true;
@@ -421,7 +422,7 @@ namespace NoGracias
                         });
                         break;
                     case 2:
-                        this.Status_textbox.Invoke((MethodInvoker)delegate
+                        this.checkBox2.Invoke((MethodInvoker)delegate
                         {
                             // Running on the UI thread
                             this.checkBox2.Visible = true;
@@ -429,7 +430,7 @@ namespace NoGracias
                         });
                         break;
                     case 3:
-                        this.Status_textbox.Invoke((MethodInvoker)delegate
+                        this.checkBox3.Invoke((MethodInvoker)delegate
                         {
                             // Running on the UI thread
                             this.checkBox3.Visible = true;
@@ -437,7 +438,7 @@ namespace NoGracias
                         });
                         break;
                     case 4:
-                        this.Status_textbox.Invoke((MethodInvoker)delegate
+                        this.checkBox4.Invoke((MethodInvoker)delegate
                         {
                             // Running on the UI thread
                             this.checkBox4.Visible = true;
@@ -445,7 +446,7 @@ namespace NoGracias
                         });
                         break;
                     case 5:
-                        this.Status_textbox.Invoke((MethodInvoker)delegate
+                        this.checkBox5.Invoke((MethodInvoker)delegate
                         {
                             // Running on the UI thread
                             this.checkBox5.Visible = true;
@@ -453,7 +454,11 @@ namespace NoGracias
                         });
                         break;
                 }
-                ToAlert.Add(message);
+                this.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.Refresh();
+                });
             }
             //else
             //{
@@ -484,12 +489,29 @@ namespace NoGracias
                     {
                         byte[] data = Encoding.ASCII.GetBytes(Messages.ALERT_PLAYER_JOINED.ToString());
                         player.mSocket.Send(data);
+                        Console.WriteLine("Sent Player Alert");
                         System.Threading.Thread.Sleep(250); //wait, then send another message
+                        Console.WriteLine("spept");
                         data = Encoding.ASCII.GetBytes(name);
                         player.mSocket.Send(data);
-                        player.mSocket.BeginReceive(Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, player.mSocket);//KHM may break here
+                        Console.WriteLine("Sent name");
+                        //player.mSocket.BeginReceive(Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, player.mSocket);//KHM may break here
+
+
+                        ///////////////////////////debug//////////////////
+
+                        data = Encoding.ASCII.GetBytes(Messages.ALERT_PLAYER_JOINED.ToString());
+                        player.mSocket.Send(data);
+                        Console.WriteLine("Sent Player Alert");
+                        System.Threading.Thread.Sleep(250); //wait, then send another message
+                        Console.WriteLine("spept");
+                        data = Encoding.ASCII.GetBytes("Brock");
+                        player.mSocket.Send(data);
+                        Console.WriteLine("Sent name");
                     }
+                    System.Threading.Thread.Sleep(100);
                     ToAlert.RemoveAt(0);
+                    System.Threading.Thread.Sleep(100);
                 }
             }
         }
@@ -524,7 +546,7 @@ namespace NoGracias
                 AllReady = true;
                 if (Clients.Count != 0)
                 {
-                    foreach (var player in Clients)
+                    foreach (var player in Clients.ToList())
                     {
                         if (player.mState == PlayerState.READY)
                         {
