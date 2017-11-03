@@ -44,6 +44,9 @@ namespace NoGracias
             Connect_Button.Enabled = false;
             Ready_Up_Button.Enabled = true;
 
+            you_checkBox.Visible = true;
+            you_checkBox.Text = PlayerName;
+
             ReceiveLoop(); //Will get here after player name is sent. 
         }
 

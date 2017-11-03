@@ -268,6 +268,7 @@ namespace NoGracias
             this.you_checkBox.TabIndex = 19;
             this.you_checkBox.Text = "NULL";
             this.you_checkBox.UseVisualStyleBackColor = true;
+            this.you_checkBox.Visible = false;
             // 
             // checkBox2
             // 
