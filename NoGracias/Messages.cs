@@ -4,26 +4,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NoGracias
+namespace NoGracias.Communication
 {
-    class Messages
+    static class MessageClass
     {
-        enum Message
-        {
-            #region Setup
-            SEND_PLAYER_NAME_TO_SERVER,
-            RECEIVE_CONNECTION_UPDATE_FROM_SERVER,     //--Status, new players joined, ready-up status, etc...
-            SEND_READYUP_TO_SERVER,                    //--Tells server that the player is ready 
+        
+    }
 
-            #endregion
+    public enum Messages
+    {
+        #region Setup
+        SEND_PLAYER_NAME_TO_SERVER,
+        RECEIVE_CONNECTION_UPDATE_FROM_SERVER,     //--Status, new players joined, ready-up status, etc...
+        SEND_READYUP_TO_SERVER,                    //--Tells server that the player is ready 
 
-            #region Turn Logic
+        #endregion
 
-            #endregion
+        #region Turn Logic
 
-            #region Misc
-            SEND_NOTHING,                              //--Dummy Message
-            #endregion
-        }
+        #endregion
+
+        #region Misc
+        SEND_NOTHING,                              //--Dummy Message
+        SEND_MESSAGE,                              //--Send a message
+        #endregion
     }
 }

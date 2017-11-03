@@ -5,6 +5,8 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Windows.Forms;
+using System.Linq;
+using NoGracias.Communication;
 
 namespace NoGracias
 {
@@ -200,11 +202,7 @@ namespace NoGracias
 
 
         #region ServerCode
-        private Socket Server_Socket;
-        private List<Socket> Client_Sockets = new List<Socket>();
-        private const int BUFFER_SIZE = 2048;
-        private const int PORT = 11203;
-        private readonly byte[] Buffer = new byte[BUFFER_SIZE];
+
 
         #region AbleOpus Adapted Code
         //The following code in this c# "region" has been adapted from a repo called NetworkingSamples by GitHub user AbleOpus
@@ -223,10 +221,16 @@ namespace NoGracias
         //FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN 
         //ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+        private Socket Server_Socket;
+        private List<Player> Clients = new List<Player>();
+        private const int BUFFER_SIZE = 2048;
+        private const int PORT = 11203;
+        private readonly byte[] Buffer = new byte[BUFFER_SIZE];
+
         private void ServerSetup()
         {
             Server_Socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            Client_Sockets = new List<Socket>();
+            Clients = new List<Player>();
 
             Console.WriteLine("Setting up server...");
             CPrint("Setting up server...");
@@ -247,10 +251,10 @@ namespace NoGracias
 
         private void ServerShutdown()
         {
-            foreach (Socket socket in Client_Sockets)
+            foreach (Player player in Clients)
             {
-                socket.Shutdown(SocketShutdown.Both);
-                socket.Close();
+                player.mSocket.Shutdown(SocketShutdown.Both);
+                player.mSocket.Close();
             }
 
             Server_Socket.Close();
@@ -271,11 +275,16 @@ namespace NoGracias
                 return; //TODO determine what to do here
             }
 
-            Client_Sockets.Add(temp);
+            Clients.Add(new Player(temp));
             temp.BeginReceive(Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, temp);
             //TODO write to server form "console" that player has connected 
             Console.WriteLine("Player Connected"); //FOR NOW
             CPrint("Player connected");
+
+            //Get Name From Player
+            byte[] data = Encoding.ASCII.GetBytes(Messages.SEND_PLAYER_NAME_TO_SERVER.ToString());
+            temp.Send(data);
+
             Server_Socket.BeginAccept(Accept, null);
         }
 
@@ -290,11 +299,10 @@ namespace NoGracias
             }
             catch (SocketException)
             {
-                //TODO print to form "Client Disconnected"
                 Console.WriteLine("Player Disconnected");//FOR NOW
                 CPrint("Player Disconnected");
                 temp.Close();
-                Client_Sockets.Remove(temp);
+                Clients.RemoveAll(x => x.mSocket == temp);
                 return;
             }
 
@@ -307,16 +315,36 @@ namespace NoGracias
             Console.WriteLine(message); //FOR NOW
             CPrint(message);
 
-            if (message.ToLower() == "exit")
+            if (message.ToLower() == "get time") // Client requested time
+            {
+                Console.WriteLine("Text is a get time request");
+                byte[] data = Encoding.ASCII.GetBytes(DateTime.Now.ToLongTimeString());
+                temp.Send(data);
+                Console.WriteLine("Time sent to client");
+            }
+            else if (message.ToLower() == "exit")
             {
                 temp.Shutdown(SocketShutdown.Both);
                 temp.Close();
-                Client_Sockets.Remove(temp);
+                Clients.RemoveAll(x => x.mSocket == temp);
 
                 //TODO write to server form "console" that a player disconnected
                 //TODO handle player disconnect in game driver.
             }
+            else
+            {
+                Console.WriteLine("Text is an invalid request");
+                CPrint(message + "-- Text is an invalid request");
+                byte[] data = Encoding.ASCII.GetBytes("Invalid request");
+                temp.Send(data);
+                Console.WriteLine("Warning Sent");
+                CPrint("Warning sent");
+            }
+
+            
+            
             //TODO send message to communication helper, which will help the game driver progress.
+            temp.BeginReceive(Recieved_Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, temp);
         }
 
         #endregion

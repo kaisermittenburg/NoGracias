@@ -2,6 +2,7 @@
 using System.Net.Sockets;
 using System.Text;
 using System.Windows.Forms;
+using NoGracias.Communication;
 
 namespace NoGracias
 {
@@ -338,11 +339,13 @@ namespace NoGracias
                 }
             }
 
+            ReceiveResponse();
+
             Console.WriteLine("Connected");
             Status = "Connected";
         }
 
-        private void RequestLoop()
+        private void ReceiveLoop()
         {
             Console.WriteLine(@"<Type ""exit"" to properly disconnect client>");
             Status = @"<Type ""exit"" to properly disconnect client>";
@@ -390,8 +393,16 @@ namespace NoGracias
             if (received == 0) return;
             var data = new byte[received];
             Array.Copy(buffer, data, received);
-            string text = Encoding.ASCII.GetString(data);
-            Console.WriteLine(text);
+            string message = Encoding.ASCII.GetString(data);
+            Console.WriteLine(message); //debugging
+
+
+            if(message == Messages.SEND_PLAYER_NAME_TO_SERVER.ToString())
+            {
+                SendRequest(PlayerName);
+            }
+
+            
         }
 
         #endregion

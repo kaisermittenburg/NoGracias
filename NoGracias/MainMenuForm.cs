@@ -44,7 +44,7 @@ namespace NoGracias
             Connect_Button.Enabled = false;
             Ready_Up_Button.Enabled = true;
 
-            RequestLoop();
+            ReceiveLoop(); //Will get here after player name is sent. 
         }
     }
 }
