@@ -269,6 +269,7 @@ namespace NoGracias
             this.you_checkBox.Text = "NULL";
             this.you_checkBox.UseVisualStyleBackColor = true;
             this.you_checkBox.Visible = false;
+            this.you_checkBox.CheckedChanged += new System.EventHandler(this.you_checkBox_CheckedChanged);
             // 
             // checkBox2
             // 

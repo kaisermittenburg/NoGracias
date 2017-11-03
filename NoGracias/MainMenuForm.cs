@@ -54,5 +54,10 @@ namespace NoGracias
         {
 
         }
+
+        private void you_checkBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -413,24 +413,44 @@ namespace NoGracias
                 switch(NumberOfPlayers)
                 {
                     case 1:
-                        this.checkBox1.Visible = true;
-                        this.checkBox1.Text = message;
+                        this.Status_textbox.Invoke((MethodInvoker)delegate
+                        {
+                            // Running on the UI thread
+                            this.checkBox1.Visible = true;
+                            this.checkBox1.Text = message;
+                        });
                         break;
                     case 2:
-                        this.checkBox2.Visible = true;
-                        this.checkBox2.Text = message;
+                        this.Status_textbox.Invoke((MethodInvoker)delegate
+                        {
+                            // Running on the UI thread
+                            this.checkBox2.Visible = true;
+                            this.checkBox2.Text = message;
+                        });
                         break;
                     case 3:
-                        this.checkBox3.Visible = true;
-                        this.checkBox3.Text = message;
+                        this.Status_textbox.Invoke((MethodInvoker)delegate
+                        {
+                            // Running on the UI thread
+                            this.checkBox3.Visible = true;
+                            this.checkBox3.Text = message;
+                        });
                         break;
                     case 4:
-                        this.checkBox4.Visible = true;
-                        this.checkBox4.Text = message;
+                        this.Status_textbox.Invoke((MethodInvoker)delegate
+                        {
+                            // Running on the UI thread
+                            this.checkBox4.Visible = true;
+                            this.checkBox4.Text = message;
+                        });
                         break;
                     case 5:
-                        this.checkBox5.Visible = true;
-                        this.checkBox5.Text = message;
+                        this.Status_textbox.Invoke((MethodInvoker)delegate
+                        {
+                            // Running on the UI thread
+                            this.checkBox5.Visible = true;
+                            this.checkBox5.Text = message;
+                        });
                         break;
                 }
                 ToAlert.Add(message);
@@ -459,17 +479,17 @@ namespace NoGracias
             {
                 if (ToAlert.Count > 0)
                 {
-                    string name = ToAlert[1];
+                    string name = ToAlert[0];
                     foreach (Player player in Clients)
                     {
                         byte[] data = Encoding.ASCII.GetBytes(Messages.ALERT_PLAYER_JOINED.ToString());
                         player.mSocket.Send(data);
-                        System.Threading.Thread.Sleep(100); //wait, then send another message
+                        System.Threading.Thread.Sleep(250); //wait, then send another message
                         data = Encoding.ASCII.GetBytes(name);
                         player.mSocket.Send(data);
                         player.mSocket.BeginReceive(Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, player.mSocket);//KHM may break here
                     }
-                    ToAlert.RemoveAt(1);
+                    ToAlert.RemoveAt(0);
                 }
             }
         }
@@ -521,8 +541,11 @@ namespace NoGracias
                 {
                     AllReady = false;
                 }
-                CPrint(AllReady.ToString());
-                Console.WriteLine(AllReady.ToString());
+                
+                //Debugging to show that thread is still cycling
+                
+                //CPrint(AllReady.ToString());
+                //Console.WriteLine(AllReady.ToString());
             }
         }
 
