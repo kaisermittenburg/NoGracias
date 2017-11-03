@@ -278,6 +278,7 @@ namespace NoGracias
             Clients.Add(new Player(temp));
             //Get Name From Player
             byte[] data = Encoding.ASCII.GetBytes(Messages.SEND_PLAYER_NAME_TO_SERVER.ToString());
+            Clients.Where(x => x.mSocket == temp).FirstOrDefault().mState = PlayerState.WAITING_FOR_RESPONSE;
             temp.Send(data);
             //Put Socket in receive state
             temp.BeginReceive(Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, temp);
@@ -313,7 +314,6 @@ namespace NoGracias
             Array.Copy(Buffer, Recieved_Buffer, recieved);
             string message = Encoding.ASCII.GetString(Recieved_Buffer);
 
-            //TODO write to server form "console" 
             Console.WriteLine(message); //FOR NOW
             CPrint(message);
 
@@ -333,9 +333,16 @@ namespace NoGracias
                 //TODO write to server form "console" that a player disconnected
                 //TODO handle player disconnect in game driver.
             }
+            else if (message == Messages.SEND_READYUP_TO_SERVER.ToString())
+            {
+                Clients.Where(x => x.mSocket == temp).FirstOrDefault().mState = PlayerState.READY;
+            }
             else
             {
-                Clients.Where(x => x.mSocket == temp).FirstOrDefault().mName = message;
+                var player = Clients.Where(x => x.mSocket == temp).FirstOrDefault();
+                player.mName = message;
+                player.mState = PlayerState.IDLE;
+
             }
             //else
             //{
@@ -377,6 +384,27 @@ namespace NoGracias
         private System.Windows.Forms.Button ShutdownServerButton;
 
         #endregion
+
+        private void ReadyUp()
+        {
+            bool AllReady = false;
+            while(!AllReady)
+            {
+                AllReady = true;
+                foreach (var player in Clients)
+                {
+                    if(player.mState == PlayerState.READY)
+                    {
+
+                    }
+                    else
+                    {
+                        AllReady = false;
+                        break; //No need to continue, at least one is not ready
+                    }
+                }
+            }
+        }
 
         //Print to server form "console"
         public void CPrint(string s)

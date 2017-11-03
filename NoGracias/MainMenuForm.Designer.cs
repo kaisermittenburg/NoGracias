@@ -209,6 +209,7 @@ namespace NoGracias
             this.Ready_Up_Button.TabIndex = 14;
             this.Ready_Up_Button.Text = "Ready Up";
             this.Ready_Up_Button.UseVisualStyleBackColor = true;
+            this.Ready_Up_Button.Click += new System.EventHandler(this.Ready_Up_Button_Click);
             // 
             // button2
             // 
@@ -361,26 +362,17 @@ namespace NoGracias
         /// </summary>
         private void Exit()
         {
-            SendString("exit"); // Tell the server we are exiting
+            SendMessage("exit"); // Tell the server we are exiting
             ClientSocket.Shutdown(SocketShutdown.Both);
             ClientSocket.Close();
             Environment.Exit(0);
         }
 
-        private void SendRequest(string request)
-        {
-            SendString(request);
-
-            if (request.ToLower() == "exit")
-            {
-                Exit();
-            }
-        }
 
         /// <summary>
         /// Sends a string to the server with ASCII encoding.
         /// </summary>
-        private void SendString(string text)
+        private void SendMessage(string text)
         {
             byte[] buffer = Encoding.ASCII.GetBytes(text);
             ClientSocket.Send(buffer, 0, buffer.Length, SocketFlags.None);
@@ -399,7 +391,7 @@ namespace NoGracias
 
             if(message == Messages.SEND_PLAYER_NAME_TO_SERVER.ToString())
             {
-                SendRequest(PlayerName);
+                SendMessage(PlayerName);
             }
 
             

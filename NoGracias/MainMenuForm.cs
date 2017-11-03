@@ -46,5 +46,10 @@ namespace NoGracias
 
             ReceiveLoop(); //Will get here after player name is sent. 
         }
+
+        private void Ready_Up_Button_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

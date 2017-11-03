@@ -11,10 +11,22 @@ namespace NoGracias
     {
         public Socket mSocket;
         public string mName;
+        public PlayerState mState;
+        
 
         public Player(Socket socket)
         {
-            mSocket = socket;
+            this.mSocket = socket;
+            
         }
+
+    }
+    public enum PlayerState
+    {
+        IDLE,
+        WAITING_FOR_RESPONSE,
+        READY,
+
+
     }
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -28,6 +29,8 @@ namespace NoGracias
             StartServerButton.Enabled = false;
             ShutdownServerButton.Enabled = true;
             ServerSetup();
+            ReadyUp();
+            Debug.Assert(false); //Don't get here
             Console.ReadLine(); //Keep on this thread
         }
 
