@@ -391,18 +391,27 @@ namespace NoGracias
             while(!AllReady)
             {
                 AllReady = true;
-                foreach (var player in Clients)
+                if (Clients.Count != 0)
                 {
-                    if(player.mState == PlayerState.READY)
+                    foreach (var player in Clients)
                     {
+                        if (player.mState == PlayerState.READY)
+                        {
 
-                    }
-                    else
-                    {
-                        AllReady = false;
-                        break; //No need to continue, at least one is not ready
+                        }
+                        else
+                        {
+                            AllReady = false;
+                            break; //No need to continue, at least one is not ready
+                        }
                     }
                 }
+                else
+                {
+                    AllReady = false;
+                }
+                CPrint(AllReady.ToString());
+                Console.WriteLine(AllReady.ToString());
             }
         }
 

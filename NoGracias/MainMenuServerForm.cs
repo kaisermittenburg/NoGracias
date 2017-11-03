@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -29,9 +30,16 @@ namespace NoGracias
             StartServerButton.Enabled = false;
             ShutdownServerButton.Enabled = true;
             ServerSetup();
-            ReadyUp();
-            Debug.Assert(false); //Don't get here
+
+            var thread = new Thread(ReadyUp);
+            thread.TrySetApartmentState(ApartmentState.STA);
+            thread.Start();
+
+
+            
+            
             Console.ReadLine(); //Keep on this thread
+            //Debug.Assert(false); //Don't get here
         }
 
         private void ShutdownServerButton_Click(object sender, EventArgs e)
