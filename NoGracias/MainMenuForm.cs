@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -49,7 +50,11 @@ namespace NoGracias
 
             this.Refresh();
 
-            ReceiveLoop(); //Will get here after player name is sent. 
+            var thread = new Thread(ReceiveLoop);
+            thread.TrySetApartmentState(ApartmentState.STA);
+            thread.Start();
+
+            //ReceiveLoop(); //Will get here after player name is sent. 
         }
 
         private void Ready_Up_Button_Click(object sender, EventArgs e)

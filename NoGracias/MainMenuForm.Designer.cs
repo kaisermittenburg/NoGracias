@@ -10,7 +10,7 @@ namespace NoGracias
     {
         private static int attempts = 0;
 
-        private int NumberOfPlayers = 0;
+        private int NumberOfPlayers = 1;
 
         public string IP
         {
@@ -484,23 +484,43 @@ namespace NoGracias
                 switch (NumberOfPlayers)
                 {
                     case 2:
-                        this.checkBox2.Visible = true;
-                        this.checkBox2.Text = message;
+                        this.checkBox2.Invoke((MethodInvoker)delegate
+                        {
+                            // Running on the UI thread
+                            this.checkBox2.Visible = true;
+                            this.checkBox2.Text = message;
+                            this.Refresh();
+                        });
                         break;
                     case 3:
-                        this.checkBox3.Visible = true;
-                        this.checkBox3.Text = message;
+                        this.checkBox3.Invoke((MethodInvoker)delegate
+                        {
+                            // Running on the UI thread
+                            this.checkBox3.Visible = true;
+                            this.checkBox3.Text = message;
+                            this.Refresh();
+                        });
                         break;
                     case 4:
-                        this.checkBox4.Visible = true;
-                        this.checkBox4.Text = message;
+                        this.checkBox4.Invoke((MethodInvoker)delegate
+                        {
+                            // Running on the UI thread
+                            this.checkBox4.Visible = true;
+                            this.checkBox4.Text = message;
+                            this.Refresh();
+                        });
                         break;
                     case 5:
-                        this.checkBox5.Visible = true;
-                        this.checkBox5.Text = message;
+                        this.checkBox5.Invoke((MethodInvoker)delegate
+                        {
+                            // Running on the UI thread
+                            this.checkBox5.Visible = true;
+                            this.checkBox5.Text = message;
+                            this.Refresh();
+                        });
                         break;
                 }
-                this.Refresh();
+                
             }
         
         }
