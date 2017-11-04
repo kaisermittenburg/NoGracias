@@ -23,6 +23,8 @@ namespace NoGracias.Communication
         #endregion
 
         #region Turn Logic
+        ACCEPT_CARD,
+        REJECT_CARD,
 
         #endregion
 
