@@ -645,6 +645,8 @@ namespace NoGracias
         private void ReadyUp()
         {
             SendMessage(Messages.SEND_READYUP_TO_SERVER.ToString());
+            System.Threading.Thread.Sleep(200);
+            SendMessage(PlayerName);
         }
     }
 }
