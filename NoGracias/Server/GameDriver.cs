@@ -122,7 +122,11 @@ namespace NoGracias.Server
             System.Threading.Thread.Sleep(250);
             if(currentPlayer.chips != 0)
             {
-                currentPlayer.mSocket.Send(Encoding.ASCII.GetBytes())
+                Console.WriteLine("GameDriver is Sending: Both");
+                currentPlayer.mSocket.Send(Encoding.ASCII.GetBytes("Both"));
+            }
+            else
+            {
             }
 
 
