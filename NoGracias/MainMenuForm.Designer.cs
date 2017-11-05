@@ -478,7 +478,6 @@ namespace NoGracias
         {
             while (true)
             {
-                //SendRequest(); //TODO fix this call when kaiser figures out what to do
                 ReceiveResponse();
             }
         }
