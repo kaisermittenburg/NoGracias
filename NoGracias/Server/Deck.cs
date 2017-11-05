@@ -9,7 +9,7 @@ namespace NoGracias.Server
     class Deck
     {
         #region Variables
-        List<Card> deck = new List<Card>;
+        List<Card> deck = new List<Card>();
 
         #endregion
 
