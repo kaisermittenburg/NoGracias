@@ -8,6 +8,7 @@ using System.Windows.Forms;
 using System.Linq;
 using NoGracias.Communication;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace NoGracias
 {
@@ -508,7 +509,8 @@ namespace NoGracias
             Socket temp = (Socket)AR.AsyncState;
 
             ReceiveLoop(temp); //STAY HERE
-
+            ///////////////////////////////////////////////////////////
+            Debugger.Break();
             int recieved;
 
             try
