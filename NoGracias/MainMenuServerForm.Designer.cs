@@ -362,6 +362,10 @@ namespace NoGracias
             player.mState = PlayerState.WAITING_FOR_RESPONSE;
             temp.Send(data);
 
+            Thread thread = new Thread(ReceiveLoop);
+            thread.TrySetApartmentState(ApartmentState.STA);
+            thread.Start(temp);
+
             ReceiveLoop(temp);
             //Put Socket in receive state
          
@@ -373,12 +377,12 @@ namespace NoGracias
             Server_Socket.BeginAccept(Accept, null);
         }
 
-        private void ReceiveLoop(Socket temp)
+        private void ReceiveLoop(object temp)
         {
             Console.WriteLine("Got to ReceiveLoop");
             while (true)
             {
-                ReceiveResponse(temp);
+                ReceiveResponse((Socket)temp);
             }
         }
 
