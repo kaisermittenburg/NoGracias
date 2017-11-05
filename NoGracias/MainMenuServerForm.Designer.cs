@@ -361,13 +361,13 @@ namespace NoGracias
             player.mState = PlayerState.WAITING_FOR_RESPONSE;
             temp.Send(data);
 
-            ReceiveLoop(temp);
+            //ReceiveLoop(temp);
             //Put Socket in receive state
             temp.BeginReceive(Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, temp);
             
             Console.WriteLine("Player Connected");
             CPrint("Player connected");
-   
+            Console.WriteLine("Beginning accept again");
             Server_Socket.BeginAccept(Accept, null);
         }
 
