@@ -127,12 +127,33 @@ namespace NoGracias.Server
             }
             else
             {
+                Console.WriteLine("GameDriver is Sending: Accept");
+                currentPlayer.mSocket.Send(Encoding.ASCII.GetBytes("Accept"));
             }
 
 
             //TODO: Get currentPlayer's response and store it
+            string msg = "";
+            if (true)
+            {
+                byte[] buffer = new byte[1024];
+                byte[] data;
+                int receivedSize = 0;
+                try
+                {
+                    receivedSize = currentPlayer.mSocket.Receive(buffer, SocketFlags.None);
+                }
+                catch(Exception e)
+                {
+                    Console.WriteLine("ERROR Receive Failed: " + e.ToString());
+                }
 
-            if (true) //player takes it
+                data = new byte[receivedSize];
+                Array.Copy(buffer, data, receivedSize);
+                msg = Encoding.ASCII.GetString(data);
+            }
+
+            if (msg=="ACCEPT_CARD") //player takes it
             {
                 currentPlayer.cards.Add(cardInPlay.value);
                 currentPlayer.chips += cardInPlay.chipsOnCard;
@@ -145,7 +166,7 @@ namespace NoGracias.Server
                     cardInPlay = deck.TopCard();
                 }
             }
-            else if(true) /*player passes it*/
+            else if(msg=="REJECT_CARD") /*player passes it*/
             {
                 cardInPlay.chipsOnCard++;
             }
