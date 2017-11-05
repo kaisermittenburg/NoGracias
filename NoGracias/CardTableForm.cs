@@ -66,5 +66,10 @@ namespace NoGracias
         {
 
         }
+
+        private void label33_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
