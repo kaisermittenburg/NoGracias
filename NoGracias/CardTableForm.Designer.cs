@@ -218,6 +218,11 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.MainPlayerCard2 = new System.Windows.Forms.PictureBox();
             this.MainPlayerCard1 = new System.Windows.Forms.PictureBox();
+            this.AcceptCardButton = new System.Windows.Forms.Button();
+            this.NoGraciasButton = new System.Windows.Forms.Button();
+            this.DeckChip = new System.Windows.Forms.PictureBox();
+            this.TopDeckChipCounter = new System.Windows.Forms.Label();
+            this.TopDeckChipText = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card1)).BeginInit();
@@ -305,6 +310,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DeckChip)).BeginInit();
             this.SuspendLayout();
             // 
             // MainPlayerName
@@ -1598,11 +1604,47 @@
             this.MainPlayerCard1.Name = "MainPlayerCard1";
             this.MainPlayerCard1.TabStop = false;
             // 
+            // AcceptCardButton
+            // 
+            this.AcceptCardButton.BackColor = System.Drawing.Color.LemonChiffon;
+            resources.ApplyResources(this.AcceptCardButton, "AcceptCardButton");
+            this.AcceptCardButton.Name = "AcceptCardButton";
+            this.AcceptCardButton.UseVisualStyleBackColor = false;
+            // 
+            // NoGraciasButton
+            // 
+            this.NoGraciasButton.BackColor = System.Drawing.Color.LemonChiffon;
+            resources.ApplyResources(this.NoGraciasButton, "NoGraciasButton");
+            this.NoGraciasButton.Name = "NoGraciasButton";
+            this.NoGraciasButton.UseVisualStyleBackColor = false;
+            // 
+            // DeckChip
+            // 
+            this.DeckChip.BackColor = System.Drawing.Color.ForestGreen;
+            resources.ApplyResources(this.DeckChip, "DeckChip");
+            this.DeckChip.Name = "DeckChip";
+            this.DeckChip.TabStop = false;
+            // 
+            // TopDeckChipCounter
+            // 
+            resources.ApplyResources(this.TopDeckChipCounter, "TopDeckChipCounter");
+            this.TopDeckChipCounter.Name = "TopDeckChipCounter";
+            // 
+            // TopDeckChipText
+            // 
+            resources.ApplyResources(this.TopDeckChipText, "TopDeckChipText");
+            this.TopDeckChipText.Name = "TopDeckChipText";
+            // 
             // CardTableForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LemonChiffon;
+            this.Controls.Add(this.TopDeckChipCounter);
+            this.Controls.Add(this.TopDeckChipText);
+            this.Controls.Add(this.DeckChip);
+            this.Controls.Add(this.NoGraciasButton);
+            this.Controls.Add(this.AcceptCardButton);
             this.Controls.Add(this.MainPlayerNum8);
             this.Controls.Add(this.MainPlayerNum7);
             this.Controls.Add(this.MainPlayerNum6);
@@ -1881,6 +1923,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DeckChip)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2076,6 +2119,11 @@
         private System.Windows.Forms.PictureBox MainPlayerCard2;
         private System.Windows.Forms.PictureBox MainPlayerCard1;
         private System.Windows.Forms.Label Opp2Num10;
+        private System.Windows.Forms.Button AcceptCardButton;
+        private System.Windows.Forms.Button NoGraciasButton;
+        private System.Windows.Forms.PictureBox DeckChip;
+        private System.Windows.Forms.Label TopDeckChipCounter;
+        private System.Windows.Forms.Label TopDeckChipText;
     }
 }
 

@@ -147,7 +147,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerName.ZOrder" xml:space="preserve">
-    <value>188</value>
+    <value>193</value>
   </data>
   <data name="Opp2Name.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -177,7 +177,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Name.ZOrder" xml:space="preserve">
-    <value>187</value>
+    <value>192</value>
   </data>
   <data name="Opp1Name.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -207,7 +207,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Name.ZOrder" xml:space="preserve">
-    <value>182</value>
+    <value>187</value>
   </data>
   <data name="Opp1Card3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -284,7 +284,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card3.ZOrder" xml:space="preserve">
-    <value>183</value>
+    <value>188</value>
   </data>
   <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
     <value>144, 67</value>
@@ -308,7 +308,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox3.ZOrder" xml:space="preserve">
-    <value>184</value>
+    <value>189</value>
   </data>
   <data name="Opp1Card2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -384,7 +384,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card2.ZOrder" xml:space="preserve">
-    <value>185</value>
+    <value>190</value>
   </data>
   <data name="Opp1Card1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -460,7 +460,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card1.ZOrder" xml:space="preserve">
-    <value>186</value>
+    <value>191</value>
   </data>
   <data name="Opp4Name.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -490,7 +490,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Name.ZOrder" xml:space="preserve">
-    <value>181</value>
+    <value>186</value>
   </data>
   <data name="Opp3Name.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -520,7 +520,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Name.ZOrder" xml:space="preserve">
-    <value>180</value>
+    <value>185</value>
   </data>
   <data name="pictureBox16.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1023,7 +1023,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox16.ZOrder" xml:space="preserve">
-    <value>179</value>
+    <value>184</value>
   </data>
   <data name="pictureBox17.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1526,7 +1526,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox17.ZOrder" xml:space="preserve">
-    <value>178</value>
+    <value>183</value>
   </data>
   <data name="pictureBox18.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2029,7 +2029,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox18.ZOrder" xml:space="preserve">
-    <value>177</value>
+    <value>182</value>
   </data>
   <data name="pictureBox19.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2532,7 +2532,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox19.ZOrder" xml:space="preserve">
-    <value>176</value>
+    <value>181</value>
   </data>
   <data name="Opp1Card4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2608,7 +2608,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card4.ZOrder" xml:space="preserve">
-    <value>175</value>
+    <value>180</value>
   </data>
   <data name="pictureBox30.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3111,7 +3111,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox30.ZOrder" xml:space="preserve">
-    <value>174</value>
+    <value>179</value>
   </data>
   <data name="Opp4ChipText.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3138,7 +3138,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4ChipText.ZOrder" xml:space="preserve">
-    <value>173</value>
+    <value>178</value>
   </data>
   <data name="Opp3ChipText.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3165,7 +3165,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3ChipText.ZOrder" xml:space="preserve">
-    <value>172</value>
+    <value>177</value>
   </data>
   <data name="MainPlayerChipText.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3192,7 +3192,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerChipText.ZOrder" xml:space="preserve">
-    <value>171</value>
+    <value>176</value>
   </data>
   <data name="Opp2ChipText.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3219,7 +3219,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2ChipText.ZOrder" xml:space="preserve">
-    <value>170</value>
+    <value>175</value>
   </data>
   <data name="Opp1ChipText.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3246,7 +3246,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1ChipText.ZOrder" xml:space="preserve">
-    <value>169</value>
+    <value>174</value>
   </data>
   <data name="TopDeckCard.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3295,7 +3295,7 @@
     <value>Stretch</value>
   </data>
   <data name="TopDeckCard.Location" type="System.Drawing.Point, System.Drawing">
-    <value>864, 227</value>
+    <value>822, 231</value>
   </data>
   <data name="TopDeckCard.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 138</value>
@@ -3313,7 +3313,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;TopDeckCard.ZOrder" xml:space="preserve">
-    <value>168</value>
+    <value>173</value>
   </data>
   <data name="GameDeckLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3343,7 +3343,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;GameDeckLabel.ZOrder" xml:space="preserve">
-    <value>167</value>
+    <value>172</value>
   </data>
   <data name="Opp1ChipCount.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3373,7 +3373,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1ChipCount.ZOrder" xml:space="preserve">
-    <value>166</value>
+    <value>171</value>
   </data>
   <data name="Opp2ChipCount.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3403,7 +3403,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2ChipCount.ZOrder" xml:space="preserve">
-    <value>165</value>
+    <value>170</value>
   </data>
   <data name="MainPlayerChipCount.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3433,7 +3433,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerChipCount.ZOrder" xml:space="preserve">
-    <value>164</value>
+    <value>169</value>
   </data>
   <data name="Opp3ChipCount.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3463,7 +3463,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3ChipCount.ZOrder" xml:space="preserve">
-    <value>163</value>
+    <value>168</value>
   </data>
   <data name="Opp4ChipCount.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3493,7 +3493,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4ChipCount.ZOrder" xml:space="preserve">
-    <value>162</value>
+    <value>167</value>
   </data>
   <data name="Opp1Card8.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3572,7 +3572,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card8.ZOrder" xml:space="preserve">
-    <value>158</value>
+    <value>163</value>
   </data>
   <data name="Opp1Card7.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3651,7 +3651,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card7.ZOrder" xml:space="preserve">
-    <value>159</value>
+    <value>164</value>
   </data>
   <data name="Opp1Card6.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3730,7 +3730,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card6.ZOrder" xml:space="preserve">
-    <value>160</value>
+    <value>165</value>
   </data>
   <data name="Opp1Card5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3809,7 +3809,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card5.ZOrder" xml:space="preserve">
-    <value>161</value>
+    <value>166</value>
   </data>
   <data name="Opp1Card12.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3888,7 +3888,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card12.ZOrder" xml:space="preserve">
-    <value>154</value>
+    <value>159</value>
   </data>
   <data name="Opp1Card11.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3967,7 +3967,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card11.ZOrder" xml:space="preserve">
-    <value>155</value>
+    <value>160</value>
   </data>
   <data name="Opp1Card10.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4046,7 +4046,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card10.ZOrder" xml:space="preserve">
-    <value>156</value>
+    <value>161</value>
   </data>
   <data name="Opp1Card9.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4125,7 +4125,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card9.ZOrder" xml:space="preserve">
-    <value>157</value>
+    <value>162</value>
   </data>
   <data name="Opp1Card16.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4204,7 +4204,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card16.ZOrder" xml:space="preserve">
-    <value>150</value>
+    <value>155</value>
   </data>
   <data name="Opp1Card15.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4283,7 +4283,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card15.ZOrder" xml:space="preserve">
-    <value>151</value>
+    <value>156</value>
   </data>
   <data name="Opp1Card14.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4362,7 +4362,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card14.ZOrder" xml:space="preserve">
-    <value>152</value>
+    <value>157</value>
   </data>
   <data name="Opp1Card13.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4441,7 +4441,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card13.ZOrder" xml:space="preserve">
-    <value>153</value>
+    <value>158</value>
   </data>
   <data name="DeckCard.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -7816,7 +7816,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DeckCard.ZOrder" xml:space="preserve">
-    <value>149</value>
+    <value>154</value>
   </data>
   <data name="TopDeckCardNum.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -7846,7 +7846,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;TopDeckCardNum.ZOrder" xml:space="preserve">
-    <value>148</value>
+    <value>153</value>
   </data>
   <data name="Opp1Num16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -7876,7 +7876,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num16.ZOrder" xml:space="preserve">
-    <value>147</value>
+    <value>152</value>
   </data>
   <data name="Opp1Num15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -7906,7 +7906,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num15.ZOrder" xml:space="preserve">
-    <value>146</value>
+    <value>151</value>
   </data>
   <data name="Opp1Num14.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -7939,7 +7939,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num14.ZOrder" xml:space="preserve">
-    <value>145</value>
+    <value>150</value>
   </data>
   <data name="Opp1Num13.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -7972,7 +7972,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num13.ZOrder" xml:space="preserve">
-    <value>144</value>
+    <value>149</value>
   </data>
   <data name="Opp1Num12.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8005,7 +8005,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num12.ZOrder" xml:space="preserve">
-    <value>143</value>
+    <value>148</value>
   </data>
   <data name="Opp1Num11.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8038,7 +8038,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num11.ZOrder" xml:space="preserve">
-    <value>142</value>
+    <value>147</value>
   </data>
   <data name="Opp1Num10.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8071,7 +8071,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num10.ZOrder" xml:space="preserve">
-    <value>141</value>
+    <value>146</value>
   </data>
   <data name="Opp1Num9.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8104,7 +8104,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num9.ZOrder" xml:space="preserve">
-    <value>140</value>
+    <value>145</value>
   </data>
   <data name="Opp1Num1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8137,7 +8137,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num1.ZOrder" xml:space="preserve">
-    <value>139</value>
+    <value>144</value>
   </data>
   <data name="Opp1Num2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8170,7 +8170,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num2.ZOrder" xml:space="preserve">
-    <value>138</value>
+    <value>143</value>
   </data>
   <data name="Opp1Num3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8203,7 +8203,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num3.ZOrder" xml:space="preserve">
-    <value>137</value>
+    <value>142</value>
   </data>
   <data name="Opp1Num4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8236,7 +8236,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num4.ZOrder" xml:space="preserve">
-    <value>136</value>
+    <value>141</value>
   </data>
   <data name="Opp1Num5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8269,7 +8269,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num5.ZOrder" xml:space="preserve">
-    <value>135</value>
+    <value>140</value>
   </data>
   <data name="Opp1Num6.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8302,7 +8302,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num6.ZOrder" xml:space="preserve">
-    <value>134</value>
+    <value>139</value>
   </data>
   <data name="Opp1Num7.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8335,7 +8335,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num7.ZOrder" xml:space="preserve">
-    <value>133</value>
+    <value>138</value>
   </data>
   <data name="Opp1Num8.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8368,7 +8368,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num8.ZOrder" xml:space="preserve">
-    <value>132</value>
+    <value>137</value>
   </data>
   <data name="Opp2Num8.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8401,7 +8401,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num8.ZOrder" xml:space="preserve">
-    <value>99</value>
+    <value>104</value>
   </data>
   <data name="Opp2Num7.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8434,7 +8434,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num7.ZOrder" xml:space="preserve">
-    <value>100</value>
+    <value>105</value>
   </data>
   <data name="Opp2Num6.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8467,7 +8467,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num6.ZOrder" xml:space="preserve">
-    <value>101</value>
+    <value>106</value>
   </data>
   <data name="Opp2Num5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8500,7 +8500,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num5.ZOrder" xml:space="preserve">
-    <value>102</value>
+    <value>107</value>
   </data>
   <data name="Opp2Num4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8533,7 +8533,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num4.ZOrder" xml:space="preserve">
-    <value>103</value>
+    <value>108</value>
   </data>
   <data name="Opp2Num3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8566,7 +8566,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num3.ZOrder" xml:space="preserve">
-    <value>104</value>
+    <value>109</value>
   </data>
   <data name="Opp2Num2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8599,7 +8599,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num2.ZOrder" xml:space="preserve">
-    <value>105</value>
+    <value>110</value>
   </data>
   <data name="Opp2Num1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8632,7 +8632,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num1.ZOrder" xml:space="preserve">
-    <value>106</value>
+    <value>111</value>
   </data>
   <data name="Opp2Num9.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8665,7 +8665,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num9.ZOrder" xml:space="preserve">
-    <value>107</value>
+    <value>112</value>
   </data>
   <data name="Opp2Num10.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8698,7 +8698,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num10.ZOrder" xml:space="preserve">
-    <value>108</value>
+    <value>113</value>
   </data>
   <data name="Opp2Num11.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8731,7 +8731,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num11.ZOrder" xml:space="preserve">
-    <value>109</value>
+    <value>114</value>
   </data>
   <data name="Opp2Num12.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8764,7 +8764,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num12.ZOrder" xml:space="preserve">
-    <value>110</value>
+    <value>115</value>
   </data>
   <data name="Opp2Num13.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8797,7 +8797,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num13.ZOrder" xml:space="preserve">
-    <value>111</value>
+    <value>116</value>
   </data>
   <data name="Opp2Num14.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8830,7 +8830,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num14.ZOrder" xml:space="preserve">
-    <value>112</value>
+    <value>117</value>
   </data>
   <data name="Opp2Num15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -8860,7 +8860,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num15.ZOrder" xml:space="preserve">
-    <value>113</value>
+    <value>118</value>
   </data>
   <data name="Opp2Num16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -8890,7 +8890,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num16.ZOrder" xml:space="preserve">
-    <value>114</value>
+    <value>119</value>
   </data>
   <data name="Opp2Card16.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -8969,7 +8969,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card16.ZOrder" xml:space="preserve">
-    <value>115</value>
+    <value>120</value>
   </data>
   <data name="Opp2Card15.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -9048,7 +9048,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card15.ZOrder" xml:space="preserve">
-    <value>116</value>
+    <value>121</value>
   </data>
   <data name="Opp2Card14.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -9127,7 +9127,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card14.ZOrder" xml:space="preserve">
-    <value>117</value>
+    <value>122</value>
   </data>
   <data name="Opp2Card13.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -9206,7 +9206,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card13.ZOrder" xml:space="preserve">
-    <value>118</value>
+    <value>123</value>
   </data>
   <data name="Opp2Card12.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -9285,7 +9285,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card12.ZOrder" xml:space="preserve">
-    <value>119</value>
+    <value>124</value>
   </data>
   <data name="Opp2Card11.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -9364,7 +9364,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card11.ZOrder" xml:space="preserve">
-    <value>120</value>
+    <value>125</value>
   </data>
   <data name="Opp2Card10.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -9443,7 +9443,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card10.ZOrder" xml:space="preserve">
-    <value>121</value>
+    <value>126</value>
   </data>
   <data name="Opp2Card9.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -9522,7 +9522,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card9.ZOrder" xml:space="preserve">
-    <value>122</value>
+    <value>127</value>
   </data>
   <data name="Opp2Card8.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -9601,7 +9601,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card8.ZOrder" xml:space="preserve">
-    <value>123</value>
+    <value>128</value>
   </data>
   <data name="Opp2Card7.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -9680,7 +9680,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card7.ZOrder" xml:space="preserve">
-    <value>124</value>
+    <value>129</value>
   </data>
   <data name="Opp2Card6.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -9759,7 +9759,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card6.ZOrder" xml:space="preserve">
-    <value>125</value>
+    <value>130</value>
   </data>
   <data name="Opp2Card5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -9838,7 +9838,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card5.ZOrder" xml:space="preserve">
-    <value>126</value>
+    <value>131</value>
   </data>
   <data name="Opp2Card4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -9917,7 +9917,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card4.ZOrder" xml:space="preserve">
-    <value>127</value>
+    <value>132</value>
   </data>
   <data name="Opp2Card3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -9996,7 +9996,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card3.ZOrder" xml:space="preserve">
-    <value>128</value>
+    <value>133</value>
   </data>
   <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>190, 504</value>
@@ -10020,7 +10020,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
-    <value>129</value>
+    <value>134</value>
   </data>
   <data name="Opp2Card2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -10099,7 +10099,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card2.ZOrder" xml:space="preserve">
-    <value>130</value>
+    <value>135</value>
   </data>
   <data name="Opp2Card1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -10178,7 +10178,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card1.ZOrder" xml:space="preserve">
-    <value>131</value>
+    <value>136</value>
   </data>
   <data name="Opp4Num8.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -10211,7 +10211,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num8.ZOrder" xml:space="preserve">
-    <value>66</value>
+    <value>71</value>
   </data>
   <data name="Opp4Num7.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -10244,7 +10244,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num7.ZOrder" xml:space="preserve">
-    <value>67</value>
+    <value>72</value>
   </data>
   <data name="Opp4Num6.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -10277,7 +10277,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num6.ZOrder" xml:space="preserve">
-    <value>68</value>
+    <value>73</value>
   </data>
   <data name="Opp4Num5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -10310,7 +10310,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num5.ZOrder" xml:space="preserve">
-    <value>69</value>
+    <value>74</value>
   </data>
   <data name="Opp4Num4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -10343,7 +10343,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num4.ZOrder" xml:space="preserve">
-    <value>70</value>
+    <value>75</value>
   </data>
   <data name="Opp4Num3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -10376,7 +10376,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num3.ZOrder" xml:space="preserve">
-    <value>71</value>
+    <value>76</value>
   </data>
   <data name="Opp4Num2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -10409,7 +10409,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num2.ZOrder" xml:space="preserve">
-    <value>72</value>
+    <value>77</value>
   </data>
   <data name="Opp4Num1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -10442,7 +10442,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num1.ZOrder" xml:space="preserve">
-    <value>73</value>
+    <value>78</value>
   </data>
   <data name="Opp4Num9.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -10475,7 +10475,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num9.ZOrder" xml:space="preserve">
-    <value>74</value>
+    <value>79</value>
   </data>
   <data name="Opp4Num10.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -10508,7 +10508,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num10.ZOrder" xml:space="preserve">
-    <value>75</value>
+    <value>80</value>
   </data>
   <data name="Opp4Num11.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -10541,7 +10541,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num11.ZOrder" xml:space="preserve">
-    <value>76</value>
+    <value>81</value>
   </data>
   <data name="Opp4Num12.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -10574,7 +10574,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num12.ZOrder" xml:space="preserve">
-    <value>77</value>
+    <value>82</value>
   </data>
   <data name="Opp4Num13.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -10607,7 +10607,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num13.ZOrder" xml:space="preserve">
-    <value>78</value>
+    <value>83</value>
   </data>
   <data name="Opp4Num14.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -10640,7 +10640,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num14.ZOrder" xml:space="preserve">
-    <value>79</value>
+    <value>84</value>
   </data>
   <data name="Opp4Num15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -10670,7 +10670,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num15.ZOrder" xml:space="preserve">
-    <value>80</value>
+    <value>85</value>
   </data>
   <data name="Opp4Num16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -10700,7 +10700,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num16.ZOrder" xml:space="preserve">
-    <value>81</value>
+    <value>86</value>
   </data>
   <data name="Opp4Card16.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -10779,7 +10779,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card16.ZOrder" xml:space="preserve">
-    <value>82</value>
+    <value>87</value>
   </data>
   <data name="Opp4Card15.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -10858,7 +10858,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card15.ZOrder" xml:space="preserve">
-    <value>83</value>
+    <value>88</value>
   </data>
   <data name="Opp4Card14.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -10937,7 +10937,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card14.ZOrder" xml:space="preserve">
-    <value>84</value>
+    <value>89</value>
   </data>
   <data name="Opp4Card13.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -11016,7 +11016,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card13.ZOrder" xml:space="preserve">
-    <value>85</value>
+    <value>90</value>
   </data>
   <data name="Opp4Card12.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -11095,7 +11095,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card12.ZOrder" xml:space="preserve">
-    <value>86</value>
+    <value>91</value>
   </data>
   <data name="Opp4Card11.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -11174,7 +11174,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card11.ZOrder" xml:space="preserve">
-    <value>87</value>
+    <value>92</value>
   </data>
   <data name="Opp4Card10.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -11253,7 +11253,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card10.ZOrder" xml:space="preserve">
-    <value>88</value>
+    <value>93</value>
   </data>
   <data name="Opp4Card9.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -11332,7 +11332,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card9.ZOrder" xml:space="preserve">
-    <value>89</value>
+    <value>94</value>
   </data>
   <data name="Opp4Card8.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -11411,7 +11411,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card8.ZOrder" xml:space="preserve">
-    <value>90</value>
+    <value>95</value>
   </data>
   <data name="Opp4Card7.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -11490,7 +11490,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card7.ZOrder" xml:space="preserve">
-    <value>91</value>
+    <value>96</value>
   </data>
   <data name="Opp4Card6.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -11569,7 +11569,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card6.ZOrder" xml:space="preserve">
-    <value>92</value>
+    <value>97</value>
   </data>
   <data name="Opp4Card5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -11648,7 +11648,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card5.ZOrder" xml:space="preserve">
-    <value>93</value>
+    <value>98</value>
   </data>
   <data name="Opp4Card4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -11727,7 +11727,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card4.ZOrder" xml:space="preserve">
-    <value>94</value>
+    <value>99</value>
   </data>
   <data name="Opp4Card3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -11806,7 +11806,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card3.ZOrder" xml:space="preserve">
-    <value>95</value>
+    <value>100</value>
   </data>
   <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>1566, 67</value>
@@ -11830,7 +11830,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
-    <value>96</value>
+    <value>101</value>
   </data>
   <data name="Opp4Card2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -11909,7 +11909,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card2.ZOrder" xml:space="preserve">
-    <value>97</value>
+    <value>102</value>
   </data>
   <data name="Opp4Card1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -11988,7 +11988,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card1.ZOrder" xml:space="preserve">
-    <value>98</value>
+    <value>103</value>
   </data>
   <data name="Opp3Num8.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -12021,7 +12021,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num8.ZOrder" xml:space="preserve">
-    <value>33</value>
+    <value>38</value>
   </data>
   <data name="Opp3Num7.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -12054,7 +12054,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num7.ZOrder" xml:space="preserve">
-    <value>34</value>
+    <value>39</value>
   </data>
   <data name="Opp3Num6.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -12087,7 +12087,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num6.ZOrder" xml:space="preserve">
-    <value>35</value>
+    <value>40</value>
   </data>
   <data name="Opp3Num5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -12120,7 +12120,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num5.ZOrder" xml:space="preserve">
-    <value>36</value>
+    <value>41</value>
   </data>
   <data name="Opp3Num4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -12153,7 +12153,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num4.ZOrder" xml:space="preserve">
-    <value>37</value>
+    <value>42</value>
   </data>
   <data name="Opp3Num3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -12186,7 +12186,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num3.ZOrder" xml:space="preserve">
-    <value>38</value>
+    <value>43</value>
   </data>
   <data name="Opp3Num2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -12219,7 +12219,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num2.ZOrder" xml:space="preserve">
-    <value>39</value>
+    <value>44</value>
   </data>
   <data name="Opp3Num1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -12252,7 +12252,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num1.ZOrder" xml:space="preserve">
-    <value>40</value>
+    <value>45</value>
   </data>
   <data name="Opp3Num9.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -12285,7 +12285,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num9.ZOrder" xml:space="preserve">
-    <value>41</value>
+    <value>46</value>
   </data>
   <data name="Opp3Num10.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -12318,7 +12318,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num10.ZOrder" xml:space="preserve">
-    <value>42</value>
+    <value>47</value>
   </data>
   <data name="Opp3Num11.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -12351,7 +12351,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num11.ZOrder" xml:space="preserve">
-    <value>43</value>
+    <value>48</value>
   </data>
   <data name="Opp3Num12.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -12384,7 +12384,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num12.ZOrder" xml:space="preserve">
-    <value>44</value>
+    <value>49</value>
   </data>
   <data name="Opp3Num13.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -12417,7 +12417,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num13.ZOrder" xml:space="preserve">
-    <value>45</value>
+    <value>50</value>
   </data>
   <data name="Opp3Num14.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -12450,7 +12450,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num14.ZOrder" xml:space="preserve">
-    <value>46</value>
+    <value>51</value>
   </data>
   <data name="Opp3Num15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -12480,7 +12480,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num15.ZOrder" xml:space="preserve">
-    <value>47</value>
+    <value>52</value>
   </data>
   <data name="Opp3Num16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -12510,7 +12510,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num16.ZOrder" xml:space="preserve">
-    <value>48</value>
+    <value>53</value>
   </data>
   <data name="Opp3Card16.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -12589,7 +12589,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card16.ZOrder" xml:space="preserve">
-    <value>49</value>
+    <value>54</value>
   </data>
   <data name="Opp3Card15.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -12668,7 +12668,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card15.ZOrder" xml:space="preserve">
-    <value>50</value>
+    <value>55</value>
   </data>
   <data name="Opp3Card14.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -12747,7 +12747,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card14.ZOrder" xml:space="preserve">
-    <value>51</value>
+    <value>56</value>
   </data>
   <data name="Opp3Card13.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -12826,7 +12826,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card13.ZOrder" xml:space="preserve">
-    <value>52</value>
+    <value>57</value>
   </data>
   <data name="Opp3Card12.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -12905,7 +12905,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card12.ZOrder" xml:space="preserve">
-    <value>53</value>
+    <value>58</value>
   </data>
   <data name="Opp3Card11.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -12984,7 +12984,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card11.ZOrder" xml:space="preserve">
-    <value>54</value>
+    <value>59</value>
   </data>
   <data name="Opp3Card10.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -13063,7 +13063,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card10.ZOrder" xml:space="preserve">
-    <value>55</value>
+    <value>60</value>
   </data>
   <data name="Opp3Card9.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -13142,7 +13142,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card9.ZOrder" xml:space="preserve">
-    <value>56</value>
+    <value>61</value>
   </data>
   <data name="Opp3Card8.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -13221,7 +13221,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card8.ZOrder" xml:space="preserve">
-    <value>57</value>
+    <value>62</value>
   </data>
   <data name="Opp3Card7.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -13300,7 +13300,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card7.ZOrder" xml:space="preserve">
-    <value>58</value>
+    <value>63</value>
   </data>
   <data name="Opp3Card6.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -13379,7 +13379,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card6.ZOrder" xml:space="preserve">
-    <value>59</value>
+    <value>64</value>
   </data>
   <data name="Opp3Card5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -13458,7 +13458,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card5.ZOrder" xml:space="preserve">
-    <value>60</value>
+    <value>65</value>
   </data>
   <data name="Opp3Card4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -13537,7 +13537,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card4.ZOrder" xml:space="preserve">
-    <value>61</value>
+    <value>66</value>
   </data>
   <data name="Opp3Card3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -13616,7 +13616,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card3.ZOrder" xml:space="preserve">
-    <value>62</value>
+    <value>67</value>
   </data>
   <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing">
     <value>1582, 450</value>
@@ -13640,7 +13640,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox4.ZOrder" xml:space="preserve">
-    <value>63</value>
+    <value>68</value>
   </data>
   <data name="Opp3Card2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -13719,7 +13719,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card2.ZOrder" xml:space="preserve">
-    <value>64</value>
+    <value>69</value>
   </data>
   <data name="Opp3Card1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -13798,7 +13798,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card1.ZOrder" xml:space="preserve">
-    <value>65</value>
+    <value>70</value>
   </data>
   <data name="MainPlayerNum8.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -13831,7 +13831,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum8.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>5</value>
   </data>
   <data name="MainPlayerNum7.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -13864,7 +13864,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum7.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>6</value>
   </data>
   <data name="MainPlayerNum6.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -13897,7 +13897,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum6.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>7</value>
   </data>
   <data name="MainPlayerNum5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -13930,7 +13930,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum5.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>8</value>
   </data>
   <data name="MainPlayerNum4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -13963,7 +13963,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum4.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>9</value>
   </data>
   <data name="MainPlayerNum3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -13996,7 +13996,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum3.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>10</value>
   </data>
   <data name="MainPlayerNum2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -14029,7 +14029,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum2.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>11</value>
   </data>
   <data name="MainPlayerNum1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -14062,7 +14062,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum1.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>12</value>
   </data>
   <data name="MainPlayerNum9.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -14095,7 +14095,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum9.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>13</value>
   </data>
   <data name="MainPlayerNum10.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -14128,7 +14128,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum10.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>14</value>
   </data>
   <data name="MainPlayerNum11.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -14161,7 +14161,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum11.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>15</value>
   </data>
   <data name="MainPlayerNum12.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -14194,7 +14194,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum12.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>16</value>
   </data>
   <data name="MainPlayerNum13.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -14227,7 +14227,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum13.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>17</value>
   </data>
   <data name="MainPlayerNum14.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -14260,7 +14260,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum14.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>18</value>
   </data>
   <data name="MainPlayerNum15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -14290,7 +14290,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum15.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>19</value>
   </data>
   <data name="MainPlayerNum16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -14320,7 +14320,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum16.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>20</value>
   </data>
   <data name="MainPlayerCard16.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -14399,7 +14399,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard16.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>21</value>
   </data>
   <data name="MainPlayerCard15.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -14478,7 +14478,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard15.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>22</value>
   </data>
   <data name="MainPlayerCard14.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -14557,7 +14557,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard14.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>23</value>
   </data>
   <data name="MainPlayerCard13.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -14636,7 +14636,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard13.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>24</value>
   </data>
   <data name="MainPlayerCard12.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -14715,7 +14715,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard12.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>25</value>
   </data>
   <data name="MainPlayerCard11.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -14794,7 +14794,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard11.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>26</value>
   </data>
   <data name="MainPlayerCard10.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -14873,7 +14873,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard10.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>27</value>
   </data>
   <data name="MainPlayerCard9.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -14952,7 +14952,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard9.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>28</value>
   </data>
   <data name="MainPlayerCard8.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -15031,7 +15031,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard8.ZOrder" xml:space="preserve">
-    <value>24</value>
+    <value>29</value>
   </data>
   <data name="MainPlayerCard7.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -15110,7 +15110,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard7.ZOrder" xml:space="preserve">
-    <value>25</value>
+    <value>30</value>
   </data>
   <data name="MainPlayerCard6.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -15189,7 +15189,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard6.ZOrder" xml:space="preserve">
-    <value>26</value>
+    <value>31</value>
   </data>
   <data name="MainPlayerCard5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -15268,7 +15268,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard5.ZOrder" xml:space="preserve">
-    <value>27</value>
+    <value>32</value>
   </data>
   <data name="MainPlayerCard4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -15347,7 +15347,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard4.ZOrder" xml:space="preserve">
-    <value>28</value>
+    <value>33</value>
   </data>
   <data name="MainPlayerCard3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -15426,7 +15426,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard3.ZOrder" xml:space="preserve">
-    <value>29</value>
+    <value>34</value>
   </data>
   <data name="textBox5.Location" type="System.Drawing.Point, System.Drawing">
     <value>899, 613</value>
@@ -15450,7 +15450,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox5.ZOrder" xml:space="preserve">
-    <value>30</value>
+    <value>35</value>
   </data>
   <data name="MainPlayerCard2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -15529,7 +15529,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard2.ZOrder" xml:space="preserve">
-    <value>31</value>
+    <value>36</value>
   </data>
   <data name="MainPlayerCard1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -15608,7 +15608,630 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard1.ZOrder" xml:space="preserve">
-    <value>32</value>
+    <value>37</value>
+  </data>
+  <data name="AcceptCardButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Perpetua Titling MT, 7.8pt</value>
+  </data>
+  <data name="AcceptCardButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>822, 393</value>
+  </data>
+  <data name="AcceptCardButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 52</value>
+  </data>
+  <data name="AcceptCardButton.TabIndex" type="System.Int32, mscorlib">
+    <value>302</value>
+  </data>
+  <data name="AcceptCardButton.Text" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="&gt;&gt;AcceptCardButton.Name" xml:space="preserve">
+    <value>AcceptCardButton</value>
+  </data>
+  <data name="&gt;&gt;AcceptCardButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AcceptCardButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AcceptCardButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="NoGraciasButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Perpetua Titling MT, 7.8pt</value>
+  </data>
+  <data name="NoGraciasButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NoGraciasButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>941, 393</value>
+  </data>
+  <data name="NoGraciasButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 52</value>
+  </data>
+  <data name="NoGraciasButton.TabIndex" type="System.Int32, mscorlib">
+    <value>303</value>
+  </data>
+  <data name="NoGraciasButton.Text" xml:space="preserve">
+    <value>No Gracias</value>
+  </data>
+  <data name="&gt;&gt;NoGraciasButton.Name" xml:space="preserve">
+    <value>NoGraciasButton</value>
+  </data>
+  <data name="&gt;&gt;NoGraciasButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NoGraciasButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NoGraciasButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="DeckChip.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        se/Q8X/+z/8FYREVGBpeGFUAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="DeckChip.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="DeckChip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DeckChip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>981, 242</value>
+  </data>
+  <data name="DeckChip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 60</value>
+  </data>
+  <data name="DeckChip.TabIndex" type="System.Int32, mscorlib">
+    <value>304</value>
+  </data>
+  <data name="&gt;&gt;DeckChip.Name" xml:space="preserve">
+    <value>DeckChip</value>
+  </data>
+  <data name="&gt;&gt;DeckChip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DeckChip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DeckChip.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TopDeckChipCounter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TopDeckChipCounter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TopDeckChipCounter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1050, 326</value>
+  </data>
+  <data name="TopDeckChipCounter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 17</value>
+  </data>
+  <data name="TopDeckChipCounter.TabIndex" type="System.Int32, mscorlib">
+    <value>306</value>
+  </data>
+  <data name="TopDeckChipCounter.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TopDeckChipCounter.Name" xml:space="preserve">
+    <value>TopDeckChipCounter</value>
+  </data>
+  <data name="&gt;&gt;TopDeckChipCounter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TopDeckChipCounter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TopDeckChipCounter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TopDeckChipText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TopDeckChipText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TopDeckChipText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>954, 325</value>
+  </data>
+  <data name="TopDeckChipText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 17</value>
+  </data>
+  <data name="TopDeckChipText.TabIndex" type="System.Int32, mscorlib">
+    <value>305</value>
+  </data>
+  <data name="TopDeckChipText.Text" xml:space="preserve">
+    <value>Chip Count: </value>
+  </data>
+  <data name="&gt;&gt;TopDeckChipText.Name" xml:space="preserve">
+    <value>TopDeckChipText</value>
+  </data>
+  <data name="&gt;&gt;TopDeckChipText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TopDeckChipText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TopDeckChipText.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
