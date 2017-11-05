@@ -461,7 +461,9 @@ namespace NoGracias
             }
             else if (message == Messages.SEND_READYUP_TO_SERVER.ToString())
             {
-                Clients.Where(x => x.mSocket == temp).FirstOrDefault().mState = PlayerState.READY;
+                Console.WriteLine("Ready up player recieved");
+                CPrint("Ready up player recieved");
+                //Clients.Where(x => x.mSocket == temp).FirstOrDefault().mState = PlayerState.READY; //WRONG
                 CatchReadyUpName();
                 //TODO
             }
