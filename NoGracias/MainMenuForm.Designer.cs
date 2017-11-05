@@ -605,52 +605,62 @@ namespace NoGracias
             Array.Copy(buffer, data, received);
             string message = Encoding.ASCII.GetString(data);
             Console.WriteLine("Receive player name...  " + message); //debugging
-            if (message != PlayerName)
-            {
-                NumberOfPlayers++;
 
-                switch (NumberOfPlayers)
+            ////////////////PARSE NAMES/////////////////////
+            string[] names = message.Split(',');
+
+
+
+            ////////////////////////////////////////////////
+            foreach (string s in names)
+            {
+                Console.WriteLine(s);//debugging 
+                if (s != PlayerName)
                 {
-                    case 2:
-                        this.checkBox2.Invoke((MethodInvoker)delegate
-                        {
+                    NumberOfPlayers++;
+
+                    switch (NumberOfPlayers)
+                    {
+                        case 2:
+                            this.checkBox2.Invoke((MethodInvoker)delegate
+                            {
                             // Running on the UI thread
                             this.checkBox2.Visible = true;
-                            this.checkBox2.Text = message;
-                            this.Refresh();
-                        });
-                        break;
-                    case 3:
-                        this.checkBox3.Invoke((MethodInvoker)delegate
-                        {
+                                this.checkBox2.Text = s;
+                                this.Refresh();
+                            });
+                            break;
+                        case 3:
+                            this.checkBox3.Invoke((MethodInvoker)delegate
+                            {
                             // Running on the UI thread
                             this.checkBox3.Visible = true;
-                            this.checkBox3.Text = message;
-                            this.Refresh();
-                        });
-                        break;
-                    case 4:
-                        this.checkBox4.Invoke((MethodInvoker)delegate
-                        {
+                                this.checkBox3.Text = s;
+                                this.Refresh();
+                            });
+                            break;
+                        case 4:
+                            this.checkBox4.Invoke((MethodInvoker)delegate
+                            {
                             // Running on the UI thread
                             this.checkBox4.Visible = true;
-                            this.checkBox4.Text = message;
-                            this.Refresh();
-                        });
-                        break;
-                    case 5:
-                        this.checkBox5.Invoke((MethodInvoker)delegate
-                        {
+                                this.checkBox4.Text = s;
+                                this.Refresh();
+                            });
+                            break;
+                        case 5:
+                            this.checkBox5.Invoke((MethodInvoker)delegate
+                            {
                             // Running on the UI thread
                             this.checkBox5.Visible = true;
-                            this.checkBox5.Text = message;
-                            this.Refresh();
-                        });
-                        break;
+                                this.checkBox5.Text = s;
+                                this.Refresh();
+                            });
+                            break;
+                    }
+
                 }
-                
             }
-        
         }
 
         #endregion
