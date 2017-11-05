@@ -360,6 +360,7 @@ namespace NoGracias
             player.mState = PlayerState.WAITING_FOR_RESPONSE;
             temp.Send(data);
 
+            ReceiveLoop(temp);
             //Put Socket in receive state
             temp.BeginReceive(Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, temp);
             
@@ -367,6 +368,91 @@ namespace NoGracias
             CPrint("Player connected");
    
             Server_Socket.BeginAccept(Accept, null);
+        }
+
+        private void ReceiveLoop(Socket temp)
+        {
+            while (true)
+            {
+                ReceiveResponse(temp);
+            }
+        }
+
+        private void ReceiveResponse(Socket temp)
+        {
+            var buffer = new byte[2048];
+            int received = temp.Receive(buffer, SocketFlags.None);
+            if (received == 0) return;
+            var data = new byte[received];
+            Array.Copy(buffer, data, received);
+            string message = Encoding.ASCII.GetString(data);
+            Console.WriteLine("Message from client...  " + message); //debugging
+
+            if (message == Messages.SEND_READYUP_TO_SERVER.ToString())
+            {
+                Console.WriteLine("Ready up player recieved");
+                CPrint("Ready up player recieved");
+                //Clients.Where(x => x.mSocket == temp).FirstOrDefault().mState = PlayerState.READY; //WRONG
+                CatchReadyUpName();
+                //TODO
+            }
+            else if (message == Messages.SEND_PLAYER_NAME_TO_SERVER.ToString()) //Name was sent
+            {
+                ToAlert.Add(message);
+                var player = Clients.Where(x => x.mSocket == temp).FirstOrDefault();
+                player.mName = message;
+                player.mState = PlayerState.IDLE;
+
+                //Add player to server form
+                switch (NumberOfPlayers)
+                {
+                    case 1:
+                        this.checkBox1.Invoke((MethodInvoker)delegate
+                        {
+                            // Running on the UI thread
+                            this.checkBox1.Visible = true;
+                            this.checkBox1.Text = message;
+                        });
+                        break;
+                    case 2:
+                        this.checkBox2.Invoke((MethodInvoker)delegate
+                        {
+                            // Running on the UI thread
+                            this.checkBox2.Visible = true;
+                            this.checkBox2.Text = message;
+                        });
+                        break;
+                    case 3:
+                        this.checkBox3.Invoke((MethodInvoker)delegate
+                        {
+                            // Running on the UI thread
+                            this.checkBox3.Visible = true;
+                            this.checkBox3.Text = message;
+                        });
+                        break;
+                    case 4:
+                        this.checkBox4.Invoke((MethodInvoker)delegate
+                        {
+                            // Running on the UI thread
+                            this.checkBox4.Visible = true;
+                            this.checkBox4.Text = message;
+                        });
+                        break;
+                    case 5:
+                        this.checkBox5.Invoke((MethodInvoker)delegate
+                        {
+                            // Running on the UI thread
+                            this.checkBox5.Visible = true;
+                            this.checkBox5.Text = message;
+                        });
+                        break;
+                }
+                this.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.Refresh();
+                });
+            }
         }
 
         private void CatchReadyUpName()
@@ -433,6 +519,9 @@ namespace NoGracias
         private void Recieve(IAsyncResult AR)
         {
             Socket temp = (Socket)AR.AsyncState;
+
+            ReceiveLoop(temp); //STAY HERE
+
             int recieved;
 
             try
@@ -480,7 +569,7 @@ namespace NoGracias
                 CatchReadyUpName();
                 //TODO
             }
-            else //Name was sent
+            else if (message == Messages.SEND_PLAYER_NAME_TO_SERVER.ToString()) //Name was sent
             {
                 ToAlert.Add(message);
                 var player = Clients.Where(x => x.mSocket == temp).FirstOrDefault();
@@ -536,7 +625,6 @@ namespace NoGracias
                     // Running on the UI thread
                     this.Refresh();
                 });
-                temp.BeginReceive(Recieved_Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, temp);
             }
             //else
             //{
