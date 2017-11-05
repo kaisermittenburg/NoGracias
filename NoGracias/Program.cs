@@ -41,6 +41,9 @@ namespace NoGracias
             //Start Server Form
             Application.Run(MainMenu);
 
+           
+            Application.Run(ServerForm);
+
 
             
            
