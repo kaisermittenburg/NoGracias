@@ -72,5 +72,17 @@ namespace NoGracias
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //MainMenuServerForm myServeMenu = new MainMenuServerForm();
+            //myServeMenu.Show();
+            this.Close();
+        }
+
+        private void MainMenuForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

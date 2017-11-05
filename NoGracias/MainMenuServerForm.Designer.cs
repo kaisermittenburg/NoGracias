@@ -9,6 +9,7 @@ using System.Linq;
 using NoGracias.Communication;
 using System.Threading.Tasks;
 using System.Diagnostics;
+using System.Threading;
 
 namespace NoGracias
 {
@@ -74,10 +75,11 @@ namespace NoGracias
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(64, 86);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(57, 69);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(115, 46);
+            this.button2.Size = new System.Drawing.Size(102, 37);
             this.button2.TabIndex = 26;
             this.button2.Text = "Player";
             this.button2.UseVisualStyleBackColor = true;
@@ -85,77 +87,81 @@ namespace NoGracias
             // 
             // label5
             // 
-            this.label5.BackColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(299, 221);
+            this.label5.BackColor = System.Drawing.Color.YellowGreen;
+            this.label5.Font = new System.Drawing.Font("Palatino Linotype", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(266, 141);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(744, 21);
+            this.label5.Size = new System.Drawing.Size(661, 53);
             this.label5.TabIndex = 24;
-            this.label5.Text = "Welcome";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label5.Text = "No Gracias Server Menu";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(357, 342);
+            this.label2.BackColor = System.Drawing.Color.ForestGreen;
+            this.label2.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(317, 274);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 20);
+            this.label2.Size = new System.Drawing.Size(42, 23);
             this.label2.TabIndex = 21;
             this.label2.Text = "Port";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(357, 286);
+            this.label1.BackColor = System.Drawing.Color.ForestGreen;
+            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(317, 229);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(24, 20);
+            this.label1.Size = new System.Drawing.Size(26, 23);
             this.label1.TabIndex = 20;
             this.label1.Text = "IP";
             // 
             // Status_textbox
             // 
-            this.Status_textbox.Location = new System.Drawing.Point(453, 392);
-            this.Status_textbox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Status_textbox.Location = new System.Drawing.Point(403, 314);
             this.Status_textbox.Multiline = true;
             this.Status_textbox.Name = "Status_textbox";
             this.Status_textbox.ReadOnly = true;
             this.Status_textbox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.Status_textbox.Size = new System.Drawing.Size(480, 285);
+            this.Status_textbox.Size = new System.Drawing.Size(427, 229);
             this.Status_textbox.TabIndex = 18;
             // 
             // Port_textbox
             // 
-            this.Port_textbox.Location = new System.Drawing.Point(453, 342);
-            this.Port_textbox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Port_textbox.Location = new System.Drawing.Point(403, 274);
             this.Port_textbox.Name = "Port_textbox";
             this.Port_textbox.ReadOnly = true;
-            this.Port_textbox.Size = new System.Drawing.Size(480, 26);
+            this.Port_textbox.Size = new System.Drawing.Size(427, 22);
             this.Port_textbox.TabIndex = 17;
             // 
             // IP_textbox
             // 
-            this.IP_textbox.Location = new System.Drawing.Point(453, 280);
-            this.IP_textbox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.IP_textbox.Location = new System.Drawing.Point(403, 224);
             this.IP_textbox.Name = "IP_textbox";
             this.IP_textbox.ReadOnly = true;
-            this.IP_textbox.Size = new System.Drawing.Size(480, 26);
+            this.IP_textbox.Size = new System.Drawing.Size(427, 22);
             this.IP_textbox.TabIndex = 16;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(357, 392);
+            this.label3.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(317, 314);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 20);
+            this.label3.Size = new System.Drawing.Size(59, 23);
             this.label3.TabIndex = 27;
             this.label3.Text = "Status";
             // 
             // StartServerButton
             // 
-            this.StartServerButton.Location = new System.Drawing.Point(64, 612);
+            this.StartServerButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.StartServerButton.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StartServerButton.Location = new System.Drawing.Point(57, 490);
+            this.StartServerButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.StartServerButton.Name = "StartServerButton";
-            this.StartServerButton.Size = new System.Drawing.Size(173, 65);
+            this.StartServerButton.Size = new System.Drawing.Size(154, 52);
             this.StartServerButton.TabIndex = 28;
             this.StartServerButton.Text = "Start Server";
             this.StartServerButton.UseVisualStyleBackColor = true;
@@ -164,9 +170,12 @@ namespace NoGracias
             // ShutdownServerButton
             // 
             this.ShutdownServerButton.Enabled = false;
-            this.ShutdownServerButton.Location = new System.Drawing.Point(269, 612);
+            this.ShutdownServerButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.ShutdownServerButton.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShutdownServerButton.Location = new System.Drawing.Point(239, 490);
+            this.ShutdownServerButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ShutdownServerButton.Name = "ShutdownServerButton";
-            this.ShutdownServerButton.Size = new System.Drawing.Size(126, 65);
+            this.ShutdownServerButton.Size = new System.Drawing.Size(112, 52);
             this.ShutdownServerButton.TabIndex = 29;
             this.ShutdownServerButton.Text = "Shutdown";
             this.ShutdownServerButton.UseVisualStyleBackColor = true;
@@ -175,9 +184,10 @@ namespace NoGracias
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(995, 392);
+            this.checkBox1.Location = new System.Drawing.Point(884, 314);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(76, 24);
+            this.checkBox1.Size = new System.Drawing.Size(66, 21);
             this.checkBox1.TabIndex = 30;
             this.checkBox1.Text = "NULL";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -185,9 +195,10 @@ namespace NoGracias
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(995, 422);
+            this.checkBox2.Location = new System.Drawing.Point(884, 338);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(76, 24);
+            this.checkBox2.Size = new System.Drawing.Size(66, 21);
             this.checkBox2.TabIndex = 31;
             this.checkBox2.Text = "NULL";
             this.checkBox2.UseVisualStyleBackColor = true;
@@ -195,9 +206,10 @@ namespace NoGracias
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(995, 452);
+            this.checkBox3.Location = new System.Drawing.Point(884, 362);
+            this.checkBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(76, 24);
+            this.checkBox3.Size = new System.Drawing.Size(66, 21);
             this.checkBox3.TabIndex = 32;
             this.checkBox3.Text = "NULL";
             this.checkBox3.UseVisualStyleBackColor = true;
@@ -205,9 +217,10 @@ namespace NoGracias
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(995, 482);
+            this.checkBox4.Location = new System.Drawing.Point(884, 386);
+            this.checkBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(76, 24);
+            this.checkBox4.Size = new System.Drawing.Size(66, 21);
             this.checkBox4.TabIndex = 33;
             this.checkBox4.Text = "NULL";
             this.checkBox4.UseVisualStyleBackColor = true;
@@ -215,18 +228,20 @@ namespace NoGracias
             // checkBox5
             // 
             this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(995, 512);
+            this.checkBox5.Location = new System.Drawing.Point(884, 410);
+            this.checkBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(76, 24);
+            this.checkBox5.Size = new System.Drawing.Size(66, 21);
             this.checkBox5.TabIndex = 34;
             this.checkBox5.Text = "NULL";
             this.checkBox5.UseVisualStyleBackColor = true;
             // 
             // MainMenuServerForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1348, 707);
+            this.BackColor = System.Drawing.Color.ForestGreen;
+            this.ClientSize = new System.Drawing.Size(1198, 566);
             this.Controls.Add(this.checkBox5);
             this.Controls.Add(this.checkBox4);
             this.Controls.Add(this.checkBox3);
@@ -242,7 +257,6 @@ namespace NoGracias
             this.Controls.Add(this.Status_textbox);
             this.Controls.Add(this.Port_textbox);
             this.Controls.Add(this.IP_textbox);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "MainMenuServerForm";
             this.Text = "MainMenuServer";
             this.ResumeLayout(false);
@@ -348,10 +362,11 @@ namespace NoGracias
             player.mState = PlayerState.WAITING_FOR_RESPONSE;
             temp.Send(data);
 
-            //ReceiveLoop(temp);
+            ReceiveLoop(temp);
             //Put Socket in receive state
-            temp.BeginReceive(Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, temp);
-            
+         
+            //temp.BeginReceive(Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, temp);
+
             Console.WriteLine("Player Connected");
             CPrint("Player connected");
             Console.WriteLine("Beginning accept again");
@@ -360,6 +375,7 @@ namespace NoGracias
 
         private void ReceiveLoop(Socket temp)
         {
+            Console.WriteLine("Got to ReceiveLoop");
             while (true)
             {
                 ReceiveResponse(temp);
@@ -368,6 +384,7 @@ namespace NoGracias
 
         private void ReceiveResponse(Socket temp)
         {
+            Console.WriteLine("Got to ReceiveResponse");
             var buffer = new byte[2048];
             int received = temp.Receive(buffer, SocketFlags.None);
             if (received == 0) return;
@@ -393,7 +410,7 @@ namespace NoGracias
                 var player = Clients.Where(x => x.mSocket == temp).FirstOrDefault();
                 player.mName = playerName;
                 player.mState = PlayerState.IDLE;
-
+                Console.WriteLine("Adding name to checkbox...");
                 //Add player to server form
                 switch (NumberOfPlayers)
                 {
@@ -401,8 +418,10 @@ namespace NoGracias
                         this.checkBox1.Invoke((MethodInvoker)delegate
                         {
                             // Running on the UI thread
+                            Console.WriteLine("1");
                             this.checkBox1.Visible = true;
                             this.checkBox1.Text = playerName;
+                            this.checkBox1.Refresh();
                         });
                         break;
                     case 2:
@@ -523,7 +542,7 @@ namespace NoGracias
         private void Recieve(IAsyncResult AR)
         {
             Socket temp = (Socket)AR.AsyncState;
-
+            Console.WriteLine("Got to Recieve AR");
             ReceiveLoop(temp); //STAY HERE
             ///////////////////////////////////////////////////////////
             Debugger.Break();
