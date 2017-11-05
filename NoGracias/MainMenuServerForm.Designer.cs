@@ -386,7 +386,7 @@ namespace NoGracias
             }
             else if (message == Messages.SEND_PLAYER_NAME_TO_SERVER.ToString()) //Name was sent
             {
-                string playerName = CatchPlayerJoinName();
+                string playerName = CatchPlayerJoinName(temp);
                 Console.WriteLine("Player name received: " + playerName);
 
                 ToAlert.Add(playerName);
@@ -446,10 +446,10 @@ namespace NoGracias
             }
         }
 
-        private string CatchPlayerJoinName()
+        private string CatchPlayerJoinName(Socket playerSocket)
         {
             var buffer = new byte[2048];
-            int received = Server_Socket.Receive(buffer, SocketFlags.None);
+            int received = playerSocket.Receive(buffer, SocketFlags.None);
             //if (received == 0) return;
             var data = new byte[received];
             Array.Copy(buffer, data, received);
