@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Net.Sockets;
+using NoGracias.Communication;
+using System.Threading;
 
 namespace NoGracias.Server
 {
     class GameDriver
     {
         #region Variables
-        List<Socket> playerSocket;
-        List<string> playerName;
-        List<Player> players;
+        private List<Player> players;
         Deck deck;
         bool isOver;
         Player currentPlayer;
@@ -20,10 +20,10 @@ namespace NoGracias.Server
 
         #endregion
 
-        public GameDriver(List<Socket> clientSocket, List<string> players)
+        public GameDriver(List<Player> clients)
         {
 
-            this.players = new List<Player>();
+            players = clients;
             deck = new Deck();
             isOver = false;
             currentPlayer = this.players[0];
@@ -32,22 +32,35 @@ namespace NoGracias.Server
 
         #region Functions
 
-        public void Setup(List<string> names, List<Socket> sockets)
+        public void Setup()
         {
-            for(int i=0; i<names.Count; i++)
+            /*for(int i=0; i<names.Count; i++)
             {
                 Player p1 = new Player(sockets[i], i, names[i]);
                 players.Add(p1);
-            }
+            }*/
             for(int i=0; i<players.Count - 1; i++)
             {
                 players[i].nextPlayer = players[i];
             }
             players.Last().nextPlayer = players[0];
 
-            //TODO: Send Player positions to each client
-           
+            //Send Player positions to each client
+            for(int i=0; i<players.Count; i++)
+            {
+                string playerInfo = players.Count.ToString() + ",";
+                Player current = players[i];
+                for(int j=0; j<players.Count; j++)
+                {
+                    playerInfo += current.mName + ",";
+                    current = current.nextPlayer;
+                }
 
+                Console.WriteLine("GameDriver is Sending: " + playerInfo);
+                players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.RECEIVE_PLAYER_POSITION.ToString()));
+                System.Threading.Thread.Sleep(250);
+                players[i].mSocket.Send(Encoding.ASCII.GetBytes(playerInfo));
+            }
         }
 
         public void Run()
@@ -63,18 +76,59 @@ namespace NoGracias.Server
                 scores.Add(p1.Score());
             }
 
-            //Send scores to clients 
+            //Send scores to clients
+            for (int i = 0; i < players.Count; i++)
+            {
+                string playerScores = "";
+                Player current = players[i];
+                for (int j = 0; j < players.Count; j++)
+                {
+                    playerScores += current.Score().ToString() + ",";
+                    current = current.nextPlayer;
+                }
+
+                Console.WriteLine("GameDriver is Sending: " + playerScores);
+                players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.RECEIVE_PLAYER_SCORE.ToString()));
+                System.Threading.Thread.Sleep(250);
+                players[i].mSocket.Send(Encoding.ASCII.GetBytes(playerScores));
+            }
             //Send exit message to clients
         }
 
         public void playTurn()
         {
             //TODO: Show card number and chips to all clients
-                    //Send play options to currentPlayer
-            
+            for(int i=0; i<players.Count; i++)
+            {
+                string turnCard = cardInPlay.value.ToString() + "," + cardInPlay.chipsOnCard.ToString();
+                Console.WriteLine("GameDriver is Sending: " + turnCard);
+                players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.RECEIVE_TURN_CARD.ToString()));
+                System.Threading.Thread.Sleep(250);
+                players[i].mSocket.Send(Encoding.ASCII.GetBytes(turnCard));
+            }
+
+            //Send current player to all clients
+            for (int i = 0; i < players.Count; i++)
+            {
+                Console.WriteLine("GameDriver is Sending: " + currentPlayer.mName);
+                players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.RECEIVE_TURN_PLAYER.ToString()));
+                System.Threading.Thread.Sleep(250);
+                players[i].mSocket.Send(Encoding.ASCII.GetBytes(currentPlayer.mName));
+            }
+
+            //Send play options to currentPlayer
+            Console.WriteLine("GameDriver is Sending to " + currentPlayer.mName);
+            currentPlayer.mSocket.Send(Encoding.ASCII.GetBytes(Messages.RECEIVE_TURN_OPTIONS.ToString()));
+            System.Threading.Thread.Sleep(250);
+            if(currentPlayer.chips != 0)
+            {
+                currentPlayer.mSocket.Send(Encoding.ASCII.GetBytes())
+            }
+
+
             //TODO: Get currentPlayer's response and store it
 
-            if(true) //player takes it
+            if (true) //player takes it
             {
                 currentPlayer.cards.Add(cardInPlay.value);
                 currentPlayer.chips += cardInPlay.chipsOnCard;
