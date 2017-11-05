@@ -536,6 +536,9 @@ namespace NoGracias
 
             if(message == Messages.SEND_PLAYER_NAME_TO_SERVER.ToString())
             {
+                SendMessage(Messages.SEND_PLAYER_NAME_TO_SERVER.ToString());
+                System.Threading.Thread.Sleep(200);
+
                 SendMessage(PlayerName);
                 Console.WriteLine("Sent Name");
             }
