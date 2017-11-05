@@ -51,5 +51,15 @@ namespace NoGracias
         {
 
         }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox14_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
