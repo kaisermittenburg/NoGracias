@@ -376,28 +376,28 @@
             // 
             // pictureBox16
             // 
-            this.pictureBox16.BackColor = System.Drawing.Color.YellowGreen;
+            this.pictureBox16.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.pictureBox16, "pictureBox16");
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.TabStop = false;
             // 
             // pictureBox17
             // 
-            this.pictureBox17.BackColor = System.Drawing.Color.YellowGreen;
+            this.pictureBox17.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.pictureBox17, "pictureBox17");
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.TabStop = false;
             // 
             // pictureBox18
             // 
-            this.pictureBox18.BackColor = System.Drawing.Color.YellowGreen;
+            this.pictureBox18.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.pictureBox18, "pictureBox18");
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.TabStop = false;
             // 
             // pictureBox19
             // 
-            this.pictureBox19.BackColor = System.Drawing.Color.YellowGreen;
+            this.pictureBox19.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.pictureBox19, "pictureBox19");
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.TabStop = false;
@@ -412,7 +412,7 @@
             // 
             // pictureBox30
             // 
-            this.pictureBox30.BackColor = System.Drawing.Color.YellowGreen;
+            this.pictureBox30.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.pictureBox30, "pictureBox30");
             this.pictureBox30.Name = "pictureBox30";
             this.pictureBox30.TabStop = false;
@@ -1620,7 +1620,7 @@
             // 
             // DeckChip
             // 
-            this.DeckChip.BackColor = System.Drawing.Color.ForestGreen;
+            this.DeckChip.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.DeckChip, "DeckChip");
             this.DeckChip.Name = "DeckChip";
             this.DeckChip.TabStop = false;
