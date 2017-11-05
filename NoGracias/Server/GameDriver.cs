@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Net.Sockets;
 
 namespace NoGracias.Server
 {
     class GameDriver
     {
         #region Variables
+        List<Socket> playerSocket;
+        List<string> playerName;
         List<Player> players;
         Deck deck;
         bool isOver;
@@ -17,22 +20,23 @@ namespace NoGracias.Server
 
         #endregion
 
-        public GameDriver()
+        public GameDriver(List<Socket> clientSocket, List<string> players)
         {
-            players = new List<Player>();
+
+            this.players = new List<Player>();
             deck = new Deck();
             isOver = false;
-            currentPlayer = new Player();
-            cardInPlay = new Card();
+            currentPlayer = this.players[0];
+            cardInPlay = deck.TopCard();
         }
 
         #region Functions
 
-        public void Setup(List<string> names)
+        public void Setup(List<string> names, List<Socket> sockets)
         {
             for(int i=0; i<names.Count; i++)
             {
-                Player p1 = new Player(names[i]);
+                Player p1 = new Player(sockets[i], i, names[i]);
                 players.Add(p1);
             }
             for(int i=0; i<players.Count - 1; i++)
@@ -42,9 +46,8 @@ namespace NoGracias.Server
             players.Last().nextPlayer = players[0];
 
             //TODO: Send Player positions to each client
+           
 
-            currentPlayer = players[0];
-            cardInPlay = deck.TopCard();
         }
 
         public void Run()
@@ -71,7 +74,7 @@ namespace NoGracias.Server
             
             //TODO: Get currentPlayer's response and store it
 
-            if(/*player takes it*/)
+            if(true) //player takes it
             {
                 currentPlayer.cards.Add(cardInPlay.value);
                 currentPlayer.chips += cardInPlay.chipsOnCard;
@@ -84,7 +87,7 @@ namespace NoGracias.Server
                     cardInPlay = deck.TopCard();
                 }
             }
-            else if(/*player passes it*/)
+            else if(true) /*player passes it*/
             {
                 cardInPlay.chipsOnCard++;
             }
