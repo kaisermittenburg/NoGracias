@@ -347,7 +347,6 @@ namespace NoGracias
             player.mState = PlayerState.WAITING_FOR_RESPONSE;
             temp.Send(data);
 
-            temp.Listen(0);
             //Put Socket in receive state
             temp.BeginReceive(Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, temp);
             
@@ -524,7 +523,7 @@ namespace NoGracias
                     // Running on the UI thread
                     this.Refresh();
                 });
-                temp.Listen(0);
+                temp.BeginReceive(Recieved_Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, temp);
             }
             //else
             //{
