@@ -393,7 +393,7 @@ namespace NoGracias
                 var player = Clients.Where(x => x.mSocket == temp).FirstOrDefault();
                 player.mName = playerName;
                 player.mState = PlayerState.IDLE;
-
+                Console.WriteLine("Adding name to checkbox...");
                 //Add player to server form
                 switch (NumberOfPlayers)
                 {
@@ -401,8 +401,10 @@ namespace NoGracias
                         this.checkBox1.Invoke((MethodInvoker)delegate
                         {
                             // Running on the UI thread
+                            Console.WriteLine("1");
                             this.checkBox1.Visible = true;
                             this.checkBox1.Text = playerName;
+                            this.checkBox1.Refresh();
                         });
                         break;
                     case 2:
