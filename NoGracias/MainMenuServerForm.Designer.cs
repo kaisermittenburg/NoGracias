@@ -399,9 +399,12 @@ namespace NoGracias
             }
             else if (message == Messages.SEND_PLAYER_NAME_TO_SERVER.ToString()) //Name was sent
             {
-                ToAlert.Add(message);
+                string playerName = CatchPlayerJoinName();
+                Console.WriteLine("Player name received: " + playerName);
+
+                ToAlert.Add(playerName);
                 var player = Clients.Where(x => x.mSocket == temp).FirstOrDefault();
-                player.mName = message;
+                player.mName = playerName;
                 player.mState = PlayerState.IDLE;
 
                 //Add player to server form
@@ -412,7 +415,7 @@ namespace NoGracias
                         {
                             // Running on the UI thread
                             this.checkBox1.Visible = true;
-                            this.checkBox1.Text = message;
+                            this.checkBox1.Text = playerName;
                         });
                         break;
                     case 2:
@@ -420,7 +423,7 @@ namespace NoGracias
                         {
                             // Running on the UI thread
                             this.checkBox2.Visible = true;
-                            this.checkBox2.Text = message;
+                            this.checkBox2.Text = playerName;
                         });
                         break;
                     case 3:
@@ -428,7 +431,7 @@ namespace NoGracias
                         {
                             // Running on the UI thread
                             this.checkBox3.Visible = true;
-                            this.checkBox3.Text = message;
+                            this.checkBox3.Text = playerName;
                         });
                         break;
                     case 4:
@@ -436,7 +439,7 @@ namespace NoGracias
                         {
                             // Running on the UI thread
                             this.checkBox4.Visible = true;
-                            this.checkBox4.Text = message;
+                            this.checkBox4.Text = playerName;
                         });
                         break;
                     case 5:
@@ -444,7 +447,7 @@ namespace NoGracias
                         {
                             // Running on the UI thread
                             this.checkBox5.Visible = true;
-                            this.checkBox5.Text = message;
+                            this.checkBox5.Text = playerName;
                         });
                         break;
                 }
@@ -454,6 +457,19 @@ namespace NoGracias
                     this.Refresh();
                 });
             }
+        }
+
+        private string CatchPlayerJoinName()
+        {
+            var buffer = new byte[2048];
+            int received = Server_Socket.Receive(buffer, SocketFlags.None);
+            //if (received == 0) return;
+            var data = new byte[received];
+            Array.Copy(buffer, data, received);
+            string message = Encoding.ASCII.GetString(data);
+            Console.WriteLine("Receive ready-up player name...  " + message); //debugging
+
+            return message;
         }
 
         private void CatchReadyUpName()
@@ -668,14 +684,14 @@ namespace NoGracias
 
                         ///////////////////////////debug//////////////////
 
-                        data = Encoding.ASCII.GetBytes(Messages.ALERT_PLAYER_JOINED.ToString());
-                        player.mSocket.Send(data);
-                        Console.WriteLine("Sent Player Alert");
-                        System.Threading.Thread.Sleep(250); //wait, then send another message
-                        Console.WriteLine("spept");
-                        data = Encoding.ASCII.GetBytes("Brock");
-                        player.mSocket.Send(data);
-                        Console.WriteLine("Sent name");
+                        //data = Encoding.ASCII.GetBytes(Messages.ALERT_PLAYER_JOINED.ToString());
+                        //player.mSocket.Send(data);
+                        //Console.WriteLine("Sent Player Alert");
+                        //System.Threading.Thread.Sleep(250); //wait, then send another message
+                        //Console.WriteLine("spept");
+                        //data = Encoding.ASCII.GetBytes("Brock");
+                        //player.mSocket.Send(data);
+                        //Console.WriteLine("Sent name");
                     }
                     System.Threading.Thread.Sleep(100);
                     ToAlert.RemoveAt(0);
