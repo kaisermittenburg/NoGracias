@@ -72,6 +72,66 @@ namespace NoGracias
                 });
             }
         }
+        public string YouCheckBox
+        {
+            get { return you_checkBox.Text; }
+            set
+            {
+                this.you_checkBox.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.you_checkBox.Text = value;
+                });
+            }
+        }
+        public string CheckBox2
+        {
+            get { return checkBox2.Text; }
+            set
+            {
+                this.checkBox2.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox2.Text = value;
+                });
+            }
+        }
+        public string CheckBox3
+        {
+            get { return checkBox3.Text; }
+            set
+            {
+                this.checkBox3.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox3.Text = value;
+                });
+            }
+        }
+        public string CheckBox4
+        {
+            get { return checkBox4.Text; }
+            set
+            {
+                this.checkBox4.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox4.Text = value;
+                });
+            }
+        }
+        public string CheckBox5
+        {
+            get { return checkBox5.Text; }
+            set
+            {
+                this.checkBox5.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox5.Text = value;
+                });
+            }
+        }
 
         /// <summary>
         /// Required designer variable.
@@ -460,13 +520,59 @@ namespace NoGracias
                 SendMessage(PlayerName);
                 Console.WriteLine("Sent Name");
             }
-
-            if(message == Messages.ALERT_PLAYER_JOINED.ToString())
+            else if(message == Messages.ALERT_PLAYER_JOINED.ToString())
             {
                 ReceivePlayerName();
             }
+            else if(message == Messages.ALERT_PLAYER_READY_UPPED.ToString())
+            {
+                RecievePlayerReadyUp();
+            }
 
             
+        }
+        private void RecievePlayerReadyUp()
+        {
+            var buffer = new byte[2048];
+            int received = ClientSocket.Receive(buffer, SocketFlags.None);
+            if (received == 0) return;
+            var data = new byte[received];
+            Array.Copy(buffer, data, received);
+            string message = Encoding.ASCII.GetString(data);
+            Console.WriteLine("Receive player ready up...  " + message); //debugging
+
+            if(CheckBox2 == message)
+            {
+                this.checkBox2.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox2.Checked = true;
+                });
+            }
+            else if (CheckBox3 == message)
+            {
+                this.checkBox3.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox3.Checked = true;
+                });
+            }
+            else if (CheckBox4 == message)
+            {
+                this.checkBox4.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox4.Checked = true;
+                });
+            }
+            else if (CheckBox5 == message)
+            {
+                this.checkBox5.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox5.Checked = true;
+                });
+            }
         }
         private void ReceivePlayerName()
         {
@@ -535,5 +641,10 @@ namespace NoGracias
         private CheckBox checkBox3;
         private CheckBox checkBox4;
         private CheckBox checkBox5;
+
+        private void ReadyUp()
+        {
+            SendMessage(Messages.SEND_READYUP_TO_SERVER.ToString());
+        }
     }
 }

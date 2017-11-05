@@ -356,6 +356,19 @@ namespace NoGracias
             Server_Socket.BeginAccept(Accept, null);
         }
 
+        private void CatchReadyUpName()
+        {
+            var buffer = new byte[2048];
+            int received = Server_Socket.Receive(buffer, SocketFlags.None);
+            if (received == 0) return;
+            var data = new byte[received];
+            Array.Copy(buffer, data, received);
+            string message = Encoding.ASCII.GetString(data);
+            Console.WriteLine("Receive ready-up player name...  " + message); //debugging
+
+            AlertPlayerReadyUp(message);
+        }
+        
         private void Recieve(IAsyncResult AR)
         {
             Socket temp = (Socket)AR.AsyncState;
@@ -401,6 +414,7 @@ namespace NoGracias
             else if (message == Messages.SEND_READYUP_TO_SERVER.ToString())
             {
                 Clients.Where(x => x.mSocket == temp).FirstOrDefault().mState = PlayerState.READY;
+                CatchReadyUpName();
                 //TODO
             }
             else //Name was sent
@@ -513,6 +527,22 @@ namespace NoGracias
                     ToAlert.RemoveAt(0);
                     System.Threading.Thread.Sleep(100);
                 }
+            }
+        }
+
+        private void AlertPlayerReadyUp(string playerName)
+        {
+            foreach (Player player in Clients)
+            {
+                byte[] data = Encoding.ASCII.GetBytes(Messages.ALERT_PLAYER_READY_UPPED.ToString());
+                player.mSocket.Send(data);
+                Console.WriteLine("Sent Player ready up alert");
+                System.Threading.Thread.Sleep(250); //wait, then send another message
+                Console.WriteLine("spept");
+                data = Encoding.ASCII.GetBytes(playerName);
+                player.mSocket.Send(data);
+                Console.WriteLine("Sent name");
+                //player.mSocket.BeginReceive(Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, player.mSocket);//KHM may break here
             }
         }
 
