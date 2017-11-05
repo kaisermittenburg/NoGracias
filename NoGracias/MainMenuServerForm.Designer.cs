@@ -366,6 +366,54 @@ namespace NoGracias
             string message = Encoding.ASCII.GetString(data);
             Console.WriteLine("Receive ready-up player name...  " + message); //debugging
 
+            Clients.Where(x => x.mName == message).FirstOrDefault().mState = PlayerState.READY;
+
+            if( checkBox1.Text == message)
+            {
+                this.checkBox1.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox1.Checked = true;
+                    this.Refresh();
+                });
+            }
+            else if (checkBox2.Text == message)
+            {
+                this.checkBox2.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox2.Checked = true;
+                    this.Refresh();
+                });
+            }
+            else if (checkBox3.Text == message)
+            {
+                this.checkBox3.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox3.Checked = true;
+                    this.Refresh();
+                });
+            }
+            else if (checkBox4.Text == message)
+            {
+                this.checkBox4.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox4.Checked = true;
+                    this.Refresh();
+                });
+            }
+            else if (checkBox5.Text == message)
+            {
+                this.checkBox5.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox5.Checked = true;
+                    this.Refresh();
+                });
+            }
+
             AlertPlayerReadyUp(message);
         }
         
