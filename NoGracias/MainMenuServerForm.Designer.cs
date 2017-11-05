@@ -369,6 +369,67 @@ namespace NoGracias
             Server_Socket.BeginAccept(Accept, null);
         }
 
+        private void CatchReadyUpName()
+        {
+            var buffer = new byte[2048];
+            int received = Server_Socket.Receive(buffer, SocketFlags.None);
+            if (received == 0) return;
+            var data = new byte[received];
+            Array.Copy(buffer, data, received);
+            string message = Encoding.ASCII.GetString(data);
+            Console.WriteLine("Receive ready-up player name...  " + message); //debugging
+
+            Clients.Where(x => x.mName == message).FirstOrDefault().mState = PlayerState.READY;
+
+            if( checkBox1.Text == message)
+            {
+                this.checkBox1.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox1.Checked = true;
+                    this.Refresh();
+                });
+            }
+            else if (checkBox2.Text == message)
+            {
+                this.checkBox2.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox2.Checked = true;
+                    this.Refresh();
+                });
+            }
+            else if (checkBox3.Text == message)
+            {
+                this.checkBox3.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox3.Checked = true;
+                    this.Refresh();
+                });
+            }
+            else if (checkBox4.Text == message)
+            {
+                this.checkBox4.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox4.Checked = true;
+                    this.Refresh();
+                });
+            }
+            else if (checkBox5.Text == message)
+            {
+                this.checkBox5.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox5.Checked = true;
+                    this.Refresh();
+                });
+            }
+
+            AlertPlayerReadyUp(message);
+        }
+        
         private void Recieve(IAsyncResult AR)
         {
             Socket temp = (Socket)AR.AsyncState;
@@ -414,6 +475,7 @@ namespace NoGracias
             else if (message == Messages.SEND_READYUP_TO_SERVER.ToString())
             {
                 Clients.Where(x => x.mSocket == temp).FirstOrDefault().mState = PlayerState.READY;
+                CatchReadyUpName();
                 //TODO
             }
             else //Name was sent
@@ -526,6 +588,22 @@ namespace NoGracias
                     ToAlert.RemoveAt(0);
                     System.Threading.Thread.Sleep(100);
                 }
+            }
+        }
+
+        private void AlertPlayerReadyUp(string playerName)
+        {
+            foreach (Player player in Clients)
+            {
+                byte[] data = Encoding.ASCII.GetBytes(Messages.ALERT_PLAYER_READY_UPPED.ToString());
+                player.mSocket.Send(data);
+                Console.WriteLine("Sent Player ready up alert");
+                System.Threading.Thread.Sleep(250); //wait, then send another message
+                Console.WriteLine("spept");
+                data = Encoding.ASCII.GetBytes(playerName);
+                player.mSocket.Send(data);
+                Console.WriteLine("Sent name");
+                //player.mSocket.BeginReceive(Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, player.mSocket);//KHM may break here
             }
         }
 
