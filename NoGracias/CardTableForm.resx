@@ -3248,7 +3248,7 @@
   <data name="&gt;&gt;Opp1ChipText.ZOrder" xml:space="preserve">
     <value>169</value>
   </data>
-  <data name="pictureBox20.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="TopDeckCard.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -3291,28 +3291,28 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox20.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="TopDeckCard.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox20.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="TopDeckCard.Location" type="System.Drawing.Point, System.Drawing">
     <value>604, 227</value>
   </data>
-  <data name="pictureBox20.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="TopDeckCard.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 138</value>
   </data>
-  <data name="pictureBox20.TabIndex" type="System.Int32, mscorlib">
+  <data name="TopDeckCard.TabIndex" type="System.Int32, mscorlib">
     <value>49</value>
   </data>
-  <data name="&gt;&gt;pictureBox20.Name" xml:space="preserve">
-    <value>pictureBox20</value>
+  <data name="&gt;&gt;TopDeckCard.Name" xml:space="preserve">
+    <value>TopDeckCard</value>
   </data>
-  <data name="&gt;&gt;pictureBox20.Type" xml:space="preserve">
+  <data name="&gt;&gt;TopDeckCard.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox20.Parent" xml:space="preserve">
+  <data name="&gt;&gt;TopDeckCard.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox20.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;TopDeckCard.ZOrder" xml:space="preserve">
     <value>168</value>
   </data>
   <data name="GameDeckLabel.AutoSize" type="System.Boolean, mscorlib">
@@ -4443,7 +4443,7 @@
   <data name="&gt;&gt;Opp1Card13.ZOrder" xml:space="preserve">
     <value>153</value>
   </data>
-  <data name="pictureBox87.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="DeckCard.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAq4AAAPQCAIAAAB4wm5UAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAACH
         DwAAjA8AAP1SAACBQAAAfXkAAOmLAAA85QAAGcxzPIV3AAAKOWlDQ1BQaG90b3Nob3AgSUNDIHByb2Zp
@@ -7794,28 +7794,28 @@
         Th2FfgAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox87.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="DeckCard.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox87.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="DeckCard.Location" type="System.Drawing.Point, System.Drawing">
     <value>604, 43</value>
   </data>
-  <data name="pictureBox87.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="DeckCard.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 136</value>
   </data>
-  <data name="pictureBox87.TabIndex" type="System.Int32, mscorlib">
+  <data name="DeckCard.TabIndex" type="System.Int32, mscorlib">
     <value>152</value>
   </data>
-  <data name="&gt;&gt;pictureBox87.Name" xml:space="preserve">
-    <value>pictureBox87</value>
+  <data name="&gt;&gt;DeckCard.Name" xml:space="preserve">
+    <value>DeckCard</value>
   </data>
-  <data name="&gt;&gt;pictureBox87.Type" xml:space="preserve">
+  <data name="&gt;&gt;DeckCard.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox87.Parent" xml:space="preserve">
+  <data name="&gt;&gt;DeckCard.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox87.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;DeckCard.ZOrder" xml:space="preserve">
     <value>149</value>
   </data>
   <data name="TopDeckCardNum.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
@@ -14322,7 +14322,7 @@
   <data name="&gt;&gt;label80.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="pictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="MainPlayerCard16.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -14365,43 +14365,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="MainPlayerCard16.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="MainPlayerCard16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="MainPlayerCard16.Location" type="System.Drawing.Point, System.Drawing">
     <value>698, 587</value>
   </data>
-  <data name="pictureBox1.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard16.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard16.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard16.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="MainPlayerCard16.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="MainPlayerCard16.TabIndex" type="System.Int32, mscorlib">
     <value>285</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
-    <value>pictureBox1</value>
+  <data name="&gt;&gt;MainPlayerCard16.Name" xml:space="preserve">
+    <value>MainPlayerCard16</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard16.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard16.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard16.ZOrder" xml:space="preserve">
     <value>16</value>
   </data>
-  <data name="pictureBox2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="MainPlayerCard15.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -14444,43 +14444,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="MainPlayerCard15.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="MainPlayerCard15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="MainPlayerCard15.Location" type="System.Drawing.Point, System.Drawing">
     <value>663, 587</value>
   </data>
-  <data name="pictureBox2.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard15.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard15.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard15.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="MainPlayerCard15.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+  <data name="MainPlayerCard15.TabIndex" type="System.Int32, mscorlib">
     <value>284</value>
   </data>
-  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
-    <value>pictureBox2</value>
+  <data name="&gt;&gt;MainPlayerCard15.Name" xml:space="preserve">
+    <value>MainPlayerCard15</value>
   </data>
-  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard15.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard15.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard15.ZOrder" xml:space="preserve">
     <value>17</value>
   </data>
-  <data name="pictureBox3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="MainPlayerCard14.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -14523,43 +14523,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="MainPlayerCard14.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="MainPlayerCard14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="MainPlayerCard14.Location" type="System.Drawing.Point, System.Drawing">
     <value>636, 587</value>
   </data>
-  <data name="pictureBox3.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard14.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox3.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard14.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard14.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="MainPlayerCard14.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox3.TabIndex" type="System.Int32, mscorlib">
+  <data name="MainPlayerCard14.TabIndex" type="System.Int32, mscorlib">
     <value>282</value>
   </data>
-  <data name="&gt;&gt;pictureBox3.Name" xml:space="preserve">
-    <value>pictureBox3</value>
+  <data name="&gt;&gt;MainPlayerCard14.Name" xml:space="preserve">
+    <value>MainPlayerCard14</value>
   </data>
-  <data name="&gt;&gt;pictureBox3.Type" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard14.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard14.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard14.ZOrder" xml:space="preserve">
     <value>18</value>
   </data>
-  <data name="pictureBox58.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="MainPlayerCard13.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -14602,43 +14602,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox58.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="MainPlayerCard13.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox58.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="MainPlayerCard13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox58.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="MainPlayerCard13.Location" type="System.Drawing.Point, System.Drawing">
     <value>606, 587</value>
   </data>
-  <data name="pictureBox58.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard13.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox58.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard13.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox58.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard13.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox58.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="MainPlayerCard13.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox58.TabIndex" type="System.Int32, mscorlib">
+  <data name="MainPlayerCard13.TabIndex" type="System.Int32, mscorlib">
     <value>283</value>
   </data>
-  <data name="&gt;&gt;pictureBox58.Name" xml:space="preserve">
-    <value>pictureBox58</value>
+  <data name="&gt;&gt;MainPlayerCard13.Name" xml:space="preserve">
+    <value>MainPlayerCard13</value>
   </data>
-  <data name="&gt;&gt;pictureBox58.Type" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard13.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox58.Parent" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard13.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox58.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard13.ZOrder" xml:space="preserve">
     <value>19</value>
   </data>
-  <data name="pictureBox59.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="MainPlayerCard12.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -14681,43 +14681,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox59.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="MainPlayerCard12.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox59.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="MainPlayerCard12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox59.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="MainPlayerCard12.Location" type="System.Drawing.Point, System.Drawing">
     <value>575, 587</value>
   </data>
-  <data name="pictureBox59.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard12.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox59.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard12.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox59.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard12.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox59.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="MainPlayerCard12.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox59.TabIndex" type="System.Int32, mscorlib">
+  <data name="MainPlayerCard12.TabIndex" type="System.Int32, mscorlib">
     <value>281</value>
   </data>
-  <data name="&gt;&gt;pictureBox59.Name" xml:space="preserve">
-    <value>pictureBox59</value>
+  <data name="&gt;&gt;MainPlayerCard12.Name" xml:space="preserve">
+    <value>MainPlayerCard12</value>
   </data>
-  <data name="&gt;&gt;pictureBox59.Type" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard12.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox59.Parent" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard12.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox59.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard12.ZOrder" xml:space="preserve">
     <value>20</value>
   </data>
-  <data name="pictureBox60.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="MainPlayerCard11.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -14760,43 +14760,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox60.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="MainPlayerCard11.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox60.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="MainPlayerCard11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox60.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="MainPlayerCard11.Location" type="System.Drawing.Point, System.Drawing">
     <value>542, 587</value>
   </data>
-  <data name="pictureBox60.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard11.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox60.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard11.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox60.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard11.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox60.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="MainPlayerCard11.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox60.TabIndex" type="System.Int32, mscorlib">
+  <data name="MainPlayerCard11.TabIndex" type="System.Int32, mscorlib">
     <value>280</value>
   </data>
-  <data name="&gt;&gt;pictureBox60.Name" xml:space="preserve">
-    <value>pictureBox60</value>
+  <data name="&gt;&gt;MainPlayerCard11.Name" xml:space="preserve">
+    <value>MainPlayerCard11</value>
   </data>
-  <data name="&gt;&gt;pictureBox60.Type" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard11.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox60.Parent" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard11.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox60.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard11.ZOrder" xml:space="preserve">
     <value>21</value>
   </data>
-  <data name="pictureBox61.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="MainPlayerCard10.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -14839,43 +14839,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox61.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="MainPlayerCard10.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox61.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="MainPlayerCard10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox61.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="MainPlayerCard10.Location" type="System.Drawing.Point, System.Drawing">
     <value>508, 587</value>
   </data>
-  <data name="pictureBox61.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard10.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox61.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard10.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox61.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard10.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox61.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="MainPlayerCard10.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox61.TabIndex" type="System.Int32, mscorlib">
+  <data name="MainPlayerCard10.TabIndex" type="System.Int32, mscorlib">
     <value>278</value>
   </data>
-  <data name="&gt;&gt;pictureBox61.Name" xml:space="preserve">
-    <value>pictureBox61</value>
+  <data name="&gt;&gt;MainPlayerCard10.Name" xml:space="preserve">
+    <value>MainPlayerCard10</value>
   </data>
-  <data name="&gt;&gt;pictureBox61.Type" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard10.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox61.Parent" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard10.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox61.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard10.ZOrder" xml:space="preserve">
     <value>22</value>
   </data>
-  <data name="pictureBox62.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="MainPlayerCard9.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -14918,43 +14918,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox62.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="MainPlayerCard9.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox62.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="MainPlayerCard9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox62.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="MainPlayerCard9.Location" type="System.Drawing.Point, System.Drawing">
     <value>478, 587</value>
   </data>
-  <data name="pictureBox62.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard9.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox62.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard9.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox62.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard9.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox62.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="MainPlayerCard9.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox62.TabIndex" type="System.Int32, mscorlib">
+  <data name="MainPlayerCard9.TabIndex" type="System.Int32, mscorlib">
     <value>279</value>
   </data>
-  <data name="&gt;&gt;pictureBox62.Name" xml:space="preserve">
-    <value>pictureBox62</value>
+  <data name="&gt;&gt;MainPlayerCard9.Name" xml:space="preserve">
+    <value>MainPlayerCard9</value>
   </data>
-  <data name="&gt;&gt;pictureBox62.Type" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard9.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox62.Parent" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard9.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox62.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard9.ZOrder" xml:space="preserve">
     <value>23</value>
   </data>
-  <data name="pictureBox63.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="MainPlayerCard8.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -14997,43 +14997,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox63.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="MainPlayerCard8.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox63.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="MainPlayerCard8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox63.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="MainPlayerCard8.Location" type="System.Drawing.Point, System.Drawing">
     <value>698, 548</value>
   </data>
-  <data name="pictureBox63.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard8.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox63.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard8.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox63.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard8.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox63.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="MainPlayerCard8.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox63.TabIndex" type="System.Int32, mscorlib">
+  <data name="MainPlayerCard8.TabIndex" type="System.Int32, mscorlib">
     <value>277</value>
   </data>
-  <data name="&gt;&gt;pictureBox63.Name" xml:space="preserve">
-    <value>pictureBox63</value>
+  <data name="&gt;&gt;MainPlayerCard8.Name" xml:space="preserve">
+    <value>MainPlayerCard8</value>
   </data>
-  <data name="&gt;&gt;pictureBox63.Type" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard8.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox63.Parent" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard8.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox63.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard8.ZOrder" xml:space="preserve">
     <value>24</value>
   </data>
-  <data name="pictureBox64.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="MainPlayerCard7.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -15076,43 +15076,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox64.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="MainPlayerCard7.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox64.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="MainPlayerCard7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox64.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="MainPlayerCard7.Location" type="System.Drawing.Point, System.Drawing">
     <value>667, 550</value>
   </data>
-  <data name="pictureBox64.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard7.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox64.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard7.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox64.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard7.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox64.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="MainPlayerCard7.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox64.TabIndex" type="System.Int32, mscorlib">
+  <data name="MainPlayerCard7.TabIndex" type="System.Int32, mscorlib">
     <value>276</value>
   </data>
-  <data name="&gt;&gt;pictureBox64.Name" xml:space="preserve">
-    <value>pictureBox64</value>
+  <data name="&gt;&gt;MainPlayerCard7.Name" xml:space="preserve">
+    <value>MainPlayerCard7</value>
   </data>
-  <data name="&gt;&gt;pictureBox64.Type" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard7.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox64.Parent" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard7.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox64.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard7.ZOrder" xml:space="preserve">
     <value>25</value>
   </data>
-  <data name="pictureBox65.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="MainPlayerCard6.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -15155,43 +15155,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox65.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="MainPlayerCard6.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox65.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="MainPlayerCard6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox65.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="MainPlayerCard6.Location" type="System.Drawing.Point, System.Drawing">
     <value>640, 550</value>
   </data>
-  <data name="pictureBox65.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard6.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox65.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard6.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox65.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard6.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox65.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="MainPlayerCard6.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox65.TabIndex" type="System.Int32, mscorlib">
+  <data name="MainPlayerCard6.TabIndex" type="System.Int32, mscorlib">
     <value>274</value>
   </data>
-  <data name="&gt;&gt;pictureBox65.Name" xml:space="preserve">
-    <value>pictureBox65</value>
+  <data name="&gt;&gt;MainPlayerCard6.Name" xml:space="preserve">
+    <value>MainPlayerCard6</value>
   </data>
-  <data name="&gt;&gt;pictureBox65.Type" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard6.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox65.Parent" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard6.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox65.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard6.ZOrder" xml:space="preserve">
     <value>26</value>
   </data>
-  <data name="pictureBox66.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="MainPlayerCard5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -15234,43 +15234,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox66.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="MainPlayerCard5.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox66.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="MainPlayerCard5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox66.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="MainPlayerCard5.Location" type="System.Drawing.Point, System.Drawing">
     <value>610, 550</value>
   </data>
-  <data name="pictureBox66.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard5.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox66.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard5.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox66.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard5.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox66.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="MainPlayerCard5.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox66.TabIndex" type="System.Int32, mscorlib">
+  <data name="MainPlayerCard5.TabIndex" type="System.Int32, mscorlib">
     <value>275</value>
   </data>
-  <data name="&gt;&gt;pictureBox66.Name" xml:space="preserve">
-    <value>pictureBox66</value>
+  <data name="&gt;&gt;MainPlayerCard5.Name" xml:space="preserve">
+    <value>MainPlayerCard5</value>
   </data>
-  <data name="&gt;&gt;pictureBox66.Type" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard5.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox66.Parent" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard5.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox66.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard5.ZOrder" xml:space="preserve">
     <value>27</value>
   </data>
-  <data name="pictureBox67.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="MainPlayerCard4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -15313,43 +15313,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox67.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="MainPlayerCard4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox67.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="MainPlayerCard4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox67.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="MainPlayerCard4.Location" type="System.Drawing.Point, System.Drawing">
     <value>575, 548</value>
   </data>
-  <data name="pictureBox67.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard4.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox67.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard4.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox67.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard4.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox67.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="MainPlayerCard4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox67.TabIndex" type="System.Int32, mscorlib">
+  <data name="MainPlayerCard4.TabIndex" type="System.Int32, mscorlib">
     <value>273</value>
   </data>
-  <data name="&gt;&gt;pictureBox67.Name" xml:space="preserve">
-    <value>pictureBox67</value>
+  <data name="&gt;&gt;MainPlayerCard4.Name" xml:space="preserve">
+    <value>MainPlayerCard4</value>
   </data>
-  <data name="&gt;&gt;pictureBox67.Type" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard4.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox67.Parent" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard4.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox67.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard4.ZOrder" xml:space="preserve">
     <value>28</value>
   </data>
-  <data name="pictureBox68.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="MainPlayerCard3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -15392,40 +15392,40 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox68.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="MainPlayerCard3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox68.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="MainPlayerCard3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox68.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="MainPlayerCard3.Location" type="System.Drawing.Point, System.Drawing">
     <value>542, 548</value>
   </data>
-  <data name="pictureBox68.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard3.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox68.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard3.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox68.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard3.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox68.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="MainPlayerCard3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox68.TabIndex" type="System.Int32, mscorlib">
+  <data name="MainPlayerCard3.TabIndex" type="System.Int32, mscorlib">
     <value>272</value>
   </data>
-  <data name="&gt;&gt;pictureBox68.Name" xml:space="preserve">
-    <value>pictureBox68</value>
+  <data name="&gt;&gt;MainPlayerCard3.Name" xml:space="preserve">
+    <value>MainPlayerCard3</value>
   </data>
-  <data name="&gt;&gt;pictureBox68.Type" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard3.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox68.Parent" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox68.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard3.ZOrder" xml:space="preserve">
     <value>29</value>
   </data>
   <data name="textBox5.Location" type="System.Drawing.Point, System.Drawing">
@@ -15452,7 +15452,7 @@
   <data name="&gt;&gt;textBox5.ZOrder" xml:space="preserve">
     <value>30</value>
   </data>
-  <data name="pictureBox69.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="MainPlayerCard2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -15495,43 +15495,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox69.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="MainPlayerCard2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox69.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="MainPlayerCard2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox69.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="MainPlayerCard2.Location" type="System.Drawing.Point, System.Drawing">
     <value>508, 548</value>
   </data>
-  <data name="pictureBox69.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard2.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox69.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard2.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox69.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard2.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox69.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="MainPlayerCard2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox69.TabIndex" type="System.Int32, mscorlib">
+  <data name="MainPlayerCard2.TabIndex" type="System.Int32, mscorlib">
     <value>269</value>
   </data>
-  <data name="&gt;&gt;pictureBox69.Name" xml:space="preserve">
-    <value>pictureBox69</value>
+  <data name="&gt;&gt;MainPlayerCard2.Name" xml:space="preserve">
+    <value>MainPlayerCard2</value>
   </data>
-  <data name="&gt;&gt;pictureBox69.Type" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard2.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox69.Parent" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox69.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard2.ZOrder" xml:space="preserve">
     <value>31</value>
   </data>
-  <data name="pictureBox70.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="MainPlayerCard1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -15574,40 +15574,40 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox70.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="MainPlayerCard1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox70.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="MainPlayerCard1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox70.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="MainPlayerCard1.Location" type="System.Drawing.Point, System.Drawing">
     <value>478, 548</value>
   </data>
-  <data name="pictureBox70.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard1.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox70.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard1.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox70.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="MainPlayerCard1.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox70.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="MainPlayerCard1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox70.TabIndex" type="System.Int32, mscorlib">
+  <data name="MainPlayerCard1.TabIndex" type="System.Int32, mscorlib">
     <value>271</value>
   </data>
-  <data name="&gt;&gt;pictureBox70.Name" xml:space="preserve">
-    <value>pictureBox70</value>
+  <data name="&gt;&gt;MainPlayerCard1.Name" xml:space="preserve">
+    <value>MainPlayerCard1</value>
   </data>
-  <data name="&gt;&gt;pictureBox70.Type" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard1.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox70.Parent" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox70.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;MainPlayerCard1.ZOrder" xml:space="preserve">
     <value>32</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

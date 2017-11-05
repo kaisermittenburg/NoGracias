@@ -49,7 +49,7 @@
             this.MainPlayerChipText = new System.Windows.Forms.Label();
             this.Opp2ChipText = new System.Windows.Forms.Label();
             this.Opp1ChipText = new System.Windows.Forms.Label();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.TopDeckCard = new System.Windows.Forms.PictureBox();
             this.GameDeckLabel = new System.Windows.Forms.Label();
             this.Opp1ChipCount = new System.Windows.Forms.Label();
             this.Opp2ChipCount = new System.Windows.Forms.Label();
@@ -68,7 +68,7 @@
             this.Opp1Card15 = new System.Windows.Forms.PictureBox();
             this.Opp1Card14 = new System.Windows.Forms.PictureBox();
             this.Opp1Card13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox87 = new System.Windows.Forms.PictureBox();
+            this.DeckCard = new System.Windows.Forms.PictureBox();
             this.TopDeckCardNum = new System.Windows.Forms.Label();
             this.Opp1Num16 = new System.Windows.Forms.Label();
             this.Opp1Num15 = new System.Windows.Forms.Label();
@@ -201,23 +201,23 @@
             this.label78 = new System.Windows.Forms.Label();
             this.label79 = new System.Windows.Forms.Label();
             this.label80 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox58 = new System.Windows.Forms.PictureBox();
-            this.pictureBox59 = new System.Windows.Forms.PictureBox();
-            this.pictureBox60 = new System.Windows.Forms.PictureBox();
-            this.pictureBox61 = new System.Windows.Forms.PictureBox();
-            this.pictureBox62 = new System.Windows.Forms.PictureBox();
-            this.pictureBox63 = new System.Windows.Forms.PictureBox();
-            this.pictureBox64 = new System.Windows.Forms.PictureBox();
-            this.pictureBox65 = new System.Windows.Forms.PictureBox();
-            this.pictureBox66 = new System.Windows.Forms.PictureBox();
-            this.pictureBox67 = new System.Windows.Forms.PictureBox();
-            this.pictureBox68 = new System.Windows.Forms.PictureBox();
+            this.MainPlayerCard16 = new System.Windows.Forms.PictureBox();
+            this.MainPlayerCard15 = new System.Windows.Forms.PictureBox();
+            this.MainPlayerCard14 = new System.Windows.Forms.PictureBox();
+            this.MainPlayerCard13 = new System.Windows.Forms.PictureBox();
+            this.MainPlayerCard12 = new System.Windows.Forms.PictureBox();
+            this.MainPlayerCard11 = new System.Windows.Forms.PictureBox();
+            this.MainPlayerCard10 = new System.Windows.Forms.PictureBox();
+            this.MainPlayerCard9 = new System.Windows.Forms.PictureBox();
+            this.MainPlayerCard8 = new System.Windows.Forms.PictureBox();
+            this.MainPlayerCard7 = new System.Windows.Forms.PictureBox();
+            this.MainPlayerCard6 = new System.Windows.Forms.PictureBox();
+            this.MainPlayerCard5 = new System.Windows.Forms.PictureBox();
+            this.MainPlayerCard4 = new System.Windows.Forms.PictureBox();
+            this.MainPlayerCard3 = new System.Windows.Forms.PictureBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
-            this.pictureBox69 = new System.Windows.Forms.PictureBox();
-            this.pictureBox70 = new System.Windows.Forms.PictureBox();
+            this.MainPlayerCard2 = new System.Windows.Forms.PictureBox();
+            this.MainPlayerCard1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card1)).BeginInit();
@@ -227,7 +227,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TopDeckCard)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card6)).BeginInit();
@@ -240,7 +240,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox87)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DeckCard)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp2Card16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp2Card15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp2Card14)).BeginInit();
@@ -289,22 +289,22 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox55)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox56)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox57)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox58)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox59)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox60)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox61)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox62)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox64)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox65)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox66)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox67)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox68)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox69)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox70)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard1)).BeginInit();
             this.SuspendLayout();
             // 
             // MainPlayerName
@@ -437,13 +437,13 @@
             resources.ApplyResources(this.Opp1ChipText, "Opp1ChipText");
             this.Opp1ChipText.Name = "Opp1ChipText";
             // 
-            // pictureBox20
+            // TopDeckCard
             // 
-            this.pictureBox20.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox20, "pictureBox20");
-            this.pictureBox20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.TabStop = false;
+            this.TopDeckCard.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.TopDeckCard, "TopDeckCard");
+            this.TopDeckCard.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.TopDeckCard.Name = "TopDeckCard";
+            this.TopDeckCard.TabStop = false;
             // 
             // GameDeckLabel
             // 
@@ -573,11 +573,11 @@
             this.Opp1Card13.Name = "Opp1Card13";
             this.Opp1Card13.TabStop = false;
             // 
-            // pictureBox87
+            // DeckCard
             // 
-            resources.ApplyResources(this.pictureBox87, "pictureBox87");
-            this.pictureBox87.Name = "pictureBox87";
-            this.pictureBox87.TabStop = false;
+            resources.ApplyResources(this.DeckCard, "DeckCard");
+            this.DeckCard.Name = "DeckCard";
+            this.DeckCard.TabStop = false;
             // 
             // TopDeckCardNum
             // 
@@ -1464,138 +1464,138 @@
             resources.ApplyResources(this.label80, "label80");
             this.label80.Name = "label80";
             // 
-            // pictureBox1
+            // MainPlayerCard16
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
+            this.MainPlayerCard16.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerCard16, "MainPlayerCard16");
+            this.MainPlayerCard16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.MainPlayerCard16.Name = "MainPlayerCard16";
+            this.MainPlayerCard16.TabStop = false;
             // 
-            // pictureBox2
+            // MainPlayerCard15
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox2, "pictureBox2");
-            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.TabStop = false;
+            this.MainPlayerCard15.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerCard15, "MainPlayerCard15");
+            this.MainPlayerCard15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.MainPlayerCard15.Name = "MainPlayerCard15";
+            this.MainPlayerCard15.TabStop = false;
             // 
-            // pictureBox3
+            // MainPlayerCard14
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox3, "pictureBox3");
-            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.TabStop = false;
+            this.MainPlayerCard14.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerCard14, "MainPlayerCard14");
+            this.MainPlayerCard14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.MainPlayerCard14.Name = "MainPlayerCard14";
+            this.MainPlayerCard14.TabStop = false;
             // 
-            // pictureBox58
+            // MainPlayerCard13
             // 
-            this.pictureBox58.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox58, "pictureBox58");
-            this.pictureBox58.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox58.Name = "pictureBox58";
-            this.pictureBox58.TabStop = false;
+            this.MainPlayerCard13.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerCard13, "MainPlayerCard13");
+            this.MainPlayerCard13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.MainPlayerCard13.Name = "MainPlayerCard13";
+            this.MainPlayerCard13.TabStop = false;
             // 
-            // pictureBox59
+            // MainPlayerCard12
             // 
-            this.pictureBox59.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox59, "pictureBox59");
-            this.pictureBox59.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox59.Name = "pictureBox59";
-            this.pictureBox59.TabStop = false;
+            this.MainPlayerCard12.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerCard12, "MainPlayerCard12");
+            this.MainPlayerCard12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.MainPlayerCard12.Name = "MainPlayerCard12";
+            this.MainPlayerCard12.TabStop = false;
             // 
-            // pictureBox60
+            // MainPlayerCard11
             // 
-            this.pictureBox60.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox60, "pictureBox60");
-            this.pictureBox60.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox60.Name = "pictureBox60";
-            this.pictureBox60.TabStop = false;
+            this.MainPlayerCard11.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerCard11, "MainPlayerCard11");
+            this.MainPlayerCard11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.MainPlayerCard11.Name = "MainPlayerCard11";
+            this.MainPlayerCard11.TabStop = false;
             // 
-            // pictureBox61
+            // MainPlayerCard10
             // 
-            this.pictureBox61.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox61, "pictureBox61");
-            this.pictureBox61.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox61.Name = "pictureBox61";
-            this.pictureBox61.TabStop = false;
+            this.MainPlayerCard10.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerCard10, "MainPlayerCard10");
+            this.MainPlayerCard10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.MainPlayerCard10.Name = "MainPlayerCard10";
+            this.MainPlayerCard10.TabStop = false;
             // 
-            // pictureBox62
+            // MainPlayerCard9
             // 
-            this.pictureBox62.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox62, "pictureBox62");
-            this.pictureBox62.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox62.Name = "pictureBox62";
-            this.pictureBox62.TabStop = false;
+            this.MainPlayerCard9.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerCard9, "MainPlayerCard9");
+            this.MainPlayerCard9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.MainPlayerCard9.Name = "MainPlayerCard9";
+            this.MainPlayerCard9.TabStop = false;
             // 
-            // pictureBox63
+            // MainPlayerCard8
             // 
-            this.pictureBox63.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox63, "pictureBox63");
-            this.pictureBox63.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox63.Name = "pictureBox63";
-            this.pictureBox63.TabStop = false;
+            this.MainPlayerCard8.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerCard8, "MainPlayerCard8");
+            this.MainPlayerCard8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.MainPlayerCard8.Name = "MainPlayerCard8";
+            this.MainPlayerCard8.TabStop = false;
             // 
-            // pictureBox64
+            // MainPlayerCard7
             // 
-            this.pictureBox64.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox64, "pictureBox64");
-            this.pictureBox64.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox64.Name = "pictureBox64";
-            this.pictureBox64.TabStop = false;
+            this.MainPlayerCard7.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerCard7, "MainPlayerCard7");
+            this.MainPlayerCard7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.MainPlayerCard7.Name = "MainPlayerCard7";
+            this.MainPlayerCard7.TabStop = false;
             // 
-            // pictureBox65
+            // MainPlayerCard6
             // 
-            this.pictureBox65.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox65, "pictureBox65");
-            this.pictureBox65.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox65.Name = "pictureBox65";
-            this.pictureBox65.TabStop = false;
+            this.MainPlayerCard6.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerCard6, "MainPlayerCard6");
+            this.MainPlayerCard6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.MainPlayerCard6.Name = "MainPlayerCard6";
+            this.MainPlayerCard6.TabStop = false;
             // 
-            // pictureBox66
+            // MainPlayerCard5
             // 
-            this.pictureBox66.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox66, "pictureBox66");
-            this.pictureBox66.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox66.Name = "pictureBox66";
-            this.pictureBox66.TabStop = false;
+            this.MainPlayerCard5.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerCard5, "MainPlayerCard5");
+            this.MainPlayerCard5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.MainPlayerCard5.Name = "MainPlayerCard5";
+            this.MainPlayerCard5.TabStop = false;
             // 
-            // pictureBox67
+            // MainPlayerCard4
             // 
-            this.pictureBox67.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox67, "pictureBox67");
-            this.pictureBox67.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox67.Name = "pictureBox67";
-            this.pictureBox67.TabStop = false;
+            this.MainPlayerCard4.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerCard4, "MainPlayerCard4");
+            this.MainPlayerCard4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.MainPlayerCard4.Name = "MainPlayerCard4";
+            this.MainPlayerCard4.TabStop = false;
             // 
-            // pictureBox68
+            // MainPlayerCard3
             // 
-            this.pictureBox68.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox68, "pictureBox68");
-            this.pictureBox68.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox68.Name = "pictureBox68";
-            this.pictureBox68.TabStop = false;
+            this.MainPlayerCard3.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerCard3, "MainPlayerCard3");
+            this.MainPlayerCard3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.MainPlayerCard3.Name = "MainPlayerCard3";
+            this.MainPlayerCard3.TabStop = false;
             // 
             // textBox5
             // 
             resources.ApplyResources(this.textBox5, "textBox5");
             this.textBox5.Name = "textBox5";
             // 
-            // pictureBox69
+            // MainPlayerCard2
             // 
-            this.pictureBox69.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox69, "pictureBox69");
-            this.pictureBox69.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox69.Name = "pictureBox69";
-            this.pictureBox69.TabStop = false;
+            this.MainPlayerCard2.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerCard2, "MainPlayerCard2");
+            this.MainPlayerCard2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.MainPlayerCard2.Name = "MainPlayerCard2";
+            this.MainPlayerCard2.TabStop = false;
             // 
-            // pictureBox70
+            // MainPlayerCard1
             // 
-            this.pictureBox70.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox70, "pictureBox70");
-            this.pictureBox70.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox70.Name = "pictureBox70";
-            this.pictureBox70.TabStop = false;
+            this.MainPlayerCard1.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerCard1, "MainPlayerCard1");
+            this.MainPlayerCard1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.MainPlayerCard1.Name = "MainPlayerCard1";
+            this.MainPlayerCard1.TabStop = false;
             // 
             // CardTableForm
             // 
@@ -1618,23 +1618,23 @@
             this.Controls.Add(this.label78);
             this.Controls.Add(this.label79);
             this.Controls.Add(this.label80);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox58);
-            this.Controls.Add(this.pictureBox59);
-            this.Controls.Add(this.pictureBox60);
-            this.Controls.Add(this.pictureBox61);
-            this.Controls.Add(this.pictureBox62);
-            this.Controls.Add(this.pictureBox63);
-            this.Controls.Add(this.pictureBox64);
-            this.Controls.Add(this.pictureBox65);
-            this.Controls.Add(this.pictureBox66);
-            this.Controls.Add(this.pictureBox67);
-            this.Controls.Add(this.pictureBox68);
+            this.Controls.Add(this.MainPlayerCard16);
+            this.Controls.Add(this.MainPlayerCard15);
+            this.Controls.Add(this.MainPlayerCard14);
+            this.Controls.Add(this.MainPlayerCard13);
+            this.Controls.Add(this.MainPlayerCard12);
+            this.Controls.Add(this.MainPlayerCard11);
+            this.Controls.Add(this.MainPlayerCard10);
+            this.Controls.Add(this.MainPlayerCard9);
+            this.Controls.Add(this.MainPlayerCard8);
+            this.Controls.Add(this.MainPlayerCard7);
+            this.Controls.Add(this.MainPlayerCard6);
+            this.Controls.Add(this.MainPlayerCard5);
+            this.Controls.Add(this.MainPlayerCard4);
+            this.Controls.Add(this.MainPlayerCard3);
             this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.pictureBox69);
-            this.Controls.Add(this.pictureBox70);
+            this.Controls.Add(this.MainPlayerCard2);
+            this.Controls.Add(this.MainPlayerCard1);
             this.Controls.Add(this.label49);
             this.Controls.Add(this.label50);
             this.Controls.Add(this.label51);
@@ -1751,7 +1751,7 @@
             this.Controls.Add(this.Opp1Num15);
             this.Controls.Add(this.Opp1Num16);
             this.Controls.Add(this.TopDeckCardNum);
-            this.Controls.Add(this.pictureBox87);
+            this.Controls.Add(this.DeckCard);
             this.Controls.Add(this.Opp1Card16);
             this.Controls.Add(this.Opp1Card15);
             this.Controls.Add(this.Opp1Card14);
@@ -1770,7 +1770,7 @@
             this.Controls.Add(this.Opp2ChipCount);
             this.Controls.Add(this.Opp1ChipCount);
             this.Controls.Add(this.GameDeckLabel);
-            this.Controls.Add(this.pictureBox20);
+            this.Controls.Add(this.TopDeckCard);
             this.Controls.Add(this.Opp1ChipText);
             this.Controls.Add(this.Opp2ChipText);
             this.Controls.Add(this.MainPlayerChipText);
@@ -1802,7 +1802,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TopDeckCard)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card6)).EndInit();
@@ -1815,7 +1815,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox87)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DeckCard)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp2Card16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp2Card15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp2Card14)).EndInit();
@@ -1864,22 +1864,22 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox55)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox56)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox57)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox58)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox59)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox60)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox61)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox62)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox64)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox65)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox66)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox67)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox68)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox69)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox70)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1906,7 +1906,7 @@
         private System.Windows.Forms.Label MainPlayerChipText;
         private System.Windows.Forms.Label Opp2ChipText;
         private System.Windows.Forms.Label Opp1ChipText;
-        private System.Windows.Forms.PictureBox pictureBox20;
+        private System.Windows.Forms.PictureBox TopDeckCard;
         private System.Windows.Forms.Label GameDeckLabel;
         private System.Windows.Forms.Label Opp1ChipCount;
         private System.Windows.Forms.Label Opp2ChipCount;
@@ -1925,7 +1925,7 @@
         private System.Windows.Forms.PictureBox Opp1Card15;
         private System.Windows.Forms.PictureBox Opp1Card14;
         private System.Windows.Forms.PictureBox Opp1Card13;
-        private System.Windows.Forms.PictureBox pictureBox87;
+        private System.Windows.Forms.PictureBox DeckCard;
         private System.Windows.Forms.Label TopDeckCardNum;
         private System.Windows.Forms.Label Opp1Num16;
         private System.Windows.Forms.Label Opp1Num15;
@@ -2057,23 +2057,23 @@
         private System.Windows.Forms.Label label78;
         private System.Windows.Forms.Label label79;
         private System.Windows.Forms.Label label80;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox58;
-        private System.Windows.Forms.PictureBox pictureBox59;
-        private System.Windows.Forms.PictureBox pictureBox60;
-        private System.Windows.Forms.PictureBox pictureBox61;
-        private System.Windows.Forms.PictureBox pictureBox62;
-        private System.Windows.Forms.PictureBox pictureBox63;
-        private System.Windows.Forms.PictureBox pictureBox64;
-        private System.Windows.Forms.PictureBox pictureBox65;
-        private System.Windows.Forms.PictureBox pictureBox66;
-        private System.Windows.Forms.PictureBox pictureBox67;
-        private System.Windows.Forms.PictureBox pictureBox68;
+        private System.Windows.Forms.PictureBox MainPlayerCard16;
+        private System.Windows.Forms.PictureBox MainPlayerCard15;
+        private System.Windows.Forms.PictureBox MainPlayerCard14;
+        private System.Windows.Forms.PictureBox MainPlayerCard13;
+        private System.Windows.Forms.PictureBox MainPlayerCard12;
+        private System.Windows.Forms.PictureBox MainPlayerCard11;
+        private System.Windows.Forms.PictureBox MainPlayerCard10;
+        private System.Windows.Forms.PictureBox MainPlayerCard9;
+        private System.Windows.Forms.PictureBox MainPlayerCard8;
+        private System.Windows.Forms.PictureBox MainPlayerCard7;
+        private System.Windows.Forms.PictureBox MainPlayerCard6;
+        private System.Windows.Forms.PictureBox MainPlayerCard5;
+        private System.Windows.Forms.PictureBox MainPlayerCard4;
+        private System.Windows.Forms.PictureBox MainPlayerCard3;
         private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.PictureBox pictureBox69;
-        private System.Windows.Forms.PictureBox pictureBox70;
+        private System.Windows.Forms.PictureBox MainPlayerCard2;
+        private System.Windows.Forms.PictureBox MainPlayerCard1;
         private System.Windows.Forms.Label Opp2Num10;
     }
 }
