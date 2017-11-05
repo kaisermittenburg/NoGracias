@@ -48,11 +48,5 @@ namespace NoGracias
             
            
         }
-        private static void ThreadStart(Object form)
-        {
-            MainMenuServerForm form1 = (MainMenuServerForm)form;
-            //Application.Run(new frmTwo()); // <-- other form started on its own UI thread
-            GameServer Server = new GameServer(form1);
-        }
     }
 }

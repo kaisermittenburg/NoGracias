@@ -19,13 +19,25 @@ namespace NoGracias
         public Player nextPlayer { get; set; }
 
         #endregion
-
+         /**
+         *	Public player constructor that takes two arguments of type int and Socket.
+         *	Details: Sets the member's socket and playernumber.
+         *	@param socket the socket the player is connected on
+         *	@param PlayerNumber order in which they connected to the server.
+         */
         public Player(Socket socket, int PlayerNumber)
         {
             this.mSocket = socket;
             mPlayerNumber = PlayerNumber;
         }
 
+        /**
+         *	Public player constructor that takes three arguments of type int, Socket, and string.
+         *	Details: Sets the member's socket and playernumber.
+         *	@param socket the socket the player is connected on
+         *	@param PlayerNumber order in which they connected to the server.
+         *	@param PlayerName is the string of name which they pass in through the main menu form
+         */
         public Player(Socket socket, int PlayerNumber, string PlayerName)
         {
             this.mSocket = socket;
@@ -66,6 +78,11 @@ namespace NoGracias
         #endregion
 
     }
+
+    /**
+     *	Public player enumeration that takes describes the current player state.
+     *	Details: Sets the member's state in the game to allow game logic to take over.
+     */
     public enum PlayerState
     {
         IDLE,
