@@ -39,7 +39,7 @@ namespace NoGracias
 
 
             //Start Server Form
-            Application.Run(MainMenu);
+            Application.Run(Table);
 
            
             Application.Run(ServerForm);

@@ -119,88 +119,88 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.Opp2Card2 = new System.Windows.Forms.PictureBox();
             this.Opp2Card1 = new System.Windows.Forms.PictureBox();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox35 = new System.Windows.Forms.PictureBox();
-            this.pictureBox36 = new System.Windows.Forms.PictureBox();
-            this.pictureBox37 = new System.Windows.Forms.PictureBox();
-            this.pictureBox38 = new System.Windows.Forms.PictureBox();
-            this.pictureBox39 = new System.Windows.Forms.PictureBox();
+            this.Opp4Num8 = new System.Windows.Forms.Label();
+            this.Opp4Num7 = new System.Windows.Forms.Label();
+            this.Opp4Num6 = new System.Windows.Forms.Label();
+            this.Opp4Num5 = new System.Windows.Forms.Label();
+            this.Opp4Num4 = new System.Windows.Forms.Label();
+            this.Opp4Num3 = new System.Windows.Forms.Label();
+            this.Opp4Num2 = new System.Windows.Forms.Label();
+            this.Opp4Num1 = new System.Windows.Forms.Label();
+            this.Opp4Num9 = new System.Windows.Forms.Label();
+            this.Opp4Num10 = new System.Windows.Forms.Label();
+            this.Opp4Num11 = new System.Windows.Forms.Label();
+            this.Opp4Num12 = new System.Windows.Forms.Label();
+            this.Opp4Num13 = new System.Windows.Forms.Label();
+            this.Opp4Num14 = new System.Windows.Forms.Label();
+            this.Opp4Num15 = new System.Windows.Forms.Label();
+            this.Opp4Num16 = new System.Windows.Forms.Label();
+            this.Opp4Card16 = new System.Windows.Forms.PictureBox();
+            this.Opp4Card15 = new System.Windows.Forms.PictureBox();
+            this.Opp4Card14 = new System.Windows.Forms.PictureBox();
+            this.Opp4Card13 = new System.Windows.Forms.PictureBox();
+            this.Opp4Card12 = new System.Windows.Forms.PictureBox();
+            this.Opp4Card11 = new System.Windows.Forms.PictureBox();
+            this.Opp4Card10 = new System.Windows.Forms.PictureBox();
+            this.Opp4Card9 = new System.Windows.Forms.PictureBox();
+            this.Opp4Card8 = new System.Windows.Forms.PictureBox();
+            this.Opp4Card7 = new System.Windows.Forms.PictureBox();
+            this.Opp4Card6 = new System.Windows.Forms.PictureBox();
+            this.Opp4Card5 = new System.Windows.Forms.PictureBox();
+            this.Opp4Card4 = new System.Windows.Forms.PictureBox();
+            this.Opp4Card3 = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.pictureBox40 = new System.Windows.Forms.PictureBox();
-            this.pictureBox41 = new System.Windows.Forms.PictureBox();
-            this.label49 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
-            this.label53 = new System.Windows.Forms.Label();
-            this.label54 = new System.Windows.Forms.Label();
-            this.label55 = new System.Windows.Forms.Label();
-            this.label56 = new System.Windows.Forms.Label();
-            this.label57 = new System.Windows.Forms.Label();
-            this.label58 = new System.Windows.Forms.Label();
-            this.label59 = new System.Windows.Forms.Label();
-            this.label60 = new System.Windows.Forms.Label();
-            this.label61 = new System.Windows.Forms.Label();
-            this.label62 = new System.Windows.Forms.Label();
-            this.label63 = new System.Windows.Forms.Label();
-            this.label64 = new System.Windows.Forms.Label();
-            this.pictureBox42 = new System.Windows.Forms.PictureBox();
-            this.pictureBox43 = new System.Windows.Forms.PictureBox();
-            this.pictureBox44 = new System.Windows.Forms.PictureBox();
-            this.pictureBox45 = new System.Windows.Forms.PictureBox();
-            this.pictureBox46 = new System.Windows.Forms.PictureBox();
-            this.pictureBox47 = new System.Windows.Forms.PictureBox();
-            this.pictureBox48 = new System.Windows.Forms.PictureBox();
-            this.pictureBox49 = new System.Windows.Forms.PictureBox();
-            this.pictureBox50 = new System.Windows.Forms.PictureBox();
-            this.pictureBox51 = new System.Windows.Forms.PictureBox();
-            this.pictureBox52 = new System.Windows.Forms.PictureBox();
-            this.pictureBox53 = new System.Windows.Forms.PictureBox();
-            this.pictureBox54 = new System.Windows.Forms.PictureBox();
-            this.pictureBox55 = new System.Windows.Forms.PictureBox();
+            this.Opp4Card2 = new System.Windows.Forms.PictureBox();
+            this.Opp4Card1 = new System.Windows.Forms.PictureBox();
+            this.Opp3Num8 = new System.Windows.Forms.Label();
+            this.Opp3Num7 = new System.Windows.Forms.Label();
+            this.Opp3Num6 = new System.Windows.Forms.Label();
+            this.Opp3Num5 = new System.Windows.Forms.Label();
+            this.Opp3Num4 = new System.Windows.Forms.Label();
+            this.Opp3Num3 = new System.Windows.Forms.Label();
+            this.Opp3Num2 = new System.Windows.Forms.Label();
+            this.Opp3Num1 = new System.Windows.Forms.Label();
+            this.Opp3Num9 = new System.Windows.Forms.Label();
+            this.Opp3Num10 = new System.Windows.Forms.Label();
+            this.Opp3Num11 = new System.Windows.Forms.Label();
+            this.Opp3Num12 = new System.Windows.Forms.Label();
+            this.Opp3Num13 = new System.Windows.Forms.Label();
+            this.Opp3Num14 = new System.Windows.Forms.Label();
+            this.Opp3Num15 = new System.Windows.Forms.Label();
+            this.Opp3Num16 = new System.Windows.Forms.Label();
+            this.Opp3Card16 = new System.Windows.Forms.PictureBox();
+            this.Opp3Card15 = new System.Windows.Forms.PictureBox();
+            this.Opp3Card14 = new System.Windows.Forms.PictureBox();
+            this.Opp3Card13 = new System.Windows.Forms.PictureBox();
+            this.Opp3Card12 = new System.Windows.Forms.PictureBox();
+            this.Opp3Card11 = new System.Windows.Forms.PictureBox();
+            this.Opp3Card10 = new System.Windows.Forms.PictureBox();
+            this.Opp3Card9 = new System.Windows.Forms.PictureBox();
+            this.Opp3Card8 = new System.Windows.Forms.PictureBox();
+            this.Opp3Card7 = new System.Windows.Forms.PictureBox();
+            this.Opp3Card6 = new System.Windows.Forms.PictureBox();
+            this.Opp3Card5 = new System.Windows.Forms.PictureBox();
+            this.Opp3Card4 = new System.Windows.Forms.PictureBox();
+            this.Opp3Card3 = new System.Windows.Forms.PictureBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.pictureBox56 = new System.Windows.Forms.PictureBox();
-            this.pictureBox57 = new System.Windows.Forms.PictureBox();
-            this.label65 = new System.Windows.Forms.Label();
-            this.label66 = new System.Windows.Forms.Label();
-            this.label67 = new System.Windows.Forms.Label();
-            this.label68 = new System.Windows.Forms.Label();
-            this.label69 = new System.Windows.Forms.Label();
-            this.label70 = new System.Windows.Forms.Label();
-            this.label71 = new System.Windows.Forms.Label();
-            this.label72 = new System.Windows.Forms.Label();
-            this.label73 = new System.Windows.Forms.Label();
-            this.label74 = new System.Windows.Forms.Label();
-            this.label75 = new System.Windows.Forms.Label();
-            this.label76 = new System.Windows.Forms.Label();
-            this.label77 = new System.Windows.Forms.Label();
-            this.label78 = new System.Windows.Forms.Label();
-            this.label79 = new System.Windows.Forms.Label();
-            this.label80 = new System.Windows.Forms.Label();
+            this.Opp3Card2 = new System.Windows.Forms.PictureBox();
+            this.Opp3Card1 = new System.Windows.Forms.PictureBox();
+            this.MainPlayerNum8 = new System.Windows.Forms.Label();
+            this.MainPlayerNum7 = new System.Windows.Forms.Label();
+            this.MainPlayerNum6 = new System.Windows.Forms.Label();
+            this.MainPlayerNum5 = new System.Windows.Forms.Label();
+            this.MainPlayerNum4 = new System.Windows.Forms.Label();
+            this.MainPlayerNum3 = new System.Windows.Forms.Label();
+            this.MainPlayerNum2 = new System.Windows.Forms.Label();
+            this.MainPlayerNum1 = new System.Windows.Forms.Label();
+            this.MainPlayerNum9 = new System.Windows.Forms.Label();
+            this.MainPlayerNum10 = new System.Windows.Forms.Label();
+            this.MainPlayerNum11 = new System.Windows.Forms.Label();
+            this.MainPlayerNum12 = new System.Windows.Forms.Label();
+            this.MainPlayerNum13 = new System.Windows.Forms.Label();
+            this.MainPlayerNum14 = new System.Windows.Forms.Label();
+            this.MainPlayerNum15 = new System.Windows.Forms.Label();
+            this.MainPlayerNum16 = new System.Windows.Forms.Label();
             this.MainPlayerCard16 = new System.Windows.Forms.PictureBox();
             this.MainPlayerCard15 = new System.Windows.Forms.PictureBox();
             this.MainPlayerCard14 = new System.Windows.Forms.PictureBox();
@@ -257,38 +257,38 @@
             ((System.ComponentModel.ISupportInitialize)(this.Opp2Card3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp2Card2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp2Card1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox48)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox49)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox50)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox51)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox52)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox53)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox54)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox55)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox56)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox57)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard14)).BeginInit();
@@ -910,559 +910,560 @@
             this.Opp2Card1.Name = "Opp2Card1";
             this.Opp2Card1.TabStop = false;
             // 
-            // label33
+            // Opp4Num8
             // 
-            this.label33.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label33, "label33");
-            this.label33.Name = "label33";
+            this.Opp4Num8.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Num8, "Opp4Num8");
+            this.Opp4Num8.Name = "Opp4Num8";
+            this.Opp4Num8.Click += new System.EventHandler(this.label33_Click);
             // 
-            // label34
+            // Opp4Num7
             // 
-            this.label34.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label34, "label34");
-            this.label34.Name = "label34";
+            this.Opp4Num7.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Num7, "Opp4Num7");
+            this.Opp4Num7.Name = "Opp4Num7";
             // 
-            // label35
+            // Opp4Num6
             // 
-            this.label35.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label35, "label35");
-            this.label35.Name = "label35";
+            this.Opp4Num6.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Num6, "Opp4Num6");
+            this.Opp4Num6.Name = "Opp4Num6";
             // 
-            // label36
+            // Opp4Num5
             // 
-            this.label36.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label36, "label36");
-            this.label36.Name = "label36";
+            this.Opp4Num5.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Num5, "Opp4Num5");
+            this.Opp4Num5.Name = "Opp4Num5";
             // 
-            // label37
+            // Opp4Num4
             // 
-            this.label37.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label37, "label37");
-            this.label37.Name = "label37";
+            this.Opp4Num4.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Num4, "Opp4Num4");
+            this.Opp4Num4.Name = "Opp4Num4";
             // 
-            // label38
+            // Opp4Num3
             // 
-            this.label38.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label38, "label38");
-            this.label38.Name = "label38";
+            this.Opp4Num3.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Num3, "Opp4Num3");
+            this.Opp4Num3.Name = "Opp4Num3";
             // 
-            // label39
+            // Opp4Num2
             // 
-            this.label39.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label39, "label39");
-            this.label39.Name = "label39";
+            this.Opp4Num2.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Num2, "Opp4Num2");
+            this.Opp4Num2.Name = "Opp4Num2";
             // 
-            // label40
+            // Opp4Num1
             // 
-            this.label40.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label40, "label40");
-            this.label40.Name = "label40";
+            this.Opp4Num1.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Num1, "Opp4Num1");
+            this.Opp4Num1.Name = "Opp4Num1";
             // 
-            // label41
+            // Opp4Num9
             // 
-            this.label41.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label41, "label41");
-            this.label41.Name = "label41";
+            this.Opp4Num9.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Num9, "Opp4Num9");
+            this.Opp4Num9.Name = "Opp4Num9";
             // 
-            // label42
+            // Opp4Num10
             // 
-            this.label42.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label42, "label42");
-            this.label42.Name = "label42";
+            this.Opp4Num10.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Num10, "Opp4Num10");
+            this.Opp4Num10.Name = "Opp4Num10";
             // 
-            // label43
+            // Opp4Num11
             // 
-            this.label43.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label43, "label43");
-            this.label43.Name = "label43";
+            this.Opp4Num11.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Num11, "Opp4Num11");
+            this.Opp4Num11.Name = "Opp4Num11";
             // 
-            // label44
+            // Opp4Num12
             // 
-            this.label44.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label44, "label44");
-            this.label44.Name = "label44";
+            this.Opp4Num12.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Num12, "Opp4Num12");
+            this.Opp4Num12.Name = "Opp4Num12";
             // 
-            // label45
+            // Opp4Num13
             // 
-            this.label45.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label45, "label45");
-            this.label45.Name = "label45";
+            this.Opp4Num13.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Num13, "Opp4Num13");
+            this.Opp4Num13.Name = "Opp4Num13";
             // 
-            // label46
+            // Opp4Num14
             // 
-            this.label46.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label46, "label46");
-            this.label46.Name = "label46";
+            this.Opp4Num14.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Num14, "Opp4Num14");
+            this.Opp4Num14.Name = "Opp4Num14";
             // 
-            // label47
+            // Opp4Num15
             // 
-            this.label47.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label47, "label47");
-            this.label47.Name = "label47";
+            this.Opp4Num15.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Num15, "Opp4Num15");
+            this.Opp4Num15.Name = "Opp4Num15";
             // 
-            // label48
+            // Opp4Num16
             // 
-            this.label48.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label48, "label48");
-            this.label48.Name = "label48";
+            this.Opp4Num16.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Num16, "Opp4Num16");
+            this.Opp4Num16.Name = "Opp4Num16";
             // 
-            // pictureBox4
+            // Opp4Card16
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox4, "pictureBox4");
-            this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.TabStop = false;
+            this.Opp4Card16.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Card16, "Opp4Card16");
+            this.Opp4Card16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp4Card16.Name = "Opp4Card16";
+            this.Opp4Card16.TabStop = false;
             // 
-            // pictureBox5
+            // Opp4Card15
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox5, "pictureBox5");
-            this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.TabStop = false;
+            this.Opp4Card15.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Card15, "Opp4Card15");
+            this.Opp4Card15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp4Card15.Name = "Opp4Card15";
+            this.Opp4Card15.TabStop = false;
             // 
-            // pictureBox6
+            // Opp4Card14
             // 
-            this.pictureBox6.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox6, "pictureBox6");
-            this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.TabStop = false;
+            this.Opp4Card14.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Card14, "Opp4Card14");
+            this.Opp4Card14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp4Card14.Name = "Opp4Card14";
+            this.Opp4Card14.TabStop = false;
             // 
-            // pictureBox10
+            // Opp4Card13
             // 
-            this.pictureBox10.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox10, "pictureBox10");
-            this.pictureBox10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.TabStop = false;
+            this.Opp4Card13.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Card13, "Opp4Card13");
+            this.Opp4Card13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp4Card13.Name = "Opp4Card13";
+            this.Opp4Card13.TabStop = false;
             // 
-            // pictureBox11
+            // Opp4Card12
             // 
-            this.pictureBox11.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox11, "pictureBox11");
-            this.pictureBox11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.TabStop = false;
+            this.Opp4Card12.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Card12, "Opp4Card12");
+            this.Opp4Card12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp4Card12.Name = "Opp4Card12";
+            this.Opp4Card12.TabStop = false;
             // 
-            // pictureBox12
+            // Opp4Card11
             // 
-            this.pictureBox12.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox12, "pictureBox12");
-            this.pictureBox12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.TabStop = false;
+            this.Opp4Card11.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Card11, "Opp4Card11");
+            this.Opp4Card11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp4Card11.Name = "Opp4Card11";
+            this.Opp4Card11.TabStop = false;
             // 
-            // pictureBox13
+            // Opp4Card10
             // 
-            this.pictureBox13.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox13, "pictureBox13");
-            this.pictureBox13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.TabStop = false;
+            this.Opp4Card10.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Card10, "Opp4Card10");
+            this.Opp4Card10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp4Card10.Name = "Opp4Card10";
+            this.Opp4Card10.TabStop = false;
             // 
-            // pictureBox14
+            // Opp4Card9
             // 
-            this.pictureBox14.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox14, "pictureBox14");
-            this.pictureBox14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.TabStop = false;
+            this.Opp4Card9.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Card9, "Opp4Card9");
+            this.Opp4Card9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp4Card9.Name = "Opp4Card9";
+            this.Opp4Card9.TabStop = false;
             // 
-            // pictureBox15
+            // Opp4Card8
             // 
-            this.pictureBox15.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox15, "pictureBox15");
-            this.pictureBox15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.TabStop = false;
+            this.Opp4Card8.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Card8, "Opp4Card8");
+            this.Opp4Card8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp4Card8.Name = "Opp4Card8";
+            this.Opp4Card8.TabStop = false;
             // 
-            // pictureBox35
+            // Opp4Card7
             // 
-            this.pictureBox35.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox35, "pictureBox35");
-            this.pictureBox35.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox35.Name = "pictureBox35";
-            this.pictureBox35.TabStop = false;
+            this.Opp4Card7.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Card7, "Opp4Card7");
+            this.Opp4Card7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp4Card7.Name = "Opp4Card7";
+            this.Opp4Card7.TabStop = false;
             // 
-            // pictureBox36
+            // Opp4Card6
             // 
-            this.pictureBox36.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox36, "pictureBox36");
-            this.pictureBox36.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox36.Name = "pictureBox36";
-            this.pictureBox36.TabStop = false;
+            this.Opp4Card6.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Card6, "Opp4Card6");
+            this.Opp4Card6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp4Card6.Name = "Opp4Card6";
+            this.Opp4Card6.TabStop = false;
             // 
-            // pictureBox37
+            // Opp4Card5
             // 
-            this.pictureBox37.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox37, "pictureBox37");
-            this.pictureBox37.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox37.Name = "pictureBox37";
-            this.pictureBox37.TabStop = false;
+            this.Opp4Card5.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Card5, "Opp4Card5");
+            this.Opp4Card5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp4Card5.Name = "Opp4Card5";
+            this.Opp4Card5.TabStop = false;
             // 
-            // pictureBox38
+            // Opp4Card4
             // 
-            this.pictureBox38.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox38, "pictureBox38");
-            this.pictureBox38.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox38.Name = "pictureBox38";
-            this.pictureBox38.TabStop = false;
+            this.Opp4Card4.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Card4, "Opp4Card4");
+            this.Opp4Card4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp4Card4.Name = "Opp4Card4";
+            this.Opp4Card4.TabStop = false;
             // 
-            // pictureBox39
+            // Opp4Card3
             // 
-            this.pictureBox39.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox39, "pictureBox39");
-            this.pictureBox39.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox39.Name = "pictureBox39";
-            this.pictureBox39.TabStop = false;
+            this.Opp4Card3.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Card3, "Opp4Card3");
+            this.Opp4Card3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp4Card3.Name = "Opp4Card3";
+            this.Opp4Card3.TabStop = false;
             // 
             // textBox1
             // 
             resources.ApplyResources(this.textBox1, "textBox1");
             this.textBox1.Name = "textBox1";
             // 
-            // pictureBox40
+            // Opp4Card2
             // 
-            this.pictureBox40.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox40, "pictureBox40");
-            this.pictureBox40.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox40.Name = "pictureBox40";
-            this.pictureBox40.TabStop = false;
+            this.Opp4Card2.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Card2, "Opp4Card2");
+            this.Opp4Card2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp4Card2.Name = "Opp4Card2";
+            this.Opp4Card2.TabStop = false;
             // 
-            // pictureBox41
+            // Opp4Card1
             // 
-            this.pictureBox41.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox41, "pictureBox41");
-            this.pictureBox41.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox41.Name = "pictureBox41";
-            this.pictureBox41.TabStop = false;
+            this.Opp4Card1.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp4Card1, "Opp4Card1");
+            this.Opp4Card1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp4Card1.Name = "Opp4Card1";
+            this.Opp4Card1.TabStop = false;
             // 
-            // label49
+            // Opp3Num8
             // 
-            this.label49.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label49, "label49");
-            this.label49.Name = "label49";
+            this.Opp3Num8.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Num8, "Opp3Num8");
+            this.Opp3Num8.Name = "Opp3Num8";
             // 
-            // label50
+            // Opp3Num7
             // 
-            this.label50.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label50, "label50");
-            this.label50.Name = "label50";
+            this.Opp3Num7.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Num7, "Opp3Num7");
+            this.Opp3Num7.Name = "Opp3Num7";
             // 
-            // label51
+            // Opp3Num6
             // 
-            this.label51.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label51, "label51");
-            this.label51.Name = "label51";
+            this.Opp3Num6.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Num6, "Opp3Num6");
+            this.Opp3Num6.Name = "Opp3Num6";
             // 
-            // label52
+            // Opp3Num5
             // 
-            this.label52.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label52, "label52");
-            this.label52.Name = "label52";
+            this.Opp3Num5.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Num5, "Opp3Num5");
+            this.Opp3Num5.Name = "Opp3Num5";
             // 
-            // label53
+            // Opp3Num4
             // 
-            this.label53.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label53, "label53");
-            this.label53.Name = "label53";
+            this.Opp3Num4.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Num4, "Opp3Num4");
+            this.Opp3Num4.Name = "Opp3Num4";
             // 
-            // label54
+            // Opp3Num3
             // 
-            this.label54.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label54, "label54");
-            this.label54.Name = "label54";
+            this.Opp3Num3.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Num3, "Opp3Num3");
+            this.Opp3Num3.Name = "Opp3Num3";
             // 
-            // label55
+            // Opp3Num2
             // 
-            this.label55.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label55, "label55");
-            this.label55.Name = "label55";
+            this.Opp3Num2.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Num2, "Opp3Num2");
+            this.Opp3Num2.Name = "Opp3Num2";
             // 
-            // label56
+            // Opp3Num1
             // 
-            this.label56.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label56, "label56");
-            this.label56.Name = "label56";
+            this.Opp3Num1.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Num1, "Opp3Num1");
+            this.Opp3Num1.Name = "Opp3Num1";
             // 
-            // label57
+            // Opp3Num9
             // 
-            this.label57.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label57, "label57");
-            this.label57.Name = "label57";
+            this.Opp3Num9.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Num9, "Opp3Num9");
+            this.Opp3Num9.Name = "Opp3Num9";
             // 
-            // label58
+            // Opp3Num10
             // 
-            this.label58.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label58, "label58");
-            this.label58.Name = "label58";
+            this.Opp3Num10.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Num10, "Opp3Num10");
+            this.Opp3Num10.Name = "Opp3Num10";
             // 
-            // label59
+            // Opp3Num11
             // 
-            this.label59.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label59, "label59");
-            this.label59.Name = "label59";
+            this.Opp3Num11.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Num11, "Opp3Num11");
+            this.Opp3Num11.Name = "Opp3Num11";
             // 
-            // label60
+            // Opp3Num12
             // 
-            this.label60.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label60, "label60");
-            this.label60.Name = "label60";
+            this.Opp3Num12.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Num12, "Opp3Num12");
+            this.Opp3Num12.Name = "Opp3Num12";
             // 
-            // label61
+            // Opp3Num13
             // 
-            this.label61.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label61, "label61");
-            this.label61.Name = "label61";
+            this.Opp3Num13.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Num13, "Opp3Num13");
+            this.Opp3Num13.Name = "Opp3Num13";
             // 
-            // label62
+            // Opp3Num14
             // 
-            this.label62.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label62, "label62");
-            this.label62.Name = "label62";
+            this.Opp3Num14.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Num14, "Opp3Num14");
+            this.Opp3Num14.Name = "Opp3Num14";
             // 
-            // label63
+            // Opp3Num15
             // 
-            this.label63.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label63, "label63");
-            this.label63.Name = "label63";
+            this.Opp3Num15.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Num15, "Opp3Num15");
+            this.Opp3Num15.Name = "Opp3Num15";
             // 
-            // label64
+            // Opp3Num16
             // 
-            this.label64.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label64, "label64");
-            this.label64.Name = "label64";
+            this.Opp3Num16.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Num16, "Opp3Num16");
+            this.Opp3Num16.Name = "Opp3Num16";
             // 
-            // pictureBox42
+            // Opp3Card16
             // 
-            this.pictureBox42.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox42, "pictureBox42");
-            this.pictureBox42.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox42.Name = "pictureBox42";
-            this.pictureBox42.TabStop = false;
+            this.Opp3Card16.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Card16, "Opp3Card16");
+            this.Opp3Card16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp3Card16.Name = "Opp3Card16";
+            this.Opp3Card16.TabStop = false;
             // 
-            // pictureBox43
+            // Opp3Card15
             // 
-            this.pictureBox43.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox43, "pictureBox43");
-            this.pictureBox43.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox43.Name = "pictureBox43";
-            this.pictureBox43.TabStop = false;
+            this.Opp3Card15.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Card15, "Opp3Card15");
+            this.Opp3Card15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp3Card15.Name = "Opp3Card15";
+            this.Opp3Card15.TabStop = false;
             // 
-            // pictureBox44
+            // Opp3Card14
             // 
-            this.pictureBox44.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox44, "pictureBox44");
-            this.pictureBox44.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox44.Name = "pictureBox44";
-            this.pictureBox44.TabStop = false;
+            this.Opp3Card14.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Card14, "Opp3Card14");
+            this.Opp3Card14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp3Card14.Name = "Opp3Card14";
+            this.Opp3Card14.TabStop = false;
             // 
-            // pictureBox45
+            // Opp3Card13
             // 
-            this.pictureBox45.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox45, "pictureBox45");
-            this.pictureBox45.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox45.Name = "pictureBox45";
-            this.pictureBox45.TabStop = false;
+            this.Opp3Card13.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Card13, "Opp3Card13");
+            this.Opp3Card13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp3Card13.Name = "Opp3Card13";
+            this.Opp3Card13.TabStop = false;
             // 
-            // pictureBox46
+            // Opp3Card12
             // 
-            this.pictureBox46.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox46, "pictureBox46");
-            this.pictureBox46.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox46.Name = "pictureBox46";
-            this.pictureBox46.TabStop = false;
+            this.Opp3Card12.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Card12, "Opp3Card12");
+            this.Opp3Card12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp3Card12.Name = "Opp3Card12";
+            this.Opp3Card12.TabStop = false;
             // 
-            // pictureBox47
+            // Opp3Card11
             // 
-            this.pictureBox47.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox47, "pictureBox47");
-            this.pictureBox47.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox47.Name = "pictureBox47";
-            this.pictureBox47.TabStop = false;
+            this.Opp3Card11.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Card11, "Opp3Card11");
+            this.Opp3Card11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp3Card11.Name = "Opp3Card11";
+            this.Opp3Card11.TabStop = false;
             // 
-            // pictureBox48
+            // Opp3Card10
             // 
-            this.pictureBox48.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox48, "pictureBox48");
-            this.pictureBox48.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox48.Name = "pictureBox48";
-            this.pictureBox48.TabStop = false;
+            this.Opp3Card10.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Card10, "Opp3Card10");
+            this.Opp3Card10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp3Card10.Name = "Opp3Card10";
+            this.Opp3Card10.TabStop = false;
             // 
-            // pictureBox49
+            // Opp3Card9
             // 
-            this.pictureBox49.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox49, "pictureBox49");
-            this.pictureBox49.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox49.Name = "pictureBox49";
-            this.pictureBox49.TabStop = false;
+            this.Opp3Card9.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Card9, "Opp3Card9");
+            this.Opp3Card9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp3Card9.Name = "Opp3Card9";
+            this.Opp3Card9.TabStop = false;
             // 
-            // pictureBox50
+            // Opp3Card8
             // 
-            this.pictureBox50.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox50, "pictureBox50");
-            this.pictureBox50.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox50.Name = "pictureBox50";
-            this.pictureBox50.TabStop = false;
+            this.Opp3Card8.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Card8, "Opp3Card8");
+            this.Opp3Card8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp3Card8.Name = "Opp3Card8";
+            this.Opp3Card8.TabStop = false;
             // 
-            // pictureBox51
+            // Opp3Card7
             // 
-            this.pictureBox51.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox51, "pictureBox51");
-            this.pictureBox51.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox51.Name = "pictureBox51";
-            this.pictureBox51.TabStop = false;
+            this.Opp3Card7.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Card7, "Opp3Card7");
+            this.Opp3Card7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp3Card7.Name = "Opp3Card7";
+            this.Opp3Card7.TabStop = false;
             // 
-            // pictureBox52
+            // Opp3Card6
             // 
-            this.pictureBox52.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox52, "pictureBox52");
-            this.pictureBox52.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox52.Name = "pictureBox52";
-            this.pictureBox52.TabStop = false;
+            this.Opp3Card6.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Card6, "Opp3Card6");
+            this.Opp3Card6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp3Card6.Name = "Opp3Card6";
+            this.Opp3Card6.TabStop = false;
             // 
-            // pictureBox53
+            // Opp3Card5
             // 
-            this.pictureBox53.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox53, "pictureBox53");
-            this.pictureBox53.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox53.Name = "pictureBox53";
-            this.pictureBox53.TabStop = false;
+            this.Opp3Card5.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Card5, "Opp3Card5");
+            this.Opp3Card5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp3Card5.Name = "Opp3Card5";
+            this.Opp3Card5.TabStop = false;
             // 
-            // pictureBox54
+            // Opp3Card4
             // 
-            this.pictureBox54.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox54, "pictureBox54");
-            this.pictureBox54.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox54.Name = "pictureBox54";
-            this.pictureBox54.TabStop = false;
+            this.Opp3Card4.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Card4, "Opp3Card4");
+            this.Opp3Card4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp3Card4.Name = "Opp3Card4";
+            this.Opp3Card4.TabStop = false;
             // 
-            // pictureBox55
+            // Opp3Card3
             // 
-            this.pictureBox55.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox55, "pictureBox55");
-            this.pictureBox55.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox55.Name = "pictureBox55";
-            this.pictureBox55.TabStop = false;
+            this.Opp3Card3.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Card3, "Opp3Card3");
+            this.Opp3Card3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp3Card3.Name = "Opp3Card3";
+            this.Opp3Card3.TabStop = false;
             // 
             // textBox4
             // 
             resources.ApplyResources(this.textBox4, "textBox4");
             this.textBox4.Name = "textBox4";
             // 
-            // pictureBox56
+            // Opp3Card2
             // 
-            this.pictureBox56.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox56, "pictureBox56");
-            this.pictureBox56.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox56.Name = "pictureBox56";
-            this.pictureBox56.TabStop = false;
+            this.Opp3Card2.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Card2, "Opp3Card2");
+            this.Opp3Card2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp3Card2.Name = "Opp3Card2";
+            this.Opp3Card2.TabStop = false;
             // 
-            // pictureBox57
+            // Opp3Card1
             // 
-            this.pictureBox57.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.pictureBox57, "pictureBox57");
-            this.pictureBox57.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox57.Name = "pictureBox57";
-            this.pictureBox57.TabStop = false;
+            this.Opp3Card1.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.Opp3Card1, "Opp3Card1");
+            this.Opp3Card1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Opp3Card1.Name = "Opp3Card1";
+            this.Opp3Card1.TabStop = false;
             // 
-            // label65
+            // MainPlayerNum8
             // 
-            this.label65.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label65, "label65");
-            this.label65.Name = "label65";
+            this.MainPlayerNum8.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerNum8, "MainPlayerNum8");
+            this.MainPlayerNum8.Name = "MainPlayerNum8";
             // 
-            // label66
+            // MainPlayerNum7
             // 
-            this.label66.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label66, "label66");
-            this.label66.Name = "label66";
+            this.MainPlayerNum7.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerNum7, "MainPlayerNum7");
+            this.MainPlayerNum7.Name = "MainPlayerNum7";
             // 
-            // label67
+            // MainPlayerNum6
             // 
-            this.label67.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label67, "label67");
-            this.label67.Name = "label67";
+            this.MainPlayerNum6.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerNum6, "MainPlayerNum6");
+            this.MainPlayerNum6.Name = "MainPlayerNum6";
             // 
-            // label68
+            // MainPlayerNum5
             // 
-            this.label68.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label68, "label68");
-            this.label68.Name = "label68";
+            this.MainPlayerNum5.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerNum5, "MainPlayerNum5");
+            this.MainPlayerNum5.Name = "MainPlayerNum5";
             // 
-            // label69
+            // MainPlayerNum4
             // 
-            this.label69.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label69, "label69");
-            this.label69.Name = "label69";
+            this.MainPlayerNum4.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerNum4, "MainPlayerNum4");
+            this.MainPlayerNum4.Name = "MainPlayerNum4";
             // 
-            // label70
+            // MainPlayerNum3
             // 
-            this.label70.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label70, "label70");
-            this.label70.Name = "label70";
+            this.MainPlayerNum3.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerNum3, "MainPlayerNum3");
+            this.MainPlayerNum3.Name = "MainPlayerNum3";
             // 
-            // label71
+            // MainPlayerNum2
             // 
-            this.label71.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label71, "label71");
-            this.label71.Name = "label71";
+            this.MainPlayerNum2.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerNum2, "MainPlayerNum2");
+            this.MainPlayerNum2.Name = "MainPlayerNum2";
             // 
-            // label72
+            // MainPlayerNum1
             // 
-            this.label72.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label72, "label72");
-            this.label72.Name = "label72";
+            this.MainPlayerNum1.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerNum1, "MainPlayerNum1");
+            this.MainPlayerNum1.Name = "MainPlayerNum1";
             // 
-            // label73
+            // MainPlayerNum9
             // 
-            this.label73.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label73, "label73");
-            this.label73.Name = "label73";
+            this.MainPlayerNum9.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerNum9, "MainPlayerNum9");
+            this.MainPlayerNum9.Name = "MainPlayerNum9";
             // 
-            // label74
+            // MainPlayerNum10
             // 
-            this.label74.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label74, "label74");
-            this.label74.Name = "label74";
+            this.MainPlayerNum10.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerNum10, "MainPlayerNum10");
+            this.MainPlayerNum10.Name = "MainPlayerNum10";
             // 
-            // label75
+            // MainPlayerNum11
             // 
-            this.label75.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label75, "label75");
-            this.label75.Name = "label75";
+            this.MainPlayerNum11.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerNum11, "MainPlayerNum11");
+            this.MainPlayerNum11.Name = "MainPlayerNum11";
             // 
-            // label76
+            // MainPlayerNum12
             // 
-            this.label76.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label76, "label76");
-            this.label76.Name = "label76";
+            this.MainPlayerNum12.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerNum12, "MainPlayerNum12");
+            this.MainPlayerNum12.Name = "MainPlayerNum12";
             // 
-            // label77
+            // MainPlayerNum13
             // 
-            this.label77.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label77, "label77");
-            this.label77.Name = "label77";
+            this.MainPlayerNum13.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerNum13, "MainPlayerNum13");
+            this.MainPlayerNum13.Name = "MainPlayerNum13";
             // 
-            // label78
+            // MainPlayerNum14
             // 
-            this.label78.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label78, "label78");
-            this.label78.Name = "label78";
+            this.MainPlayerNum14.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerNum14, "MainPlayerNum14");
+            this.MainPlayerNum14.Name = "MainPlayerNum14";
             // 
-            // label79
+            // MainPlayerNum15
             // 
-            this.label79.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label79, "label79");
-            this.label79.Name = "label79";
+            this.MainPlayerNum15.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerNum15, "MainPlayerNum15");
+            this.MainPlayerNum15.Name = "MainPlayerNum15";
             // 
-            // label80
+            // MainPlayerNum16
             // 
-            this.label80.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.label80, "label80");
-            this.label80.Name = "label80";
+            this.MainPlayerNum16.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.MainPlayerNum16, "MainPlayerNum16");
+            this.MainPlayerNum16.Name = "MainPlayerNum16";
             // 
             // MainPlayerCard16
             // 
@@ -1602,22 +1603,22 @@
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LemonChiffon;
-            this.Controls.Add(this.label65);
-            this.Controls.Add(this.label66);
-            this.Controls.Add(this.label67);
-            this.Controls.Add(this.label68);
-            this.Controls.Add(this.label69);
-            this.Controls.Add(this.label70);
-            this.Controls.Add(this.label71);
-            this.Controls.Add(this.label72);
-            this.Controls.Add(this.label73);
-            this.Controls.Add(this.label74);
-            this.Controls.Add(this.label75);
-            this.Controls.Add(this.label76);
-            this.Controls.Add(this.label77);
-            this.Controls.Add(this.label78);
-            this.Controls.Add(this.label79);
-            this.Controls.Add(this.label80);
+            this.Controls.Add(this.MainPlayerNum8);
+            this.Controls.Add(this.MainPlayerNum7);
+            this.Controls.Add(this.MainPlayerNum6);
+            this.Controls.Add(this.MainPlayerNum5);
+            this.Controls.Add(this.MainPlayerNum4);
+            this.Controls.Add(this.MainPlayerNum3);
+            this.Controls.Add(this.MainPlayerNum2);
+            this.Controls.Add(this.MainPlayerNum1);
+            this.Controls.Add(this.MainPlayerNum9);
+            this.Controls.Add(this.MainPlayerNum10);
+            this.Controls.Add(this.MainPlayerNum11);
+            this.Controls.Add(this.MainPlayerNum12);
+            this.Controls.Add(this.MainPlayerNum13);
+            this.Controls.Add(this.MainPlayerNum14);
+            this.Controls.Add(this.MainPlayerNum15);
+            this.Controls.Add(this.MainPlayerNum16);
             this.Controls.Add(this.MainPlayerCard16);
             this.Controls.Add(this.MainPlayerCard15);
             this.Controls.Add(this.MainPlayerCard14);
@@ -1635,72 +1636,72 @@
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.MainPlayerCard2);
             this.Controls.Add(this.MainPlayerCard1);
-            this.Controls.Add(this.label49);
-            this.Controls.Add(this.label50);
-            this.Controls.Add(this.label51);
-            this.Controls.Add(this.label52);
-            this.Controls.Add(this.label53);
-            this.Controls.Add(this.label54);
-            this.Controls.Add(this.label55);
-            this.Controls.Add(this.label56);
-            this.Controls.Add(this.label57);
-            this.Controls.Add(this.label58);
-            this.Controls.Add(this.label59);
-            this.Controls.Add(this.label60);
-            this.Controls.Add(this.label61);
-            this.Controls.Add(this.label62);
-            this.Controls.Add(this.label63);
-            this.Controls.Add(this.label64);
-            this.Controls.Add(this.pictureBox42);
-            this.Controls.Add(this.pictureBox43);
-            this.Controls.Add(this.pictureBox44);
-            this.Controls.Add(this.pictureBox45);
-            this.Controls.Add(this.pictureBox46);
-            this.Controls.Add(this.pictureBox47);
-            this.Controls.Add(this.pictureBox48);
-            this.Controls.Add(this.pictureBox49);
-            this.Controls.Add(this.pictureBox50);
-            this.Controls.Add(this.pictureBox51);
-            this.Controls.Add(this.pictureBox52);
-            this.Controls.Add(this.pictureBox53);
-            this.Controls.Add(this.pictureBox54);
-            this.Controls.Add(this.pictureBox55);
+            this.Controls.Add(this.Opp3Num8);
+            this.Controls.Add(this.Opp3Num7);
+            this.Controls.Add(this.Opp3Num6);
+            this.Controls.Add(this.Opp3Num5);
+            this.Controls.Add(this.Opp3Num4);
+            this.Controls.Add(this.Opp3Num3);
+            this.Controls.Add(this.Opp3Num2);
+            this.Controls.Add(this.Opp3Num1);
+            this.Controls.Add(this.Opp3Num9);
+            this.Controls.Add(this.Opp3Num10);
+            this.Controls.Add(this.Opp3Num11);
+            this.Controls.Add(this.Opp3Num12);
+            this.Controls.Add(this.Opp3Num13);
+            this.Controls.Add(this.Opp3Num14);
+            this.Controls.Add(this.Opp3Num15);
+            this.Controls.Add(this.Opp3Num16);
+            this.Controls.Add(this.Opp3Card16);
+            this.Controls.Add(this.Opp3Card15);
+            this.Controls.Add(this.Opp3Card14);
+            this.Controls.Add(this.Opp3Card13);
+            this.Controls.Add(this.Opp3Card12);
+            this.Controls.Add(this.Opp3Card11);
+            this.Controls.Add(this.Opp3Card10);
+            this.Controls.Add(this.Opp3Card9);
+            this.Controls.Add(this.Opp3Card8);
+            this.Controls.Add(this.Opp3Card7);
+            this.Controls.Add(this.Opp3Card6);
+            this.Controls.Add(this.Opp3Card5);
+            this.Controls.Add(this.Opp3Card4);
+            this.Controls.Add(this.Opp3Card3);
             this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.pictureBox56);
-            this.Controls.Add(this.pictureBox57);
-            this.Controls.Add(this.label33);
-            this.Controls.Add(this.label34);
-            this.Controls.Add(this.label35);
-            this.Controls.Add(this.label36);
-            this.Controls.Add(this.label37);
-            this.Controls.Add(this.label38);
-            this.Controls.Add(this.label39);
-            this.Controls.Add(this.label40);
-            this.Controls.Add(this.label41);
-            this.Controls.Add(this.label42);
-            this.Controls.Add(this.label43);
-            this.Controls.Add(this.label44);
-            this.Controls.Add(this.label45);
-            this.Controls.Add(this.label46);
-            this.Controls.Add(this.label47);
-            this.Controls.Add(this.label48);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.pictureBox11);
-            this.Controls.Add(this.pictureBox12);
-            this.Controls.Add(this.pictureBox13);
-            this.Controls.Add(this.pictureBox14);
-            this.Controls.Add(this.pictureBox15);
-            this.Controls.Add(this.pictureBox35);
-            this.Controls.Add(this.pictureBox36);
-            this.Controls.Add(this.pictureBox37);
-            this.Controls.Add(this.pictureBox38);
-            this.Controls.Add(this.pictureBox39);
+            this.Controls.Add(this.Opp3Card2);
+            this.Controls.Add(this.Opp3Card1);
+            this.Controls.Add(this.Opp4Num8);
+            this.Controls.Add(this.Opp4Num7);
+            this.Controls.Add(this.Opp4Num6);
+            this.Controls.Add(this.Opp4Num5);
+            this.Controls.Add(this.Opp4Num4);
+            this.Controls.Add(this.Opp4Num3);
+            this.Controls.Add(this.Opp4Num2);
+            this.Controls.Add(this.Opp4Num1);
+            this.Controls.Add(this.Opp4Num9);
+            this.Controls.Add(this.Opp4Num10);
+            this.Controls.Add(this.Opp4Num11);
+            this.Controls.Add(this.Opp4Num12);
+            this.Controls.Add(this.Opp4Num13);
+            this.Controls.Add(this.Opp4Num14);
+            this.Controls.Add(this.Opp4Num15);
+            this.Controls.Add(this.Opp4Num16);
+            this.Controls.Add(this.Opp4Card16);
+            this.Controls.Add(this.Opp4Card15);
+            this.Controls.Add(this.Opp4Card14);
+            this.Controls.Add(this.Opp4Card13);
+            this.Controls.Add(this.Opp4Card12);
+            this.Controls.Add(this.Opp4Card11);
+            this.Controls.Add(this.Opp4Card10);
+            this.Controls.Add(this.Opp4Card9);
+            this.Controls.Add(this.Opp4Card8);
+            this.Controls.Add(this.Opp4Card7);
+            this.Controls.Add(this.Opp4Card6);
+            this.Controls.Add(this.Opp4Card5);
+            this.Controls.Add(this.Opp4Card4);
+            this.Controls.Add(this.Opp4Card3);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.pictureBox40);
-            this.Controls.Add(this.pictureBox41);
+            this.Controls.Add(this.Opp4Card2);
+            this.Controls.Add(this.Opp4Card1);
             this.Controls.Add(this.Opp2Num8);
             this.Controls.Add(this.Opp2Num7);
             this.Controls.Add(this.Opp2Num6);
@@ -1832,38 +1833,38 @@
             ((System.ComponentModel.ISupportInitialize)(this.Opp2Card3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp2Card2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp2Card1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox48)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox49)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox50)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox51)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox52)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox53)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox54)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox55)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox56)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox57)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp4Card1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Opp3Card1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard14)).EndInit();
@@ -1975,88 +1976,88 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.PictureBox Opp2Card2;
         private System.Windows.Forms.PictureBox Opp2Card1;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.Label label48;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.PictureBox pictureBox35;
-        private System.Windows.Forms.PictureBox pictureBox36;
-        private System.Windows.Forms.PictureBox pictureBox37;
-        private System.Windows.Forms.PictureBox pictureBox38;
-        private System.Windows.Forms.PictureBox pictureBox39;
+        private System.Windows.Forms.Label Opp4Num8;
+        private System.Windows.Forms.Label Opp4Num7;
+        private System.Windows.Forms.Label Opp4Num6;
+        private System.Windows.Forms.Label Opp4Num5;
+        private System.Windows.Forms.Label Opp4Num4;
+        private System.Windows.Forms.Label Opp4Num3;
+        private System.Windows.Forms.Label Opp4Num2;
+        private System.Windows.Forms.Label Opp4Num1;
+        private System.Windows.Forms.Label Opp4Num9;
+        private System.Windows.Forms.Label Opp4Num10;
+        private System.Windows.Forms.Label Opp4Num11;
+        private System.Windows.Forms.Label Opp4Num12;
+        private System.Windows.Forms.Label Opp4Num13;
+        private System.Windows.Forms.Label Opp4Num14;
+        private System.Windows.Forms.Label Opp4Num15;
+        private System.Windows.Forms.Label Opp4Num16;
+        private System.Windows.Forms.PictureBox Opp4Card16;
+        private System.Windows.Forms.PictureBox Opp4Card15;
+        private System.Windows.Forms.PictureBox Opp4Card14;
+        private System.Windows.Forms.PictureBox Opp4Card13;
+        private System.Windows.Forms.PictureBox Opp4Card12;
+        private System.Windows.Forms.PictureBox Opp4Card11;
+        private System.Windows.Forms.PictureBox Opp4Card10;
+        private System.Windows.Forms.PictureBox Opp4Card9;
+        private System.Windows.Forms.PictureBox Opp4Card8;
+        private System.Windows.Forms.PictureBox Opp4Card7;
+        private System.Windows.Forms.PictureBox Opp4Card6;
+        private System.Windows.Forms.PictureBox Opp4Card5;
+        private System.Windows.Forms.PictureBox Opp4Card4;
+        private System.Windows.Forms.PictureBox Opp4Card3;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.PictureBox pictureBox40;
-        private System.Windows.Forms.PictureBox pictureBox41;
-        private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.Label label51;
-        private System.Windows.Forms.Label label52;
-        private System.Windows.Forms.Label label53;
-        private System.Windows.Forms.Label label54;
-        private System.Windows.Forms.Label label55;
-        private System.Windows.Forms.Label label56;
-        private System.Windows.Forms.Label label57;
-        private System.Windows.Forms.Label label58;
-        private System.Windows.Forms.Label label59;
-        private System.Windows.Forms.Label label60;
-        private System.Windows.Forms.Label label61;
-        private System.Windows.Forms.Label label62;
-        private System.Windows.Forms.Label label63;
-        private System.Windows.Forms.Label label64;
-        private System.Windows.Forms.PictureBox pictureBox42;
-        private System.Windows.Forms.PictureBox pictureBox43;
-        private System.Windows.Forms.PictureBox pictureBox44;
-        private System.Windows.Forms.PictureBox pictureBox45;
-        private System.Windows.Forms.PictureBox pictureBox46;
-        private System.Windows.Forms.PictureBox pictureBox47;
-        private System.Windows.Forms.PictureBox pictureBox48;
-        private System.Windows.Forms.PictureBox pictureBox49;
-        private System.Windows.Forms.PictureBox pictureBox50;
-        private System.Windows.Forms.PictureBox pictureBox51;
-        private System.Windows.Forms.PictureBox pictureBox52;
-        private System.Windows.Forms.PictureBox pictureBox53;
-        private System.Windows.Forms.PictureBox pictureBox54;
-        private System.Windows.Forms.PictureBox pictureBox55;
+        private System.Windows.Forms.PictureBox Opp4Card2;
+        private System.Windows.Forms.PictureBox Opp4Card1;
+        private System.Windows.Forms.Label Opp3Num8;
+        private System.Windows.Forms.Label Opp3Num7;
+        private System.Windows.Forms.Label Opp3Num6;
+        private System.Windows.Forms.Label Opp3Num5;
+        private System.Windows.Forms.Label Opp3Num4;
+        private System.Windows.Forms.Label Opp3Num3;
+        private System.Windows.Forms.Label Opp3Num2;
+        private System.Windows.Forms.Label Opp3Num1;
+        private System.Windows.Forms.Label Opp3Num9;
+        private System.Windows.Forms.Label Opp3Num10;
+        private System.Windows.Forms.Label Opp3Num11;
+        private System.Windows.Forms.Label Opp3Num12;
+        private System.Windows.Forms.Label Opp3Num13;
+        private System.Windows.Forms.Label Opp3Num14;
+        private System.Windows.Forms.Label Opp3Num15;
+        private System.Windows.Forms.Label Opp3Num16;
+        private System.Windows.Forms.PictureBox Opp3Card16;
+        private System.Windows.Forms.PictureBox Opp3Card15;
+        private System.Windows.Forms.PictureBox Opp3Card14;
+        private System.Windows.Forms.PictureBox Opp3Card13;
+        private System.Windows.Forms.PictureBox Opp3Card12;
+        private System.Windows.Forms.PictureBox Opp3Card11;
+        private System.Windows.Forms.PictureBox Opp3Card10;
+        private System.Windows.Forms.PictureBox Opp3Card9;
+        private System.Windows.Forms.PictureBox Opp3Card8;
+        private System.Windows.Forms.PictureBox Opp3Card7;
+        private System.Windows.Forms.PictureBox Opp3Card6;
+        private System.Windows.Forms.PictureBox Opp3Card5;
+        private System.Windows.Forms.PictureBox Opp3Card4;
+        private System.Windows.Forms.PictureBox Opp3Card3;
         private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.PictureBox pictureBox56;
-        private System.Windows.Forms.PictureBox pictureBox57;
-        private System.Windows.Forms.Label label65;
-        private System.Windows.Forms.Label label66;
-        private System.Windows.Forms.Label label67;
-        private System.Windows.Forms.Label label68;
-        private System.Windows.Forms.Label label69;
-        private System.Windows.Forms.Label label70;
-        private System.Windows.Forms.Label label71;
-        private System.Windows.Forms.Label label72;
-        private System.Windows.Forms.Label label73;
-        private System.Windows.Forms.Label label74;
-        private System.Windows.Forms.Label label75;
-        private System.Windows.Forms.Label label76;
-        private System.Windows.Forms.Label label77;
-        private System.Windows.Forms.Label label78;
-        private System.Windows.Forms.Label label79;
-        private System.Windows.Forms.Label label80;
+        private System.Windows.Forms.PictureBox Opp3Card2;
+        private System.Windows.Forms.PictureBox Opp3Card1;
+        private System.Windows.Forms.Label MainPlayerNum8;
+        private System.Windows.Forms.Label MainPlayerNum7;
+        private System.Windows.Forms.Label MainPlayerNum6;
+        private System.Windows.Forms.Label MainPlayerNum5;
+        private System.Windows.Forms.Label MainPlayerNum4;
+        private System.Windows.Forms.Label MainPlayerNum3;
+        private System.Windows.Forms.Label MainPlayerNum2;
+        private System.Windows.Forms.Label MainPlayerNum1;
+        private System.Windows.Forms.Label MainPlayerNum9;
+        private System.Windows.Forms.Label MainPlayerNum10;
+        private System.Windows.Forms.Label MainPlayerNum11;
+        private System.Windows.Forms.Label MainPlayerNum12;
+        private System.Windows.Forms.Label MainPlayerNum13;
+        private System.Windows.Forms.Label MainPlayerNum14;
+        private System.Windows.Forms.Label MainPlayerNum15;
+        private System.Windows.Forms.Label MainPlayerNum16;
         private System.Windows.Forms.PictureBox MainPlayerCard16;
         private System.Windows.Forms.PictureBox MainPlayerCard15;
         private System.Windows.Forms.PictureBox MainPlayerCard14;
