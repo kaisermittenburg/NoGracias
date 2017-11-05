@@ -22,11 +22,23 @@ namespace NoGracias.Communication
 
         #endregion
 
+        #region Game Setup
+        RECEIVE_PLAYER_POSITION,
+        #endregion
+
         #region Turn Logic
+        RECEIVE_TURN_CARD,
+        RECEIVE_TURN_PLAYER,
+        RECEIVE_TURN_OPTIONS,
         ACCEPT_CARD,
         REJECT_CARD,
 
         #endregion
+
+        #region Game End
+        RECEIVE_PLAYER_SCORE,
+        #endregion
+
 
         #region Misc
         SEND_NOTHING,                              //--Dummy Message
