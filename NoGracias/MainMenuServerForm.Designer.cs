@@ -373,6 +373,7 @@ namespace NoGracias
 
         private void ReceiveLoop(Socket temp)
         {
+            Console.WriteLine("Got to ReceiveLoop");
             while (true)
             {
                 ReceiveResponse(temp);
@@ -381,6 +382,7 @@ namespace NoGracias
 
         private void ReceiveResponse(Socket temp)
         {
+            Console.WriteLine("Got to ReceiveResponse");
             var buffer = new byte[2048];
             int received = temp.Receive(buffer, SocketFlags.None);
             if (received == 0) return;
@@ -538,7 +540,7 @@ namespace NoGracias
         private void Recieve(IAsyncResult AR)
         {
             Socket temp = (Socket)AR.AsyncState;
-
+            Console.WriteLine("Got to Recieve AR");
             ReceiveLoop(temp); //STAY HERE
             ///////////////////////////////////////////////////////////
             Debugger.Break();
