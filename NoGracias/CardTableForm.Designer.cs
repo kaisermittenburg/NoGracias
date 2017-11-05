@@ -135,6 +135,8 @@
             this.pictureBox76 = new System.Windows.Forms.PictureBox();
             this.pictureBox77 = new System.Windows.Forms.PictureBox();
             this.pictureBox78 = new System.Windows.Forms.PictureBox();
+            this.pictureBox87 = new System.Windows.Forms.PictureBox();
+            this.TopDeckCardNum = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
@@ -221,6 +223,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox76)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox77)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox78)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox87)).BeginInit();
             this.SuspendLayout();
             // 
             // MainPlayerName
@@ -1016,11 +1019,25 @@
             this.pictureBox78.Name = "pictureBox78";
             this.pictureBox78.TabStop = false;
             // 
+            // pictureBox87
+            // 
+            resources.ApplyResources(this.pictureBox87, "pictureBox87");
+            this.pictureBox87.Name = "pictureBox87";
+            this.pictureBox87.TabStop = false;
+            // 
+            // TopDeckCardNum
+            // 
+            this.TopDeckCardNum.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.TopDeckCardNum, "TopDeckCardNum");
+            this.TopDeckCardNum.Name = "TopDeckCardNum";
+            // 
             // CardTableForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LemonChiffon;
+            this.Controls.Add(this.TopDeckCardNum);
+            this.Controls.Add(this.pictureBox87);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox3);
@@ -1215,6 +1232,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox76)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox77)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox78)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox87)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1327,6 +1345,8 @@
         private System.Windows.Forms.PictureBox pictureBox76;
         private System.Windows.Forms.PictureBox pictureBox77;
         private System.Windows.Forms.PictureBox pictureBox78;
+        private System.Windows.Forms.PictureBox pictureBox87;
+        private System.Windows.Forms.Label TopDeckCardNum;
     }
 }
 
