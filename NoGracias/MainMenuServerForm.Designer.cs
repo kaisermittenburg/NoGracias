@@ -366,7 +366,7 @@ namespace NoGracias
             thread.TrySetApartmentState(ApartmentState.STA);
             thread.Start(temp);
 
-            ReceiveLoop(temp);
+            //ReceiveLoop(temp);
             //Put Socket in receive state
          
             //temp.BeginReceive(Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, temp);
