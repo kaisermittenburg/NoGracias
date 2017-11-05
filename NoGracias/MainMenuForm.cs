@@ -60,7 +60,12 @@ namespace NoGracias
         private void Ready_Up_Button_Click(object sender, EventArgs e)
         {
             you_checkBox.Checked = true;
-            ReadyUp();
+
+            var thread = new Thread(ReadyUp);
+            thread.TrySetApartmentState(ApartmentState.STA);
+            thread.Start();
+
+            //ReadyUp();
         }
 
         private void you_checkBox_CheckedChanged(object sender, EventArgs e)
