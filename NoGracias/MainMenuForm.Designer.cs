@@ -48,18 +48,7 @@ namespace NoGracias
                 });
             }
         }
-        public string ConnectedPlayers
-        {
-            get { return ConnectedPlayers_textbox.Text; }
-            set
-            {
-                this.PlayerName_textbox.Invoke((MethodInvoker)delegate
-                {
-                    // Running on the UI thread
-                    this.ConnectedPlayers_textbox.AppendText(", " + value);
-                });
-            }
-        }
+
         public string Status
         {
             get { return Status_Textbox.Text; }
@@ -102,7 +91,6 @@ namespace NoGracias
             this.IP_textbox = new System.Windows.Forms.TextBox();
             this.Port_textbox = new System.Windows.Forms.TextBox();
             this.PlayerName_textbox = new System.Windows.Forms.TextBox();
-            this.ConnectedPlayers_textbox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -142,13 +130,6 @@ namespace NoGracias
             this.PlayerName_textbox.Name = "PlayerName_textbox";
             this.PlayerName_textbox.Size = new System.Drawing.Size(427, 22);
             this.PlayerName_textbox.TabIndex = 7;
-            // 
-            // ConnectedPlayers_textbox
-            // 
-            this.ConnectedPlayers_textbox.Location = new System.Drawing.Point(371, 331);
-            this.ConnectedPlayers_textbox.Name = "ConnectedPlayers_textbox";
-            this.ConnectedPlayers_textbox.Size = new System.Drawing.Size(427, 22);
-            this.ConnectedPlayers_textbox.TabIndex = 8;
             // 
             // label1
             // 
@@ -192,7 +173,7 @@ namespace NoGracias
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.YellowGreen;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(285, 334);
+            this.label4.Location = new System.Drawing.Point(914, 181);
             this.label4.Margin = new System.Windows.Forms.Padding(30, 0, 30, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(55, 17);
@@ -374,7 +355,6 @@ namespace NoGracias
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.ConnectedPlayers_textbox);
             this.Controls.Add(this.PlayerName_textbox);
             this.Controls.Add(this.Port_textbox);
             this.Controls.Add(this.IP_textbox);
@@ -382,6 +362,7 @@ namespace NoGracias
             this.Name = "MainMenuForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main Menu";
+            this.Load += new System.EventHandler(this.MainMenuForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -393,7 +374,6 @@ namespace NoGracias
         private System.Windows.Forms.TextBox IP_textbox;
 		private System.Windows.Forms.TextBox Port_textbox;
 		private System.Windows.Forms.TextBox PlayerName_textbox;
-		private System.Windows.Forms.TextBox ConnectedPlayers_textbox;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label3;

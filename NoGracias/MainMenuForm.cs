@@ -72,5 +72,10 @@ namespace NoGracias
             MainMenuServerForm myServeMenu = new MainMenuServerForm();
             myServeMenu.Show();
         }
+
+        private void MainMenuForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
