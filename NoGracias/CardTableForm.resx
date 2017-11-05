@@ -126,7 +126,7 @@
     <value>Perpetua Titling MT, 7.8pt, style=Bold</value>
   </data>
   <data name="MainPlayerName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>564, 748</value>
+    <value>818, 789</value>
   </data>
   <data name="MainPlayerName.Size" type="System.Drawing.Size, System.Drawing">
     <value>114, 17</value>
@@ -156,7 +156,7 @@
     <value>Perpetua Titling MT, 7.8pt, style=Bold</value>
   </data>
   <data name="Opp2Name.Location" type="System.Drawing.Point, System.Drawing">
-    <value>143, 562</value>
+    <value>207, 638</value>
   </data>
   <data name="Opp2Name.Size" type="System.Drawing.Size, System.Drawing">
     <value>105, 17</value>
@@ -469,7 +469,7 @@
     <value>Perpetua Titling MT, 7.8pt, style=Bold</value>
   </data>
   <data name="Opp4Name.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1110, 227</value>
+    <value>1572, 242</value>
   </data>
   <data name="Opp4Name.Size" type="System.Drawing.Size, System.Drawing">
     <value>106, 17</value>
@@ -499,7 +499,7 @@
     <value>Perpetua Titling MT, 7.8pt, style=Bold</value>
   </data>
   <data name="Opp3Name.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1001, 527</value>
+    <value>1441, 628</value>
   </data>
   <data name="Opp3Name.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 17</value>
@@ -1005,7 +1005,7 @@
     <value>Zoom</value>
   </data>
   <data name="pictureBox16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>698, 732</value>
+    <value>952, 773</value>
   </data>
   <data name="pictureBox16.Size" type="System.Drawing.Size, System.Drawing">
     <value>57, 60</value>
@@ -1508,7 +1508,7 @@
     <value>Zoom</value>
   </data>
   <data name="pictureBox17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>76, 544</value>
+    <value>140, 620</value>
   </data>
   <data name="pictureBox17.Size" type="System.Drawing.Size, System.Drawing">
     <value>57, 60</value>
@@ -2514,7 +2514,7 @@
     <value>Zoom</value>
   </data>
   <data name="pictureBox19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1144, 509</value>
+    <value>1584, 610</value>
   </data>
   <data name="pictureBox19.Size" type="System.Drawing.Size, System.Drawing">
     <value>57, 60</value>
@@ -3093,7 +3093,7 @@
     <value>Zoom</value>
   </data>
   <data name="pictureBox30.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1031, 214</value>
+    <value>1493, 229</value>
   </data>
   <data name="pictureBox30.Size" type="System.Drawing.Size, System.Drawing">
     <value>57, 60</value>
@@ -3117,7 +3117,7 @@
     <value>True</value>
   </data>
   <data name="Opp4ChipText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1110, 257</value>
+    <value>1572, 272</value>
   </data>
   <data name="Opp4ChipText.Size" type="System.Drawing.Size, System.Drawing">
     <value>85, 17</value>
@@ -3144,7 +3144,7 @@
     <value>True</value>
   </data>
   <data name="Opp3ChipText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1001, 552</value>
+    <value>1441, 653</value>
   </data>
   <data name="Opp3ChipText.Size" type="System.Drawing.Size, System.Drawing">
     <value>85, 17</value>
@@ -3171,7 +3171,7 @@
     <value>True</value>
   </data>
   <data name="MainPlayerChipText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>564, 775</value>
+    <value>818, 816</value>
   </data>
   <data name="MainPlayerChipText.Size" type="System.Drawing.Size, System.Drawing">
     <value>85, 17</value>
@@ -3198,7 +3198,7 @@
     <value>True</value>
   </data>
   <data name="Opp2ChipText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>143, 587</value>
+    <value>207, 663</value>
   </data>
   <data name="Opp2ChipText.Size" type="System.Drawing.Size, System.Drawing">
     <value>85, 17</value>
@@ -3295,7 +3295,7 @@
     <value>Stretch</value>
   </data>
   <data name="TopDeckCard.Location" type="System.Drawing.Point, System.Drawing">
-    <value>604, 227</value>
+    <value>824, 227</value>
   </data>
   <data name="TopDeckCard.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 138</value>
@@ -3322,7 +3322,7 @@
     <value>Perpetua Titling MT, 7.8pt</value>
   </data>
   <data name="GameDeckLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>617, 24</value>
+    <value>837, 24</value>
   </data>
   <data name="GameDeckLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>85, 16</value>
@@ -3382,7 +3382,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2ChipCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>234, 587</value>
+    <value>298, 663</value>
   </data>
   <data name="Opp2ChipCount.Size" type="System.Drawing.Size, System.Drawing">
     <value>16, 17</value>
@@ -3412,7 +3412,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerChipCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>662, 775</value>
+    <value>916, 816</value>
   </data>
   <data name="MainPlayerChipCount.Size" type="System.Drawing.Size, System.Drawing">
     <value>16, 17</value>
@@ -3442,7 +3442,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3ChipCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1089, 552</value>
+    <value>1529, 653</value>
   </data>
   <data name="Opp3ChipCount.Size" type="System.Drawing.Size, System.Drawing">
     <value>16, 17</value>
@@ -3472,7 +3472,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4ChipCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1205, 257</value>
+    <value>1667, 272</value>
   </data>
   <data name="Opp4ChipCount.Size" type="System.Drawing.Size, System.Drawing">
     <value>16, 17</value>
@@ -7798,7 +7798,7 @@
     <value>Stretch</value>
   </data>
   <data name="DeckCard.Location" type="System.Drawing.Point, System.Drawing">
-    <value>604, 43</value>
+    <value>824, 43</value>
   </data>
   <data name="DeckCard.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 136</value>
@@ -7822,7 +7822,7 @@
     <value>NoControl</value>
   </data>
   <data name="TopDeckCardNum.Location" type="System.Drawing.Point, System.Drawing">
-    <value>611, 231</value>
+    <value>831, 231</value>
   </data>
   <data name="TopDeckCardNum.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -8377,7 +8377,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>241, 356</value>
+    <value>305, 432</value>
   </data>
   <data name="Opp2Num8.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -8410,7 +8410,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>212, 356</value>
+    <value>276, 432</value>
   </data>
   <data name="Opp2Num7.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -8443,7 +8443,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>183, 356</value>
+    <value>247, 432</value>
   </data>
   <data name="Opp2Num6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -8476,7 +8476,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>152, 356</value>
+    <value>216, 432</value>
   </data>
   <data name="Opp2Num5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -8509,7 +8509,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>120, 355</value>
+    <value>184, 431</value>
   </data>
   <data name="Opp2Num4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -8542,7 +8542,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>85, 355</value>
+    <value>149, 431</value>
   </data>
   <data name="Opp2Num3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -8575,7 +8575,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>52, 355</value>
+    <value>116, 431</value>
   </data>
   <data name="Opp2Num2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -8608,7 +8608,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 355</value>
+    <value>87, 431</value>
   </data>
   <data name="Opp2Num1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -8641,7 +8641,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 396</value>
+    <value>87, 472</value>
   </data>
   <data name="Opp2Num9.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -8674,7 +8674,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>52, 396</value>
+    <value>116, 472</value>
   </data>
   <data name="Opp2Num10.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -8707,7 +8707,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>88, 396</value>
+    <value>152, 472</value>
   </data>
   <data name="Opp2Num11.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -8740,7 +8740,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>120, 396</value>
+    <value>184, 472</value>
   </data>
   <data name="Opp2Num12.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -8773,7 +8773,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>150, 396</value>
+    <value>214, 472</value>
   </data>
   <data name="Opp2Num13.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -8806,7 +8806,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>179, 396</value>
+    <value>243, 472</value>
   </data>
   <data name="Opp2Num14.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -8836,7 +8836,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>208, 398</value>
+    <value>272, 474</value>
   </data>
   <data name="Opp2Num15.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -8866,7 +8866,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>243, 398</value>
+    <value>307, 474</value>
   </data>
   <data name="Opp2Num16.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -8942,7 +8942,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>237, 389</value>
+    <value>301, 465</value>
   </data>
   <data name="Opp2Card16.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -9021,7 +9021,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>202, 389</value>
+    <value>266, 465</value>
   </data>
   <data name="Opp2Card15.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -9100,7 +9100,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>175, 389</value>
+    <value>239, 465</value>
   </data>
   <data name="Opp2Card14.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -9179,7 +9179,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>145, 389</value>
+    <value>209, 465</value>
   </data>
   <data name="Opp2Card13.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -9258,7 +9258,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>114, 389</value>
+    <value>178, 465</value>
   </data>
   <data name="Opp2Card12.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -9337,7 +9337,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>81, 389</value>
+    <value>145, 465</value>
   </data>
   <data name="Opp2Card11.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -9416,7 +9416,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>47, 389</value>
+    <value>111, 465</value>
   </data>
   <data name="Opp2Card10.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -9495,7 +9495,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 389</value>
+    <value>81, 465</value>
   </data>
   <data name="Opp2Card9.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -9574,7 +9574,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>237, 350</value>
+    <value>301, 426</value>
   </data>
   <data name="Opp2Card8.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -9653,7 +9653,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>206, 352</value>
+    <value>270, 428</value>
   </data>
   <data name="Opp2Card7.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -9732,7 +9732,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>179, 352</value>
+    <value>243, 428</value>
   </data>
   <data name="Opp2Card6.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -9811,7 +9811,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>149, 352</value>
+    <value>213, 428</value>
   </data>
   <data name="Opp2Card5.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -9890,7 +9890,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>114, 350</value>
+    <value>178, 426</value>
   </data>
   <data name="Opp2Card4.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -9969,7 +9969,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>81, 350</value>
+    <value>145, 426</value>
   </data>
   <data name="Opp2Card3.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -9999,7 +9999,7 @@
     <value>128</value>
   </data>
   <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 374</value>
+    <value>208, 450</value>
   </data>
   <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 22</value>
@@ -10072,7 +10072,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>47, 350</value>
+    <value>111, 426</value>
   </data>
   <data name="Opp2Card2.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -10151,7 +10151,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 350</value>
+    <value>81, 426</value>
   </data>
   <data name="Opp2Card1.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -10187,7 +10187,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1164, 34</value>
+    <value>1626, 49</value>
   </data>
   <data name="Opp4Num8.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -10220,7 +10220,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1135, 34</value>
+    <value>1597, 49</value>
   </data>
   <data name="Opp4Num7.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -10253,7 +10253,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1106, 34</value>
+    <value>1568, 49</value>
   </data>
   <data name="Opp4Num6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -10286,7 +10286,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1075, 34</value>
+    <value>1537, 49</value>
   </data>
   <data name="Opp4Num5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -10319,7 +10319,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1043, 33</value>
+    <value>1505, 48</value>
   </data>
   <data name="Opp4Num4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -10352,7 +10352,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1008, 33</value>
+    <value>1470, 48</value>
   </data>
   <data name="Opp4Num3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -10385,7 +10385,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>975, 33</value>
+    <value>1437, 48</value>
   </data>
   <data name="Opp4Num2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -10418,7 +10418,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>946, 33</value>
+    <value>1408, 48</value>
   </data>
   <data name="Opp4Num1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -10451,7 +10451,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>946, 74</value>
+    <value>1408, 89</value>
   </data>
   <data name="Opp4Num9.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -10484,7 +10484,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>975, 74</value>
+    <value>1437, 89</value>
   </data>
   <data name="Opp4Num10.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -10517,7 +10517,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1011, 74</value>
+    <value>1473, 89</value>
   </data>
   <data name="Opp4Num11.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -10550,7 +10550,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1043, 74</value>
+    <value>1505, 89</value>
   </data>
   <data name="Opp4Num12.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -10583,7 +10583,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1073, 74</value>
+    <value>1535, 89</value>
   </data>
   <data name="Opp4Num13.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -10616,7 +10616,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1102, 74</value>
+    <value>1564, 89</value>
   </data>
   <data name="Opp4Num14.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -10646,7 +10646,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1131, 76</value>
+    <value>1593, 91</value>
   </data>
   <data name="Opp4Num15.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -10676,7 +10676,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1166, 76</value>
+    <value>1628, 91</value>
   </data>
   <data name="Opp4Num16.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -10752,7 +10752,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1160, 67</value>
+    <value>1622, 82</value>
   </data>
   <data name="Opp4Card16.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -10831,7 +10831,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1125, 67</value>
+    <value>1587, 82</value>
   </data>
   <data name="Opp4Card15.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -10910,7 +10910,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1098, 67</value>
+    <value>1560, 82</value>
   </data>
   <data name="Opp4Card14.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -10989,7 +10989,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1068, 67</value>
+    <value>1530, 82</value>
   </data>
   <data name="Opp4Card13.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -11068,7 +11068,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1037, 67</value>
+    <value>1499, 82</value>
   </data>
   <data name="Opp4Card12.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -11147,7 +11147,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1004, 67</value>
+    <value>1466, 82</value>
   </data>
   <data name="Opp4Card11.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -11226,7 +11226,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>970, 67</value>
+    <value>1432, 82</value>
   </data>
   <data name="Opp4Card10.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -11305,7 +11305,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>940, 67</value>
+    <value>1402, 82</value>
   </data>
   <data name="Opp4Card9.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -11384,7 +11384,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1160, 28</value>
+    <value>1622, 43</value>
   </data>
   <data name="Opp4Card8.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -11463,7 +11463,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1129, 30</value>
+    <value>1591, 45</value>
   </data>
   <data name="Opp4Card7.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -11542,7 +11542,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1102, 30</value>
+    <value>1564, 45</value>
   </data>
   <data name="Opp4Card6.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -11621,7 +11621,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1072, 30</value>
+    <value>1534, 45</value>
   </data>
   <data name="Opp4Card5.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -11700,7 +11700,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1037, 28</value>
+    <value>1499, 43</value>
   </data>
   <data name="Opp4Card4.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -11779,7 +11779,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1004, 28</value>
+    <value>1466, 43</value>
   </data>
   <data name="Opp4Card3.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -11809,7 +11809,7 @@
     <value>95</value>
   </data>
   <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1067, 52</value>
+    <value>1529, 67</value>
   </data>
   <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 22</value>
@@ -11882,7 +11882,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>970, 28</value>
+    <value>1432, 43</value>
   </data>
   <data name="Opp4Card2.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -11961,7 +11961,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>940, 28</value>
+    <value>1402, 43</value>
   </data>
   <data name="Opp4Card1.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -11997,7 +11997,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1164, 331</value>
+    <value>1604, 432</value>
   </data>
   <data name="Opp3Num8.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -12030,7 +12030,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1135, 331</value>
+    <value>1575, 432</value>
   </data>
   <data name="Opp3Num7.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -12063,7 +12063,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1106, 331</value>
+    <value>1546, 432</value>
   </data>
   <data name="Opp3Num6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -12096,7 +12096,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1075, 331</value>
+    <value>1515, 432</value>
   </data>
   <data name="Opp3Num5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -12129,7 +12129,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1043, 330</value>
+    <value>1483, 431</value>
   </data>
   <data name="Opp3Num4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -12162,7 +12162,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1008, 330</value>
+    <value>1448, 431</value>
   </data>
   <data name="Opp3Num3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -12195,7 +12195,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>975, 330</value>
+    <value>1415, 431</value>
   </data>
   <data name="Opp3Num2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -12228,7 +12228,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>946, 330</value>
+    <value>1386, 431</value>
   </data>
   <data name="Opp3Num1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -12261,7 +12261,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>946, 371</value>
+    <value>1386, 472</value>
   </data>
   <data name="Opp3Num9.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -12294,7 +12294,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>975, 371</value>
+    <value>1415, 472</value>
   </data>
   <data name="Opp3Num10.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -12327,7 +12327,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1011, 371</value>
+    <value>1451, 472</value>
   </data>
   <data name="Opp3Num11.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -12360,7 +12360,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1043, 371</value>
+    <value>1483, 472</value>
   </data>
   <data name="Opp3Num12.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -12393,7 +12393,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1073, 371</value>
+    <value>1513, 472</value>
   </data>
   <data name="Opp3Num13.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -12426,7 +12426,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1102, 371</value>
+    <value>1542, 472</value>
   </data>
   <data name="Opp3Num14.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -12456,7 +12456,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1131, 373</value>
+    <value>1571, 474</value>
   </data>
   <data name="Opp3Num15.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -12486,7 +12486,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1166, 373</value>
+    <value>1606, 474</value>
   </data>
   <data name="Opp3Num16.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -12562,7 +12562,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1160, 364</value>
+    <value>1600, 465</value>
   </data>
   <data name="Opp3Card16.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -12641,7 +12641,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1125, 364</value>
+    <value>1565, 465</value>
   </data>
   <data name="Opp3Card15.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -12720,7 +12720,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1098, 364</value>
+    <value>1538, 465</value>
   </data>
   <data name="Opp3Card14.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -12799,7 +12799,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1068, 364</value>
+    <value>1508, 465</value>
   </data>
   <data name="Opp3Card13.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -12878,7 +12878,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1037, 364</value>
+    <value>1477, 465</value>
   </data>
   <data name="Opp3Card12.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -12957,7 +12957,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1004, 364</value>
+    <value>1444, 465</value>
   </data>
   <data name="Opp3Card11.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -13036,7 +13036,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>970, 364</value>
+    <value>1410, 465</value>
   </data>
   <data name="Opp3Card10.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -13115,7 +13115,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>940, 364</value>
+    <value>1380, 465</value>
   </data>
   <data name="Opp3Card9.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -13194,7 +13194,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1160, 325</value>
+    <value>1600, 426</value>
   </data>
   <data name="Opp3Card8.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -13273,7 +13273,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1129, 327</value>
+    <value>1569, 428</value>
   </data>
   <data name="Opp3Card7.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -13352,7 +13352,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1102, 327</value>
+    <value>1542, 428</value>
   </data>
   <data name="Opp3Card6.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -13431,7 +13431,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1072, 327</value>
+    <value>1512, 428</value>
   </data>
   <data name="Opp3Card5.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -13510,7 +13510,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1037, 325</value>
+    <value>1477, 426</value>
   </data>
   <data name="Opp3Card4.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -13589,7 +13589,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1004, 325</value>
+    <value>1444, 426</value>
   </data>
   <data name="Opp3Card3.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -13619,7 +13619,7 @@
     <value>62</value>
   </data>
   <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1067, 349</value>
+    <value>1507, 450</value>
   </data>
   <data name="textBox4.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 22</value>
@@ -13692,7 +13692,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>970, 325</value>
+    <value>1410, 426</value>
   </data>
   <data name="Opp3Card2.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -13771,7 +13771,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>940, 325</value>
+    <value>1380, 426</value>
   </data>
   <data name="Opp3Card1.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -13807,7 +13807,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>702, 554</value>
+    <value>956, 595</value>
   </data>
   <data name="MainPlayerNum8.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -13840,7 +13840,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>673, 554</value>
+    <value>927, 595</value>
   </data>
   <data name="MainPlayerNum7.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -13873,7 +13873,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>644, 554</value>
+    <value>898, 595</value>
   </data>
   <data name="MainPlayerNum6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -13906,7 +13906,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>613, 554</value>
+    <value>867, 595</value>
   </data>
   <data name="MainPlayerNum5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -13939,7 +13939,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>581, 553</value>
+    <value>835, 594</value>
   </data>
   <data name="MainPlayerNum4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -13972,7 +13972,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>546, 553</value>
+    <value>800, 594</value>
   </data>
   <data name="MainPlayerNum3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -14005,7 +14005,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>513, 553</value>
+    <value>767, 594</value>
   </data>
   <data name="MainPlayerNum2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -14038,7 +14038,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>484, 553</value>
+    <value>738, 594</value>
   </data>
   <data name="MainPlayerNum1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -14071,7 +14071,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>484, 594</value>
+    <value>738, 635</value>
   </data>
   <data name="MainPlayerNum9.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -14104,7 +14104,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>513, 594</value>
+    <value>767, 635</value>
   </data>
   <data name="MainPlayerNum10.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -14137,7 +14137,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>549, 594</value>
+    <value>803, 635</value>
   </data>
   <data name="MainPlayerNum11.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -14170,7 +14170,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>581, 594</value>
+    <value>835, 635</value>
   </data>
   <data name="MainPlayerNum12.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -14203,7 +14203,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>611, 594</value>
+    <value>865, 635</value>
   </data>
   <data name="MainPlayerNum13.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -14236,7 +14236,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>640, 594</value>
+    <value>894, 635</value>
   </data>
   <data name="MainPlayerNum14.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -14266,7 +14266,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>669, 596</value>
+    <value>923, 637</value>
   </data>
   <data name="MainPlayerNum15.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -14296,7 +14296,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>704, 596</value>
+    <value>958, 637</value>
   </data>
   <data name="MainPlayerNum16.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
@@ -14372,7 +14372,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>698, 587</value>
+    <value>952, 628</value>
   </data>
   <data name="MainPlayerCard16.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -14451,7 +14451,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>663, 587</value>
+    <value>917, 628</value>
   </data>
   <data name="MainPlayerCard15.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -14530,7 +14530,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>636, 587</value>
+    <value>890, 628</value>
   </data>
   <data name="MainPlayerCard14.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -14609,7 +14609,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>606, 587</value>
+    <value>860, 628</value>
   </data>
   <data name="MainPlayerCard13.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -14688,7 +14688,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>575, 587</value>
+    <value>829, 628</value>
   </data>
   <data name="MainPlayerCard12.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -14767,7 +14767,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>542, 587</value>
+    <value>796, 628</value>
   </data>
   <data name="MainPlayerCard11.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -14846,7 +14846,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>508, 587</value>
+    <value>762, 628</value>
   </data>
   <data name="MainPlayerCard10.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -14925,7 +14925,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>478, 587</value>
+    <value>732, 628</value>
   </data>
   <data name="MainPlayerCard9.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -15004,7 +15004,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>698, 548</value>
+    <value>952, 589</value>
   </data>
   <data name="MainPlayerCard8.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -15083,7 +15083,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>667, 550</value>
+    <value>921, 591</value>
   </data>
   <data name="MainPlayerCard7.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -15162,7 +15162,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>640, 550</value>
+    <value>894, 591</value>
   </data>
   <data name="MainPlayerCard6.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -15241,7 +15241,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>610, 550</value>
+    <value>864, 591</value>
   </data>
   <data name="MainPlayerCard5.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -15320,7 +15320,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>575, 548</value>
+    <value>829, 589</value>
   </data>
   <data name="MainPlayerCard4.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -15399,7 +15399,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>542, 548</value>
+    <value>796, 589</value>
   </data>
   <data name="MainPlayerCard3.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -15429,7 +15429,7 @@
     <value>29</value>
   </data>
   <data name="textBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>605, 572</value>
+    <value>859, 613</value>
   </data>
   <data name="textBox5.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 22</value>
@@ -15502,7 +15502,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>508, 548</value>
+    <value>762, 589</value>
   </data>
   <data name="MainPlayerCard2.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -15581,7 +15581,7 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>478, 548</value>
+    <value>732, 589</value>
   </data>
   <data name="MainPlayerCard1.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
