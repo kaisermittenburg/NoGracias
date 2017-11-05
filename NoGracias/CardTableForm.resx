@@ -209,7 +209,7 @@
   <data name="&gt;&gt;Opp1Name.ZOrder" xml:space="preserve">
     <value>182</value>
   </data>
-  <data name="pictureBox7.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp1Card3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -253,37 +253,37 @@
 </value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pictureBox7.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp1Card3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox7.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Card3.Location" type="System.Drawing.Point, System.Drawing">
     <value>81, 43</value>
   </data>
-  <data name="pictureBox7.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card3.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox7.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card3.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox7.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card3.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox7.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp1Card3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox7.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Card3.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
-  <data name="&gt;&gt;pictureBox7.Name" xml:space="preserve">
-    <value>pictureBox7</value>
+  <data name="&gt;&gt;Opp1Card3.Name" xml:space="preserve">
+    <value>Opp1Card3</value>
   </data>
-  <data name="&gt;&gt;pictureBox7.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card3.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox7.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox7.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card3.ZOrder" xml:space="preserve">
     <value>183</value>
   </data>
   <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
@@ -310,7 +310,7 @@
   <data name="&gt;&gt;textBox3.ZOrder" xml:space="preserve">
     <value>184</value>
   </data>
-  <data name="pictureBox8.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp1Card2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -353,40 +353,40 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox8.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp1Card2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox8.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Card2.Location" type="System.Drawing.Point, System.Drawing">
     <value>47, 43</value>
   </data>
-  <data name="pictureBox8.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card2.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox8.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card2.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox8.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card2.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox8.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp1Card2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox8.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Card2.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
-  <data name="&gt;&gt;pictureBox8.Name" xml:space="preserve">
-    <value>pictureBox8</value>
+  <data name="&gt;&gt;Opp1Card2.Name" xml:space="preserve">
+    <value>Opp1Card2</value>
   </data>
-  <data name="&gt;&gt;pictureBox8.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card2.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox8.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox8.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card2.ZOrder" xml:space="preserve">
     <value>185</value>
   </data>
-  <data name="pictureBox9.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp1Card1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -429,37 +429,37 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox9.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp1Card1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox9.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Card1.Location" type="System.Drawing.Point, System.Drawing">
     <value>17, 43</value>
   </data>
-  <data name="pictureBox9.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card1.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox9.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card1.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox9.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card1.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox9.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp1Card1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox9.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Card1.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
-  <data name="&gt;&gt;pictureBox9.Name" xml:space="preserve">
-    <value>pictureBox9</value>
+  <data name="&gt;&gt;Opp1Card1.Name" xml:space="preserve">
+    <value>Opp1Card1</value>
   </data>
-  <data name="&gt;&gt;pictureBox9.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card1.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox9.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox9.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card1.ZOrder" xml:space="preserve">
     <value>186</value>
   </data>
   <data name="Opp4Name.AutoSize" type="System.Boolean, mscorlib">
@@ -2534,7 +2534,7 @@
   <data name="&gt;&gt;pictureBox19.ZOrder" xml:space="preserve">
     <value>176</value>
   </data>
-  <data name="pictureBox21.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp1Card4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -2577,37 +2577,37 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox21.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp1Card4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox21.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Card4.Location" type="System.Drawing.Point, System.Drawing">
     <value>114, 43</value>
   </data>
-  <data name="pictureBox21.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card4.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox21.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card4.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox21.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card4.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox21.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp1Card4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox21.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Card4.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
   </data>
-  <data name="&gt;&gt;pictureBox21.Name" xml:space="preserve">
-    <value>pictureBox21</value>
+  <data name="&gt;&gt;Opp1Card4.Name" xml:space="preserve">
+    <value>Opp1Card4</value>
   </data>
-  <data name="&gt;&gt;pictureBox21.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card4.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox21.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card4.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox21.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card4.ZOrder" xml:space="preserve">
     <value>175</value>
   </data>
   <data name="pictureBox30.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -3495,7 +3495,7 @@
   <data name="&gt;&gt;Opp4ChipCount.ZOrder" xml:space="preserve">
     <value>162</value>
   </data>
-  <data name="pictureBox22.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp1Card8.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -3538,43 +3538,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox22.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp1Card8.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Card8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox22.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Card8.Location" type="System.Drawing.Point, System.Drawing">
     <value>237, 43</value>
   </data>
-  <data name="pictureBox22.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card8.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox22.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card8.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox22.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card8.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox22.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp1Card8.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox22.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Card8.TabIndex" type="System.Int32, mscorlib">
     <value>59</value>
   </data>
-  <data name="&gt;&gt;pictureBox22.Name" xml:space="preserve">
-    <value>pictureBox22</value>
+  <data name="&gt;&gt;Opp1Card8.Name" xml:space="preserve">
+    <value>Opp1Card8</value>
   </data>
-  <data name="&gt;&gt;pictureBox22.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card8.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox22.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card8.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox22.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card8.ZOrder" xml:space="preserve">
     <value>158</value>
   </data>
-  <data name="pictureBox23.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp1Card7.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -3617,43 +3617,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox23.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp1Card7.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Card7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox23.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Card7.Location" type="System.Drawing.Point, System.Drawing">
     <value>206, 45</value>
   </data>
-  <data name="pictureBox23.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card7.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox23.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card7.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox23.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card7.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox23.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp1Card7.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox23.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Card7.TabIndex" type="System.Int32, mscorlib">
     <value>58</value>
   </data>
-  <data name="&gt;&gt;pictureBox23.Name" xml:space="preserve">
-    <value>pictureBox23</value>
+  <data name="&gt;&gt;Opp1Card7.Name" xml:space="preserve">
+    <value>Opp1Card7</value>
   </data>
-  <data name="&gt;&gt;pictureBox23.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card7.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox23.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card7.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox23.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card7.ZOrder" xml:space="preserve">
     <value>159</value>
   </data>
-  <data name="pictureBox24.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp1Card6.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -3696,43 +3696,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox24.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp1Card6.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Card6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox24.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Card6.Location" type="System.Drawing.Point, System.Drawing">
     <value>179, 45</value>
   </data>
-  <data name="pictureBox24.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card6.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox24.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card6.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox24.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card6.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox24.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp1Card6.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox24.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Card6.TabIndex" type="System.Int32, mscorlib">
     <value>56</value>
   </data>
-  <data name="&gt;&gt;pictureBox24.Name" xml:space="preserve">
-    <value>pictureBox24</value>
+  <data name="&gt;&gt;Opp1Card6.Name" xml:space="preserve">
+    <value>Opp1Card6</value>
   </data>
-  <data name="&gt;&gt;pictureBox24.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card6.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox24.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card6.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox24.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card6.ZOrder" xml:space="preserve">
     <value>160</value>
   </data>
-  <data name="pictureBox25.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp1Card5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -3775,43 +3775,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox25.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp1Card5.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Card5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox25.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Card5.Location" type="System.Drawing.Point, System.Drawing">
     <value>149, 45</value>
   </data>
-  <data name="pictureBox25.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card5.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox25.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card5.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox25.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card5.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox25.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp1Card5.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox25.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Card5.TabIndex" type="System.Int32, mscorlib">
     <value>57</value>
   </data>
-  <data name="&gt;&gt;pictureBox25.Name" xml:space="preserve">
-    <value>pictureBox25</value>
+  <data name="&gt;&gt;Opp1Card5.Name" xml:space="preserve">
+    <value>Opp1Card5</value>
   </data>
-  <data name="&gt;&gt;pictureBox25.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card5.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox25.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card5.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox25.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card5.ZOrder" xml:space="preserve">
     <value>161</value>
   </data>
-  <data name="pictureBox26.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp1Card12.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -3854,43 +3854,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox26.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp1Card12.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Card12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox26.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Card12.Location" type="System.Drawing.Point, System.Drawing">
     <value>114, 82</value>
   </data>
-  <data name="pictureBox26.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card12.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox26.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card12.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox26.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card12.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox26.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp1Card12.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox26.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Card12.TabIndex" type="System.Int32, mscorlib">
     <value>63</value>
   </data>
-  <data name="&gt;&gt;pictureBox26.Name" xml:space="preserve">
-    <value>pictureBox26</value>
+  <data name="&gt;&gt;Opp1Card12.Name" xml:space="preserve">
+    <value>Opp1Card12</value>
   </data>
-  <data name="&gt;&gt;pictureBox26.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card12.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox26.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card12.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox26.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card12.ZOrder" xml:space="preserve">
     <value>154</value>
   </data>
-  <data name="pictureBox27.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp1Card11.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -3933,43 +3933,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox27.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp1Card11.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Card11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox27.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Card11.Location" type="System.Drawing.Point, System.Drawing">
     <value>81, 82</value>
   </data>
-  <data name="pictureBox27.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card11.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox27.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card11.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox27.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card11.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox27.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp1Card11.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox27.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Card11.TabIndex" type="System.Int32, mscorlib">
     <value>62</value>
   </data>
-  <data name="&gt;&gt;pictureBox27.Name" xml:space="preserve">
-    <value>pictureBox27</value>
+  <data name="&gt;&gt;Opp1Card11.Name" xml:space="preserve">
+    <value>Opp1Card11</value>
   </data>
-  <data name="&gt;&gt;pictureBox27.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card11.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox27.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card11.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox27.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card11.ZOrder" xml:space="preserve">
     <value>155</value>
   </data>
-  <data name="pictureBox28.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp1Card10.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -4012,43 +4012,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox28.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp1Card10.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox28.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Card10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox28.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Card10.Location" type="System.Drawing.Point, System.Drawing">
     <value>47, 82</value>
   </data>
-  <data name="pictureBox28.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card10.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox28.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card10.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox28.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card10.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox28.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp1Card10.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox28.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Card10.TabIndex" type="System.Int32, mscorlib">
     <value>60</value>
   </data>
-  <data name="&gt;&gt;pictureBox28.Name" xml:space="preserve">
-    <value>pictureBox28</value>
+  <data name="&gt;&gt;Opp1Card10.Name" xml:space="preserve">
+    <value>Opp1Card10</value>
   </data>
-  <data name="&gt;&gt;pictureBox28.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card10.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox28.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card10.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox28.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card10.ZOrder" xml:space="preserve">
     <value>156</value>
   </data>
-  <data name="pictureBox29.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp1Card9.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -4091,43 +4091,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox29.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp1Card9.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox29.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Card9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox29.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Card9.Location" type="System.Drawing.Point, System.Drawing">
     <value>17, 82</value>
   </data>
-  <data name="pictureBox29.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card9.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox29.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card9.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox29.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card9.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox29.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp1Card9.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox29.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Card9.TabIndex" type="System.Int32, mscorlib">
     <value>61</value>
   </data>
-  <data name="&gt;&gt;pictureBox29.Name" xml:space="preserve">
-    <value>pictureBox29</value>
+  <data name="&gt;&gt;Opp1Card9.Name" xml:space="preserve">
+    <value>Opp1Card9</value>
   </data>
-  <data name="&gt;&gt;pictureBox29.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card9.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox29.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card9.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox29.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card9.ZOrder" xml:space="preserve">
     <value>157</value>
   </data>
-  <data name="pictureBox31.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp1Card16.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -4170,43 +4170,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox31.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp1Card16.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox31.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Card16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox31.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Card16.Location" type="System.Drawing.Point, System.Drawing">
     <value>237, 82</value>
   </data>
-  <data name="pictureBox31.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card16.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox31.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card16.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox31.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card16.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox31.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp1Card16.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox31.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Card16.TabIndex" type="System.Int32, mscorlib">
     <value>67</value>
   </data>
-  <data name="&gt;&gt;pictureBox31.Name" xml:space="preserve">
-    <value>pictureBox31</value>
+  <data name="&gt;&gt;Opp1Card16.Name" xml:space="preserve">
+    <value>Opp1Card16</value>
   </data>
-  <data name="&gt;&gt;pictureBox31.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card16.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox31.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card16.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox31.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card16.ZOrder" xml:space="preserve">
     <value>150</value>
   </data>
-  <data name="pictureBox32.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp1Card15.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -4249,43 +4249,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox32.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp1Card15.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox32.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Card15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox32.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Card15.Location" type="System.Drawing.Point, System.Drawing">
     <value>202, 82</value>
   </data>
-  <data name="pictureBox32.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card15.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox32.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card15.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox32.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card15.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox32.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp1Card15.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox32.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Card15.TabIndex" type="System.Int32, mscorlib">
     <value>66</value>
   </data>
-  <data name="&gt;&gt;pictureBox32.Name" xml:space="preserve">
-    <value>pictureBox32</value>
+  <data name="&gt;&gt;Opp1Card15.Name" xml:space="preserve">
+    <value>Opp1Card15</value>
   </data>
-  <data name="&gt;&gt;pictureBox32.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card15.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox32.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card15.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox32.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card15.ZOrder" xml:space="preserve">
     <value>151</value>
   </data>
-  <data name="pictureBox33.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp1Card14.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -4328,43 +4328,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox33.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp1Card14.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox33.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Card14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox33.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Card14.Location" type="System.Drawing.Point, System.Drawing">
     <value>175, 82</value>
   </data>
-  <data name="pictureBox33.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card14.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox33.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card14.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox33.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card14.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox33.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp1Card14.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox33.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Card14.TabIndex" type="System.Int32, mscorlib">
     <value>64</value>
   </data>
-  <data name="&gt;&gt;pictureBox33.Name" xml:space="preserve">
-    <value>pictureBox33</value>
+  <data name="&gt;&gt;Opp1Card14.Name" xml:space="preserve">
+    <value>Opp1Card14</value>
   </data>
-  <data name="&gt;&gt;pictureBox33.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card14.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox33.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card14.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox33.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card14.ZOrder" xml:space="preserve">
     <value>152</value>
   </data>
-  <data name="pictureBox34.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp1Card13.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -4407,40 +4407,40 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox34.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp1Card13.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox34.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Card13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox34.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Card13.Location" type="System.Drawing.Point, System.Drawing">
     <value>145, 82</value>
   </data>
-  <data name="pictureBox34.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card13.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox34.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card13.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox34.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Card13.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox34.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp1Card13.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox34.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Card13.TabIndex" type="System.Int32, mscorlib">
     <value>65</value>
   </data>
-  <data name="&gt;&gt;pictureBox34.Name" xml:space="preserve">
-    <value>pictureBox34</value>
+  <data name="&gt;&gt;Opp1Card13.Name" xml:space="preserve">
+    <value>Opp1Card13</value>
   </data>
-  <data name="&gt;&gt;pictureBox34.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card13.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox34.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card13.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox34.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Card13.ZOrder" xml:space="preserve">
     <value>153</value>
   </data>
   <data name="pictureBox87.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -7848,1051 +7848,1051 @@
   <data name="&gt;&gt;TopDeckCardNum.ZOrder" xml:space="preserve">
     <value>148</value>
   </data>
-  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Num16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Num16.Location" type="System.Drawing.Point, System.Drawing">
     <value>243, 91</value>
   </data>
-  <data name="label1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp1Num16.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Num16.Size" type="System.Drawing.Size, System.Drawing">
     <value>28, 43</value>
   </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Num16.TabIndex" type="System.Int32, mscorlib">
     <value>154</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
+  <data name="Opp1Num16.Text" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
+  <data name="&gt;&gt;Opp1Num16.Name" xml:space="preserve">
+    <value>Opp1Num16</value>
   </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num16.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num16.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num16.ZOrder" xml:space="preserve">
     <value>147</value>
   </data>
-  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Num15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Num15.Location" type="System.Drawing.Point, System.Drawing">
     <value>208, 91</value>
   </data>
-  <data name="label2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp1Num15.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Num15.Size" type="System.Drawing.Size, System.Drawing">
     <value>18, 43</value>
   </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Num15.TabIndex" type="System.Int32, mscorlib">
     <value>155</value>
   </data>
-  <data name="label2.Text" xml:space="preserve">
+  <data name="Opp1Num15.Text" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
+  <data name="&gt;&gt;Opp1Num15.Name" xml:space="preserve">
+    <value>Opp1Num15</value>
   </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num15.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num15.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num15.ZOrder" xml:space="preserve">
     <value>146</value>
   </data>
-  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp1Num14.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Num14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Num14.Location" type="System.Drawing.Point, System.Drawing">
     <value>179, 89</value>
   </data>
-  <data name="label3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp1Num14.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Num14.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 43</value>
   </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Num14.TabIndex" type="System.Int32, mscorlib">
     <value>156</value>
   </data>
-  <data name="label3.Text" xml:space="preserve">
+  <data name="Opp1Num14.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
+  <data name="&gt;&gt;Opp1Num14.Name" xml:space="preserve">
+    <value>Opp1Num14</value>
   </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num14.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num14.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num14.ZOrder" xml:space="preserve">
     <value>145</value>
   </data>
-  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp1Num13.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Num13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Num13.Location" type="System.Drawing.Point, System.Drawing">
     <value>150, 89</value>
   </data>
-  <data name="label4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp1Num13.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Num13.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 43</value>
   </data>
-  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Num13.TabIndex" type="System.Int32, mscorlib">
     <value>157</value>
   </data>
-  <data name="label4.Text" xml:space="preserve">
+  <data name="Opp1Num13.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
+  <data name="&gt;&gt;Opp1Num13.Name" xml:space="preserve">
+    <value>Opp1Num13</value>
   </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num13.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num13.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num13.ZOrder" xml:space="preserve">
     <value>144</value>
   </data>
-  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp1Num12.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Num12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Num12.Location" type="System.Drawing.Point, System.Drawing">
     <value>120, 89</value>
   </data>
-  <data name="label5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp1Num12.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Num12.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 43</value>
   </data>
-  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Num12.TabIndex" type="System.Int32, mscorlib">
     <value>158</value>
   </data>
-  <data name="label5.Text" xml:space="preserve">
+  <data name="Opp1Num12.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
+  <data name="&gt;&gt;Opp1Num12.Name" xml:space="preserve">
+    <value>Opp1Num12</value>
   </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num12.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num12.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num12.ZOrder" xml:space="preserve">
     <value>143</value>
   </data>
-  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp1Num11.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Num11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Num11.Location" type="System.Drawing.Point, System.Drawing">
     <value>88, 89</value>
   </data>
-  <data name="label6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp1Num11.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Num11.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 43</value>
   </data>
-  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Num11.TabIndex" type="System.Int32, mscorlib">
     <value>159</value>
   </data>
-  <data name="label6.Text" xml:space="preserve">
+  <data name="Opp1Num11.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
+  <data name="&gt;&gt;Opp1Num11.Name" xml:space="preserve">
+    <value>Opp1Num11</value>
   </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num11.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num11.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num11.ZOrder" xml:space="preserve">
     <value>142</value>
   </data>
-  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp1Num10.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Num10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Num10.Location" type="System.Drawing.Point, System.Drawing">
     <value>52, 89</value>
   </data>
-  <data name="label7.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp1Num10.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Num10.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 43</value>
   </data>
-  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Num10.TabIndex" type="System.Int32, mscorlib">
     <value>160</value>
   </data>
-  <data name="label7.Text" xml:space="preserve">
+  <data name="Opp1Num10.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
+  <data name="&gt;&gt;Opp1Num10.Name" xml:space="preserve">
+    <value>Opp1Num10</value>
   </data>
-  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num10.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num10.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num10.ZOrder" xml:space="preserve">
     <value>141</value>
   </data>
-  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp1Num9.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Num9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Num9.Location" type="System.Drawing.Point, System.Drawing">
     <value>23, 89</value>
   </data>
-  <data name="label8.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp1Num9.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Num9.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 43</value>
   </data>
-  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Num9.TabIndex" type="System.Int32, mscorlib">
     <value>161</value>
   </data>
-  <data name="label8.Text" xml:space="preserve">
+  <data name="Opp1Num9.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label8.Name" xml:space="preserve">
-    <value>label8</value>
+  <data name="&gt;&gt;Opp1Num9.Name" xml:space="preserve">
+    <value>Opp1Num9</value>
   </data>
-  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num9.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num9.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num9.ZOrder" xml:space="preserve">
     <value>140</value>
   </data>
-  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp1Num1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Num1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Num1.Location" type="System.Drawing.Point, System.Drawing">
     <value>23, 48</value>
   </data>
-  <data name="label9.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp1Num1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Num1.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 31</value>
   </data>
-  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Num1.TabIndex" type="System.Int32, mscorlib">
     <value>162</value>
   </data>
-  <data name="label9.Text" xml:space="preserve">
+  <data name="Opp1Num1.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label9.Name" xml:space="preserve">
-    <value>label9</value>
+  <data name="&gt;&gt;Opp1Num1.Name" xml:space="preserve">
+    <value>Opp1Num1</value>
   </data>
-  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num1.ZOrder" xml:space="preserve">
     <value>139</value>
   </data>
-  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp1Num2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Num2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Num2.Location" type="System.Drawing.Point, System.Drawing">
     <value>52, 48</value>
   </data>
-  <data name="label10.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp1Num2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Num2.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 31</value>
   </data>
-  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Num2.TabIndex" type="System.Int32, mscorlib">
     <value>163</value>
   </data>
-  <data name="label10.Text" xml:space="preserve">
+  <data name="Opp1Num2.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label10.Name" xml:space="preserve">
-    <value>label10</value>
+  <data name="&gt;&gt;Opp1Num2.Name" xml:space="preserve">
+    <value>Opp1Num2</value>
   </data>
-  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num2.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num2.ZOrder" xml:space="preserve">
     <value>138</value>
   </data>
-  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp1Num3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Num3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Num3.Location" type="System.Drawing.Point, System.Drawing">
     <value>85, 48</value>
   </data>
-  <data name="label11.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp1Num3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Num3.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 31</value>
   </data>
-  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Num3.TabIndex" type="System.Int32, mscorlib">
     <value>164</value>
   </data>
-  <data name="label11.Text" xml:space="preserve">
+  <data name="Opp1Num3.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label11.Name" xml:space="preserve">
-    <value>label11</value>
+  <data name="&gt;&gt;Opp1Num3.Name" xml:space="preserve">
+    <value>Opp1Num3</value>
   </data>
-  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num3.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num3.ZOrder" xml:space="preserve">
     <value>137</value>
   </data>
-  <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp1Num4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Num4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Num4.Location" type="System.Drawing.Point, System.Drawing">
     <value>120, 48</value>
   </data>
-  <data name="label12.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp1Num4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Num4.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 31</value>
   </data>
-  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Num4.TabIndex" type="System.Int32, mscorlib">
     <value>165</value>
   </data>
-  <data name="label12.Text" xml:space="preserve">
+  <data name="Opp1Num4.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label12.Name" xml:space="preserve">
-    <value>label12</value>
+  <data name="&gt;&gt;Opp1Num4.Name" xml:space="preserve">
+    <value>Opp1Num4</value>
   </data>
-  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num4.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num4.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num4.ZOrder" xml:space="preserve">
     <value>136</value>
   </data>
-  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp1Num5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Num5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Num5.Location" type="System.Drawing.Point, System.Drawing">
     <value>152, 49</value>
   </data>
-  <data name="label13.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp1Num5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Num5.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 31</value>
   </data>
-  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Num5.TabIndex" type="System.Int32, mscorlib">
     <value>166</value>
   </data>
-  <data name="label13.Text" xml:space="preserve">
+  <data name="Opp1Num5.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label13.Name" xml:space="preserve">
-    <value>label13</value>
+  <data name="&gt;&gt;Opp1Num5.Name" xml:space="preserve">
+    <value>Opp1Num5</value>
   </data>
-  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num5.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num5.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num5.ZOrder" xml:space="preserve">
     <value>135</value>
   </data>
-  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp1Num6.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Num6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Num6.Location" type="System.Drawing.Point, System.Drawing">
     <value>183, 49</value>
   </data>
-  <data name="label14.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp1Num6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Num6.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 31</value>
   </data>
-  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Num6.TabIndex" type="System.Int32, mscorlib">
     <value>167</value>
   </data>
-  <data name="label14.Text" xml:space="preserve">
+  <data name="Opp1Num6.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label14.Name" xml:space="preserve">
-    <value>label14</value>
+  <data name="&gt;&gt;Opp1Num6.Name" xml:space="preserve">
+    <value>Opp1Num6</value>
   </data>
-  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num6.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num6.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num6.ZOrder" xml:space="preserve">
     <value>134</value>
   </data>
-  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp1Num7.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Num7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Num7.Location" type="System.Drawing.Point, System.Drawing">
     <value>212, 49</value>
   </data>
-  <data name="label15.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp1Num7.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Num7.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 31</value>
   </data>
-  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Num7.TabIndex" type="System.Int32, mscorlib">
     <value>168</value>
   </data>
-  <data name="label15.Text" xml:space="preserve">
+  <data name="Opp1Num7.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label15.Name" xml:space="preserve">
-    <value>label15</value>
+  <data name="&gt;&gt;Opp1Num7.Name" xml:space="preserve">
+    <value>Opp1Num7</value>
   </data>
-  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num7.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num7.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num7.ZOrder" xml:space="preserve">
     <value>133</value>
   </data>
-  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp1Num8.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp1Num8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp1Num8.Location" type="System.Drawing.Point, System.Drawing">
     <value>241, 49</value>
   </data>
-  <data name="label16.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp1Num8.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp1Num8.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 31</value>
   </data>
-  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp1Num8.TabIndex" type="System.Int32, mscorlib">
     <value>169</value>
   </data>
-  <data name="label16.Text" xml:space="preserve">
+  <data name="Opp1Num8.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label16.Name" xml:space="preserve">
-    <value>label16</value>
+  <data name="&gt;&gt;Opp1Num8.Name" xml:space="preserve">
+    <value>Opp1Num8</value>
   </data>
-  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num8.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num8.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp1Num8.ZOrder" xml:space="preserve">
     <value>132</value>
   </data>
-  <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp2Num8.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Num8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Num8.Location" type="System.Drawing.Point, System.Drawing">
     <value>241, 356</value>
   </data>
-  <data name="label17.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp2Num8.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Num8.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 31</value>
   </data>
-  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Num8.TabIndex" type="System.Int32, mscorlib">
     <value>202</value>
   </data>
-  <data name="label17.Text" xml:space="preserve">
+  <data name="Opp2Num8.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label17.Name" xml:space="preserve">
-    <value>label17</value>
+  <data name="&gt;&gt;Opp2Num8.Name" xml:space="preserve">
+    <value>Opp2Num8</value>
   </data>
-  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num8.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num8.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num8.ZOrder" xml:space="preserve">
     <value>99</value>
   </data>
-  <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp2Num7.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Num7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Num7.Location" type="System.Drawing.Point, System.Drawing">
     <value>212, 356</value>
   </data>
-  <data name="label18.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp2Num7.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Num7.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 31</value>
   </data>
-  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Num7.TabIndex" type="System.Int32, mscorlib">
     <value>201</value>
   </data>
-  <data name="label18.Text" xml:space="preserve">
+  <data name="Opp2Num7.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label18.Name" xml:space="preserve">
-    <value>label18</value>
+  <data name="&gt;&gt;Opp2Num7.Name" xml:space="preserve">
+    <value>Opp2Num7</value>
   </data>
-  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num7.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num7.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num7.ZOrder" xml:space="preserve">
     <value>100</value>
   </data>
-  <data name="label19.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp2Num6.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Num6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Num6.Location" type="System.Drawing.Point, System.Drawing">
     <value>183, 356</value>
   </data>
-  <data name="label19.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp2Num6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Num6.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 31</value>
   </data>
-  <data name="label19.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Num6.TabIndex" type="System.Int32, mscorlib">
     <value>200</value>
   </data>
-  <data name="label19.Text" xml:space="preserve">
+  <data name="Opp2Num6.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label19.Name" xml:space="preserve">
-    <value>label19</value>
+  <data name="&gt;&gt;Opp2Num6.Name" xml:space="preserve">
+    <value>Opp2Num6</value>
   </data>
-  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num6.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num6.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num6.ZOrder" xml:space="preserve">
     <value>101</value>
   </data>
-  <data name="label20.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp2Num5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Num5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Num5.Location" type="System.Drawing.Point, System.Drawing">
     <value>152, 356</value>
   </data>
-  <data name="label20.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp2Num5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Num5.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 31</value>
   </data>
-  <data name="label20.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Num5.TabIndex" type="System.Int32, mscorlib">
     <value>199</value>
   </data>
-  <data name="label20.Text" xml:space="preserve">
+  <data name="Opp2Num5.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label20.Name" xml:space="preserve">
-    <value>label20</value>
+  <data name="&gt;&gt;Opp2Num5.Name" xml:space="preserve">
+    <value>Opp2Num5</value>
   </data>
-  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num5.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num5.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num5.ZOrder" xml:space="preserve">
     <value>102</value>
   </data>
-  <data name="label21.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp2Num4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Num4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Num4.Location" type="System.Drawing.Point, System.Drawing">
     <value>120, 355</value>
   </data>
-  <data name="label21.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp2Num4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Num4.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 31</value>
   </data>
-  <data name="label21.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Num4.TabIndex" type="System.Int32, mscorlib">
     <value>198</value>
   </data>
-  <data name="label21.Text" xml:space="preserve">
+  <data name="Opp2Num4.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label21.Name" xml:space="preserve">
-    <value>label21</value>
+  <data name="&gt;&gt;Opp2Num4.Name" xml:space="preserve">
+    <value>Opp2Num4</value>
   </data>
-  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num4.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num4.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num4.ZOrder" xml:space="preserve">
     <value>103</value>
   </data>
-  <data name="label22.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp2Num3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Num3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Num3.Location" type="System.Drawing.Point, System.Drawing">
     <value>85, 355</value>
   </data>
-  <data name="label22.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp2Num3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Num3.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 31</value>
   </data>
-  <data name="label22.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Num3.TabIndex" type="System.Int32, mscorlib">
     <value>197</value>
   </data>
-  <data name="label22.Text" xml:space="preserve">
+  <data name="Opp2Num3.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label22.Name" xml:space="preserve">
-    <value>label22</value>
+  <data name="&gt;&gt;Opp2Num3.Name" xml:space="preserve">
+    <value>Opp2Num3</value>
   </data>
-  <data name="&gt;&gt;label22.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num3.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label22.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num3.ZOrder" xml:space="preserve">
     <value>104</value>
   </data>
-  <data name="label23.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp2Num2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Num2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Num2.Location" type="System.Drawing.Point, System.Drawing">
     <value>52, 355</value>
   </data>
-  <data name="label23.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp2Num2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Num2.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 31</value>
   </data>
-  <data name="label23.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Num2.TabIndex" type="System.Int32, mscorlib">
     <value>196</value>
   </data>
-  <data name="label23.Text" xml:space="preserve">
+  <data name="Opp2Num2.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label23.Name" xml:space="preserve">
-    <value>label23</value>
+  <data name="&gt;&gt;Opp2Num2.Name" xml:space="preserve">
+    <value>Opp2Num2</value>
   </data>
-  <data name="&gt;&gt;label23.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num2.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label23.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num2.ZOrder" xml:space="preserve">
     <value>105</value>
   </data>
-  <data name="label24.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp2Num1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Num1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Num1.Location" type="System.Drawing.Point, System.Drawing">
     <value>23, 355</value>
   </data>
-  <data name="label24.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp2Num1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Num1.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 31</value>
   </data>
-  <data name="label24.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Num1.TabIndex" type="System.Int32, mscorlib">
     <value>195</value>
   </data>
-  <data name="label24.Text" xml:space="preserve">
+  <data name="Opp2Num1.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label24.Name" xml:space="preserve">
-    <value>label24</value>
+  <data name="&gt;&gt;Opp2Num1.Name" xml:space="preserve">
+    <value>Opp2Num1</value>
   </data>
-  <data name="&gt;&gt;label24.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label24.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label24.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num1.ZOrder" xml:space="preserve">
     <value>106</value>
   </data>
-  <data name="label25.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp2Num9.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Num9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Num9.Location" type="System.Drawing.Point, System.Drawing">
     <value>23, 396</value>
   </data>
-  <data name="label25.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp2Num9.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Num9.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 43</value>
   </data>
-  <data name="label25.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Num9.TabIndex" type="System.Int32, mscorlib">
     <value>194</value>
   </data>
-  <data name="label25.Text" xml:space="preserve">
+  <data name="Opp2Num9.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label25.Name" xml:space="preserve">
-    <value>label25</value>
+  <data name="&gt;&gt;Opp2Num9.Name" xml:space="preserve">
+    <value>Opp2Num9</value>
   </data>
-  <data name="&gt;&gt;label25.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num9.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label25.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num9.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label25.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num9.ZOrder" xml:space="preserve">
     <value>107</value>
   </data>
-  <data name="label26.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp2Num10.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Num10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Num10.Location" type="System.Drawing.Point, System.Drawing">
     <value>52, 396</value>
   </data>
-  <data name="label26.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp2Num10.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Num10.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 43</value>
   </data>
-  <data name="label26.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Num10.TabIndex" type="System.Int32, mscorlib">
     <value>193</value>
   </data>
-  <data name="label26.Text" xml:space="preserve">
+  <data name="Opp2Num10.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label26.Name" xml:space="preserve">
-    <value>label26</value>
+  <data name="&gt;&gt;Opp2Num10.Name" xml:space="preserve">
+    <value>Opp2Num10</value>
   </data>
-  <data name="&gt;&gt;label26.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num10.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label26.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num10.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label26.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num10.ZOrder" xml:space="preserve">
     <value>108</value>
   </data>
-  <data name="label27.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp2Num11.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Num11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Num11.Location" type="System.Drawing.Point, System.Drawing">
     <value>88, 396</value>
   </data>
-  <data name="label27.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp2Num11.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Num11.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 43</value>
   </data>
-  <data name="label27.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Num11.TabIndex" type="System.Int32, mscorlib">
     <value>192</value>
   </data>
-  <data name="label27.Text" xml:space="preserve">
+  <data name="Opp2Num11.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label27.Name" xml:space="preserve">
-    <value>label27</value>
+  <data name="&gt;&gt;Opp2Num11.Name" xml:space="preserve">
+    <value>Opp2Num11</value>
   </data>
-  <data name="&gt;&gt;label27.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num11.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label27.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num11.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label27.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num11.ZOrder" xml:space="preserve">
     <value>109</value>
   </data>
-  <data name="label28.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp2Num12.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label28.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Num12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Num12.Location" type="System.Drawing.Point, System.Drawing">
     <value>120, 396</value>
   </data>
-  <data name="label28.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp2Num12.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Num12.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 43</value>
   </data>
-  <data name="label28.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Num12.TabIndex" type="System.Int32, mscorlib">
     <value>191</value>
   </data>
-  <data name="label28.Text" xml:space="preserve">
+  <data name="Opp2Num12.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label28.Name" xml:space="preserve">
-    <value>label28</value>
+  <data name="&gt;&gt;Opp2Num12.Name" xml:space="preserve">
+    <value>Opp2Num12</value>
   </data>
-  <data name="&gt;&gt;label28.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num12.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label28.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num12.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label28.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num12.ZOrder" xml:space="preserve">
     <value>110</value>
   </data>
-  <data name="label29.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp2Num13.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label29.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Num13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label29.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Num13.Location" type="System.Drawing.Point, System.Drawing">
     <value>150, 396</value>
   </data>
-  <data name="label29.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp2Num13.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Num13.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 43</value>
   </data>
-  <data name="label29.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Num13.TabIndex" type="System.Int32, mscorlib">
     <value>190</value>
   </data>
-  <data name="label29.Text" xml:space="preserve">
+  <data name="Opp2Num13.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label29.Name" xml:space="preserve">
-    <value>label29</value>
+  <data name="&gt;&gt;Opp2Num13.Name" xml:space="preserve">
+    <value>Opp2Num13</value>
   </data>
-  <data name="&gt;&gt;label29.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num13.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label29.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num13.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label29.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num13.ZOrder" xml:space="preserve">
     <value>111</value>
   </data>
-  <data name="label30.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Opp2Num14.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
   </data>
-  <data name="label30.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Num14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label30.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Num14.Location" type="System.Drawing.Point, System.Drawing">
     <value>179, 396</value>
   </data>
-  <data name="label30.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp2Num14.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Num14.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 43</value>
   </data>
-  <data name="label30.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Num14.TabIndex" type="System.Int32, mscorlib">
     <value>189</value>
   </data>
-  <data name="label30.Text" xml:space="preserve">
+  <data name="Opp2Num14.Text" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="&gt;&gt;label30.Name" xml:space="preserve">
-    <value>label30</value>
+  <data name="&gt;&gt;Opp2Num14.Name" xml:space="preserve">
+    <value>Opp2Num14</value>
   </data>
-  <data name="&gt;&gt;label30.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num14.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label30.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num14.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label30.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num14.ZOrder" xml:space="preserve">
     <value>112</value>
   </data>
-  <data name="label31.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Num15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label31.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Num15.Location" type="System.Drawing.Point, System.Drawing">
     <value>208, 398</value>
   </data>
-  <data name="label31.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp2Num15.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Num15.Size" type="System.Drawing.Size, System.Drawing">
     <value>18, 43</value>
   </data>
-  <data name="label31.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Num15.TabIndex" type="System.Int32, mscorlib">
     <value>188</value>
   </data>
-  <data name="label31.Text" xml:space="preserve">
+  <data name="Opp2Num15.Text" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;label31.Name" xml:space="preserve">
-    <value>label31</value>
+  <data name="&gt;&gt;Opp2Num15.Name" xml:space="preserve">
+    <value>Opp2Num15</value>
   </data>
-  <data name="&gt;&gt;label31.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num15.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label31.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num15.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label31.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num15.ZOrder" xml:space="preserve">
     <value>113</value>
   </data>
-  <data name="label32.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Num16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label32.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Num16.Location" type="System.Drawing.Point, System.Drawing">
     <value>243, 398</value>
   </data>
-  <data name="label32.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Opp2Num16.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 0, 0</value>
   </data>
-  <data name="label32.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Num16.Size" type="System.Drawing.Size, System.Drawing">
     <value>28, 43</value>
   </data>
-  <data name="label32.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Num16.TabIndex" type="System.Int32, mscorlib">
     <value>187</value>
   </data>
-  <data name="label32.Text" xml:space="preserve">
+  <data name="Opp2Num16.Text" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;label32.Name" xml:space="preserve">
-    <value>label32</value>
+  <data name="&gt;&gt;Opp2Num16.Name" xml:space="preserve">
+    <value>Opp2Num16</value>
   </data>
-  <data name="&gt;&gt;label32.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num16.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label32.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num16.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label32.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Num16.ZOrder" xml:space="preserve">
     <value>114</value>
   </data>
-  <data name="pictureBox88.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp2Card16.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -8935,43 +8935,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox88.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp2Card16.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox88.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Card16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox88.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Card16.Location" type="System.Drawing.Point, System.Drawing">
     <value>237, 389</value>
   </data>
-  <data name="pictureBox88.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card16.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox88.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card16.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox88.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card16.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox88.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp2Card16.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox88.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Card16.TabIndex" type="System.Int32, mscorlib">
     <value>186</value>
   </data>
-  <data name="&gt;&gt;pictureBox88.Name" xml:space="preserve">
-    <value>pictureBox88</value>
+  <data name="&gt;&gt;Opp2Card16.Name" xml:space="preserve">
+    <value>Opp2Card16</value>
   </data>
-  <data name="&gt;&gt;pictureBox88.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card16.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox88.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card16.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox88.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card16.ZOrder" xml:space="preserve">
     <value>115</value>
   </data>
-  <data name="pictureBox89.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp2Card15.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -9014,43 +9014,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox89.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp2Card15.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox89.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Card15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox89.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Card15.Location" type="System.Drawing.Point, System.Drawing">
     <value>202, 389</value>
   </data>
-  <data name="pictureBox89.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card15.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox89.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card15.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox89.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card15.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox89.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp2Card15.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox89.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Card15.TabIndex" type="System.Int32, mscorlib">
     <value>185</value>
   </data>
-  <data name="&gt;&gt;pictureBox89.Name" xml:space="preserve">
-    <value>pictureBox89</value>
+  <data name="&gt;&gt;Opp2Card15.Name" xml:space="preserve">
+    <value>Opp2Card15</value>
   </data>
-  <data name="&gt;&gt;pictureBox89.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card15.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox89.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card15.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox89.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card15.ZOrder" xml:space="preserve">
     <value>116</value>
   </data>
-  <data name="pictureBox90.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp2Card14.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -9093,43 +9093,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox90.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp2Card14.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox90.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Card14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox90.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Card14.Location" type="System.Drawing.Point, System.Drawing">
     <value>175, 389</value>
   </data>
-  <data name="pictureBox90.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card14.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox90.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card14.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox90.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card14.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox90.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp2Card14.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox90.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Card14.TabIndex" type="System.Int32, mscorlib">
     <value>183</value>
   </data>
-  <data name="&gt;&gt;pictureBox90.Name" xml:space="preserve">
-    <value>pictureBox90</value>
+  <data name="&gt;&gt;Opp2Card14.Name" xml:space="preserve">
+    <value>Opp2Card14</value>
   </data>
-  <data name="&gt;&gt;pictureBox90.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card14.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox90.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card14.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox90.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card14.ZOrder" xml:space="preserve">
     <value>117</value>
   </data>
-  <data name="pictureBox91.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp2Card13.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -9172,43 +9172,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox91.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp2Card13.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox91.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Card13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox91.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Card13.Location" type="System.Drawing.Point, System.Drawing">
     <value>145, 389</value>
   </data>
-  <data name="pictureBox91.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card13.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox91.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card13.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox91.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card13.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox91.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp2Card13.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox91.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Card13.TabIndex" type="System.Int32, mscorlib">
     <value>184</value>
   </data>
-  <data name="&gt;&gt;pictureBox91.Name" xml:space="preserve">
-    <value>pictureBox91</value>
+  <data name="&gt;&gt;Opp2Card13.Name" xml:space="preserve">
+    <value>Opp2Card13</value>
   </data>
-  <data name="&gt;&gt;pictureBox91.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card13.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox91.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card13.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox91.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card13.ZOrder" xml:space="preserve">
     <value>118</value>
   </data>
-  <data name="pictureBox92.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp2Card12.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -9251,43 +9251,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox92.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp2Card12.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox92.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Card12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox92.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Card12.Location" type="System.Drawing.Point, System.Drawing">
     <value>114, 389</value>
   </data>
-  <data name="pictureBox92.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card12.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox92.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card12.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox92.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card12.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox92.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp2Card12.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox92.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Card12.TabIndex" type="System.Int32, mscorlib">
     <value>182</value>
   </data>
-  <data name="&gt;&gt;pictureBox92.Name" xml:space="preserve">
-    <value>pictureBox92</value>
+  <data name="&gt;&gt;Opp2Card12.Name" xml:space="preserve">
+    <value>Opp2Card12</value>
   </data>
-  <data name="&gt;&gt;pictureBox92.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card12.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox92.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card12.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox92.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card12.ZOrder" xml:space="preserve">
     <value>119</value>
   </data>
-  <data name="pictureBox93.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp2Card11.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -9330,43 +9330,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox93.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp2Card11.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox93.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Card11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox93.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Card11.Location" type="System.Drawing.Point, System.Drawing">
     <value>81, 389</value>
   </data>
-  <data name="pictureBox93.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card11.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox93.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card11.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox93.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card11.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox93.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp2Card11.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox93.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Card11.TabIndex" type="System.Int32, mscorlib">
     <value>181</value>
   </data>
-  <data name="&gt;&gt;pictureBox93.Name" xml:space="preserve">
-    <value>pictureBox93</value>
+  <data name="&gt;&gt;Opp2Card11.Name" xml:space="preserve">
+    <value>Opp2Card11</value>
   </data>
-  <data name="&gt;&gt;pictureBox93.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card11.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox93.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card11.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox93.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card11.ZOrder" xml:space="preserve">
     <value>120</value>
   </data>
-  <data name="pictureBox94.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp2Card10.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -9409,43 +9409,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox94.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp2Card10.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox94.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Card10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox94.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Card10.Location" type="System.Drawing.Point, System.Drawing">
     <value>47, 389</value>
   </data>
-  <data name="pictureBox94.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card10.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox94.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card10.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox94.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card10.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox94.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp2Card10.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox94.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Card10.TabIndex" type="System.Int32, mscorlib">
     <value>179</value>
   </data>
-  <data name="&gt;&gt;pictureBox94.Name" xml:space="preserve">
-    <value>pictureBox94</value>
+  <data name="&gt;&gt;Opp2Card10.Name" xml:space="preserve">
+    <value>Opp2Card10</value>
   </data>
-  <data name="&gt;&gt;pictureBox94.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card10.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox94.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card10.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox94.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card10.ZOrder" xml:space="preserve">
     <value>121</value>
   </data>
-  <data name="pictureBox95.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp2Card9.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -9488,43 +9488,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox95.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp2Card9.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox95.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Card9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox95.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Card9.Location" type="System.Drawing.Point, System.Drawing">
     <value>17, 389</value>
   </data>
-  <data name="pictureBox95.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card9.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox95.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card9.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox95.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card9.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox95.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp2Card9.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox95.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Card9.TabIndex" type="System.Int32, mscorlib">
     <value>180</value>
   </data>
-  <data name="&gt;&gt;pictureBox95.Name" xml:space="preserve">
-    <value>pictureBox95</value>
+  <data name="&gt;&gt;Opp2Card9.Name" xml:space="preserve">
+    <value>Opp2Card9</value>
   </data>
-  <data name="&gt;&gt;pictureBox95.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card9.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox95.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card9.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox95.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card9.ZOrder" xml:space="preserve">
     <value>122</value>
   </data>
-  <data name="pictureBox96.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp2Card8.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -9567,43 +9567,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox96.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp2Card8.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox96.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Card8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox96.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Card8.Location" type="System.Drawing.Point, System.Drawing">
     <value>237, 350</value>
   </data>
-  <data name="pictureBox96.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card8.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox96.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card8.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox96.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card8.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox96.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp2Card8.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox96.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Card8.TabIndex" type="System.Int32, mscorlib">
     <value>178</value>
   </data>
-  <data name="&gt;&gt;pictureBox96.Name" xml:space="preserve">
-    <value>pictureBox96</value>
+  <data name="&gt;&gt;Opp2Card8.Name" xml:space="preserve">
+    <value>Opp2Card8</value>
   </data>
-  <data name="&gt;&gt;pictureBox96.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card8.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox96.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card8.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox96.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card8.ZOrder" xml:space="preserve">
     <value>123</value>
   </data>
-  <data name="pictureBox97.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp2Card7.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -9646,43 +9646,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox97.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp2Card7.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox97.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Card7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox97.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Card7.Location" type="System.Drawing.Point, System.Drawing">
     <value>206, 352</value>
   </data>
-  <data name="pictureBox97.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card7.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox97.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card7.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox97.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card7.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox97.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp2Card7.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox97.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Card7.TabIndex" type="System.Int32, mscorlib">
     <value>177</value>
   </data>
-  <data name="&gt;&gt;pictureBox97.Name" xml:space="preserve">
-    <value>pictureBox97</value>
+  <data name="&gt;&gt;Opp2Card7.Name" xml:space="preserve">
+    <value>Opp2Card7</value>
   </data>
-  <data name="&gt;&gt;pictureBox97.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card7.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox97.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card7.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox97.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card7.ZOrder" xml:space="preserve">
     <value>124</value>
   </data>
-  <data name="pictureBox98.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp2Card6.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -9725,43 +9725,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox98.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp2Card6.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox98.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Card6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox98.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Card6.Location" type="System.Drawing.Point, System.Drawing">
     <value>179, 352</value>
   </data>
-  <data name="pictureBox98.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card6.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox98.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card6.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox98.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card6.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox98.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp2Card6.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox98.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Card6.TabIndex" type="System.Int32, mscorlib">
     <value>175</value>
   </data>
-  <data name="&gt;&gt;pictureBox98.Name" xml:space="preserve">
-    <value>pictureBox98</value>
+  <data name="&gt;&gt;Opp2Card6.Name" xml:space="preserve">
+    <value>Opp2Card6</value>
   </data>
-  <data name="&gt;&gt;pictureBox98.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card6.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox98.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card6.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox98.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card6.ZOrder" xml:space="preserve">
     <value>125</value>
   </data>
-  <data name="pictureBox99.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp2Card5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -9804,43 +9804,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox99.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp2Card5.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox99.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Card5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox99.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Card5.Location" type="System.Drawing.Point, System.Drawing">
     <value>149, 352</value>
   </data>
-  <data name="pictureBox99.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card5.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox99.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card5.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox99.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card5.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox99.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp2Card5.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox99.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Card5.TabIndex" type="System.Int32, mscorlib">
     <value>176</value>
   </data>
-  <data name="&gt;&gt;pictureBox99.Name" xml:space="preserve">
-    <value>pictureBox99</value>
+  <data name="&gt;&gt;Opp2Card5.Name" xml:space="preserve">
+    <value>Opp2Card5</value>
   </data>
-  <data name="&gt;&gt;pictureBox99.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card5.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox99.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card5.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox99.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card5.ZOrder" xml:space="preserve">
     <value>126</value>
   </data>
-  <data name="pictureBox100.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp2Card4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -9883,43 +9883,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox100.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp2Card4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox100.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Card4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox100.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Card4.Location" type="System.Drawing.Point, System.Drawing">
     <value>114, 350</value>
   </data>
-  <data name="pictureBox100.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card4.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox100.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card4.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox100.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card4.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox100.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp2Card4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox100.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Card4.TabIndex" type="System.Int32, mscorlib">
     <value>174</value>
   </data>
-  <data name="&gt;&gt;pictureBox100.Name" xml:space="preserve">
-    <value>pictureBox100</value>
+  <data name="&gt;&gt;Opp2Card4.Name" xml:space="preserve">
+    <value>Opp2Card4</value>
   </data>
-  <data name="&gt;&gt;pictureBox100.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card4.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox100.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card4.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox100.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card4.ZOrder" xml:space="preserve">
     <value>127</value>
   </data>
-  <data name="pictureBox101.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp2Card3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -9962,40 +9962,40 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox101.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp2Card3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox101.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Card3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox101.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Card3.Location" type="System.Drawing.Point, System.Drawing">
     <value>81, 350</value>
   </data>
-  <data name="pictureBox101.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card3.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox101.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card3.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox101.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card3.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox101.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp2Card3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox101.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Card3.TabIndex" type="System.Int32, mscorlib">
     <value>173</value>
   </data>
-  <data name="&gt;&gt;pictureBox101.Name" xml:space="preserve">
-    <value>pictureBox101</value>
+  <data name="&gt;&gt;Opp2Card3.Name" xml:space="preserve">
+    <value>Opp2Card3</value>
   </data>
-  <data name="&gt;&gt;pictureBox101.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card3.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox101.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox101.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card3.ZOrder" xml:space="preserve">
     <value>128</value>
   </data>
   <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
@@ -10022,7 +10022,7 @@
   <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
     <value>129</value>
   </data>
-  <data name="pictureBox102.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp2Card2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -10065,43 +10065,43 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox102.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp2Card2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox102.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Card2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox102.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Card2.Location" type="System.Drawing.Point, System.Drawing">
     <value>47, 350</value>
   </data>
-  <data name="pictureBox102.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card2.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox102.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card2.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox102.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card2.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox102.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp2Card2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox102.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Card2.TabIndex" type="System.Int32, mscorlib">
     <value>170</value>
   </data>
-  <data name="&gt;&gt;pictureBox102.Name" xml:space="preserve">
-    <value>pictureBox102</value>
+  <data name="&gt;&gt;Opp2Card2.Name" xml:space="preserve">
+    <value>Opp2Card2</value>
   </data>
-  <data name="&gt;&gt;pictureBox102.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card2.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox102.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox102.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card2.ZOrder" xml:space="preserve">
     <value>130</value>
   </data>
-  <data name="pictureBox103.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Opp2Card1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGwAAACHCAYAAADz5byMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAAAd0SU1FB9kHEwwhLyc9EvgAAAiNSURBVHhe7Z1biE1tGMf3ICGHMHJoUsYh4UKU
@@ -10144,40 +10144,40 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox103.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="Opp2Card1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="pictureBox103.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Opp2Card1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox103.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Opp2Card1.Location" type="System.Drawing.Point, System.Drawing">
     <value>17, 350</value>
   </data>
-  <data name="pictureBox103.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card1.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox103.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card1.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox103.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Opp2Card1.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
   </data>
-  <data name="pictureBox103.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+  <data name="Opp2Card1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
   </data>
-  <data name="pictureBox103.TabIndex" type="System.Int32, mscorlib">
+  <data name="Opp2Card1.TabIndex" type="System.Int32, mscorlib">
     <value>172</value>
   </data>
-  <data name="&gt;&gt;pictureBox103.Name" xml:space="preserve">
-    <value>pictureBox103</value>
+  <data name="&gt;&gt;Opp2Card1.Name" xml:space="preserve">
+    <value>Opp2Card1</value>
   </data>
-  <data name="&gt;&gt;pictureBox103.Type" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card1.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox103.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox103.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Opp2Card1.ZOrder" xml:space="preserve">
     <value>131</value>
   </data>
   <data name="label33.Font" type="System.Drawing.Font, System.Drawing">
