@@ -678,21 +678,25 @@ namespace NoGracias
             {
                 if (ToAlert.Count > 0)
                 {
-                    string name = ToAlert[0];
-                    foreach (Player player in Clients)
+                    string names = "";
+                    foreach (Player p in Clients.ToList())
+                    {
+                        names += p.mName + ", ";
+                    }
+                    foreach (Player player in Clients.ToList())
                     {
                         byte[] data = Encoding.ASCII.GetBytes(Messages.ALERT_PLAYER_JOINED.ToString());
                         player.mSocket.Send(data);
-                        Console.WriteLine("Sent Player Alert");
-                        System.Threading.Thread.Sleep(250); //wait, then send another message
+                        Console.WriteLine("Sent New Player Alert");
+                        System.Threading.Thread.Sleep(250); //wait, then send names
                         Console.WriteLine("spept");
-                        data = Encoding.ASCII.GetBytes(name);
+                        data = Encoding.ASCII.GetBytes(names);
                         player.mSocket.Send(data);
-                        Console.WriteLine("Sent name");
-                        //player.mSocket.BeginReceive(Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, player.mSocket);//KHM may break here
+                        Console.WriteLine("Sent names");
 
 
-                        ///////////////////////////debug//////////////////
+                        ///////////////////////////debug//////////////////////
+                        //Pretend to add another player
 
                         //data = Encoding.ASCII.GetBytes(Messages.ALERT_PLAYER_JOINED.ToString());
                         //player.mSocket.Send(data);
