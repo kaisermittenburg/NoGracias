@@ -8,6 +8,7 @@ using System.Windows.Forms;
 using System.Linq;
 using NoGracias.Communication;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace NoGracias
 {
@@ -347,6 +348,7 @@ namespace NoGracias
             player.mState = PlayerState.WAITING_FOR_RESPONSE;
             temp.Send(data);
 
+            ReceiveLoop(temp);
             //Put Socket in receive state
             temp.BeginReceive(Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, temp);
             
@@ -356,9 +358,175 @@ namespace NoGracias
             Server_Socket.BeginAccept(Accept, null);
         }
 
+        private void ReceiveLoop(Socket temp)
+        {
+            while (true)
+            {
+                ReceiveResponse(temp);
+            }
+        }
+
+        private void ReceiveResponse(Socket temp)
+        {
+            var buffer = new byte[2048];
+            int received = temp.Receive(buffer, SocketFlags.None);
+            if (received == 0) return;
+            var data = new byte[received];
+            Array.Copy(buffer, data, received);
+            string message = Encoding.ASCII.GetString(data);
+            Console.WriteLine("Message from client...  " + message); //debugging
+
+            if (message == Messages.SEND_READYUP_TO_SERVER.ToString())
+            {
+                Console.WriteLine("Ready up player recieved");
+                CPrint("Ready up player recieved");
+                //Clients.Where(x => x.mSocket == temp).FirstOrDefault().mState = PlayerState.READY; //WRONG
+                CatchReadyUpName(temp);
+                //TODO
+            }
+            else if (message == Messages.SEND_PLAYER_NAME_TO_SERVER.ToString()) //Name was sent
+            {
+                string playerName = CatchPlayerJoinName(temp);
+                Console.WriteLine("Player name received: " + playerName);
+
+                ToAlert.Add(playerName);
+                var player = Clients.Where(x => x.mSocket == temp).FirstOrDefault();
+                player.mName = playerName;
+                player.mState = PlayerState.IDLE;
+
+                //Add player to server form
+                switch (NumberOfPlayers)
+                {
+                    case 1:
+                        this.checkBox1.Invoke((MethodInvoker)delegate
+                        {
+                            // Running on the UI thread
+                            this.checkBox1.Visible = true;
+                            this.checkBox1.Text = playerName;
+                        });
+                        break;
+                    case 2:
+                        this.checkBox2.Invoke((MethodInvoker)delegate
+                        {
+                            // Running on the UI thread
+                            this.checkBox2.Visible = true;
+                            this.checkBox2.Text = playerName;
+                        });
+                        break;
+                    case 3:
+                        this.checkBox3.Invoke((MethodInvoker)delegate
+                        {
+                            // Running on the UI thread
+                            this.checkBox3.Visible = true;
+                            this.checkBox3.Text = playerName;
+                        });
+                        break;
+                    case 4:
+                        this.checkBox4.Invoke((MethodInvoker)delegate
+                        {
+                            // Running on the UI thread
+                            this.checkBox4.Visible = true;
+                            this.checkBox4.Text = playerName;
+                        });
+                        break;
+                    case 5:
+                        this.checkBox5.Invoke((MethodInvoker)delegate
+                        {
+                            // Running on the UI thread
+                            this.checkBox5.Visible = true;
+                            this.checkBox5.Text = playerName;
+                        });
+                        break;
+                }
+                this.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.Refresh();
+                });
+            }
+        }
+
+        private string CatchPlayerJoinName(Socket playerSocket)
+        {
+            var buffer = new byte[2048];
+            int received = playerSocket.Receive(buffer, SocketFlags.None);
+            //if (received == 0) return;
+            var data = new byte[received];
+            Array.Copy(buffer, data, received);
+            string message = Encoding.ASCII.GetString(data);
+            Console.WriteLine("Receive ready-up player name...  " + message); //debugging
+
+            return message;
+        }
+
+        private void CatchReadyUpName(Socket playerSocket)
+        {
+            var buffer = new byte[2048];
+            int received = playerSocket.Receive(buffer, SocketFlags.None);
+            if (received == 0) return;
+            var data = new byte[received];
+            Array.Copy(buffer, data, received);
+            string message = Encoding.ASCII.GetString(data);
+            Console.WriteLine("Receive ready-up player name...  " + message); //debugging
+
+            Clients.Where(x => x.mName == message).FirstOrDefault().mState = PlayerState.READY;
+
+            if( checkBox1.Text == message)
+            {
+                this.checkBox1.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox1.Checked = true;
+                    this.Refresh();
+                });
+            }
+            else if (checkBox2.Text == message)
+            {
+                this.checkBox2.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox2.Checked = true;
+                    this.Refresh();
+                });
+            }
+            else if (checkBox3.Text == message)
+            {
+                this.checkBox3.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox3.Checked = true;
+                    this.Refresh();
+                });
+            }
+            else if (checkBox4.Text == message)
+            {
+                this.checkBox4.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox4.Checked = true;
+                    this.Refresh();
+                });
+            }
+            else if (checkBox5.Text == message)
+            {
+                this.checkBox5.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox5.Checked = true;
+                    this.Refresh();
+                });
+            }
+
+            AlertPlayerReadyUp(message);
+        }
+        
         private void Recieve(IAsyncResult AR)
         {
             Socket temp = (Socket)AR.AsyncState;
+
+            ReceiveLoop(temp); //STAY HERE
+            ///////////////////////////////////////////////////////////
+            Debugger.Break();
             int recieved;
 
             try
@@ -400,10 +568,13 @@ namespace NoGracias
             }
             else if (message == Messages.SEND_READYUP_TO_SERVER.ToString())
             {
-                Clients.Where(x => x.mSocket == temp).FirstOrDefault().mState = PlayerState.READY;
+                Console.WriteLine("Ready up player recieved");
+                CPrint("Ready up player recieved");
+                //Clients.Where(x => x.mSocket == temp).FirstOrDefault().mState = PlayerState.READY; //WRONG
+                //CatchReadyUpName();
                 //TODO
             }
-            else //Name was sent
+            else if (message == Messages.SEND_PLAYER_NAME_TO_SERVER.ToString()) //Name was sent
             {
                 ToAlert.Add(message);
                 var player = Clients.Where(x => x.mSocket == temp).FirstOrDefault();
@@ -500,19 +671,36 @@ namespace NoGracias
 
                         ///////////////////////////debug//////////////////
 
-                        data = Encoding.ASCII.GetBytes(Messages.ALERT_PLAYER_JOINED.ToString());
-                        player.mSocket.Send(data);
-                        Console.WriteLine("Sent Player Alert");
-                        System.Threading.Thread.Sleep(250); //wait, then send another message
-                        Console.WriteLine("spept");
-                        data = Encoding.ASCII.GetBytes("Brock");
-                        player.mSocket.Send(data);
-                        Console.WriteLine("Sent name");
+                        //data = Encoding.ASCII.GetBytes(Messages.ALERT_PLAYER_JOINED.ToString());
+                        //player.mSocket.Send(data);
+                        //Console.WriteLine("Sent Player Alert");
+                        //System.Threading.Thread.Sleep(250); //wait, then send another message
+                        //Console.WriteLine("spept");
+                        //data = Encoding.ASCII.GetBytes("Brock");
+                        //player.mSocket.Send(data);
+                        //Console.WriteLine("Sent name");
                     }
                     System.Threading.Thread.Sleep(100);
                     ToAlert.RemoveAt(0);
                     System.Threading.Thread.Sleep(100);
                 }
+            }
+            Server_Socket.BeginReceive(Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, Server_Socket);
+        }
+
+        private void AlertPlayerReadyUp(string playerName)
+        {
+            foreach (Player player in Clients)
+            {
+                byte[] data = Encoding.ASCII.GetBytes(Messages.ALERT_PLAYER_READY_UPPED.ToString());
+                player.mSocket.Send(data);
+                Console.WriteLine("Sent Player ready up alert");
+                System.Threading.Thread.Sleep(250); //wait, then send another message
+                Console.WriteLine("spept");
+                data = Encoding.ASCII.GetBytes(playerName);
+                player.mSocket.Send(data);
+                Console.WriteLine("Sent name");
+                //player.mSocket.BeginReceive(Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, player.mSocket);//KHM may break here
             }
         }
 
