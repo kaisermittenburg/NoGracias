@@ -683,7 +683,7 @@ namespace NoGracias
                     string names = "";
                     foreach (Player p in Clients.ToList())
                     {
-                        names += p.mName + ", ";
+                        names += p.mName + ",";
                     }
                     foreach (Player player in Clients.ToList())
                     {
