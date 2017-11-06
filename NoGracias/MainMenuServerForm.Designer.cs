@@ -15,21 +15,42 @@ namespace NoGracias
 {
     partial class MainMenuServerForm
     {
-
+        #region Variables
+        /**
+		 *	Public member variable. Holds the IP address of the server and defines getter and setter
+		 */
         public string IP
         {
             get { return IP_textbox.Text; }
             set { IP_textbox.Text = value; }
         }
+
+        /**
+		 *	Public member variable. Holds the port of the server and defines getter and setter
+		 */
         public string Port
         {
             get { return Port_textbox.Text; }
             set { Port_textbox.Text = value; }
         }
-        private int NumberOfPlayers = 0;
-        private List<string> ToAlert = new List<string>();
-        private bool JoiningIsDone = false;
 
+        /**
+		 *	Public member variable. Holds the number of current players and defines getter and setter
+		 */
+        private int NumberOfPlayers = 0;
+
+        /**
+		 *	Public member variable. Holds the list of names to alert all players has joing and defines getter and setter
+		 */
+        private List<string> ToAlert = new List<string>();
+
+        /**
+		 *	Public member variable. Decideds whether all players have joined and defines getter and setter
+		 */
+        private bool JoiningIsDone = false;
+        #endregion
+
+        #region Generated Code
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -47,7 +68,6 @@ namespace NoGracias
             }
             base.Dispose(disposing);
         }
-
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -275,12 +295,15 @@ namespace NoGracias
         private System.Windows.Forms.TextBox IP_textbox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button StartServerButton;
-
-
-
+        private CheckBox checkBox1;
+        private CheckBox checkBox2;
+        private CheckBox checkBox3;
+        private CheckBox checkBox4;
+        private CheckBox checkBox5;
+        private System.Windows.Forms.Button ShutdownServerButton;
+        #endregion
 
         #region ServerCode
-
 
         #region AbleOpus Adapted Code
         //The following code in this c# "region" has been adapted from a repo called NetworkingSamples by GitHub user AbleOpus
@@ -305,6 +328,10 @@ namespace NoGracias
         private const int PORT = 11203;
         private readonly byte[] Buffer = new byte[BUFFER_SIZE];
 
+        /**
+		 *	Private method that takes no arguments and does not return.
+		 *	Details: Sets up the server
+         */
         private void ServerSetup()
         {
             Server_Socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
@@ -327,6 +354,10 @@ namespace NoGracias
             Port = PORT.ToString();
         }
 
+        /**
+		 *	Private method that takes no arguments and does not return.
+		 *	Details: Connects client to the server
+         */
         private void ServerShutdown()
         {
             foreach (Player player in Clients)
@@ -340,6 +371,11 @@ namespace NoGracias
             CPrint("Server seccessfully shut down");
         }
 
+        /**
+		 *	Private method that takes no arguments and does not return.
+		 *	Details: Sets socket to accept new connections
+         *	@param AR AsyncResult from socket communication
+         */
         private void Accept(IAsyncResult AR)
         {
             Socket temp;
@@ -377,6 +413,11 @@ namespace NoGracias
             Server_Socket.BeginAccept(Accept, null);
         }
 
+        /**
+		 *	Private method that takes no arguments and does not return.
+		 *	Details: Enters infinite loop that sets socket to listen for communication
+         *	@param temp basic object that will be casted to a socket
+         */
         private void ReceiveLoop(object temp)
         {
             Console.WriteLine("Got to ReceiveLoop");
@@ -386,6 +427,11 @@ namespace NoGracias
             }
         }
 
+        /**
+		 *	Private method that takes no arguments and does not return.
+		 *	Details: Receives message from clients
+         *	@param temp is a player socket
+         */
         private void ReceiveResponse(Socket temp)
         {
             Console.WriteLine("Got to ReceiveResponse");
@@ -469,82 +515,11 @@ namespace NoGracias
             }
         }
 
-        private string CatchPlayerJoinName(Socket playerSocket)
-        {
-            var buffer = new byte[2048];
-            int received = playerSocket.Receive(buffer, SocketFlags.None);
-            //if (received == 0) return;
-            var data = new byte[received];
-            Array.Copy(buffer, data, received);
-            string message = Encoding.ASCII.GetString(data);
-            Console.WriteLine("Receive player name...  " + message); //debugging
-
-            Clients.Where(x => x.mSocket == playerSocket).FirstOrDefault().mName = message;
-
-            return message;
-        }
-
-        private void CatchReadyUpName(Socket playerSocket)
-        {
-            var buffer = new byte[2048];
-            int received = playerSocket.Receive(buffer, SocketFlags.None);
-            if (received == 0) return;
-            var data = new byte[received];
-            Array.Copy(buffer, data, received);
-            string message = Encoding.ASCII.GetString(data);
-            Console.WriteLine("Receive ready-up player name...  " + message); //debugging
-
-            Clients.Where(x => x.mName == message).FirstOrDefault().mState = PlayerState.READY;
-
-            if( checkBox1.Text == message)
-            {
-                this.checkBox1.Invoke((MethodInvoker)delegate
-                {
-                    // Running on the UI thread
-                    this.checkBox1.Checked = true;
-                    this.Refresh();
-                });
-            }
-            else if (checkBox2.Text == message)
-            {
-                this.checkBox2.Invoke((MethodInvoker)delegate
-                {
-                    // Running on the UI thread
-                    this.checkBox2.Checked = true;
-                    this.Refresh();
-                });
-            }
-            else if (checkBox3.Text == message)
-            {
-                this.checkBox3.Invoke((MethodInvoker)delegate
-                {
-                    // Running on the UI thread
-                    this.checkBox3.Checked = true;
-                    this.Refresh();
-                });
-            }
-            else if (checkBox4.Text == message)
-            {
-                this.checkBox4.Invoke((MethodInvoker)delegate
-                {
-                    // Running on the UI thread
-                    this.checkBox4.Checked = true;
-                    this.Refresh();
-                });
-            }
-            else if (checkBox5.Text == message)
-            {
-                this.checkBox5.Invoke((MethodInvoker)delegate
-                {
-                    // Running on the UI thread
-                    this.checkBox5.Checked = true;
-                    this.Refresh();
-                });
-            }
-
-            AlertPlayerReadyUp(message);
-        }
-        
+        /**
+		 *	Private method that takes no arguments and does not return.
+		 *	Details: Alternate method to receive message from clients
+         *	@param AR AsyncResult from socket communication
+         */
         private void Recieve(IAsyncResult AR)
         {
             Socket temp = (Socket)AR.AsyncState;
@@ -674,6 +649,96 @@ namespace NoGracias
 
         #endregion
 
+        /**
+		 *	Private method that takes no arguments and does not return.
+		 *	Details: Handle client sending their name
+         *	@param playerSocket is a player socket used for communication
+         */
+        private string CatchPlayerJoinName(Socket playerSocket)
+        {
+            var buffer = new byte[2048];
+            int received = playerSocket.Receive(buffer, SocketFlags.None);
+            //if (received == 0) return;
+            var data = new byte[received];
+            Array.Copy(buffer, data, received);
+            string message = Encoding.ASCII.GetString(data);
+            Console.WriteLine("Receive player name...  " + message); //debugging
+
+            Clients.Where(x => x.mSocket == playerSocket).FirstOrDefault().mName = message;
+
+            return message;
+        }
+
+        /**
+		 *	Private method that takes no arguments and does not return.
+		 *	Details: Handle client pushing ready button
+         *	@param playerSocket is a player socket used for communication
+         */
+        private void CatchReadyUpName(Socket playerSocket)
+        {
+            var buffer = new byte[2048];
+            int received = playerSocket.Receive(buffer, SocketFlags.None);
+            if (received == 0) return;
+            var data = new byte[received];
+            Array.Copy(buffer, data, received);
+            string message = Encoding.ASCII.GetString(data);
+            Console.WriteLine("Receive ready-up player name...  " + message); //debugging
+
+            Clients.Where(x => x.mName == message).FirstOrDefault().mState = PlayerState.READY;
+
+            if (checkBox1.Text == message)
+            {
+                this.checkBox1.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox1.Checked = true;
+                    this.Refresh();
+                });
+            }
+            else if (checkBox2.Text == message)
+            {
+                this.checkBox2.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox2.Checked = true;
+                    this.Refresh();
+                });
+            }
+            else if (checkBox3.Text == message)
+            {
+                this.checkBox3.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox3.Checked = true;
+                    this.Refresh();
+                });
+            }
+            else if (checkBox4.Text == message)
+            {
+                this.checkBox4.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox4.Checked = true;
+                    this.Refresh();
+                });
+            }
+            else if (checkBox5.Text == message)
+            {
+                this.checkBox5.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.checkBox5.Checked = true;
+                    this.Refresh();
+                });
+            }
+
+            AlertPlayerReadyUp(message);
+        }
+
+        /**
+		 *	Private method that takes no arguments and does not return.
+		 *	Details: Alert all players that there is a new player and send name
+         */
         private void AlertNewPlayer()
         {
             while (!JoiningIsDone)
@@ -718,6 +783,11 @@ namespace NoGracias
             Server_Socket.BeginReceive(Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, Server_Socket);
         }
 
+        /**
+		 *	Private method that takes no arguments and does not return.
+		 *	Details: Alert all players that a player is ready
+         *	@param playerName is a string that is the player's name
+         */
         private void AlertPlayerReadyUp(string playerName)
         {
             foreach (Player player in Clients)
@@ -734,10 +804,12 @@ namespace NoGracias
             }
         }
 
-        /*Method: GetLocalIPAddress() 
-         *Source: https://stackoverflow.com/questions/6803073/get-local-ip-address 
-          Was top selected answer submitted by user: Mrchief
-         *Accessed: 10/26/2017
+        /** 
+         *  Public static method that takes no arguments and does not return.
+         *  Details: Gets the IP address of the current machine
+         *  Source: https://stackoverflow.com/questions/6803073/get-local-ip-address 
+         *  Was top selected answer submitted by user: Mrchief
+         *  Accessed: 10/26/2017
          */
         public static string GetLocalIPAddress()
         {
@@ -752,14 +824,14 @@ namespace NoGracias
             throw new Exception("No network adapters with an IPv4 address in the system!");
         }
 
-        private System.Windows.Forms.Button ShutdownServerButton;
-
-        #endregion
-
+        /**
+		 *	Private method that takes no arguments and does not return.
+		 *	Details: Connects client to the server
+         */
         private void ReadyUp()
         {
             bool AllReady = false;
-            while(!AllReady)
+            while (!AllReady)
             {
                 AllReady = true;
                 if (Clients.Count != 0)
@@ -781,15 +853,21 @@ namespace NoGracias
                 {
                     AllReady = false;
                 }
-                
+
                 //Debugging to show that thread is still cycling
-                
+
                 //CPrint(AllReady.ToString());
                 //Console.WriteLine(AllReady.ToString());
             }
+            //TODO Everyone is ready open table 
         }
 
-        //Print to server form "console"
+        #endregion
+
+        /**
+		 *	Private method that takes no arguments and does not return.
+		 *	Details: Print parameter to form textbox
+         */
         public void CPrint(string s)
         {
             //Status_textbox.AppendText("\r\n" + s);
@@ -800,11 +878,5 @@ namespace NoGracias
                 this.Status_textbox.AppendText("\r\n" + s);
             });
         }
-
-        private CheckBox checkBox1;
-        private CheckBox checkBox2;
-        private CheckBox checkBox3;
-        private CheckBox checkBox4;
-        private CheckBox checkBox5;
     }
 }

@@ -2,6 +2,7 @@
 {
     partial class CardTableForm
     {
+        #region Generated Code
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -2124,6 +2125,7 @@
         private System.Windows.Forms.PictureBox DeckChip;
         private System.Windows.Forms.Label TopDeckChipCounter;
         private System.Windows.Forms.Label TopDeckChipText;
+        #endregion
     }
 }
 

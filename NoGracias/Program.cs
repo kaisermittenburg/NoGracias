@@ -16,37 +16,24 @@ namespace NoGracias
         [STAThread]
         static void Main()
         {
-            
-
+            //Setup
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-
 
             MainMenuForm MainMenu = new MainMenuForm();
             MainMenuServerForm ServerForm = new MainMenuServerForm();
             CardTableForm Table = new CardTableForm();
 
-            //Start Main Menu Form
-
-            //Application.Run(MainMenu);
-
-
-            
-
+            #region Thread Example
             //var thread = new Thread(ThreadStart);
             //thread.TrySetApartmentState(ApartmentState.STA);
             //thread.Start(ServerForm);
-
+            #endregion
 
             //Start Server Form
             Application.Run(MainMenu);
-
            
             Application.Run(ServerForm);
-
-
-            
-           
         }
     }
 }

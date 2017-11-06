@@ -8,6 +8,7 @@ namespace NoGracias
 {
     partial class MainMenuForm
     {
+        #region Variables
         private static int attempts = 0;
 
         private int NumberOfPlayers = 1;
@@ -147,6 +148,8 @@ namespace NoGracias
                 });
             }
         }
+
+        #endregion
 
         /// <summary>
         /// Required designer variable.
@@ -456,7 +459,6 @@ namespace NoGracias
 
         #endregion
 
-
         private System.Windows.Forms.TextBox IP_textbox;
 		private System.Windows.Forms.TextBox Port_textbox;
 		private System.Windows.Forms.TextBox PlayerName_textbox;
@@ -467,6 +469,14 @@ namespace NoGracias
 		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.Button Ready_Up_Button;
 		private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button Connect_Button;
+        private Label Status_Label;
+        private TextBox Status_Textbox;
+        private CheckBox you_checkBox;
+        private CheckBox checkBox2;
+        private CheckBox checkBox3;
+        private CheckBox checkBox4;
+        private CheckBox checkBox5;
 
         #region AbleOpus Adapted Code
         //The following code in this c# "region" has been adapted from a repo called NetworkingSamples by GitHub user AbleOpus
@@ -487,11 +497,10 @@ namespace NoGracias
 
         private Socket ClientSocket;
 
-            //ConnectToServer();
-            //RequestLoop();
-            //Exit();
-       
-
+        /**
+		 *	Private method that takes no arguments and does not return.
+		 *	Details: Connects client to the server
+         */
         private void ConnectToServer()
         {
             ClientSocket = new Socket
@@ -520,6 +529,10 @@ namespace NoGracias
             Status = "Connected";
         }
 
+        /**
+		 *	Private method that takes no arguments and does not return.
+		 *	Details: Enters an infinite loop to listen for communication from the server
+         */
         private void ReceiveLoop()
         {
             while (true)
@@ -558,6 +571,7 @@ namespace NoGracias
             byte[] buffer = Encoding.ASCII.GetBytes(text);
             ClientSocket.Send(buffer, 0, buffer.Length, SocketFlags.None);
         }
+
         /**
 		 *	Public method that takes no arguments and does not return.
 		 *	Details: Creates buffer to recieve from the client socket in order to send a message to the console and act upon the response.
@@ -592,9 +606,17 @@ namespace NoGracias
 
             
         }
+
         /**
 		 *	Public method that takes no arguments and does not return.
 		 *	Details: Creates buffer to recieve from the client socket in order to send a message to the console and act upon the response.
+         */
+
+        #endregion
+
+        /**
+		 *	Private method that takes no arguments and does not return.
+		 *	Details: Gets player name who has ready-upped and checks checkbox
          */
         private void RecievePlayerReadyUp()
         {
@@ -606,7 +628,7 @@ namespace NoGracias
             string message = Encoding.ASCII.GetString(data);
             Console.WriteLine("Receive player ready up...  " + message); //debugging
 
-            if(CheckBox2 == message)
+            if (CheckBox2 == message)
             {
                 this.checkBox2.Invoke((MethodInvoker)delegate
                 {
@@ -639,6 +661,11 @@ namespace NoGracias
                 });
             }
         }
+
+        /**
+		 *	Private method that takes no arguments and does not return.
+		 *	Details: Gets player name from newly joined players
+         */
         private void ReceivePlayerName()
         {
             var buffer = new byte[2048];
@@ -669,8 +696,8 @@ namespace NoGracias
                         case 2:
                             this.checkBox2.Invoke((MethodInvoker)delegate
                             {
-                            // Running on the UI thread
-                            this.checkBox2.Visible = true;
+                                // Running on the UI thread
+                                this.checkBox2.Visible = true;
                                 this.checkBox2.Text = s;
                                 this.Refresh();
                             });
@@ -678,8 +705,8 @@ namespace NoGracias
                         case 3:
                             this.checkBox3.Invoke((MethodInvoker)delegate
                             {
-                            // Running on the UI thread
-                            this.checkBox3.Visible = true;
+                                // Running on the UI thread
+                                this.checkBox3.Visible = true;
                                 this.checkBox3.Text = s;
                                 this.Refresh();
                             });
@@ -687,8 +714,8 @@ namespace NoGracias
                         case 4:
                             this.checkBox4.Invoke((MethodInvoker)delegate
                             {
-                            // Running on the UI thread
-                            this.checkBox4.Visible = true;
+                                // Running on the UI thread
+                                this.checkBox4.Visible = true;
                                 this.checkBox4.Text = s;
                                 this.Refresh();
                             });
@@ -696,8 +723,8 @@ namespace NoGracias
                         case 5:
                             this.checkBox5.Invoke((MethodInvoker)delegate
                             {
-                            // Running on the UI thread
-                            this.checkBox5.Visible = true;
+                                // Running on the UI thread
+                                this.checkBox5.Visible = true;
                                 this.checkBox5.Text = s;
                                 this.Refresh();
                             });
@@ -708,17 +735,10 @@ namespace NoGracias
             }
         }
 
-        #endregion
-
-        private System.Windows.Forms.Button Connect_Button;
-        private Label Status_Label;
-        private TextBox Status_Textbox;
-        private CheckBox you_checkBox;
-        private CheckBox checkBox2;
-        private CheckBox checkBox3;
-        private CheckBox checkBox4;
-        private CheckBox checkBox5;
-
+        /**
+		 *	Private method that takes no arguments and does not return.
+		 *	Details: Tells server you are ready to play
+         */
         private void ReadyUp()
         {
             SendMessage(Messages.SEND_READYUP_TO_SERVER.ToString());

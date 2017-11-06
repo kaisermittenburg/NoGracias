@@ -61,6 +61,10 @@ namespace NoGracias.Server
             return top;
         }
 
+        /**
+         * Returns the card at the top of the Deck
+         * @return Whether card is empty or not
+         */
         public bool isEmpty()
         {
             if(deck.Count() == 0)

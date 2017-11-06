@@ -11,9 +11,9 @@ namespace NoGracias.Communication
         
     }
     /**
- *	Public messages enumeration that describes the type of message being sent from players and servers
- *	Details: Sets the member's socket and playernumber.
- */
+    *	Public Enumeration 
+    *	Details: Describes the type of message being sent from players and servers
+    */
     public enum Messages
     {
         #region Setup
@@ -22,7 +22,6 @@ namespace NoGracias.Communication
         SEND_READYUP_TO_SERVER,                    //--Tells server that the player is ready 
         ALERT_PLAYER_JOINED,
         ALERT_PLAYER_READY_UPPED,
-
         #endregion
 
         #region Game Setup
@@ -35,13 +34,11 @@ namespace NoGracias.Communication
         RECEIVE_TURN_OPTIONS,
         ACCEPT_CARD,
         REJECT_CARD,
-
         #endregion
 
         #region Game End
         RECEIVE_PLAYER_SCORE,
         #endregion
-
 
         #region Misc
         SEND_NOTHING,                              //--Dummy Message

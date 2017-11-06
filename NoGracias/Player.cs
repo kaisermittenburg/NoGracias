@@ -19,7 +19,8 @@ namespace NoGracias
         public Player nextPlayer { get; set; }
 
         #endregion
-         /**
+         
+        /**
          *	Public player constructor that takes two arguments of type int and Socket.
          *	Details: Sets the member's socket and playernumber.
          *	@param socket the socket the player is connected on
@@ -47,6 +48,10 @@ namespace NoGracias
         }
 
         #region Functions
+        /**
+         *	Public player constructor that takes three arguments of type int, Socket, and string.
+         *	Details: Calculates the score
+         */
         public int Score()
         {
             int n = cards.Count;
