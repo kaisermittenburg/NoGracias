@@ -612,14 +612,13 @@ namespace NoGracias
 
 
             ////////////////////////////////////////////////
+            int checkboxNum = 2;
             foreach (string s in names)
             {
                 Console.WriteLine(s);//debugging 
                 if (s != PlayerName)
                 {
-                    NumberOfPlayers++;
-
-                    switch (NumberOfPlayers)
+                    switch (checkboxNum)
                     {
                         case 2:
                             this.checkBox2.Invoke((MethodInvoker)delegate
@@ -658,7 +657,7 @@ namespace NoGracias
                             });
                             break;
                     }
-
+                    checkboxNum++;
                 }
             }
         }
