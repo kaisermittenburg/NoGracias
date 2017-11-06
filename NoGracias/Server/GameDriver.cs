@@ -32,6 +32,9 @@ namespace NoGracias.Server
 
         #region Functions
 
+        /**
+         * Sets up Game variables and sockets for starting the game. Initializes variables to their starting values 
+         */
         public void Setup()
         {
             /*for(int i=0; i<names.Count; i++)
@@ -63,6 +66,9 @@ namespace NoGracias.Server
             }
         }
 
+        /**
+         * Run the Game. Runs game turn wise until the deck is empty, and sends scores to all players after the last round
+         */
         public void Run()
         {
             while(!isOver)
@@ -95,6 +101,10 @@ namespace NoGracias.Server
             //Send exit message to clients
         }
 
+        /**
+         * Operates Game for a single turn
+         * Details: Changes the state of turn specific variables based on interaction with clients. Responsible for sending turn data to clients and receiving response
+         */
         public void playTurn()
         {
             //TODO: Show card number and chips to all clients
