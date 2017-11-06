@@ -46,7 +46,7 @@ namespace NoGracias
             Ready_Up_Button.Enabled = true;
 
             you_checkBox.Visible = true;
-            you_checkBox.Text = PlayerName;
+            YouCheckBox = PlayerName;
 
             this.Refresh();
 
