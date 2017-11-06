@@ -37,7 +37,12 @@ namespace NoGracias
         {
 
         }
-
+        /**
+		 *	Private method that takes two arguments of type object and EventArgs and does not return.
+		 *	Details: Connects to the server, disables the connect button, enables the ready up button and refreshes the page along with starting new thread.
+		 *	@param sender the first argument describes the player entering the game.
+         *	@param e the second argument describes the clicking of the button.
+		 */
         private void Connect_Button_Click(object sender, EventArgs e)
         {
             ConnectToServer();
@@ -56,7 +61,12 @@ namespace NoGracias
 
             //ReceiveLoop(); //Will get here after player name is sent. 
         }
-
+        /**
+		 *	Private method that takes two arguments of type object and EventArgs and does not return.
+		 *	Details: Ready's up to the server along with starting new thread.
+		 *	@param sender the first argument describes the player being ready for the game.
+         *	@param e the second argument describes the clicking of the button.
+		 */
         private void Ready_Up_Button_Click(object sender, EventArgs e)
         {
             you_checkBox.Checked = true;
@@ -72,7 +82,12 @@ namespace NoGracias
         {
 
         }
-
+        /**
+		 *	Private method that takes two arguments of type object and EventArgs and does not return.
+		 *	Details: Closes out of the main menu and starts the server from the main menu page
+		 *	@param sender the first argument describes the player becoming the server/host.
+         *	@param e the second argument describes the clicking of the button.
+		 */
         private void button2_Click(object sender, EventArgs e)
         {
             //MainMenuServerForm myServeMenu = new MainMenuServerForm();

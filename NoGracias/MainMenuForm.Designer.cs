@@ -12,6 +12,9 @@ namespace NoGracias
 
         private int NumberOfPlayers = 1;
 
+        /**
+		 *	Public member variable. Holds the IP address of the server and defines getter and setter
+		 */
         public string IP
         {
             get { return IP_textbox.Text; }
@@ -24,6 +27,9 @@ namespace NoGracias
                 });
             }
         }
+        /**
+		 *	Public member variable. Holds the Port address of the server and defines getter and setter
+		 */
         public string Port
         {
             get { return Port_textbox.Text; }
@@ -36,6 +42,9 @@ namespace NoGracias
                 });
             }
         }
+        /**
+		 *	Public member variable. Holds the string of the player and defines getter and setter
+		 */
         public string PlayerName
         {
             get { return PlayerName_textbox.Text; }
@@ -48,7 +57,9 @@ namespace NoGracias
                 });
             }
         }
-
+        /**
+		 *	Public member variable. Holds the status of the player and defines getter and setter
+		 */
         public string Status
         {
             get { return Status_Textbox.Text; }
@@ -61,6 +72,9 @@ namespace NoGracias
                 });
             }
         }
+        /**
+		 *	Public member variable. Holds the string of the player's checkbox and defines getter and setter
+		 */
         public string YouCheckBox
         {
             get { return you_checkBox.Text; }
@@ -73,6 +87,9 @@ namespace NoGracias
                 });
             }
         }
+        /**
+		 *	Public member variable. Holds the second checkbox status in a string and defines getter and setter
+		 */
         public string CheckBox2
         {
             get { return checkBox2.Text; }
@@ -85,6 +102,9 @@ namespace NoGracias
                 });
             }
         }
+        /**
+        *	Public member variable. Holds the third checkbox status in a string and defines getter and setter
+        */
         public string CheckBox3
         {
             get { return checkBox3.Text; }
@@ -97,6 +117,9 @@ namespace NoGracias
                 });
             }
         }
+        /**
+		 *	Public member variable. Holds the fourth checkbox status in a string and defines getter and setter
+		 */
         public string CheckBox4
         {
             get { return checkBox4.Text; }
@@ -109,6 +132,9 @@ namespace NoGracias
                 });
             }
         }
+        /**
+		 *	Public member variable. Holds the fifth checkbox status in a string and defines getter and setter
+		 */
         public string CheckBox5
         {
             get { return checkBox5.Text; }
@@ -505,6 +531,10 @@ namespace NoGracias
         /// <summary>
         /// Close socket and exit program.
         /// </summary>
+        /**
+		 *	Public method that takes no arguments and does not return.
+		 *	Details: Sends exit message and shutsdown client socket.
+         */
         private void Exit()
         {
             SendMessage("exit"); // Tell the server we are exiting
@@ -515,8 +545,14 @@ namespace NoGracias
 
 
         /// <summary>
-        /// Sends a string to the server with ASCII encoding.
+        ///  Sends a string to the server with ASCII encoding
         /// </summary>
+        /**
+		 *	Public method that takes one argument of type string and does not return.
+		 *	Details: Sends a string to the server with ASCII encoding.
+		 *	@param text the first argument.
+
+         */
         private void SendMessage(string text)
         {
             byte[] buffer = Encoding.ASCII.GetBytes(text);
