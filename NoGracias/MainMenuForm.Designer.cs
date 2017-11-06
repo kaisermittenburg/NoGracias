@@ -558,7 +558,10 @@ namespace NoGracias
             byte[] buffer = Encoding.ASCII.GetBytes(text);
             ClientSocket.Send(buffer, 0, buffer.Length, SocketFlags.None);
         }
-
+        /**
+		 *	Public method that takes no arguments and does not return.
+		 *	Details: Creates buffer to recieve from the client socket in order to send a message to the console and act upon the response.
+         */
         private void ReceiveResponse()
         {
             var buffer = new byte[2048];
@@ -589,6 +592,10 @@ namespace NoGracias
 
             
         }
+        /**
+		 *	Public method that takes no arguments and does not return.
+		 *	Details: Creates buffer to recieve from the client socket in order to send a message to the console and act upon the response.
+         */
         private void RecievePlayerReadyUp()
         {
             var buffer = new byte[2048];
