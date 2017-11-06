@@ -20,6 +20,9 @@ namespace NoGracias.Server
 
         #endregion
 
+        /**
+         * Constructor
+         */
         public GameDriver(List<Player> clients)
         {
 

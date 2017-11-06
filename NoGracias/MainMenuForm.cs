@@ -37,6 +37,7 @@ namespace NoGracias
         {
 
         }
+
         /**
 		 *	Private method that takes two arguments of type object and EventArgs and does not return.
 		 *	Details: Connects to the server, disables the connect button, enables the ready up button and refreshes the page along with starting new thread.
@@ -58,9 +59,8 @@ namespace NoGracias
             var thread = new Thread(ReceiveLoop);
             thread.TrySetApartmentState(ApartmentState.STA);
             thread.Start();
-
-            //ReceiveLoop(); //Will get here after player name is sent. 
         }
+
         /**
 		 *	Private method that takes two arguments of type object and EventArgs and does not return.
 		 *	Details: Ready's up to the server along with starting new thread.
@@ -74,14 +74,13 @@ namespace NoGracias
             var thread = new Thread(ReadyUp);
             thread.TrySetApartmentState(ApartmentState.STA);
             thread.Start();
-
-            //ReadyUp();
         }
 
         private void you_checkBox_CheckedChanged(object sender, EventArgs e)
         {
 
         }
+
         /**
 		 *	Private method that takes two arguments of type object and EventArgs and does not return.
 		 *	Details: Closes out of the main menu and starts the server from the main menu page

@@ -24,6 +24,12 @@ namespace NoGracias
 
 		}
 
+        /**
+		 *	Private method that takes two arguments of type object and EventArgs and does not return.
+		 *	Details: Connects to the server, disables the connect button, enables the ready up button and refreshes the page along with starting new thread.
+		 *	@param sender the first argument describes the player entering the game.
+         *	@param e the second argument describes the clicking of the button.
+		 */
         private void StartServer_Click(object sender, EventArgs e)
         {
             Status_textbox.Clear();
@@ -45,6 +51,12 @@ namespace NoGracias
             //Debug.Assert(false); //Don't get here
         }
 
+        /**
+		 *	Private method that takes two arguments of type object and EventArgs and does not return.
+		 *	Details: Connects to the server, disables the connect button, enables the ready up button and refreshes the page along with starting new thread.
+		 *	@param sender the first argument describes the player entering the game.
+         *	@param e the second argument describes the clicking of the button.
+		 */
         private void ShutdownServerButton_Click(object sender, EventArgs e)
         {
             StartServerButton.Enabled = true;
