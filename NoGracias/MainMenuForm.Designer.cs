@@ -640,11 +640,12 @@ namespace NoGracias
             var data = new byte[received];
             Array.Copy(buffer, data, received);
             string message = Encoding.ASCII.GetString(data);
-            Console.WriteLine("Receive player name...  " + message); //debugging
+            Console.WriteLine("Receive all player names...  " + message); //debugging
 
             ////////////////PARSE NAMES/////////////////////
             message = message.TrimEnd(' ');
             message = message.TrimEnd(',');
+            Console.WriteLine(message);
             string[] names = message.Split(',');
 
 
