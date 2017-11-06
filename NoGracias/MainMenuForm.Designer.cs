@@ -607,6 +607,8 @@ namespace NoGracias
             Console.WriteLine("Receive player name...  " + message); //debugging
 
             ////////////////PARSE NAMES/////////////////////
+            message = message.TrimEnd(' ');
+            message = message.TrimEnd(',');
             string[] names = message.Split(',');
 
 
