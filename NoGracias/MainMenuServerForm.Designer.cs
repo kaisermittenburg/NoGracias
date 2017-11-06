@@ -477,7 +477,9 @@ namespace NoGracias
             var data = new byte[received];
             Array.Copy(buffer, data, received);
             string message = Encoding.ASCII.GetString(data);
-            Console.WriteLine("Receive ready-up player name...  " + message); //debugging
+            Console.WriteLine("Receive player name...  " + message); //debugging
+
+            Clients.Where(x => x.mSocket == playerSocket).FirstOrDefault().mName = message;
 
             return message;
         }
@@ -691,6 +693,7 @@ namespace NoGracias
                         System.Threading.Thread.Sleep(250); //wait, then send names
                         Console.WriteLine("spept");
                         data = Encoding.ASCII.GetBytes(names);
+                        Console.WriteLine("These are the names that are sent: " + names);//debugging
                         player.mSocket.Send(data);
                         Console.WriteLine("Sent names");
 
