@@ -13,6 +13,10 @@ namespace NoGracias.Server
 
         #endregion
 
+        /**
+         * Default constructor
+         * Details: Shuffles Deck and randomly removes 9 cards
+         */
         public Deck()
         {
             for(int i=3; i<36; i++)
@@ -26,6 +30,10 @@ namespace NoGracias.Server
         }
 
         #region Functions
+
+        /**
+         * Randomly shuffles deck
+         */
         public void Shuffle()
         {
             int length = deck.Count;
@@ -42,6 +50,10 @@ namespace NoGracias.Server
             }
         }
 
+        /**
+         * Returns the card at the top of the Deck
+         * @return Card object at the top o the deck
+         */
         public Card TopCard()
         {
             Card top = new Card(deck[0]);
