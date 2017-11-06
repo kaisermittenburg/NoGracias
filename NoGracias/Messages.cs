@@ -10,7 +10,10 @@ namespace NoGracias.Communication
     {
         
     }
-
+    /**
+ *	Public messages enumeration that describes the type of message being sent from players and servers
+ *	Details: Sets the member's socket and playernumber.
+ */
     public enum Messages
     {
         #region Setup
