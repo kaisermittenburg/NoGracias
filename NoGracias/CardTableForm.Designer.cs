@@ -102,20 +102,6 @@ namespace NoGracias
         #region Opp1
         public string Opp1PlayerName
         {
-            get { return this.Opp2Name.Text; }
-            set
-            {
-                this.Opp2Name.Invoke((MethodInvoker)delegate
-                {
-                    // Running on the UI thread
-                    this.Opp2Name.Text = value;
-                });
-            }
-        }
-        #endregion
-        #region Opp2
-        public string Opp2PlayerName
-        {
             get { return this.Opp1Name.Text; }
             set
             {
@@ -127,55 +113,22 @@ namespace NoGracias
             }
         }
         #endregion
-        #region Opp3
-        public string Opp3PlayerName
+        #region Opp2
+        public string Opp2PlayerName
         {
-            get { return this.Opp4Name.Text; }
+            get { return this.Opp2Name.Text; }
             set
             {
-                this.Opp4Name.Invoke((MethodInvoker)delegate
+                this.Opp2Name.Invoke((MethodInvoker)delegate
                 {
                     // Running on the UI thread
-                    this.Opp4Name.Visible = true;
-                    this.Opp4Name.Text = value;
+                    this.Opp2Name.Text = value;
                 });
             }
         }
-        public bool Opp3ChipGraphic
-        {
-            get { return opp4ChipGraphic.Visible; }
-            set
-            {
-                opp4ChipGraphic.Visible = value;
-            }
-        }
-        public bool Opp3ChipLabel
-        {
-            get { return Opp4ChipText.Visible; }
-            set
-            {
-                Opp4ChipText.Visible = value;
-            }
-        }
-        public bool Opp3ChipNumberVisible
-        {
-            get { return Opp4ChipText.Visible; }
-            set
-            {
-                Opp4ChipText.Visible = value;
-            }
-        }
-        public string Opp3ChipNumber
-        {
-            get { return Opp4ChipText.Text; }
-            set
-            {
-                Opp4ChipText.Text = value;
-            }
-        }
         #endregion
-        #region Opp4
-        public string Opp4PlayerName
+        #region Opp3
+        public string Opp3PlayerName
         {
             get { return this.Opp3Name.Text; }
             set
@@ -183,12 +136,12 @@ namespace NoGracias
                 this.Opp3Name.Invoke((MethodInvoker)delegate
                 {
                     // Running on the UI thread
-                    this.Opp3Name.Text = value;
                     this.Opp3Name.Visible = true;
+                    this.Opp3Name.Text = value;
                 });
             }
         }
-        public bool Opp4ChipGraphic
+        public bool Opp3ChipGraphic
         {
             get { return opp3ChipGraphic.Visible; }
             set
@@ -196,7 +149,7 @@ namespace NoGracias
                 opp3ChipGraphic.Visible = value;
             }
         }
-        public bool Opp4ChipLabel
+        public bool Opp3ChipLabel
         {
             get { return Opp3ChipText.Visible; }
             set
@@ -204,7 +157,7 @@ namespace NoGracias
                 Opp3ChipText.Visible = value;
             }
         }
-        public bool Opp4ChipNumberVisible
+        public bool Opp3ChipNumberVisible
         {
             get { return Opp3ChipText.Visible; }
             set
@@ -212,12 +165,59 @@ namespace NoGracias
                 Opp3ChipText.Visible = value;
             }
         }
-        public string Opp4ChipNumber
+        public string Opp3ChipNumber
         {
             get { return Opp3ChipText.Text; }
             set
             {
                 Opp3ChipText.Text = value;
+            }
+        }
+        #endregion
+        #region Opp4
+        public string Opp4PlayerName
+        {
+            get { return this.Opp4Name.Text; }
+            set
+            {
+                this.Opp4Name.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.Opp4Name.Text = value;
+                    this.Opp4Name.Visible = true;
+                });
+            }
+        }
+        public bool Opp4ChipGraphic
+        {
+            get { return opp4ChipGraphic.Visible; }
+            set
+            {
+                opp4ChipGraphic.Visible = value;
+            }
+        }
+        public bool Opp4ChipLabel
+        {
+            get { return Opp4ChipText.Visible; }
+            set
+            {
+                Opp4ChipText.Visible = value;
+            }
+        }
+        public bool Opp4ChipNumberVisible
+        {
+            get { return Opp4ChipText.Visible; }
+            set
+            {
+                Opp4ChipText.Visible = value;
+            }
+        }
+        public string Opp4ChipNumber
+        {
+            get { return Opp4ChipText.Text; }
+            set
+            {
+                Opp4ChipText.Text = value;
             }
         }
         #endregion
@@ -607,6 +607,7 @@ namespace NoGracias
             resources.ApplyResources(this.pictureBox17, "pictureBox17");
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.TabStop = false;
+            this.pictureBox17.Click += new System.EventHandler(this.pictureBox17_Click);
             // 
             // pictureBox18
             // 
@@ -657,6 +658,7 @@ namespace NoGracias
             // 
             resources.ApplyResources(this.Opp2ChipText, "Opp2ChipText");
             this.Opp2ChipText.Name = "Opp2ChipText";
+            this.Opp2ChipText.Click += new System.EventHandler(this.Opp2ChipText_Click);
             // 
             // Opp1ChipText
             // 
@@ -687,6 +689,7 @@ namespace NoGracias
             // 
             resources.ApplyResources(this.Opp2ChipCount, "Opp2ChipCount");
             this.Opp2ChipCount.Name = "Opp2ChipCount";
+            this.Opp2ChipCount.Click += new System.EventHandler(this.Opp2ChipCount_Click);
             // 
             // MainPlayerChipCount
             // 
@@ -912,96 +915,112 @@ namespace NoGracias
             this.Opp2Num8.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(this.Opp2Num8, "Opp2Num8");
             this.Opp2Num8.Name = "Opp2Num8";
+            this.Opp2Num8.Click += new System.EventHandler(this.Opp2Num8_Click);
             // 
             // Opp2Num7
             // 
             this.Opp2Num7.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(this.Opp2Num7, "Opp2Num7");
             this.Opp2Num7.Name = "Opp2Num7";
+            this.Opp2Num7.Click += new System.EventHandler(this.Opp2Num7_Click);
             // 
             // Opp2Num6
             // 
             this.Opp2Num6.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(this.Opp2Num6, "Opp2Num6");
             this.Opp2Num6.Name = "Opp2Num6";
+            this.Opp2Num6.Click += new System.EventHandler(this.Opp2Num6_Click);
             // 
             // Opp2Num5
             // 
             this.Opp2Num5.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(this.Opp2Num5, "Opp2Num5");
             this.Opp2Num5.Name = "Opp2Num5";
+            this.Opp2Num5.Click += new System.EventHandler(this.Opp2Num5_Click);
             // 
             // Opp2Num4
             // 
             this.Opp2Num4.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(this.Opp2Num4, "Opp2Num4");
             this.Opp2Num4.Name = "Opp2Num4";
+            this.Opp2Num4.Click += new System.EventHandler(this.Opp2Num4_Click);
             // 
             // Opp2Num3
             // 
             this.Opp2Num3.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(this.Opp2Num3, "Opp2Num3");
             this.Opp2Num3.Name = "Opp2Num3";
+            this.Opp2Num3.Click += new System.EventHandler(this.Opp2Num3_Click);
             // 
             // Opp2Num2
             // 
             this.Opp2Num2.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(this.Opp2Num2, "Opp2Num2");
             this.Opp2Num2.Name = "Opp2Num2";
+            this.Opp2Num2.Click += new System.EventHandler(this.Opp2Num2_Click);
             // 
             // Opp2Num1
             // 
             this.Opp2Num1.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(this.Opp2Num1, "Opp2Num1");
             this.Opp2Num1.Name = "Opp2Num1";
+            this.Opp2Num1.Click += new System.EventHandler(this.Opp2Num1_Click);
             // 
             // Opp2Num9
             // 
             this.Opp2Num9.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(this.Opp2Num9, "Opp2Num9");
             this.Opp2Num9.Name = "Opp2Num9";
+            this.Opp2Num9.Click += new System.EventHandler(this.Opp2Num9_Click);
             // 
             // Opp2Num10
             // 
             this.Opp2Num10.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(this.Opp2Num10, "Opp2Num10");
             this.Opp2Num10.Name = "Opp2Num10";
+            this.Opp2Num10.Click += new System.EventHandler(this.Opp2Num10_Click);
             // 
             // Opp2Num11
             // 
             this.Opp2Num11.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(this.Opp2Num11, "Opp2Num11");
             this.Opp2Num11.Name = "Opp2Num11";
+            this.Opp2Num11.Click += new System.EventHandler(this.Opp2Num11_Click);
             // 
             // Opp2Num12
             // 
             this.Opp2Num12.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(this.Opp2Num12, "Opp2Num12");
             this.Opp2Num12.Name = "Opp2Num12";
+            this.Opp2Num12.Click += new System.EventHandler(this.Opp2Num12_Click);
             // 
             // Opp2Num13
             // 
             this.Opp2Num13.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(this.Opp2Num13, "Opp2Num13");
             this.Opp2Num13.Name = "Opp2Num13";
+            this.Opp2Num13.Click += new System.EventHandler(this.Opp2Num13_Click);
             // 
             // Opp2Num14
             // 
             this.Opp2Num14.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(this.Opp2Num14, "Opp2Num14");
             this.Opp2Num14.Name = "Opp2Num14";
+            this.Opp2Num14.Click += new System.EventHandler(this.Opp2Num14_Click);
             // 
             // Opp2Num15
             // 
             this.Opp2Num15.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(this.Opp2Num15, "Opp2Num15");
             this.Opp2Num15.Name = "Opp2Num15";
+            this.Opp2Num15.Click += new System.EventHandler(this.Opp2Num15_Click);
             // 
             // Opp2Num16
             // 
             this.Opp2Num16.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(this.Opp2Num16, "Opp2Num16");
             this.Opp2Num16.Name = "Opp2Num16";
+            this.Opp2Num16.Click += new System.EventHandler(this.Opp2Num16_Click);
             // 
             // Opp2Card16
             // 
@@ -1010,6 +1029,7 @@ namespace NoGracias
             this.Opp2Card16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Opp2Card16.Name = "Opp2Card16";
             this.Opp2Card16.TabStop = false;
+            this.Opp2Card16.Click += new System.EventHandler(this.Opp2Card16_Click);
             // 
             // Opp2Card15
             // 
@@ -1018,6 +1038,7 @@ namespace NoGracias
             this.Opp2Card15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Opp2Card15.Name = "Opp2Card15";
             this.Opp2Card15.TabStop = false;
+            this.Opp2Card15.Click += new System.EventHandler(this.Opp2Card15_Click);
             // 
             // Opp2Card14
             // 
@@ -1026,6 +1047,7 @@ namespace NoGracias
             this.Opp2Card14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Opp2Card14.Name = "Opp2Card14";
             this.Opp2Card14.TabStop = false;
+            this.Opp2Card14.Click += new System.EventHandler(this.Opp2Card14_Click);
             // 
             // Opp2Card13
             // 
@@ -1034,6 +1056,7 @@ namespace NoGracias
             this.Opp2Card13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Opp2Card13.Name = "Opp2Card13";
             this.Opp2Card13.TabStop = false;
+            this.Opp2Card13.Click += new System.EventHandler(this.Opp2Card13_Click);
             // 
             // Opp2Card12
             // 
@@ -1042,6 +1065,7 @@ namespace NoGracias
             this.Opp2Card12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Opp2Card12.Name = "Opp2Card12";
             this.Opp2Card12.TabStop = false;
+            this.Opp2Card12.Click += new System.EventHandler(this.Opp2Card12_Click);
             // 
             // Opp2Card11
             // 
@@ -1050,6 +1074,7 @@ namespace NoGracias
             this.Opp2Card11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Opp2Card11.Name = "Opp2Card11";
             this.Opp2Card11.TabStop = false;
+            this.Opp2Card11.Click += new System.EventHandler(this.Opp2Card11_Click);
             // 
             // Opp2Card10
             // 
@@ -1058,6 +1083,7 @@ namespace NoGracias
             this.Opp2Card10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Opp2Card10.Name = "Opp2Card10";
             this.Opp2Card10.TabStop = false;
+            this.Opp2Card10.Click += new System.EventHandler(this.Opp2Card10_Click);
             // 
             // Opp2Card9
             // 
@@ -1066,6 +1092,7 @@ namespace NoGracias
             this.Opp2Card9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Opp2Card9.Name = "Opp2Card9";
             this.Opp2Card9.TabStop = false;
+            this.Opp2Card9.Click += new System.EventHandler(this.Opp2Card9_Click);
             // 
             // Opp2Card8
             // 
@@ -1074,6 +1101,7 @@ namespace NoGracias
             this.Opp2Card8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Opp2Card8.Name = "Opp2Card8";
             this.Opp2Card8.TabStop = false;
+            this.Opp2Card8.Click += new System.EventHandler(this.Opp2Card8_Click);
             // 
             // Opp2Card7
             // 
@@ -1082,6 +1110,7 @@ namespace NoGracias
             this.Opp2Card7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Opp2Card7.Name = "Opp2Card7";
             this.Opp2Card7.TabStop = false;
+            this.Opp2Card7.Click += new System.EventHandler(this.Opp2Card7_Click);
             // 
             // Opp2Card6
             // 
@@ -1090,6 +1119,7 @@ namespace NoGracias
             this.Opp2Card6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Opp2Card6.Name = "Opp2Card6";
             this.Opp2Card6.TabStop = false;
+            this.Opp2Card6.Click += new System.EventHandler(this.Opp2Card6_Click);
             // 
             // Opp2Card5
             // 
@@ -1098,6 +1128,7 @@ namespace NoGracias
             this.Opp2Card5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Opp2Card5.Name = "Opp2Card5";
             this.Opp2Card5.TabStop = false;
+            this.Opp2Card5.Click += new System.EventHandler(this.Opp2Card5_Click);
             // 
             // Opp2Card4
             // 
@@ -1106,6 +1137,7 @@ namespace NoGracias
             this.Opp2Card4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Opp2Card4.Name = "Opp2Card4";
             this.Opp2Card4.TabStop = false;
+            this.Opp2Card4.Click += new System.EventHandler(this.Opp2Card4_Click);
             // 
             // Opp2Card3
             // 
@@ -1114,11 +1146,13 @@ namespace NoGracias
             this.Opp2Card3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Opp2Card3.Name = "Opp2Card3";
             this.Opp2Card3.TabStop = false;
+            this.Opp2Card3.Click += new System.EventHandler(this.Opp2Card3_Click);
             // 
             // textBox2
             // 
             resources.ApplyResources(this.textBox2, "textBox2");
             this.textBox2.Name = "textBox2";
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged_2);
             // 
             // Opp2Card2
             // 
@@ -1127,6 +1161,7 @@ namespace NoGracias
             this.Opp2Card2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Opp2Card2.Name = "Opp2Card2";
             this.Opp2Card2.TabStop = false;
+            this.Opp2Card2.Click += new System.EventHandler(this.Opp2Card2_Click);
             // 
             // Opp2Card1
             // 
@@ -1135,6 +1170,7 @@ namespace NoGracias
             this.Opp2Card1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Opp2Card1.Name = "Opp2Card1";
             this.Opp2Card1.TabStop = false;
+            this.Opp2Card1.Click += new System.EventHandler(this.Opp2Card1_Click);
             // 
             // Opp4Num8
             // 

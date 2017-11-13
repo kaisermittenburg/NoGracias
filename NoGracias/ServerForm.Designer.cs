@@ -809,7 +809,6 @@ namespace NoGracias
          *  Was top selected answer submitted by user: Mrchief
          *  Accessed: 10/26/2017
          */
-
         public static string GetLocalIPAddress()
         {
             var host = Dns.GetHostEntry(Dns.GetHostName());

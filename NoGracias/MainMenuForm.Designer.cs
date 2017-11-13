@@ -692,7 +692,11 @@ namespace NoGracias
                 Console.WriteLine(s);//debugging 
                 if (s != PlayerName)
                 {
-                    players.Add(s);
+                    if(!players.Contains(s))
+                    {
+                        players.Add(s);
+
+                    }
                     switch (checkboxNum)
                     {
                         case 2:
