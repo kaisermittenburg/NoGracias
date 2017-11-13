@@ -22,6 +22,7 @@ namespace NoGracias.Communication
         SEND_READYUP_TO_SERVER,                    //--Tells server that the player is ready 
         ALERT_PLAYER_JOINED,
         ALERT_PLAYER_READY_UPPED,
+        START_GAME,
         #endregion
 
         #region Game Setup

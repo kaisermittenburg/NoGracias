@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using NoGracias.Server;
 using System.Threading;
+using System.Net.Sockets;
 
 namespace NoGracias
 {
@@ -20,9 +21,11 @@ namespace NoGracias
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            MainMenuForm MainMenu = new MainMenuForm();
-            MainMenuServerForm ServerForm = new MainMenuServerForm();
-            CardTableForm Table = new CardTableForm();
+            Socket ClientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+
+            MainMenuForm MainMenu = new MainMenuForm(ClientSocket);
+            ServerForm ServerForm = new ServerForm();
+            CardTableForm Table = new CardTableForm(ClientSocket);
 
             #region Thread Example
             //var thread = new Thread(ThreadStart);

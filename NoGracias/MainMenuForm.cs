@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -13,9 +14,10 @@ namespace NoGracias
 {
     public partial class MainMenuForm : Form
     {
-        public MainMenuForm()
+        public MainMenuForm(Socket aClientSocket)
         {
             InitializeComponent();
+            mClientSocket = aClientSocket;
         }
 
 		private void label1_Click(object sender, EventArgs e)

@@ -495,7 +495,7 @@ namespace NoGracias
         //    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN 
         //    ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-        private Socket ClientSocket;
+        private Socket mClientSocket;
 
         /**
 		 *	Private method that takes no arguments and does not return.
@@ -503,11 +503,10 @@ namespace NoGracias
          */
         private void ConnectToServer()
         {
-            ClientSocket = new Socket
-            (AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            
             
 
-            while (!ClientSocket.Connected)
+            while (!mClientSocket.Connected)
             {
                 try
                 {
@@ -515,7 +514,7 @@ namespace NoGracias
                     Console.WriteLine("Connection attempt " + attempts); //DEBUG
                     Status = "Connection attempt " + attempts;
 
-                    ClientSocket.Connect(IP, int.Parse(Port)); //IPAddress.Loopback, PORT);
+                    mClientSocket.Connect(IP, int.Parse(Port)); //IPAddress.Loopback, PORT);
                 }
                 catch (SocketException)
                 {
@@ -551,8 +550,8 @@ namespace NoGracias
         private void Exit()
         {
             SendMessage("exit"); // Tell the server we are exiting
-            ClientSocket.Shutdown(SocketShutdown.Both);
-            ClientSocket.Close();
+            mClientSocket.Shutdown(SocketShutdown.Both);
+            mClientSocket.Close();
             Environment.Exit(0);
         }
 
@@ -569,7 +568,7 @@ namespace NoGracias
         private void SendMessage(string text)
         {
             byte[] buffer = Encoding.ASCII.GetBytes(text);
-            ClientSocket.Send(buffer, 0, buffer.Length, SocketFlags.None);
+            mClientSocket.Send(buffer, 0, buffer.Length, SocketFlags.None);
         }
 
         /**
@@ -579,7 +578,7 @@ namespace NoGracias
         private void ReceiveResponse()
         {
             var buffer = new byte[2048];
-            int received = ClientSocket.Receive(buffer, SocketFlags.None);
+            int received = mClientSocket.Receive(buffer, SocketFlags.None);
             if (received == 0) return;
             var data = new byte[received];
             Array.Copy(buffer, data, received);
@@ -603,8 +602,10 @@ namespace NoGracias
             {
                 RecievePlayerReadyUp();
             }
-
-            
+            else if(message == Messages.START_GAME.ToString())
+            {
+                StartGame(mClientSocket);
+            }
         }
 
         /**
@@ -621,7 +622,7 @@ namespace NoGracias
         private void RecievePlayerReadyUp()
         {
             var buffer = new byte[2048];
-            int received = ClientSocket.Receive(buffer, SocketFlags.None);
+            int received = mClientSocket.Receive(buffer, SocketFlags.None);
             if (received == 0) return;
             var data = new byte[received];
             Array.Copy(buffer, data, received);
@@ -670,7 +671,7 @@ namespace NoGracias
         private void ReceivePlayerName()
         {
             var buffer = new byte[2048];
-            int received = ClientSocket.Receive(buffer, SocketFlags.None);
+            int received = mClientSocket.Receive(buffer, SocketFlags.None);
             if (received == 0) return;
             var data = new byte[received];
             Array.Copy(buffer, data, received);
@@ -745,6 +746,23 @@ namespace NoGracias
             SendMessage(Messages.SEND_READYUP_TO_SERVER.ToString());
             System.Threading.Thread.Sleep(200);
             SendMessage(PlayerName);
+        }
+
+        /**
+		 *	Private method that takes one argument of type socket and does not return.
+		 *	Details: Starts the game by sending the client socket and starting a new form
+		 *	@param client socket, the first and only parameter
+         */
+        private void StartGame(Socket aClientSocket)
+        {
+            this.Invoke((MethodInvoker)delegate
+            {
+                // Running on the UI thread
+                this.Hide();
+                var TableForm = new CardTableForm(mClientSocket);
+                TableForm.Closed += (s, args) => this.Close();
+                TableForm.Show();
+            });
         }
     }
 }

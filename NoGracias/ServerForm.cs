@@ -12,9 +12,9 @@ using System.Windows.Forms;
 
 namespace NoGracias
 {
-	public partial class MainMenuServerForm : Form
+	public partial class ServerForm : Form
 	{
-		public MainMenuServerForm()
+		public ServerForm()
 		{
 			InitializeComponent();
 		}

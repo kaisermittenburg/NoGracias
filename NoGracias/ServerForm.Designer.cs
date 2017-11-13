@@ -13,7 +13,7 @@ using System.Threading;
 
 namespace NoGracias
 {
-    partial class MainMenuServerForm
+    partial class ServerForm
     {
         #region Variables
         /**
@@ -826,7 +826,7 @@ namespace NoGracias
 
         /**
 		 *	Private method that takes no arguments and does not return.
-		 *	Details: Connects client to the server
+		 *	Details: Checks if all players are ready, then starts game.
          */
         private void ReadyUp()
         {
@@ -859,10 +859,26 @@ namespace NoGracias
                 //CPrint(AllReady.ToString());
                 //Console.WriteLine(AllReady.ToString());
             }
-            //TODO Everyone is ready open table 
+            //TODO Everyone is ready open table
+            StartGame();
         }
 
         #endregion
+
+        private void StartGame()
+        {
+            //send message to all players
+            foreach (Player player in Clients.ToList())
+            {
+                byte[] data = Encoding.ASCII.GetBytes(Messages.START_GAME.ToString());
+                player.mSocket.Send(data);
+                Console.WriteLine("Sent start game message");
+                
+                player.mSocket.Send(data);
+            }
+            
+            //TODO start card table logic
+        }
 
         /**
 		 *	Private method that takes no arguments and does not return.

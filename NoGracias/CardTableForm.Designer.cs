@@ -1,4 +1,6 @@
-﻿namespace NoGracias
+﻿using System.Net.Sockets;
+
+namespace NoGracias
 {
     partial class CardTableForm
     {
@@ -2126,6 +2128,8 @@
         private System.Windows.Forms.Label TopDeckChipCounter;
         private System.Windows.Forms.Label TopDeckChipText;
         #endregion
+
+        private Socket mClientSocket;
     }
 }
 

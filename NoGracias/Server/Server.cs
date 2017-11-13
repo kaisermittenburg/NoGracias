@@ -17,9 +17,9 @@ namespace NoGracias.Server
         private const int BUFFER_SIZE = 2048;
         private const int PORT = 11203;
         private static readonly byte[] Buffer = new byte[BUFFER_SIZE];
-        MainMenuServerForm ServerForm;
+        ServerForm ServerForm;
 
-        public GameServer(MainMenuServerForm form)
+        public GameServer(ServerForm form)
         {
             ServerForm = form;
 
