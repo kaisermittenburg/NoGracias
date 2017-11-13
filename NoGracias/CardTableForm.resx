@@ -126,10 +126,14 @@
     <value>Perpetua Titling MT, 7.8pt, style=Bold</value>
   </data>
   <data name="MainPlayerName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>851, 822</value>
+    <value>1170, 1233</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="MainPlayerName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="MainPlayerName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 17</value>
+    <value>153, 23</value>
   </data>
   <data name="MainPlayerName.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -156,10 +160,13 @@
     <value>Perpetua Titling MT, 7.8pt, style=Bold</value>
   </data>
   <data name="Opp2Name.Location" type="System.Drawing.Point, System.Drawing">
-    <value>189, 744</value>
+    <value>260, 1116</value>
+  </data>
+  <data name="Opp2Name.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp2Name.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 17</value>
+    <value>139, 23</value>
   </data>
   <data name="Opp2Name.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -186,10 +193,13 @@
     <value>Perpetua Titling MT, 7.8pt, style=Bold</value>
   </data>
   <data name="Opp1Name.Location" type="System.Drawing.Point, System.Drawing">
-    <value>77, 285</value>
+    <value>106, 428</value>
+  </data>
+  <data name="Opp1Name.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp1Name.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 17</value>
+    <value>135, 23</value>
   </data>
   <data name="Opp1Name.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -252,12 +262,14 @@
         /wC0l1+qLP0pxwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Opp1Card3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
   <data name="Opp1Card3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>81, 43</value>
+    <value>111, 64</value>
+  </data>
+  <data name="Opp1Card3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp1Card3.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -274,6 +286,9 @@
   <data name="Opp1Card3.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
+  <data name="Opp1Card3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;Opp1Card3.Name" xml:space="preserve">
     <value>Opp1Card3</value>
   </data>
@@ -287,16 +302,22 @@
     <value>188</value>
   </data>
   <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 67</value>
+    <value>198, 100</value>
+  </data>
+  <data name="textBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 22</value>
+    <value>59, 29</value>
   </data>
   <data name="textBox3.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
   <data name="textBox3.Text" xml:space="preserve">
     <value>30</value>
+  </data>
+  <data name="textBox3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;textBox3.Name" xml:space="preserve">
     <value>textBox3</value>
@@ -357,7 +378,10 @@
     <value>Stretch</value>
   </data>
   <data name="Opp1Card2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>47, 43</value>
+    <value>65, 64</value>
+  </data>
+  <data name="Opp1Card2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp1Card2.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -373,6 +397,9 @@
   </data>
   <data name="Opp1Card2.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
+  </data>
+  <data name="Opp1Card2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Card2.Name" xml:space="preserve">
     <value>Opp1Card2</value>
@@ -433,7 +460,10 @@
     <value>Stretch</value>
   </data>
   <data name="Opp1Card1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 43</value>
+    <value>23, 64</value>
+  </data>
+  <data name="Opp1Card1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp1Card1.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -449,6 +479,9 @@
   </data>
   <data name="Opp1Card1.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
+  </data>
+  <data name="Opp1Card1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Card1.Name" xml:space="preserve">
     <value>Opp1Card1</value>
@@ -469,16 +502,22 @@
     <value>Perpetua Titling MT, 7.8pt, style=Bold</value>
   </data>
   <data name="Opp4Name.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1604, 280</value>
+    <value>2206, 420</value>
+  </data>
+  <data name="Opp4Name.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp4Name.Size" type="System.Drawing.Size, System.Drawing">
-    <value>106, 17</value>
+    <value>140, 23</value>
   </data>
   <data name="Opp4Name.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
   </data>
   <data name="Opp4Name.Text" xml:space="preserve">
     <value>Opponent 4</value>
+  </data>
+  <data name="Opp4Name.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Name.Name" xml:space="preserve">
     <value>Opp4Name</value>
@@ -499,16 +538,22 @@
     <value>Perpetua Titling MT, 7.8pt, style=Bold</value>
   </data>
   <data name="Opp3Name.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1536, 701</value>
+    <value>2112, 1052</value>
+  </data>
+  <data name="Opp3Name.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp3Name.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 17</value>
+    <value>138, 23</value>
   </data>
   <data name="Opp3Name.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
   </data>
   <data name="Opp3Name.Text" xml:space="preserve">
     <value>Opponent 3</value>
+  </data>
+  <data name="Opp3Name.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Name.Name" xml:space="preserve">
     <value>Opp3Name</value>
@@ -1005,10 +1050,13 @@
     <value>Zoom</value>
   </data>
   <data name="pictureBox16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>985, 806</value>
+    <value>1354, 1209</value>
+  </data>
+  <data name="pictureBox16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="pictureBox16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 60</value>
+    <value>78, 90</value>
   </data>
   <data name="pictureBox16.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -1508,10 +1556,13 @@
     <value>Zoom</value>
   </data>
   <data name="pictureBox17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>122, 726</value>
+    <value>168, 1089</value>
+  </data>
+  <data name="pictureBox17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="pictureBox17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 60</value>
+    <value>78, 90</value>
   </data>
   <data name="pictureBox17.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -2011,10 +2062,13 @@
     <value>Zoom</value>
   </data>
   <data name="pictureBox18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>206, 272</value>
+    <value>283, 408</value>
+  </data>
+  <data name="pictureBox18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="pictureBox18.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 60</value>
+    <value>78, 90</value>
   </data>
   <data name="pictureBox18.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -2031,7 +2085,7 @@
   <data name="&gt;&gt;pictureBox18.ZOrder" xml:space="preserve">
     <value>182</value>
   </data>
-  <data name="pictureBox19.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="opp3ChipGraphic.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAKEAAAChCAYAAACvUd+2AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wwAADsMBx2+oZAAAbtdJREFUeF7tvQe4n1WV9v2q48x8880IqScnhZBOKukJSUgCBAKEKoiCXcEu9gYz
@@ -2510,28 +2564,34 @@
         se/Q8X/+z/8FYREVGBpeGFUAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="pictureBox19.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="opp3ChipGraphic.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
   </data>
-  <data name="pictureBox19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1679, 683</value>
+  <data name="opp3ChipGraphic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2309, 1024</value>
   </data>
-  <data name="pictureBox19.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 60</value>
+  <data name="opp3ChipGraphic.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
-  <data name="pictureBox19.TabIndex" type="System.Int32, mscorlib">
+  <data name="opp3ChipGraphic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 90</value>
+  </data>
+  <data name="opp3ChipGraphic.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
   </data>
-  <data name="&gt;&gt;pictureBox19.Name" xml:space="preserve">
-    <value>pictureBox19</value>
+  <data name="opp3ChipGraphic.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="&gt;&gt;pictureBox19.Type" xml:space="preserve">
+  <data name="&gt;&gt;opp3ChipGraphic.Name" xml:space="preserve">
+    <value>opp3ChipGraphic</value>
+  </data>
+  <data name="&gt;&gt;opp3ChipGraphic.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox19.Parent" xml:space="preserve">
+  <data name="&gt;&gt;opp3ChipGraphic.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox19.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;opp3ChipGraphic.ZOrder" xml:space="preserve">
     <value>181</value>
   </data>
   <data name="Opp1Card4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -2581,7 +2641,10 @@
     <value>Stretch</value>
   </data>
   <data name="Opp1Card4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>114, 43</value>
+    <value>157, 64</value>
+  </data>
+  <data name="Opp1Card4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp1Card4.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -2598,6 +2661,9 @@
   <data name="Opp1Card4.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
   </data>
+  <data name="Opp1Card4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;Opp1Card4.Name" xml:space="preserve">
     <value>Opp1Card4</value>
   </data>
@@ -2610,7 +2676,7 @@
   <data name="&gt;&gt;Opp1Card4.ZOrder" xml:space="preserve">
     <value>180</value>
   </data>
-  <data name="pictureBox30.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="opp4ChipGraphic.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAKEAAAChCAYAAACvUd+2AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wwAADsMBx2+oZAAAbtdJREFUeF7tvQe4n1WV9v2q48x8880IqScnhZBOKukJSUgCBAKEKoiCXcEu9gYz
@@ -3089,44 +3155,56 @@
         se/Q8X/+z/8FYREVGBpeGFUAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="pictureBox30.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="opp4ChipGraphic.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
   </data>
-  <data name="pictureBox30.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1525, 267</value>
+  <data name="opp4ChipGraphic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2097, 400</value>
   </data>
-  <data name="pictureBox30.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 60</value>
+  <data name="opp4ChipGraphic.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
-  <data name="pictureBox30.TabIndex" type="System.Int32, mscorlib">
+  <data name="opp4ChipGraphic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 90</value>
+  </data>
+  <data name="opp4ChipGraphic.TabIndex" type="System.Int32, mscorlib">
     <value>42</value>
   </data>
-  <data name="&gt;&gt;pictureBox30.Name" xml:space="preserve">
-    <value>pictureBox30</value>
+  <data name="opp4ChipGraphic.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="&gt;&gt;pictureBox30.Type" xml:space="preserve">
+  <data name="&gt;&gt;opp4ChipGraphic.Name" xml:space="preserve">
+    <value>opp4ChipGraphic</value>
+  </data>
+  <data name="&gt;&gt;opp4ChipGraphic.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox30.Parent" xml:space="preserve">
+  <data name="&gt;&gt;opp4ChipGraphic.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox30.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;opp4ChipGraphic.ZOrder" xml:space="preserve">
     <value>179</value>
   </data>
   <data name="Opp4ChipText.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="Opp4ChipText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1604, 310</value>
+    <value>2206, 465</value>
+  </data>
+  <data name="Opp4ChipText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp4ChipText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 17</value>
+    <value>122, 25</value>
   </data>
   <data name="Opp4ChipText.TabIndex" type="System.Int32, mscorlib">
     <value>43</value>
   </data>
   <data name="Opp4ChipText.Text" xml:space="preserve">
     <value>Chip Count: </value>
+  </data>
+  <data name="Opp4ChipText.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4ChipText.Name" xml:space="preserve">
     <value>Opp4ChipText</value>
@@ -3144,16 +3222,22 @@
     <value>True</value>
   </data>
   <data name="Opp3ChipText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1536, 726</value>
+    <value>2112, 1089</value>
+  </data>
+  <data name="Opp3ChipText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp3ChipText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 17</value>
+    <value>122, 25</value>
   </data>
   <data name="Opp3ChipText.TabIndex" type="System.Int32, mscorlib">
     <value>45</value>
   </data>
   <data name="Opp3ChipText.Text" xml:space="preserve">
     <value>Chip Count: </value>
+  </data>
+  <data name="Opp3ChipText.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3ChipText.Name" xml:space="preserve">
     <value>Opp3ChipText</value>
@@ -3171,10 +3255,13 @@
     <value>True</value>
   </data>
   <data name="MainPlayerChipText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>851, 849</value>
+    <value>1170, 1274</value>
+  </data>
+  <data name="MainPlayerChipText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="MainPlayerChipText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 17</value>
+    <value>122, 25</value>
   </data>
   <data name="MainPlayerChipText.TabIndex" type="System.Int32, mscorlib">
     <value>46</value>
@@ -3198,10 +3285,13 @@
     <value>True</value>
   </data>
   <data name="Opp2ChipText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>189, 769</value>
+    <value>260, 1154</value>
+  </data>
+  <data name="Opp2ChipText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp2ChipText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 17</value>
+    <value>122, 25</value>
   </data>
   <data name="Opp2ChipText.TabIndex" type="System.Int32, mscorlib">
     <value>47</value>
@@ -3225,10 +3315,13 @@
     <value>True</value>
   </data>
   <data name="Opp1ChipText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>76, 310</value>
+    <value>104, 465</value>
+  </data>
+  <data name="Opp1ChipText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp1ChipText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 17</value>
+    <value>122, 25</value>
   </data>
   <data name="Opp1ChipText.TabIndex" type="System.Int32, mscorlib">
     <value>48</value>
@@ -3295,10 +3388,13 @@
     <value>Stretch</value>
   </data>
   <data name="TopDeckCard.Location" type="System.Drawing.Point, System.Drawing">
-    <value>822, 231</value>
+    <value>1130, 346</value>
+  </data>
+  <data name="TopDeckCard.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="TopDeckCard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 138</value>
+    <value>147, 205</value>
   </data>
   <data name="TopDeckCard.TabIndex" type="System.Int32, mscorlib">
     <value>49</value>
@@ -3322,10 +3418,13 @@
     <value>Perpetua Titling MT, 7.8pt</value>
   </data>
   <data name="GameDeckLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>877, 24</value>
+    <value>1206, 36</value>
+  </data>
+  <data name="GameDeckLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="GameDeckLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 16</value>
+    <value>116, 22</value>
   </data>
   <data name="GameDeckLabel.TabIndex" type="System.Int32, mscorlib">
     <value>50</value>
@@ -3352,10 +3451,13 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1ChipCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>172, 311</value>
+    <value>236, 466</value>
+  </data>
+  <data name="Opp1ChipCount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp1ChipCount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>16, 17</value>
+    <value>23, 25</value>
   </data>
   <data name="Opp1ChipCount.TabIndex" type="System.Int32, mscorlib">
     <value>51</value>
@@ -3382,10 +3484,13 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2ChipCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>280, 769</value>
+    <value>385, 1154</value>
+  </data>
+  <data name="Opp2ChipCount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp2ChipCount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>16, 17</value>
+    <value>23, 25</value>
   </data>
   <data name="Opp2ChipCount.TabIndex" type="System.Int32, mscorlib">
     <value>52</value>
@@ -3412,10 +3517,13 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerChipCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>949, 849</value>
+    <value>1305, 1274</value>
+  </data>
+  <data name="MainPlayerChipCount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="MainPlayerChipCount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>16, 17</value>
+    <value>23, 25</value>
   </data>
   <data name="MainPlayerChipCount.TabIndex" type="System.Int32, mscorlib">
     <value>53</value>
@@ -3442,16 +3550,22 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3ChipCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1624, 726</value>
+    <value>2233, 1089</value>
+  </data>
+  <data name="Opp3ChipCount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp3ChipCount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>16, 17</value>
+    <value>23, 25</value>
   </data>
   <data name="Opp3ChipCount.TabIndex" type="System.Int32, mscorlib">
     <value>54</value>
   </data>
   <data name="Opp3ChipCount.Text" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="Opp3ChipCount.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3ChipCount.Name" xml:space="preserve">
     <value>Opp3ChipCount</value>
@@ -3472,16 +3586,22 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4ChipCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1699, 310</value>
+    <value>2336, 465</value>
+  </data>
+  <data name="Opp4ChipCount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp4ChipCount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>16, 17</value>
+    <value>23, 25</value>
   </data>
   <data name="Opp4ChipCount.TabIndex" type="System.Int32, mscorlib">
     <value>55</value>
   </data>
   <data name="Opp4ChipCount.Text" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="Opp4ChipCount.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4ChipCount.Name" xml:space="preserve">
     <value>Opp4ChipCount</value>
@@ -3545,7 +3665,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Card8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>237, 43</value>
+    <value>326, 64</value>
+  </data>
+  <data name="Opp1Card8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp1Card8.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -3561,6 +3684,9 @@
   </data>
   <data name="Opp1Card8.TabIndex" type="System.Int32, mscorlib">
     <value>59</value>
+  </data>
+  <data name="Opp1Card8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Card8.Name" xml:space="preserve">
     <value>Opp1Card8</value>
@@ -3624,7 +3750,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Card7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>206, 45</value>
+    <value>283, 68</value>
+  </data>
+  <data name="Opp1Card7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp1Card7.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -3640,6 +3769,9 @@
   </data>
   <data name="Opp1Card7.TabIndex" type="System.Int32, mscorlib">
     <value>58</value>
+  </data>
+  <data name="Opp1Card7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Card7.Name" xml:space="preserve">
     <value>Opp1Card7</value>
@@ -3703,7 +3835,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Card6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>179, 45</value>
+    <value>246, 68</value>
+  </data>
+  <data name="Opp1Card6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp1Card6.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -3719,6 +3854,9 @@
   </data>
   <data name="Opp1Card6.TabIndex" type="System.Int32, mscorlib">
     <value>56</value>
+  </data>
+  <data name="Opp1Card6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Card6.Name" xml:space="preserve">
     <value>Opp1Card6</value>
@@ -3782,7 +3920,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Card5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>149, 45</value>
+    <value>205, 68</value>
+  </data>
+  <data name="Opp1Card5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp1Card5.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -3798,6 +3939,9 @@
   </data>
   <data name="Opp1Card5.TabIndex" type="System.Int32, mscorlib">
     <value>57</value>
+  </data>
+  <data name="Opp1Card5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Card5.Name" xml:space="preserve">
     <value>Opp1Card5</value>
@@ -3861,7 +4005,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Card12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>114, 82</value>
+    <value>157, 123</value>
+  </data>
+  <data name="Opp1Card12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp1Card12.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -3877,6 +4024,9 @@
   </data>
   <data name="Opp1Card12.TabIndex" type="System.Int32, mscorlib">
     <value>63</value>
+  </data>
+  <data name="Opp1Card12.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Card12.Name" xml:space="preserve">
     <value>Opp1Card12</value>
@@ -3940,7 +4090,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Card11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>81, 82</value>
+    <value>111, 123</value>
+  </data>
+  <data name="Opp1Card11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp1Card11.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -3956,6 +4109,9 @@
   </data>
   <data name="Opp1Card11.TabIndex" type="System.Int32, mscorlib">
     <value>62</value>
+  </data>
+  <data name="Opp1Card11.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Card11.Name" xml:space="preserve">
     <value>Opp1Card11</value>
@@ -4019,7 +4175,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Card10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>47, 82</value>
+    <value>65, 123</value>
+  </data>
+  <data name="Opp1Card10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp1Card10.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -4035,6 +4194,9 @@
   </data>
   <data name="Opp1Card10.TabIndex" type="System.Int32, mscorlib">
     <value>60</value>
+  </data>
+  <data name="Opp1Card10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Card10.Name" xml:space="preserve">
     <value>Opp1Card10</value>
@@ -4098,7 +4260,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Card9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 82</value>
+    <value>23, 123</value>
+  </data>
+  <data name="Opp1Card9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp1Card9.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -4114,6 +4279,9 @@
   </data>
   <data name="Opp1Card9.TabIndex" type="System.Int32, mscorlib">
     <value>61</value>
+  </data>
+  <data name="Opp1Card9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Card9.Name" xml:space="preserve">
     <value>Opp1Card9</value>
@@ -4177,7 +4345,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Card16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>237, 82</value>
+    <value>326, 123</value>
+  </data>
+  <data name="Opp1Card16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp1Card16.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -4193,6 +4364,9 @@
   </data>
   <data name="Opp1Card16.TabIndex" type="System.Int32, mscorlib">
     <value>67</value>
+  </data>
+  <data name="Opp1Card16.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Card16.Name" xml:space="preserve">
     <value>Opp1Card16</value>
@@ -4256,7 +4430,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Card15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>202, 82</value>
+    <value>278, 123</value>
+  </data>
+  <data name="Opp1Card15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp1Card15.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -4272,6 +4449,9 @@
   </data>
   <data name="Opp1Card15.TabIndex" type="System.Int32, mscorlib">
     <value>66</value>
+  </data>
+  <data name="Opp1Card15.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Card15.Name" xml:space="preserve">
     <value>Opp1Card15</value>
@@ -4335,7 +4515,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Card14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>175, 82</value>
+    <value>241, 123</value>
+  </data>
+  <data name="Opp1Card14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp1Card14.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -4351,6 +4534,9 @@
   </data>
   <data name="Opp1Card14.TabIndex" type="System.Int32, mscorlib">
     <value>64</value>
+  </data>
+  <data name="Opp1Card14.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Card14.Name" xml:space="preserve">
     <value>Opp1Card14</value>
@@ -4414,7 +4600,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Card13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>145, 82</value>
+    <value>199, 123</value>
+  </data>
+  <data name="Opp1Card13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp1Card13.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -4430,6 +4619,9 @@
   </data>
   <data name="Opp1Card13.TabIndex" type="System.Int32, mscorlib">
     <value>65</value>
+  </data>
+  <data name="Opp1Card13.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Card13.Name" xml:space="preserve">
     <value>Opp1Card13</value>
@@ -7798,10 +7990,13 @@
     <value>Stretch</value>
   </data>
   <data name="DeckCard.Location" type="System.Drawing.Point, System.Drawing">
-    <value>864, 43</value>
+    <value>1188, 64</value>
+  </data>
+  <data name="DeckCard.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="DeckCard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 136</value>
+    <value>148, 204</value>
   </data>
   <data name="DeckCard.TabIndex" type="System.Int32, mscorlib">
     <value>152</value>
@@ -7822,13 +8017,16 @@
     <value>NoControl</value>
   </data>
   <data name="TopDeckCardNum.Location" type="System.Drawing.Point, System.Drawing">
-    <value>871, 231</value>
+    <value>1198, 346</value>
+  </data>
+  <data name="TopDeckCardNum.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="TopDeckCardNum.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="TopDeckCardNum.Size" type="System.Drawing.Size, System.Drawing">
-    <value>28, 43</value>
+    <value>38, 64</value>
   </data>
   <data name="TopDeckCardNum.TabIndex" type="System.Int32, mscorlib">
     <value>153</value>
@@ -7852,19 +8050,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Num16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>243, 91</value>
+    <value>334, 136</value>
+  </data>
+  <data name="Opp1Num16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp1Num16.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp1Num16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>28, 43</value>
+    <value>38, 64</value>
   </data>
   <data name="Opp1Num16.TabIndex" type="System.Int32, mscorlib">
     <value>154</value>
   </data>
   <data name="Opp1Num16.Text" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="Opp1Num16.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Num16.Name" xml:space="preserve">
     <value>Opp1Num16</value>
@@ -7882,19 +8086,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Num15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>208, 91</value>
+    <value>286, 136</value>
+  </data>
+  <data name="Opp1Num15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp1Num15.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp1Num15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>18, 43</value>
+    <value>25, 64</value>
   </data>
   <data name="Opp1Num15.TabIndex" type="System.Int32, mscorlib">
     <value>155</value>
   </data>
   <data name="Opp1Num15.Text" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="Opp1Num15.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Num15.Name" xml:space="preserve">
     <value>Opp1Num15</value>
@@ -7915,19 +8125,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Num14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>179, 89</value>
+    <value>246, 134</value>
+  </data>
+  <data name="Opp1Num14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp1Num14.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp1Num14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="Opp1Num14.TabIndex" type="System.Int32, mscorlib">
     <value>156</value>
   </data>
   <data name="Opp1Num14.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp1Num14.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Num14.Name" xml:space="preserve">
     <value>Opp1Num14</value>
@@ -7948,19 +8164,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Num13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>150, 89</value>
+    <value>206, 134</value>
+  </data>
+  <data name="Opp1Num13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp1Num13.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp1Num13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="Opp1Num13.TabIndex" type="System.Int32, mscorlib">
     <value>157</value>
   </data>
   <data name="Opp1Num13.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp1Num13.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Num13.Name" xml:space="preserve">
     <value>Opp1Num13</value>
@@ -7981,19 +8203,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Num12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>120, 89</value>
+    <value>165, 134</value>
+  </data>
+  <data name="Opp1Num12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp1Num12.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp1Num12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="Opp1Num12.TabIndex" type="System.Int32, mscorlib">
     <value>158</value>
   </data>
   <data name="Opp1Num12.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp1Num12.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Num12.Name" xml:space="preserve">
     <value>Opp1Num12</value>
@@ -8014,19 +8242,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Num11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>88, 89</value>
+    <value>121, 134</value>
+  </data>
+  <data name="Opp1Num11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp1Num11.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp1Num11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="Opp1Num11.TabIndex" type="System.Int32, mscorlib">
     <value>159</value>
   </data>
   <data name="Opp1Num11.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp1Num11.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Num11.Name" xml:space="preserve">
     <value>Opp1Num11</value>
@@ -8047,19 +8281,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Num10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>52, 89</value>
+    <value>72, 134</value>
+  </data>
+  <data name="Opp1Num10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp1Num10.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp1Num10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="Opp1Num10.TabIndex" type="System.Int32, mscorlib">
     <value>160</value>
   </data>
   <data name="Opp1Num10.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp1Num10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Num10.Name" xml:space="preserve">
     <value>Opp1Num10</value>
@@ -8080,19 +8320,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Num9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 89</value>
+    <value>32, 134</value>
+  </data>
+  <data name="Opp1Num9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp1Num9.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp1Num9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="Opp1Num9.TabIndex" type="System.Int32, mscorlib">
     <value>161</value>
   </data>
   <data name="Opp1Num9.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp1Num9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Num9.Name" xml:space="preserve">
     <value>Opp1Num9</value>
@@ -8113,19 +8359,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Num1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 48</value>
+    <value>32, 72</value>
+  </data>
+  <data name="Opp1Num1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp1Num1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp1Num1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp1Num1.TabIndex" type="System.Int32, mscorlib">
     <value>162</value>
   </data>
   <data name="Opp1Num1.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp1Num1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Num1.Name" xml:space="preserve">
     <value>Opp1Num1</value>
@@ -8146,19 +8398,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Num2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>52, 48</value>
+    <value>72, 72</value>
+  </data>
+  <data name="Opp1Num2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp1Num2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp1Num2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp1Num2.TabIndex" type="System.Int32, mscorlib">
     <value>163</value>
   </data>
   <data name="Opp1Num2.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp1Num2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Num2.Name" xml:space="preserve">
     <value>Opp1Num2</value>
@@ -8179,19 +8437,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Num3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>85, 48</value>
+    <value>117, 72</value>
+  </data>
+  <data name="Opp1Num3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp1Num3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp1Num3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp1Num3.TabIndex" type="System.Int32, mscorlib">
     <value>164</value>
   </data>
   <data name="Opp1Num3.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp1Num3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Num3.Name" xml:space="preserve">
     <value>Opp1Num3</value>
@@ -8212,19 +8476,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Num4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>120, 48</value>
+    <value>165, 72</value>
+  </data>
+  <data name="Opp1Num4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp1Num4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp1Num4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp1Num4.TabIndex" type="System.Int32, mscorlib">
     <value>165</value>
   </data>
   <data name="Opp1Num4.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp1Num4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Num4.Name" xml:space="preserve">
     <value>Opp1Num4</value>
@@ -8245,19 +8515,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Num5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>152, 49</value>
+    <value>209, 74</value>
+  </data>
+  <data name="Opp1Num5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp1Num5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp1Num5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp1Num5.TabIndex" type="System.Int32, mscorlib">
     <value>166</value>
   </data>
   <data name="Opp1Num5.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp1Num5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Num5.Name" xml:space="preserve">
     <value>Opp1Num5</value>
@@ -8278,19 +8554,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Num6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>183, 49</value>
+    <value>252, 74</value>
+  </data>
+  <data name="Opp1Num6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp1Num6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp1Num6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp1Num6.TabIndex" type="System.Int32, mscorlib">
     <value>167</value>
   </data>
   <data name="Opp1Num6.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp1Num6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Num6.Name" xml:space="preserve">
     <value>Opp1Num6</value>
@@ -8311,19 +8593,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Num7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>212, 49</value>
+    <value>292, 74</value>
+  </data>
+  <data name="Opp1Num7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp1Num7.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp1Num7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp1Num7.TabIndex" type="System.Int32, mscorlib">
     <value>168</value>
   </data>
   <data name="Opp1Num7.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp1Num7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Num7.Name" xml:space="preserve">
     <value>Opp1Num7</value>
@@ -8344,19 +8632,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp1Num8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>241, 49</value>
+    <value>331, 74</value>
+  </data>
+  <data name="Opp1Num8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp1Num8.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp1Num8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp1Num8.TabIndex" type="System.Int32, mscorlib">
     <value>169</value>
   </data>
   <data name="Opp1Num8.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp1Num8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp1Num8.Name" xml:space="preserve">
     <value>Opp1Num8</value>
@@ -8377,19 +8671,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>287, 486</value>
+    <value>395, 729</value>
+  </data>
+  <data name="Opp2Num8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp2Num8.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp2Num8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp2Num8.TabIndex" type="System.Int32, mscorlib">
     <value>202</value>
   </data>
   <data name="Opp2Num8.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp2Num8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Num8.Name" xml:space="preserve">
     <value>Opp2Num8</value>
@@ -8410,19 +8710,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>258, 486</value>
+    <value>355, 729</value>
+  </data>
+  <data name="Opp2Num7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp2Num7.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp2Num7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp2Num7.TabIndex" type="System.Int32, mscorlib">
     <value>201</value>
   </data>
   <data name="Opp2Num7.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp2Num7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Num7.Name" xml:space="preserve">
     <value>Opp2Num7</value>
@@ -8443,19 +8749,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 486</value>
+    <value>315, 729</value>
+  </data>
+  <data name="Opp2Num6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp2Num6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp2Num6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp2Num6.TabIndex" type="System.Int32, mscorlib">
     <value>200</value>
   </data>
   <data name="Opp2Num6.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp2Num6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Num6.Name" xml:space="preserve">
     <value>Opp2Num6</value>
@@ -8476,19 +8788,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>198, 486</value>
+    <value>272, 729</value>
+  </data>
+  <data name="Opp2Num5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp2Num5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp2Num5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp2Num5.TabIndex" type="System.Int32, mscorlib">
     <value>199</value>
   </data>
   <data name="Opp2Num5.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp2Num5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Num5.Name" xml:space="preserve">
     <value>Opp2Num5</value>
@@ -8509,19 +8827,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 485</value>
+    <value>228, 728</value>
+  </data>
+  <data name="Opp2Num4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp2Num4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp2Num4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp2Num4.TabIndex" type="System.Int32, mscorlib">
     <value>198</value>
   </data>
   <data name="Opp2Num4.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp2Num4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Num4.Name" xml:space="preserve">
     <value>Opp2Num4</value>
@@ -8542,19 +8866,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 485</value>
+    <value>180, 728</value>
+  </data>
+  <data name="Opp2Num3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp2Num3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp2Num3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp2Num3.TabIndex" type="System.Int32, mscorlib">
     <value>197</value>
   </data>
   <data name="Opp2Num3.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp2Num3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Num3.Name" xml:space="preserve">
     <value>Opp2Num3</value>
@@ -8575,19 +8905,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>98, 485</value>
+    <value>135, 728</value>
+  </data>
+  <data name="Opp2Num2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp2Num2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp2Num2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp2Num2.TabIndex" type="System.Int32, mscorlib">
     <value>196</value>
   </data>
   <data name="Opp2Num2.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp2Num2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Num2.Name" xml:space="preserve">
     <value>Opp2Num2</value>
@@ -8608,19 +8944,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>69, 485</value>
+    <value>95, 728</value>
+  </data>
+  <data name="Opp2Num1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp2Num1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp2Num1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp2Num1.TabIndex" type="System.Int32, mscorlib">
     <value>195</value>
   </data>
   <data name="Opp2Num1.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp2Num1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Num1.Name" xml:space="preserve">
     <value>Opp2Num1</value>
@@ -8641,19 +8983,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>69, 526</value>
+    <value>95, 789</value>
+  </data>
+  <data name="Opp2Num9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp2Num9.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp2Num9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="Opp2Num9.TabIndex" type="System.Int32, mscorlib">
     <value>194</value>
   </data>
   <data name="Opp2Num9.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp2Num9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Num9.Name" xml:space="preserve">
     <value>Opp2Num9</value>
@@ -8674,19 +9022,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>98, 526</value>
+    <value>135, 789</value>
+  </data>
+  <data name="Opp2Num10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp2Num10.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp2Num10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="Opp2Num10.TabIndex" type="System.Int32, mscorlib">
     <value>193</value>
   </data>
   <data name="Opp2Num10.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp2Num10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Num10.Name" xml:space="preserve">
     <value>Opp2Num10</value>
@@ -8707,19 +9061,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>134, 526</value>
+    <value>184, 789</value>
+  </data>
+  <data name="Opp2Num11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp2Num11.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp2Num11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="Opp2Num11.TabIndex" type="System.Int32, mscorlib">
     <value>192</value>
   </data>
   <data name="Opp2Num11.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp2Num11.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Num11.Name" xml:space="preserve">
     <value>Opp2Num11</value>
@@ -8740,19 +9100,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 526</value>
+    <value>228, 789</value>
+  </data>
+  <data name="Opp2Num12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp2Num12.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp2Num12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="Opp2Num12.TabIndex" type="System.Int32, mscorlib">
     <value>191</value>
   </data>
   <data name="Opp2Num12.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp2Num12.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Num12.Name" xml:space="preserve">
     <value>Opp2Num12</value>
@@ -8773,19 +9139,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>196, 526</value>
+    <value>270, 789</value>
+  </data>
+  <data name="Opp2Num13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp2Num13.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp2Num13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="Opp2Num13.TabIndex" type="System.Int32, mscorlib">
     <value>190</value>
   </data>
   <data name="Opp2Num13.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp2Num13.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Num13.Name" xml:space="preserve">
     <value>Opp2Num13</value>
@@ -8806,19 +9178,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>225, 526</value>
+    <value>309, 789</value>
+  </data>
+  <data name="Opp2Num14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp2Num14.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp2Num14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="Opp2Num14.TabIndex" type="System.Int32, mscorlib">
     <value>189</value>
   </data>
   <data name="Opp2Num14.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp2Num14.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Num14.Name" xml:space="preserve">
     <value>Opp2Num14</value>
@@ -8836,19 +9214,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>254, 528</value>
+    <value>349, 792</value>
+  </data>
+  <data name="Opp2Num15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp2Num15.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp2Num15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>18, 43</value>
+    <value>25, 64</value>
   </data>
   <data name="Opp2Num15.TabIndex" type="System.Int32, mscorlib">
     <value>188</value>
   </data>
   <data name="Opp2Num15.Text" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="Opp2Num15.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Num15.Name" xml:space="preserve">
     <value>Opp2Num15</value>
@@ -8866,19 +9250,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Num16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>289, 528</value>
+    <value>397, 792</value>
+  </data>
+  <data name="Opp2Num16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp2Num16.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp2Num16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>28, 43</value>
+    <value>38, 64</value>
   </data>
   <data name="Opp2Num16.TabIndex" type="System.Int32, mscorlib">
     <value>187</value>
   </data>
   <data name="Opp2Num16.Text" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="Opp2Num16.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Num16.Name" xml:space="preserve">
     <value>Opp2Num16</value>
@@ -8942,7 +9332,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>283, 519</value>
+    <value>389, 778</value>
+  </data>
+  <data name="Opp2Card16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp2Card16.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -8958,6 +9351,9 @@
   </data>
   <data name="Opp2Card16.TabIndex" type="System.Int32, mscorlib">
     <value>186</value>
+  </data>
+  <data name="Opp2Card16.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Card16.Name" xml:space="preserve">
     <value>Opp2Card16</value>
@@ -9021,7 +9417,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>248, 519</value>
+    <value>341, 778</value>
+  </data>
+  <data name="Opp2Card15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp2Card15.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -9037,6 +9436,9 @@
   </data>
   <data name="Opp2Card15.TabIndex" type="System.Int32, mscorlib">
     <value>185</value>
+  </data>
+  <data name="Opp2Card15.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Card15.Name" xml:space="preserve">
     <value>Opp2Card15</value>
@@ -9100,7 +9502,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>221, 519</value>
+    <value>304, 778</value>
+  </data>
+  <data name="Opp2Card14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp2Card14.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -9116,6 +9521,9 @@
   </data>
   <data name="Opp2Card14.TabIndex" type="System.Int32, mscorlib">
     <value>183</value>
+  </data>
+  <data name="Opp2Card14.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Card14.Name" xml:space="preserve">
     <value>Opp2Card14</value>
@@ -9179,7 +9587,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>191, 519</value>
+    <value>263, 778</value>
+  </data>
+  <data name="Opp2Card13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp2Card13.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -9195,6 +9606,9 @@
   </data>
   <data name="Opp2Card13.TabIndex" type="System.Int32, mscorlib">
     <value>184</value>
+  </data>
+  <data name="Opp2Card13.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Card13.Name" xml:space="preserve">
     <value>Opp2Card13</value>
@@ -9258,7 +9672,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>160, 519</value>
+    <value>220, 778</value>
+  </data>
+  <data name="Opp2Card12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp2Card12.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -9274,6 +9691,9 @@
   </data>
   <data name="Opp2Card12.TabIndex" type="System.Int32, mscorlib">
     <value>182</value>
+  </data>
+  <data name="Opp2Card12.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Card12.Name" xml:space="preserve">
     <value>Opp2Card12</value>
@@ -9337,7 +9757,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>127, 519</value>
+    <value>175, 778</value>
+  </data>
+  <data name="Opp2Card11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp2Card11.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -9353,6 +9776,9 @@
   </data>
   <data name="Opp2Card11.TabIndex" type="System.Int32, mscorlib">
     <value>181</value>
+  </data>
+  <data name="Opp2Card11.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Card11.Name" xml:space="preserve">
     <value>Opp2Card11</value>
@@ -9416,7 +9842,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>93, 519</value>
+    <value>128, 778</value>
+  </data>
+  <data name="Opp2Card10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp2Card10.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -9432,6 +9861,9 @@
   </data>
   <data name="Opp2Card10.TabIndex" type="System.Int32, mscorlib">
     <value>179</value>
+  </data>
+  <data name="Opp2Card10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Card10.Name" xml:space="preserve">
     <value>Opp2Card10</value>
@@ -9495,7 +9927,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>63, 519</value>
+    <value>87, 778</value>
+  </data>
+  <data name="Opp2Card9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp2Card9.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -9511,6 +9946,9 @@
   </data>
   <data name="Opp2Card9.TabIndex" type="System.Int32, mscorlib">
     <value>180</value>
+  </data>
+  <data name="Opp2Card9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Card9.Name" xml:space="preserve">
     <value>Opp2Card9</value>
@@ -9574,7 +10012,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>283, 480</value>
+    <value>389, 720</value>
+  </data>
+  <data name="Opp2Card8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp2Card8.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -9590,6 +10031,9 @@
   </data>
   <data name="Opp2Card8.TabIndex" type="System.Int32, mscorlib">
     <value>178</value>
+  </data>
+  <data name="Opp2Card8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Card8.Name" xml:space="preserve">
     <value>Opp2Card8</value>
@@ -9653,7 +10097,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>252, 482</value>
+    <value>346, 723</value>
+  </data>
+  <data name="Opp2Card7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp2Card7.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -9669,6 +10116,9 @@
   </data>
   <data name="Opp2Card7.TabIndex" type="System.Int32, mscorlib">
     <value>177</value>
+  </data>
+  <data name="Opp2Card7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Card7.Name" xml:space="preserve">
     <value>Opp2Card7</value>
@@ -9732,7 +10182,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>225, 482</value>
+    <value>309, 723</value>
+  </data>
+  <data name="Opp2Card6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp2Card6.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -9748,6 +10201,9 @@
   </data>
   <data name="Opp2Card6.TabIndex" type="System.Int32, mscorlib">
     <value>175</value>
+  </data>
+  <data name="Opp2Card6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Card6.Name" xml:space="preserve">
     <value>Opp2Card6</value>
@@ -9811,7 +10267,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>195, 482</value>
+    <value>268, 723</value>
+  </data>
+  <data name="Opp2Card5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp2Card5.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -9827,6 +10286,9 @@
   </data>
   <data name="Opp2Card5.TabIndex" type="System.Int32, mscorlib">
     <value>176</value>
+  </data>
+  <data name="Opp2Card5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Card5.Name" xml:space="preserve">
     <value>Opp2Card5</value>
@@ -9890,7 +10352,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>160, 480</value>
+    <value>220, 720</value>
+  </data>
+  <data name="Opp2Card4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp2Card4.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -9906,6 +10371,9 @@
   </data>
   <data name="Opp2Card4.TabIndex" type="System.Int32, mscorlib">
     <value>174</value>
+  </data>
+  <data name="Opp2Card4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Card4.Name" xml:space="preserve">
     <value>Opp2Card4</value>
@@ -9969,7 +10437,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>127, 480</value>
+    <value>175, 720</value>
+  </data>
+  <data name="Opp2Card3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp2Card3.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -9986,6 +10457,9 @@
   <data name="Opp2Card3.TabIndex" type="System.Int32, mscorlib">
     <value>173</value>
   </data>
+  <data name="Opp2Card3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;Opp2Card3.Name" xml:space="preserve">
     <value>Opp2Card3</value>
   </data>
@@ -9999,16 +10473,22 @@
     <value>133</value>
   </data>
   <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>190, 504</value>
+    <value>261, 756</value>
+  </data>
+  <data name="textBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 22</value>
+    <value>59, 29</value>
   </data>
   <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
     <value>171</value>
   </data>
   <data name="textBox2.Text" xml:space="preserve">
     <value>30</value>
+  </data>
+  <data name="textBox2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
     <value>textBox2</value>
@@ -10072,7 +10552,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>93, 480</value>
+    <value>128, 720</value>
+  </data>
+  <data name="Opp2Card2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp2Card2.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -10088,6 +10571,9 @@
   </data>
   <data name="Opp2Card2.TabIndex" type="System.Int32, mscorlib">
     <value>170</value>
+  </data>
+  <data name="Opp2Card2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Card2.Name" xml:space="preserve">
     <value>Opp2Card2</value>
@@ -10151,7 +10637,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp2Card1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>63, 480</value>
+    <value>87, 720</value>
+  </data>
+  <data name="Opp2Card1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp2Card1.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -10167,6 +10656,9 @@
   </data>
   <data name="Opp2Card1.TabIndex" type="System.Int32, mscorlib">
     <value>172</value>
+  </data>
+  <data name="Opp2Card1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp2Card1.Name" xml:space="preserve">
     <value>Opp2Card1</value>
@@ -10187,19 +10679,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1663, 49</value>
+    <value>2287, 74</value>
+  </data>
+  <data name="Opp4Num8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp4Num8.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp4Num8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp4Num8.TabIndex" type="System.Int32, mscorlib">
     <value>235</value>
   </data>
   <data name="Opp4Num8.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp4Num8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Num8.Name" xml:space="preserve">
     <value>Opp4Num8</value>
@@ -10220,19 +10718,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1634, 49</value>
+    <value>2247, 74</value>
+  </data>
+  <data name="Opp4Num7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp4Num7.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp4Num7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp4Num7.TabIndex" type="System.Int32, mscorlib">
     <value>234</value>
   </data>
   <data name="Opp4Num7.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp4Num7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Num7.Name" xml:space="preserve">
     <value>Opp4Num7</value>
@@ -10253,19 +10757,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1605, 49</value>
+    <value>2207, 74</value>
+  </data>
+  <data name="Opp4Num6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp4Num6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp4Num6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp4Num6.TabIndex" type="System.Int32, mscorlib">
     <value>233</value>
   </data>
   <data name="Opp4Num6.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp4Num6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Num6.Name" xml:space="preserve">
     <value>Opp4Num6</value>
@@ -10286,19 +10796,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1574, 49</value>
+    <value>2164, 74</value>
+  </data>
+  <data name="Opp4Num5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp4Num5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp4Num5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp4Num5.TabIndex" type="System.Int32, mscorlib">
     <value>232</value>
   </data>
   <data name="Opp4Num5.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp4Num5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Num5.Name" xml:space="preserve">
     <value>Opp4Num5</value>
@@ -10319,19 +10835,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1542, 48</value>
+    <value>2120, 72</value>
+  </data>
+  <data name="Opp4Num4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp4Num4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp4Num4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp4Num4.TabIndex" type="System.Int32, mscorlib">
     <value>231</value>
   </data>
   <data name="Opp4Num4.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp4Num4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Num4.Name" xml:space="preserve">
     <value>Opp4Num4</value>
@@ -10352,19 +10874,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1507, 48</value>
+    <value>2072, 72</value>
+  </data>
+  <data name="Opp4Num3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp4Num3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp4Num3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp4Num3.TabIndex" type="System.Int32, mscorlib">
     <value>230</value>
   </data>
   <data name="Opp4Num3.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp4Num3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Num3.Name" xml:space="preserve">
     <value>Opp4Num3</value>
@@ -10385,19 +10913,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1474, 48</value>
+    <value>2027, 72</value>
+  </data>
+  <data name="Opp4Num2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp4Num2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp4Num2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp4Num2.TabIndex" type="System.Int32, mscorlib">
     <value>229</value>
   </data>
   <data name="Opp4Num2.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp4Num2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Num2.Name" xml:space="preserve">
     <value>Opp4Num2</value>
@@ -10418,19 +10952,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1445, 48</value>
+    <value>1987, 72</value>
+  </data>
+  <data name="Opp4Num1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp4Num1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp4Num1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp4Num1.TabIndex" type="System.Int32, mscorlib">
     <value>228</value>
   </data>
   <data name="Opp4Num1.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp4Num1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Num1.Name" xml:space="preserve">
     <value>Opp4Num1</value>
@@ -10451,19 +10991,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1445, 89</value>
+    <value>1987, 134</value>
+  </data>
+  <data name="Opp4Num9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp4Num9.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp4Num9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="Opp4Num9.TabIndex" type="System.Int32, mscorlib">
     <value>227</value>
   </data>
   <data name="Opp4Num9.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp4Num9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Num9.Name" xml:space="preserve">
     <value>Opp4Num9</value>
@@ -10484,19 +11030,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1474, 89</value>
+    <value>2027, 134</value>
+  </data>
+  <data name="Opp4Num10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp4Num10.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp4Num10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="Opp4Num10.TabIndex" type="System.Int32, mscorlib">
     <value>226</value>
   </data>
   <data name="Opp4Num10.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp4Num10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Num10.Name" xml:space="preserve">
     <value>Opp4Num10</value>
@@ -10517,19 +11069,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1510, 89</value>
+    <value>2076, 134</value>
+  </data>
+  <data name="Opp4Num11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp4Num11.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp4Num11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="Opp4Num11.TabIndex" type="System.Int32, mscorlib">
     <value>225</value>
   </data>
   <data name="Opp4Num11.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp4Num11.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Num11.Name" xml:space="preserve">
     <value>Opp4Num11</value>
@@ -10550,19 +11108,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1542, 89</value>
+    <value>2120, 134</value>
+  </data>
+  <data name="Opp4Num12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp4Num12.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp4Num12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="Opp4Num12.TabIndex" type="System.Int32, mscorlib">
     <value>224</value>
   </data>
   <data name="Opp4Num12.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp4Num12.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Num12.Name" xml:space="preserve">
     <value>Opp4Num12</value>
@@ -10583,19 +11147,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1572, 89</value>
+    <value>2162, 134</value>
+  </data>
+  <data name="Opp4Num13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp4Num13.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp4Num13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="Opp4Num13.TabIndex" type="System.Int32, mscorlib">
     <value>223</value>
   </data>
   <data name="Opp4Num13.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp4Num13.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Num13.Name" xml:space="preserve">
     <value>Opp4Num13</value>
@@ -10616,19 +11186,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1601, 89</value>
+    <value>2201, 134</value>
+  </data>
+  <data name="Opp4Num14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp4Num14.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp4Num14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="Opp4Num14.TabIndex" type="System.Int32, mscorlib">
     <value>222</value>
   </data>
   <data name="Opp4Num14.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp4Num14.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Num14.Name" xml:space="preserve">
     <value>Opp4Num14</value>
@@ -10646,19 +11222,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1630, 91</value>
+    <value>2241, 136</value>
+  </data>
+  <data name="Opp4Num15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp4Num15.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp4Num15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>18, 43</value>
+    <value>25, 64</value>
   </data>
   <data name="Opp4Num15.TabIndex" type="System.Int32, mscorlib">
     <value>221</value>
   </data>
   <data name="Opp4Num15.Text" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="Opp4Num15.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Num15.Name" xml:space="preserve">
     <value>Opp4Num15</value>
@@ -10676,19 +11258,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Num16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1665, 91</value>
+    <value>2289, 136</value>
+  </data>
+  <data name="Opp4Num16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp4Num16.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp4Num16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>28, 43</value>
+    <value>38, 64</value>
   </data>
   <data name="Opp4Num16.TabIndex" type="System.Int32, mscorlib">
     <value>220</value>
   </data>
   <data name="Opp4Num16.Text" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="Opp4Num16.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Num16.Name" xml:space="preserve">
     <value>Opp4Num16</value>
@@ -10752,7 +11340,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1659, 82</value>
+    <value>2281, 123</value>
+  </data>
+  <data name="Opp4Card16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp4Card16.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -10768,6 +11359,9 @@
   </data>
   <data name="Opp4Card16.TabIndex" type="System.Int32, mscorlib">
     <value>219</value>
+  </data>
+  <data name="Opp4Card16.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Card16.Name" xml:space="preserve">
     <value>Opp4Card16</value>
@@ -10831,7 +11425,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1624, 82</value>
+    <value>2233, 123</value>
+  </data>
+  <data name="Opp4Card15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp4Card15.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -10847,6 +11444,9 @@
   </data>
   <data name="Opp4Card15.TabIndex" type="System.Int32, mscorlib">
     <value>218</value>
+  </data>
+  <data name="Opp4Card15.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Card15.Name" xml:space="preserve">
     <value>Opp4Card15</value>
@@ -10910,7 +11510,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1597, 82</value>
+    <value>2196, 123</value>
+  </data>
+  <data name="Opp4Card14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp4Card14.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -10926,6 +11529,9 @@
   </data>
   <data name="Opp4Card14.TabIndex" type="System.Int32, mscorlib">
     <value>216</value>
+  </data>
+  <data name="Opp4Card14.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Card14.Name" xml:space="preserve">
     <value>Opp4Card14</value>
@@ -10989,7 +11595,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1567, 82</value>
+    <value>2155, 123</value>
+  </data>
+  <data name="Opp4Card13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp4Card13.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -11005,6 +11614,9 @@
   </data>
   <data name="Opp4Card13.TabIndex" type="System.Int32, mscorlib">
     <value>217</value>
+  </data>
+  <data name="Opp4Card13.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Card13.Name" xml:space="preserve">
     <value>Opp4Card13</value>
@@ -11068,7 +11680,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1536, 82</value>
+    <value>2112, 123</value>
+  </data>
+  <data name="Opp4Card12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp4Card12.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -11084,6 +11699,9 @@
   </data>
   <data name="Opp4Card12.TabIndex" type="System.Int32, mscorlib">
     <value>215</value>
+  </data>
+  <data name="Opp4Card12.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Card12.Name" xml:space="preserve">
     <value>Opp4Card12</value>
@@ -11147,7 +11765,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1503, 82</value>
+    <value>2067, 123</value>
+  </data>
+  <data name="Opp4Card11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp4Card11.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -11163,6 +11784,9 @@
   </data>
   <data name="Opp4Card11.TabIndex" type="System.Int32, mscorlib">
     <value>214</value>
+  </data>
+  <data name="Opp4Card11.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Card11.Name" xml:space="preserve">
     <value>Opp4Card11</value>
@@ -11226,7 +11850,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1469, 82</value>
+    <value>2020, 123</value>
+  </data>
+  <data name="Opp4Card10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp4Card10.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -11242,6 +11869,9 @@
   </data>
   <data name="Opp4Card10.TabIndex" type="System.Int32, mscorlib">
     <value>212</value>
+  </data>
+  <data name="Opp4Card10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Card10.Name" xml:space="preserve">
     <value>Opp4Card10</value>
@@ -11305,7 +11935,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1439, 82</value>
+    <value>1979, 123</value>
+  </data>
+  <data name="Opp4Card9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp4Card9.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -11321,6 +11954,9 @@
   </data>
   <data name="Opp4Card9.TabIndex" type="System.Int32, mscorlib">
     <value>213</value>
+  </data>
+  <data name="Opp4Card9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Card9.Name" xml:space="preserve">
     <value>Opp4Card9</value>
@@ -11384,7 +12020,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1659, 43</value>
+    <value>2281, 64</value>
+  </data>
+  <data name="Opp4Card8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp4Card8.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -11400,6 +12039,9 @@
   </data>
   <data name="Opp4Card8.TabIndex" type="System.Int32, mscorlib">
     <value>211</value>
+  </data>
+  <data name="Opp4Card8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Card8.Name" xml:space="preserve">
     <value>Opp4Card8</value>
@@ -11463,7 +12105,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1628, 45</value>
+    <value>2238, 68</value>
+  </data>
+  <data name="Opp4Card7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp4Card7.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -11479,6 +12124,9 @@
   </data>
   <data name="Opp4Card7.TabIndex" type="System.Int32, mscorlib">
     <value>210</value>
+  </data>
+  <data name="Opp4Card7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Card7.Name" xml:space="preserve">
     <value>Opp4Card7</value>
@@ -11542,7 +12190,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1601, 45</value>
+    <value>2201, 68</value>
+  </data>
+  <data name="Opp4Card6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp4Card6.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -11558,6 +12209,9 @@
   </data>
   <data name="Opp4Card6.TabIndex" type="System.Int32, mscorlib">
     <value>208</value>
+  </data>
+  <data name="Opp4Card6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Card6.Name" xml:space="preserve">
     <value>Opp4Card6</value>
@@ -11621,7 +12275,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1571, 45</value>
+    <value>2160, 68</value>
+  </data>
+  <data name="Opp4Card5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp4Card5.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -11637,6 +12294,9 @@
   </data>
   <data name="Opp4Card5.TabIndex" type="System.Int32, mscorlib">
     <value>209</value>
+  </data>
+  <data name="Opp4Card5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Card5.Name" xml:space="preserve">
     <value>Opp4Card5</value>
@@ -11700,7 +12360,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1536, 43</value>
+    <value>2112, 64</value>
+  </data>
+  <data name="Opp4Card4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp4Card4.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -11716,6 +12379,9 @@
   </data>
   <data name="Opp4Card4.TabIndex" type="System.Int32, mscorlib">
     <value>207</value>
+  </data>
+  <data name="Opp4Card4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Card4.Name" xml:space="preserve">
     <value>Opp4Card4</value>
@@ -11779,7 +12445,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1503, 43</value>
+    <value>2067, 64</value>
+  </data>
+  <data name="Opp4Card3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp4Card3.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -11796,6 +12465,9 @@
   <data name="Opp4Card3.TabIndex" type="System.Int32, mscorlib">
     <value>206</value>
   </data>
+  <data name="Opp4Card3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;Opp4Card3.Name" xml:space="preserve">
     <value>Opp4Card3</value>
   </data>
@@ -11809,16 +12481,22 @@
     <value>100</value>
   </data>
   <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1566, 67</value>
+    <value>2153, 100</value>
+  </data>
+  <data name="textBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 22</value>
+    <value>59, 29</value>
   </data>
   <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
     <value>204</value>
   </data>
   <data name="textBox1.Text" xml:space="preserve">
     <value>30</value>
+  </data>
+  <data name="textBox1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
     <value>textBox1</value>
@@ -11882,7 +12560,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1469, 43</value>
+    <value>2020, 64</value>
+  </data>
+  <data name="Opp4Card2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp4Card2.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -11898,6 +12579,9 @@
   </data>
   <data name="Opp4Card2.TabIndex" type="System.Int32, mscorlib">
     <value>203</value>
+  </data>
+  <data name="Opp4Card2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Card2.Name" xml:space="preserve">
     <value>Opp4Card2</value>
@@ -11961,7 +12645,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1439, 43</value>
+    <value>1979, 64</value>
+  </data>
+  <data name="Opp4Card1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp4Card1.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -11977,6 +12664,9 @@
   </data>
   <data name="Opp4Card1.TabIndex" type="System.Int32, mscorlib">
     <value>205</value>
+  </data>
+  <data name="Opp4Card1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Card1.Name" xml:space="preserve">
     <value>Opp4Card1</value>
@@ -11997,19 +12687,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1679, 432</value>
+    <value>2309, 648</value>
+  </data>
+  <data name="Opp3Num8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp3Num8.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp3Num8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp3Num8.TabIndex" type="System.Int32, mscorlib">
     <value>268</value>
   </data>
   <data name="Opp3Num8.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp3Num8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Num8.Name" xml:space="preserve">
     <value>Opp3Num8</value>
@@ -12030,19 +12726,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1650, 432</value>
+    <value>2269, 648</value>
+  </data>
+  <data name="Opp3Num7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp3Num7.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp3Num7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp3Num7.TabIndex" type="System.Int32, mscorlib">
     <value>267</value>
   </data>
   <data name="Opp3Num7.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp3Num7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Num7.Name" xml:space="preserve">
     <value>Opp3Num7</value>
@@ -12063,19 +12765,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1621, 432</value>
+    <value>2229, 648</value>
+  </data>
+  <data name="Opp3Num6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp3Num6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp3Num6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp3Num6.TabIndex" type="System.Int32, mscorlib">
     <value>266</value>
   </data>
   <data name="Opp3Num6.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp3Num6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Num6.Name" xml:space="preserve">
     <value>Opp3Num6</value>
@@ -12096,19 +12804,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1590, 432</value>
+    <value>2186, 648</value>
+  </data>
+  <data name="Opp3Num5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp3Num5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp3Num5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp3Num5.TabIndex" type="System.Int32, mscorlib">
     <value>265</value>
   </data>
   <data name="Opp3Num5.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp3Num5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Num5.Name" xml:space="preserve">
     <value>Opp3Num5</value>
@@ -12129,19 +12843,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1558, 431</value>
+    <value>2142, 646</value>
+  </data>
+  <data name="Opp3Num4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp3Num4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp3Num4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp3Num4.TabIndex" type="System.Int32, mscorlib">
     <value>264</value>
   </data>
   <data name="Opp3Num4.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp3Num4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Num4.Name" xml:space="preserve">
     <value>Opp3Num4</value>
@@ -12162,19 +12882,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1523, 431</value>
+    <value>2094, 646</value>
+  </data>
+  <data name="Opp3Num3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp3Num3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp3Num3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp3Num3.TabIndex" type="System.Int32, mscorlib">
     <value>263</value>
   </data>
   <data name="Opp3Num3.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp3Num3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Num3.Name" xml:space="preserve">
     <value>Opp3Num3</value>
@@ -12195,19 +12921,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1490, 431</value>
+    <value>2049, 646</value>
+  </data>
+  <data name="Opp3Num2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp3Num2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp3Num2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp3Num2.TabIndex" type="System.Int32, mscorlib">
     <value>262</value>
   </data>
   <data name="Opp3Num2.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp3Num2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Num2.Name" xml:space="preserve">
     <value>Opp3Num2</value>
@@ -12228,19 +12960,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1461, 431</value>
+    <value>2009, 646</value>
+  </data>
+  <data name="Opp3Num1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp3Num1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp3Num1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="Opp3Num1.TabIndex" type="System.Int32, mscorlib">
     <value>261</value>
   </data>
   <data name="Opp3Num1.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp3Num1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Num1.Name" xml:space="preserve">
     <value>Opp3Num1</value>
@@ -12261,19 +12999,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1461, 472</value>
+    <value>2009, 708</value>
+  </data>
+  <data name="Opp3Num9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp3Num9.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp3Num9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="Opp3Num9.TabIndex" type="System.Int32, mscorlib">
     <value>260</value>
   </data>
   <data name="Opp3Num9.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp3Num9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Num9.Name" xml:space="preserve">
     <value>Opp3Num9</value>
@@ -12294,19 +13038,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1490, 472</value>
+    <value>2049, 708</value>
+  </data>
+  <data name="Opp3Num10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp3Num10.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp3Num10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="Opp3Num10.TabIndex" type="System.Int32, mscorlib">
     <value>259</value>
   </data>
   <data name="Opp3Num10.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp3Num10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Num10.Name" xml:space="preserve">
     <value>Opp3Num10</value>
@@ -12327,19 +13077,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1526, 472</value>
+    <value>2098, 708</value>
+  </data>
+  <data name="Opp3Num11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp3Num11.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp3Num11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="Opp3Num11.TabIndex" type="System.Int32, mscorlib">
     <value>258</value>
   </data>
   <data name="Opp3Num11.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp3Num11.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Num11.Name" xml:space="preserve">
     <value>Opp3Num11</value>
@@ -12360,19 +13116,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1558, 472</value>
+    <value>2142, 708</value>
+  </data>
+  <data name="Opp3Num12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp3Num12.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp3Num12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="Opp3Num12.TabIndex" type="System.Int32, mscorlib">
     <value>257</value>
   </data>
   <data name="Opp3Num12.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp3Num12.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Num12.Name" xml:space="preserve">
     <value>Opp3Num12</value>
@@ -12393,19 +13155,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1588, 472</value>
+    <value>2184, 708</value>
+  </data>
+  <data name="Opp3Num13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp3Num13.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp3Num13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="Opp3Num13.TabIndex" type="System.Int32, mscorlib">
     <value>256</value>
   </data>
   <data name="Opp3Num13.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp3Num13.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Num13.Name" xml:space="preserve">
     <value>Opp3Num13</value>
@@ -12426,19 +13194,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1617, 472</value>
+    <value>2223, 708</value>
+  </data>
+  <data name="Opp3Num14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp3Num14.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp3Num14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="Opp3Num14.TabIndex" type="System.Int32, mscorlib">
     <value>255</value>
   </data>
   <data name="Opp3Num14.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="Opp3Num14.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Num14.Name" xml:space="preserve">
     <value>Opp3Num14</value>
@@ -12456,19 +13230,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1646, 474</value>
+    <value>2263, 711</value>
+  </data>
+  <data name="Opp3Num15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp3Num15.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp3Num15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>18, 43</value>
+    <value>25, 64</value>
   </data>
   <data name="Opp3Num15.TabIndex" type="System.Int32, mscorlib">
     <value>254</value>
   </data>
   <data name="Opp3Num15.Text" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="Opp3Num15.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Num15.Name" xml:space="preserve">
     <value>Opp3Num15</value>
@@ -12486,19 +13266,25 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Num16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1681, 474</value>
+    <value>2311, 711</value>
+  </data>
+  <data name="Opp3Num16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Opp3Num16.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="Opp3Num16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>28, 43</value>
+    <value>38, 64</value>
   </data>
   <data name="Opp3Num16.TabIndex" type="System.Int32, mscorlib">
     <value>253</value>
   </data>
   <data name="Opp3Num16.Text" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="Opp3Num16.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Num16.Name" xml:space="preserve">
     <value>Opp3Num16</value>
@@ -12562,7 +13348,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1675, 465</value>
+    <value>2303, 698</value>
+  </data>
+  <data name="Opp3Card16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp3Card16.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -12578,6 +13367,9 @@
   </data>
   <data name="Opp3Card16.TabIndex" type="System.Int32, mscorlib">
     <value>252</value>
+  </data>
+  <data name="Opp3Card16.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Card16.Name" xml:space="preserve">
     <value>Opp3Card16</value>
@@ -12641,7 +13433,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1640, 465</value>
+    <value>2255, 698</value>
+  </data>
+  <data name="Opp3Card15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp3Card15.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -12657,6 +13452,9 @@
   </data>
   <data name="Opp3Card15.TabIndex" type="System.Int32, mscorlib">
     <value>251</value>
+  </data>
+  <data name="Opp3Card15.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Card15.Name" xml:space="preserve">
     <value>Opp3Card15</value>
@@ -12720,7 +13518,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1613, 465</value>
+    <value>2218, 698</value>
+  </data>
+  <data name="Opp3Card14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp3Card14.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -12736,6 +13537,9 @@
   </data>
   <data name="Opp3Card14.TabIndex" type="System.Int32, mscorlib">
     <value>249</value>
+  </data>
+  <data name="Opp3Card14.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Card14.Name" xml:space="preserve">
     <value>Opp3Card14</value>
@@ -12799,7 +13603,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1583, 465</value>
+    <value>2177, 698</value>
+  </data>
+  <data name="Opp3Card13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp3Card13.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -12815,6 +13622,9 @@
   </data>
   <data name="Opp3Card13.TabIndex" type="System.Int32, mscorlib">
     <value>250</value>
+  </data>
+  <data name="Opp3Card13.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Card13.Name" xml:space="preserve">
     <value>Opp3Card13</value>
@@ -12878,7 +13688,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1552, 465</value>
+    <value>2134, 698</value>
+  </data>
+  <data name="Opp3Card12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp3Card12.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -12894,6 +13707,9 @@
   </data>
   <data name="Opp3Card12.TabIndex" type="System.Int32, mscorlib">
     <value>248</value>
+  </data>
+  <data name="Opp3Card12.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Card12.Name" xml:space="preserve">
     <value>Opp3Card12</value>
@@ -12957,7 +13773,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1519, 465</value>
+    <value>2089, 698</value>
+  </data>
+  <data name="Opp3Card11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp3Card11.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -12973,6 +13792,9 @@
   </data>
   <data name="Opp3Card11.TabIndex" type="System.Int32, mscorlib">
     <value>247</value>
+  </data>
+  <data name="Opp3Card11.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Card11.Name" xml:space="preserve">
     <value>Opp3Card11</value>
@@ -13036,7 +13858,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1485, 465</value>
+    <value>2042, 698</value>
+  </data>
+  <data name="Opp3Card10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp3Card10.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -13052,6 +13877,9 @@
   </data>
   <data name="Opp3Card10.TabIndex" type="System.Int32, mscorlib">
     <value>245</value>
+  </data>
+  <data name="Opp3Card10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Card10.Name" xml:space="preserve">
     <value>Opp3Card10</value>
@@ -13115,7 +13943,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1455, 465</value>
+    <value>2001, 698</value>
+  </data>
+  <data name="Opp3Card9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp3Card9.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -13131,6 +13962,9 @@
   </data>
   <data name="Opp3Card9.TabIndex" type="System.Int32, mscorlib">
     <value>246</value>
+  </data>
+  <data name="Opp3Card9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Card9.Name" xml:space="preserve">
     <value>Opp3Card9</value>
@@ -13194,7 +14028,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1675, 426</value>
+    <value>2303, 639</value>
+  </data>
+  <data name="Opp3Card8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp3Card8.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -13210,6 +14047,9 @@
   </data>
   <data name="Opp3Card8.TabIndex" type="System.Int32, mscorlib">
     <value>244</value>
+  </data>
+  <data name="Opp3Card8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Card8.Name" xml:space="preserve">
     <value>Opp3Card8</value>
@@ -13273,7 +14113,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1644, 428</value>
+    <value>2260, 642</value>
+  </data>
+  <data name="Opp3Card7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp3Card7.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -13289,6 +14132,9 @@
   </data>
   <data name="Opp3Card7.TabIndex" type="System.Int32, mscorlib">
     <value>243</value>
+  </data>
+  <data name="Opp3Card7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Card7.Name" xml:space="preserve">
     <value>Opp3Card7</value>
@@ -13352,7 +14198,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1617, 428</value>
+    <value>2223, 642</value>
+  </data>
+  <data name="Opp3Card6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp3Card6.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -13368,6 +14217,9 @@
   </data>
   <data name="Opp3Card6.TabIndex" type="System.Int32, mscorlib">
     <value>241</value>
+  </data>
+  <data name="Opp3Card6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Card6.Name" xml:space="preserve">
     <value>Opp3Card6</value>
@@ -13431,7 +14283,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1587, 428</value>
+    <value>2182, 642</value>
+  </data>
+  <data name="Opp3Card5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp3Card5.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -13447,6 +14302,9 @@
   </data>
   <data name="Opp3Card5.TabIndex" type="System.Int32, mscorlib">
     <value>242</value>
+  </data>
+  <data name="Opp3Card5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Card5.Name" xml:space="preserve">
     <value>Opp3Card5</value>
@@ -13510,7 +14368,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1552, 426</value>
+    <value>2134, 639</value>
+  </data>
+  <data name="Opp3Card4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp3Card4.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -13526,6 +14387,9 @@
   </data>
   <data name="Opp3Card4.TabIndex" type="System.Int32, mscorlib">
     <value>240</value>
+  </data>
+  <data name="Opp3Card4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Card4.Name" xml:space="preserve">
     <value>Opp3Card4</value>
@@ -13589,7 +14453,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1519, 426</value>
+    <value>2089, 639</value>
+  </data>
+  <data name="Opp3Card3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp3Card3.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -13606,6 +14473,9 @@
   <data name="Opp3Card3.TabIndex" type="System.Int32, mscorlib">
     <value>239</value>
   </data>
+  <data name="Opp3Card3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;Opp3Card3.Name" xml:space="preserve">
     <value>Opp3Card3</value>
   </data>
@@ -13619,16 +14489,22 @@
     <value>67</value>
   </data>
   <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1582, 450</value>
+    <value>2175, 675</value>
+  </data>
+  <data name="textBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="textBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 22</value>
+    <value>59, 29</value>
   </data>
   <data name="textBox4.TabIndex" type="System.Int32, mscorlib">
     <value>237</value>
   </data>
   <data name="textBox4.Text" xml:space="preserve">
     <value>30</value>
+  </data>
+  <data name="textBox4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;textBox4.Name" xml:space="preserve">
     <value>textBox4</value>
@@ -13692,7 +14568,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1485, 426</value>
+    <value>2042, 639</value>
+  </data>
+  <data name="Opp3Card2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp3Card2.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -13708,6 +14587,9 @@
   </data>
   <data name="Opp3Card2.TabIndex" type="System.Int32, mscorlib">
     <value>236</value>
+  </data>
+  <data name="Opp3Card2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Card2.Name" xml:space="preserve">
     <value>Opp3Card2</value>
@@ -13771,7 +14653,10 @@
     <value>NoControl</value>
   </data>
   <data name="Opp3Card1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1455, 426</value>
+    <value>2001, 639</value>
+  </data>
+  <data name="Opp3Card1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Opp3Card1.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -13787,6 +14672,9 @@
   </data>
   <data name="Opp3Card1.TabIndex" type="System.Int32, mscorlib">
     <value>238</value>
+  </data>
+  <data name="Opp3Card1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp3Card1.Name" xml:space="preserve">
     <value>Opp3Card1</value>
@@ -13807,19 +14695,25 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>996, 595</value>
+    <value>1370, 892</value>
+  </data>
+  <data name="MainPlayerNum8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="MainPlayerNum8.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="MainPlayerNum8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="MainPlayerNum8.TabIndex" type="System.Int32, mscorlib">
     <value>301</value>
   </data>
   <data name="MainPlayerNum8.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="MainPlayerNum8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum8.Name" xml:space="preserve">
     <value>MainPlayerNum8</value>
@@ -13840,19 +14734,25 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>967, 595</value>
+    <value>1330, 892</value>
+  </data>
+  <data name="MainPlayerNum7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="MainPlayerNum7.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="MainPlayerNum7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="MainPlayerNum7.TabIndex" type="System.Int32, mscorlib">
     <value>300</value>
   </data>
   <data name="MainPlayerNum7.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="MainPlayerNum7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum7.Name" xml:space="preserve">
     <value>MainPlayerNum7</value>
@@ -13873,19 +14773,25 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>938, 595</value>
+    <value>1290, 892</value>
+  </data>
+  <data name="MainPlayerNum6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="MainPlayerNum6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="MainPlayerNum6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="MainPlayerNum6.TabIndex" type="System.Int32, mscorlib">
     <value>299</value>
   </data>
   <data name="MainPlayerNum6.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="MainPlayerNum6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum6.Name" xml:space="preserve">
     <value>MainPlayerNum6</value>
@@ -13906,19 +14812,25 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>907, 595</value>
+    <value>1247, 892</value>
+  </data>
+  <data name="MainPlayerNum5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="MainPlayerNum5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="MainPlayerNum5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="MainPlayerNum5.TabIndex" type="System.Int32, mscorlib">
     <value>298</value>
   </data>
   <data name="MainPlayerNum5.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="MainPlayerNum5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum5.Name" xml:space="preserve">
     <value>MainPlayerNum5</value>
@@ -13939,19 +14851,25 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>875, 594</value>
+    <value>1203, 891</value>
+  </data>
+  <data name="MainPlayerNum4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="MainPlayerNum4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="MainPlayerNum4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="MainPlayerNum4.TabIndex" type="System.Int32, mscorlib">
     <value>297</value>
   </data>
   <data name="MainPlayerNum4.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="MainPlayerNum4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum4.Name" xml:space="preserve">
     <value>MainPlayerNum4</value>
@@ -13972,19 +14890,25 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>840, 594</value>
+    <value>1155, 891</value>
+  </data>
+  <data name="MainPlayerNum3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="MainPlayerNum3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="MainPlayerNum3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="MainPlayerNum3.TabIndex" type="System.Int32, mscorlib">
     <value>296</value>
   </data>
   <data name="MainPlayerNum3.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="MainPlayerNum3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum3.Name" xml:space="preserve">
     <value>MainPlayerNum3</value>
@@ -14005,19 +14929,25 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>807, 594</value>
+    <value>1110, 891</value>
+  </data>
+  <data name="MainPlayerNum2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="MainPlayerNum2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="MainPlayerNum2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="MainPlayerNum2.TabIndex" type="System.Int32, mscorlib">
     <value>295</value>
   </data>
   <data name="MainPlayerNum2.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="MainPlayerNum2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum2.Name" xml:space="preserve">
     <value>MainPlayerNum2</value>
@@ -14038,19 +14968,25 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>778, 594</value>
+    <value>1070, 891</value>
+  </data>
+  <data name="MainPlayerNum1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="MainPlayerNum1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="MainPlayerNum1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 31</value>
+    <value>32, 46</value>
   </data>
   <data name="MainPlayerNum1.TabIndex" type="System.Int32, mscorlib">
     <value>294</value>
   </data>
   <data name="MainPlayerNum1.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="MainPlayerNum1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum1.Name" xml:space="preserve">
     <value>MainPlayerNum1</value>
@@ -14071,19 +15007,25 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>778, 635</value>
+    <value>1070, 952</value>
+  </data>
+  <data name="MainPlayerNum9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="MainPlayerNum9.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="MainPlayerNum9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="MainPlayerNum9.TabIndex" type="System.Int32, mscorlib">
     <value>293</value>
   </data>
   <data name="MainPlayerNum9.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="MainPlayerNum9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum9.Name" xml:space="preserve">
     <value>MainPlayerNum9</value>
@@ -14104,19 +15046,25 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>807, 635</value>
+    <value>1110, 952</value>
+  </data>
+  <data name="MainPlayerNum10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="MainPlayerNum10.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="MainPlayerNum10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="MainPlayerNum10.TabIndex" type="System.Int32, mscorlib">
     <value>292</value>
   </data>
   <data name="MainPlayerNum10.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="MainPlayerNum10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum10.Name" xml:space="preserve">
     <value>MainPlayerNum10</value>
@@ -14137,19 +15085,25 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>843, 635</value>
+    <value>1159, 952</value>
+  </data>
+  <data name="MainPlayerNum11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="MainPlayerNum11.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="MainPlayerNum11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="MainPlayerNum11.TabIndex" type="System.Int32, mscorlib">
     <value>291</value>
   </data>
   <data name="MainPlayerNum11.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="MainPlayerNum11.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum11.Name" xml:space="preserve">
     <value>MainPlayerNum11</value>
@@ -14170,19 +15124,25 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>875, 635</value>
+    <value>1203, 952</value>
+  </data>
+  <data name="MainPlayerNum12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="MainPlayerNum12.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="MainPlayerNum12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="MainPlayerNum12.TabIndex" type="System.Int32, mscorlib">
     <value>290</value>
   </data>
   <data name="MainPlayerNum12.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="MainPlayerNum12.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum12.Name" xml:space="preserve">
     <value>MainPlayerNum12</value>
@@ -14203,19 +15163,25 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>905, 635</value>
+    <value>1244, 952</value>
+  </data>
+  <data name="MainPlayerNum13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="MainPlayerNum13.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="MainPlayerNum13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="MainPlayerNum13.TabIndex" type="System.Int32, mscorlib">
     <value>289</value>
   </data>
   <data name="MainPlayerNum13.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="MainPlayerNum13.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum13.Name" xml:space="preserve">
     <value>MainPlayerNum13</value>
@@ -14236,19 +15202,25 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>934, 635</value>
+    <value>1284, 952</value>
+  </data>
+  <data name="MainPlayerNum14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="MainPlayerNum14.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="MainPlayerNum14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 43</value>
+    <value>32, 64</value>
   </data>
   <data name="MainPlayerNum14.TabIndex" type="System.Int32, mscorlib">
     <value>288</value>
   </data>
   <data name="MainPlayerNum14.Text" xml:space="preserve">
     <value>35</value>
+  </data>
+  <data name="MainPlayerNum14.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum14.Name" xml:space="preserve">
     <value>MainPlayerNum14</value>
@@ -14266,19 +15238,25 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>963, 637</value>
+    <value>1324, 956</value>
+  </data>
+  <data name="MainPlayerNum15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="MainPlayerNum15.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="MainPlayerNum15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>18, 43</value>
+    <value>25, 64</value>
   </data>
   <data name="MainPlayerNum15.TabIndex" type="System.Int32, mscorlib">
     <value>287</value>
   </data>
   <data name="MainPlayerNum15.Text" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="MainPlayerNum15.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum15.Name" xml:space="preserve">
     <value>MainPlayerNum15</value>
@@ -14296,19 +15274,25 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerNum16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>998, 637</value>
+    <value>1372, 956</value>
+  </data>
+  <data name="MainPlayerNum16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="MainPlayerNum16.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 0, 0</value>
+    <value>4, 6, 0, 0</value>
   </data>
   <data name="MainPlayerNum16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>28, 43</value>
+    <value>38, 64</value>
   </data>
   <data name="MainPlayerNum16.TabIndex" type="System.Int32, mscorlib">
     <value>286</value>
   </data>
   <data name="MainPlayerNum16.Text" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="MainPlayerNum16.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum16.Name" xml:space="preserve">
     <value>MainPlayerNum16</value>
@@ -14372,7 +15356,10 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>992, 628</value>
+    <value>1364, 942</value>
+  </data>
+  <data name="MainPlayerCard16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="MainPlayerCard16.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -14388,6 +15375,9 @@
   </data>
   <data name="MainPlayerCard16.TabIndex" type="System.Int32, mscorlib">
     <value>285</value>
+  </data>
+  <data name="MainPlayerCard16.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard16.Name" xml:space="preserve">
     <value>MainPlayerCard16</value>
@@ -14451,7 +15441,10 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>957, 628</value>
+    <value>1316, 942</value>
+  </data>
+  <data name="MainPlayerCard15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="MainPlayerCard15.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -14467,6 +15460,9 @@
   </data>
   <data name="MainPlayerCard15.TabIndex" type="System.Int32, mscorlib">
     <value>284</value>
+  </data>
+  <data name="MainPlayerCard15.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard15.Name" xml:space="preserve">
     <value>MainPlayerCard15</value>
@@ -14530,7 +15526,10 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>930, 628</value>
+    <value>1279, 942</value>
+  </data>
+  <data name="MainPlayerCard14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="MainPlayerCard14.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -14546,6 +15545,9 @@
   </data>
   <data name="MainPlayerCard14.TabIndex" type="System.Int32, mscorlib">
     <value>282</value>
+  </data>
+  <data name="MainPlayerCard14.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard14.Name" xml:space="preserve">
     <value>MainPlayerCard14</value>
@@ -14609,7 +15611,10 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>900, 628</value>
+    <value>1238, 942</value>
+  </data>
+  <data name="MainPlayerCard13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="MainPlayerCard13.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -14625,6 +15630,9 @@
   </data>
   <data name="MainPlayerCard13.TabIndex" type="System.Int32, mscorlib">
     <value>283</value>
+  </data>
+  <data name="MainPlayerCard13.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard13.Name" xml:space="preserve">
     <value>MainPlayerCard13</value>
@@ -14688,7 +15696,10 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>869, 628</value>
+    <value>1195, 942</value>
+  </data>
+  <data name="MainPlayerCard12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="MainPlayerCard12.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -14704,6 +15715,9 @@
   </data>
   <data name="MainPlayerCard12.TabIndex" type="System.Int32, mscorlib">
     <value>281</value>
+  </data>
+  <data name="MainPlayerCard12.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard12.Name" xml:space="preserve">
     <value>MainPlayerCard12</value>
@@ -14767,7 +15781,10 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>836, 628</value>
+    <value>1150, 942</value>
+  </data>
+  <data name="MainPlayerCard11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="MainPlayerCard11.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -14783,6 +15800,9 @@
   </data>
   <data name="MainPlayerCard11.TabIndex" type="System.Int32, mscorlib">
     <value>280</value>
+  </data>
+  <data name="MainPlayerCard11.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard11.Name" xml:space="preserve">
     <value>MainPlayerCard11</value>
@@ -14846,7 +15866,10 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>802, 628</value>
+    <value>1103, 942</value>
+  </data>
+  <data name="MainPlayerCard10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="MainPlayerCard10.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -14862,6 +15885,9 @@
   </data>
   <data name="MainPlayerCard10.TabIndex" type="System.Int32, mscorlib">
     <value>278</value>
+  </data>
+  <data name="MainPlayerCard10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard10.Name" xml:space="preserve">
     <value>MainPlayerCard10</value>
@@ -14925,7 +15951,10 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>772, 628</value>
+    <value>1062, 942</value>
+  </data>
+  <data name="MainPlayerCard9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="MainPlayerCard9.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -14941,6 +15970,9 @@
   </data>
   <data name="MainPlayerCard9.TabIndex" type="System.Int32, mscorlib">
     <value>279</value>
+  </data>
+  <data name="MainPlayerCard9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard9.Name" xml:space="preserve">
     <value>MainPlayerCard9</value>
@@ -15004,7 +16036,10 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>992, 589</value>
+    <value>1364, 884</value>
+  </data>
+  <data name="MainPlayerCard8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="MainPlayerCard8.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -15020,6 +16055,9 @@
   </data>
   <data name="MainPlayerCard8.TabIndex" type="System.Int32, mscorlib">
     <value>277</value>
+  </data>
+  <data name="MainPlayerCard8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard8.Name" xml:space="preserve">
     <value>MainPlayerCard8</value>
@@ -15083,7 +16121,10 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>961, 591</value>
+    <value>1321, 886</value>
+  </data>
+  <data name="MainPlayerCard7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="MainPlayerCard7.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -15099,6 +16140,9 @@
   </data>
   <data name="MainPlayerCard7.TabIndex" type="System.Int32, mscorlib">
     <value>276</value>
+  </data>
+  <data name="MainPlayerCard7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard7.Name" xml:space="preserve">
     <value>MainPlayerCard7</value>
@@ -15162,7 +16206,10 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>934, 591</value>
+    <value>1284, 886</value>
+  </data>
+  <data name="MainPlayerCard6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="MainPlayerCard6.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -15178,6 +16225,9 @@
   </data>
   <data name="MainPlayerCard6.TabIndex" type="System.Int32, mscorlib">
     <value>274</value>
+  </data>
+  <data name="MainPlayerCard6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard6.Name" xml:space="preserve">
     <value>MainPlayerCard6</value>
@@ -15241,7 +16291,10 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>904, 591</value>
+    <value>1243, 886</value>
+  </data>
+  <data name="MainPlayerCard5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="MainPlayerCard5.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -15257,6 +16310,9 @@
   </data>
   <data name="MainPlayerCard5.TabIndex" type="System.Int32, mscorlib">
     <value>275</value>
+  </data>
+  <data name="MainPlayerCard5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard5.Name" xml:space="preserve">
     <value>MainPlayerCard5</value>
@@ -15320,7 +16376,10 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>869, 589</value>
+    <value>1195, 884</value>
+  </data>
+  <data name="MainPlayerCard4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="MainPlayerCard4.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -15336,6 +16395,9 @@
   </data>
   <data name="MainPlayerCard4.TabIndex" type="System.Int32, mscorlib">
     <value>273</value>
+  </data>
+  <data name="MainPlayerCard4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard4.Name" xml:space="preserve">
     <value>MainPlayerCard4</value>
@@ -15399,7 +16461,10 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>836, 589</value>
+    <value>1150, 884</value>
+  </data>
+  <data name="MainPlayerCard3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="MainPlayerCard3.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -15416,6 +16481,9 @@
   <data name="MainPlayerCard3.TabIndex" type="System.Int32, mscorlib">
     <value>272</value>
   </data>
+  <data name="MainPlayerCard3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;MainPlayerCard3.Name" xml:space="preserve">
     <value>MainPlayerCard3</value>
   </data>
@@ -15429,16 +16497,22 @@
     <value>34</value>
   </data>
   <data name="textBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>899, 613</value>
+    <value>1236, 920</value>
+  </data>
+  <data name="textBox5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="textBox5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 22</value>
+    <value>59, 29</value>
   </data>
   <data name="textBox5.TabIndex" type="System.Int32, mscorlib">
     <value>270</value>
   </data>
   <data name="textBox5.Text" xml:space="preserve">
     <value>30</value>
+  </data>
+  <data name="textBox5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;textBox5.Name" xml:space="preserve">
     <value>textBox5</value>
@@ -15502,7 +16576,10 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>802, 589</value>
+    <value>1103, 884</value>
+  </data>
+  <data name="MainPlayerCard2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="MainPlayerCard2.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -15518,6 +16595,9 @@
   </data>
   <data name="MainPlayerCard2.TabIndex" type="System.Int32, mscorlib">
     <value>269</value>
+  </data>
+  <data name="MainPlayerCard2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard2.Name" xml:space="preserve">
     <value>MainPlayerCard2</value>
@@ -15581,7 +16661,10 @@
     <value>NoControl</value>
   </data>
   <data name="MainPlayerCard1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>772, 589</value>
+    <value>1062, 884</value>
+  </data>
+  <data name="MainPlayerCard1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="MainPlayerCard1.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>108, 139</value>
@@ -15597,6 +16680,9 @@
   </data>
   <data name="MainPlayerCard1.TabIndex" type="System.Int32, mscorlib">
     <value>271</value>
+  </data>
+  <data name="MainPlayerCard1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard1.Name" xml:space="preserve">
     <value>MainPlayerCard1</value>
@@ -15614,10 +16700,13 @@
     <value>Perpetua Titling MT, 7.8pt</value>
   </data>
   <data name="AcceptCardButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>822, 393</value>
+    <value>1130, 590</value>
+  </data>
+  <data name="AcceptCardButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="AcceptCardButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 52</value>
+    <value>121, 78</value>
   </data>
   <data name="AcceptCardButton.TabIndex" type="System.Int32, mscorlib">
     <value>302</value>
@@ -15644,10 +16733,13 @@
     <value>NoControl</value>
   </data>
   <data name="NoGraciasButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>941, 393</value>
+    <value>1294, 590</value>
+  </data>
+  <data name="NoGraciasButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="NoGraciasButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 52</value>
+    <value>121, 78</value>
   </data>
   <data name="NoGraciasButton.TabIndex" type="System.Int32, mscorlib">
     <value>303</value>
@@ -16153,10 +17245,13 @@
     <value>NoControl</value>
   </data>
   <data name="DeckChip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>981, 242</value>
+    <value>1349, 363</value>
+  </data>
+  <data name="DeckChip.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="DeckChip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 60</value>
+    <value>78, 90</value>
   </data>
   <data name="DeckChip.TabIndex" type="System.Int32, mscorlib">
     <value>304</value>
@@ -16180,10 +17275,13 @@
     <value>NoControl</value>
   </data>
   <data name="TopDeckChipCounter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1050, 326</value>
+    <value>1444, 489</value>
+  </data>
+  <data name="TopDeckChipCounter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="TopDeckChipCounter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>16, 17</value>
+    <value>23, 25</value>
   </data>
   <data name="TopDeckChipCounter.TabIndex" type="System.Int32, mscorlib">
     <value>306</value>
@@ -16210,10 +17308,13 @@
     <value>NoControl</value>
   </data>
   <data name="TopDeckChipText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>954, 325</value>
+    <value>1312, 488</value>
+  </data>
+  <data name="TopDeckChipText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="TopDeckChipText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 17</value>
+    <value>122, 25</value>
   </data>
   <data name="TopDeckChipText.TabIndex" type="System.Int32, mscorlib">
     <value>305</value>
@@ -16237,7 +17338,7 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
+    <value>11, 24</value>
   </data>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -18876,16 +19977,16 @@
     <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1815, 931</value>
+    <value>2487, 1371</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+    <value>4, 3, 4, 3</value>
   </data>
   <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>1833, 978</value>
+    <value>2511, 1435</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>1833, 978</value>
+    <value>2511, 1435</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Card Table</value>

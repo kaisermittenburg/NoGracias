@@ -303,8 +303,6 @@ namespace NoGracias
         private System.Windows.Forms.Button ShutdownServerButton;
         #endregion
 
-        #region ServerCode
-
         #region AbleOpus Adapted Code
         //The following code in this c# "region" has been adapted from a repo called NetworkingSamples by GitHub user AbleOpus
         //User: https://github.com/AbleOpus
@@ -811,6 +809,7 @@ namespace NoGracias
          *  Was top selected answer submitted by user: Mrchief
          *  Accessed: 10/26/2017
          */
+
         public static string GetLocalIPAddress()
         {
             var host = Dns.GetHostEntry(Dns.GetHostName());
@@ -834,7 +833,7 @@ namespace NoGracias
             while (!AllReady)
             {
                 AllReady = true;
-                if (Clients.Count != 0)
+                if (Clients.Count >= 3)
                 {
                     foreach (var player in Clients.ToList())
                     {
@@ -859,11 +858,8 @@ namespace NoGracias
                 //CPrint(AllReady.ToString());
                 //Console.WriteLine(AllReady.ToString());
             }
-            //TODO Everyone is ready open table
             StartGame();
         }
-
-        #endregion
 
         private void StartGame()
         {
@@ -876,7 +872,6 @@ namespace NoGracias
                 
                 player.mSocket.Send(data);
             }
-            
             //TODO start card table logic
         }
 
@@ -886,8 +881,6 @@ namespace NoGracias
          */
         public void CPrint(string s)
         {
-            //Status_textbox.AppendText("\r\n" + s);
-
             this.Status_textbox.Invoke((MethodInvoker)delegate
             {
                 // Running on the UI thread

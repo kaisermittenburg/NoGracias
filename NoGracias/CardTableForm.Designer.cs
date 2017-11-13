@@ -1,9 +1,226 @@
 ﻿using System.Net.Sockets;
+using System.Windows.Forms;
 
 namespace NoGracias
 {
     partial class CardTableForm
     {
+        #region Player
+        public string PlayerName
+        {
+            get { return this.MainPlayerName.Text; }
+            set
+            {
+                this.MainPlayerName.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.MainPlayerName.Text = value;
+                });
+            }
+        }
+        public bool Card1
+        {
+            get { return this.MainPlayerCard1.Visible; }
+            set { this.MainPlayerCard1.Visible = value; }
+        }
+        public bool Card2
+        {
+            get { return this.MainPlayerCard2.Visible; }
+            set { this.MainPlayerCard2.Visible = value; }
+        }
+        public bool Card3
+        {
+            get { return this.MainPlayerCard3.Visible; }
+            set { this.MainPlayerCard3.Visible = value; }
+        }
+        public bool Card4
+        {
+            get { return this.MainPlayerCard4.Visible; }
+            set { this.MainPlayerCard4.Visible = value; }
+        }
+        public bool Card5
+        {
+            get { return this.MainPlayerCard5.Visible; }
+            set { this.MainPlayerCard5.Visible = value; }
+        }
+        public bool Card6
+        {
+            get { return this.MainPlayerCard6.Visible; }
+            set { this.MainPlayerCard6.Visible = value; }
+        }
+        public bool Card7
+        {
+            get { return this.MainPlayerCard7.Visible; }
+            set { this.MainPlayerCard7.Visible = value; }
+        }
+        public bool Card8
+        {
+            get { return this.MainPlayerCard8.Visible; }
+            set { this.MainPlayerCard8.Visible = value; }
+        }
+        public bool Card9
+        {
+            get { return this.MainPlayerCard9.Visible; }
+            set { this.MainPlayerCard9.Visible = value; }
+        }
+        public bool Card10
+        {
+            get { return this.MainPlayerCard10.Visible; }
+            set { this.MainPlayerCard10.Visible = value; }
+        }
+        public bool Card11
+        {
+            get { return this.MainPlayerCard11.Visible; }
+            set { this.MainPlayerCard11.Visible = value; }
+        }
+        public bool Card12
+        {
+            get { return this.MainPlayerCard12.Visible; }
+            set { this.MainPlayerCard12.Visible = value; }
+        }
+        public bool Card13
+        {
+            get { return this.MainPlayerCard13.Visible; }
+            set { this.MainPlayerCard13.Visible = value; }
+        }
+        public bool Card14
+        {
+            get { return this.MainPlayerCard14.Visible; }
+            set { this.MainPlayerCard14.Visible = value; }
+        }
+        public bool Card15
+        {
+            get { return this.MainPlayerCard15.Visible; }
+            set { this.MainPlayerCard15.Visible = value; }
+        }
+        public bool Card16
+        {
+            get { return this.MainPlayerCard16.Visible; }
+            set { this.MainPlayerCard16.Visible = value; }
+        }
+        #endregion
+        #region Opp1
+        public string Opp1PlayerName
+        {
+            get { return this.Opp2Name.Text; }
+            set
+            {
+                this.Opp2Name.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.Opp2Name.Text = value;
+                });
+            }
+        }
+        #endregion
+        #region Opp2
+        public string Opp2PlayerName
+        {
+            get { return this.Opp1Name.Text; }
+            set
+            {
+                this.Opp1Name.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.Opp1Name.Text = value;
+                });
+            }
+        }
+        #endregion
+        #region Opp3
+        public string Opp3PlayerName
+        {
+            get { return this.Opp4Name.Text; }
+            set
+            {
+                this.Opp4Name.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.Opp4Name.Visible = true;
+                    this.Opp4Name.Text = value;
+                });
+            }
+        }
+        public bool Opp3ChipGraphic
+        {
+            get { return opp4ChipGraphic.Visible; }
+            set
+            {
+                opp4ChipGraphic.Visible = value;
+            }
+        }
+        public bool Opp3ChipLabel
+        {
+            get { return Opp4ChipText.Visible; }
+            set
+            {
+                Opp4ChipText.Visible = value;
+            }
+        }
+        public bool Opp3ChipNumberVisible
+        {
+            get { return Opp4ChipText.Visible; }
+            set
+            {
+                Opp4ChipText.Visible = value;
+            }
+        }
+        public string Opp3ChipNumber
+        {
+            get { return Opp4ChipText.Text; }
+            set
+            {
+                Opp4ChipText.Text = value;
+            }
+        }
+        #endregion
+        #region Opp4
+        public string Opp4PlayerName
+        {
+            get { return this.Opp3Name.Text; }
+            set
+            {
+                this.Opp3Name.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.Opp3Name.Text = value;
+                    this.Opp3Name.Visible = true;
+                });
+            }
+        }
+        public bool Opp4ChipGraphic
+        {
+            get { return opp3ChipGraphic.Visible; }
+            set
+            {
+                opp3ChipGraphic.Visible = value;
+            }
+        }
+        public bool Opp4ChipLabel
+        {
+            get { return Opp3ChipText.Visible; }
+            set
+            {
+                Opp3ChipText.Visible = value;
+            }
+        }
+        public bool Opp4ChipNumberVisible
+        {
+            get { return Opp3ChipText.Visible; }
+            set
+            {
+                Opp3ChipText.Visible = value;
+            }
+        }
+        public string Opp4ChipNumber
+        {
+            get { return Opp3ChipText.Text; }
+            set
+            {
+                Opp3ChipText.Text = value;
+            }
+        }
+        #endregion
         #region Generated Code
         /// <summary>
         /// Required designer variable.
@@ -44,9 +261,9 @@ namespace NoGracias
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.opp3ChipGraphic = new System.Windows.Forms.PictureBox();
             this.Opp1Card4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox30 = new System.Windows.Forms.PictureBox();
+            this.opp4ChipGraphic = new System.Windows.Forms.PictureBox();
             this.Opp4ChipText = new System.Windows.Forms.Label();
             this.Opp3ChipText = new System.Windows.Forms.Label();
             this.MainPlayerChipText = new System.Windows.Forms.Label();
@@ -232,9 +449,9 @@ namespace NoGracias
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.opp3ChipGraphic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.opp4ChipGraphic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TopDeckCard)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card7)).BeginInit();
@@ -398,12 +615,12 @@ namespace NoGracias
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.TabStop = false;
             // 
-            // pictureBox19
+            // opp3ChipGraphic
             // 
-            this.pictureBox19.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.pictureBox19, "pictureBox19");
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.TabStop = false;
+            this.opp3ChipGraphic.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.opp3ChipGraphic, "opp3ChipGraphic");
+            this.opp3ChipGraphic.Name = "opp3ChipGraphic";
+            this.opp3ChipGraphic.TabStop = false;
             // 
             // Opp1Card4
             // 
@@ -413,12 +630,12 @@ namespace NoGracias
             this.Opp1Card4.Name = "Opp1Card4";
             this.Opp1Card4.TabStop = false;
             // 
-            // pictureBox30
+            // opp4ChipGraphic
             // 
-            this.pictureBox30.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.pictureBox30, "pictureBox30");
-            this.pictureBox30.Name = "pictureBox30";
-            this.pictureBox30.TabStop = false;
+            this.opp4ChipGraphic.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.opp4ChipGraphic, "opp4ChipGraphic");
+            this.opp4ChipGraphic.Name = "opp4ChipGraphic";
+            this.opp4ChipGraphic.TabStop = false;
             // 
             // Opp4ChipText
             // 
@@ -1822,9 +2039,9 @@ namespace NoGracias
             this.Controls.Add(this.MainPlayerChipText);
             this.Controls.Add(this.Opp3ChipText);
             this.Controls.Add(this.Opp4ChipText);
-            this.Controls.Add(this.pictureBox30);
+            this.Controls.Add(this.opp4ChipGraphic);
             this.Controls.Add(this.Opp1Card4);
-            this.Controls.Add(this.pictureBox19);
+            this.Controls.Add(this.opp3ChipGraphic);
             this.Controls.Add(this.pictureBox18);
             this.Controls.Add(this.pictureBox17);
             this.Controls.Add(this.pictureBox16);
@@ -1845,9 +2062,9 @@ namespace NoGracias
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.opp3ChipGraphic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.opp4ChipGraphic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TopDeckCard)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card7)).EndInit();
@@ -1945,9 +2162,9 @@ namespace NoGracias
         private System.Windows.Forms.PictureBox pictureBox16;
         private System.Windows.Forms.PictureBox pictureBox17;
         private System.Windows.Forms.PictureBox pictureBox18;
-        private System.Windows.Forms.PictureBox pictureBox19;
+        private System.Windows.Forms.PictureBox opp3ChipGraphic;
         private System.Windows.Forms.PictureBox Opp1Card4;
-        private System.Windows.Forms.PictureBox pictureBox30;
+        private System.Windows.Forms.PictureBox opp4ChipGraphic;
         private System.Windows.Forms.Label Opp4ChipText;
         private System.Windows.Forms.Label Opp3ChipText;
         private System.Windows.Forms.Label MainPlayerChipText;

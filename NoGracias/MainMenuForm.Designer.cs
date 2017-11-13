@@ -3,15 +3,16 @@ using System.Net.Sockets;
 using System.Text;
 using System.Windows.Forms;
 using NoGracias.Communication;
+using System.Collections.Generic;
 
 namespace NoGracias
 {
     partial class MainMenuForm
     {
         #region Variables
-        private static int attempts = 0;
+        private List<string> players = new List<string>();
 
-        private int NumberOfPlayers = 1;
+        private static int attempts = 0;
 
         /**
 		 *	Public member variable. Holds the IP address of the server and defines getter and setter
@@ -503,9 +504,7 @@ namespace NoGracias
          */
         private void ConnectToServer()
         {
-            
-            
-
+            players.Add(PlayerName);
             while (!mClientSocket.Connected)
             {
                 try
@@ -693,6 +692,7 @@ namespace NoGracias
                 Console.WriteLine(s);//debugging 
                 if (s != PlayerName)
                 {
+                    players.Add(s);
                     switch (checkboxNum)
                     {
                         case 2:
@@ -762,6 +762,37 @@ namespace NoGracias
                 var TableForm = new CardTableForm(mClientSocket);
                 TableForm.Closed += (s, args) => this.Close();
                 TableForm.Show();
+                TableForm.PlayerName = PlayerName;
+                
+                for(int i = 0; i < players.Count; i++)
+                {
+                    switch (i)
+                    {
+                        case 0:
+                            break;
+                        case 1:
+                            TableForm.Opp1PlayerName = players[i];
+                            break;
+                        case 2:
+                            TableForm.Opp2PlayerName = players[i];
+                            break;
+                        case 3:
+                            TableForm.Opp3PlayerName = players[i];
+                            TableForm.Opp3ChipGraphic = true;
+                            TableForm.Opp3ChipLabel = true;
+                            TableForm.Opp3ChipNumberVisible = true;
+                            TableForm.Opp3ChipNumber = "11";
+                            break;
+                        case 4:
+                            TableForm.Opp4PlayerName = players[i];
+                            TableForm.Opp4ChipGraphic = true;
+                            TableForm.Opp4ChipLabel = true;
+                            TableForm.Opp4ChipNumberVisible = true;
+                            TableForm.Opp4ChipNumber = "11";
+                            break;
+                    }
+                }
+                TableForm.Refresh();
             });
         }
     }
