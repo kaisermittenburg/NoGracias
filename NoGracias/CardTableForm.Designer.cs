@@ -1,4 +1,5 @@
-﻿using System.Net.Sockets;
+﻿using System;
+using System.Net.Sockets;
 using System.Windows.Forms;
 
 namespace NoGracias
@@ -16,6 +17,18 @@ namespace NoGracias
                     // Running on the UI thread
                     this.MainPlayerName.Text = value;
                 });
+            }
+        }
+
+        public int Chips
+        {
+            get { return Int32.Parse(this.MainPlayerChipCount.Text); }
+            set
+            {
+                this.MainPlayerChipCount.Invoke((MethodInvoker)delegate
+               {
+                   this.MainPlayerChipCount.Text = value.ToString();
+               });
             }
         }
         public bool Card1

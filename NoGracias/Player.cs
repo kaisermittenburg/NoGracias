@@ -19,17 +19,27 @@ namespace NoGracias
         public Player nextPlayer { get; set; }
 
         #endregion
-         
+
+        public Player() { chips = 11; }
+
+        public Player(string PlayerName)
+        {
+            mName = PlayerName;
+            chips = 11;
+        }
+
         /**
          *	Public player constructor that takes two arguments of type int and Socket.
          *	Details: Sets the member's socket and playernumber.
          *	@param socket the socket the player is connected on
          *	@param PlayerNumber order in which they connected to the server.
          */
+
         public Player(Socket socket, int PlayerNumber)
         {
             this.mSocket = socket;
             mPlayerNumber = PlayerNumber;
+            chips = 11;
         }
 
         /**
