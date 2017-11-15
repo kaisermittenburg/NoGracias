@@ -18,6 +18,8 @@ namespace NoGracias
         #region Variables
         private List<Player> opponents = new List<Player>();
         private Player mainPlayer = new Player();
+        int currentCard;
+        int currentChips;
         
         #endregion
         public CardTableForm(Socket aClientSocket)
@@ -310,7 +312,7 @@ namespace NoGracias
             byte[] data = new byte[received];
             Array.Copy(buffer, data, received);
             string message = Encoding.ASCII.GetString(data);
-            Console.WriteLine("Message from server...  " + message); //debugging
+            Console.WriteLine("Message from server in main receive...  " + message); //debugging
 
             if(message == Messages.RECEIVE_PLAYER_POSITION.ToString())
             {
@@ -318,8 +320,104 @@ namespace NoGracias
             }
             else if(message == Messages.RECEIVE_TURN_CARD.ToString())
             {
-
+                UpdateCardInPlay();
             }
+            else if(message == Messages.RECEIVE_TURN_PLAYER.ToString())
+            {
+                UpdateTurnPlayer();
+            }
+        }
+
+        private void UpdateTurnPlayer()
+        {
+            byte[] buffer = new byte[2048];
+            int received = mClientSocket.Receive(buffer, SocketFlags.None);
+
+            if (received == 0) return;
+
+            byte[] data = new byte[received];
+            Array.Copy(buffer, data, received);
+            string message = Encoding.ASCII.GetString(data);
+            Console.WriteLine("Message from server in update player...  " + message); //debugging
+            
+            if(message == mainPlayer.mName)
+            {
+                //Your Turn!
+                this.TurnStatus.Invoke((MethodInvoker)delegate
+                {
+                    this.TurnStatus.Text = "Your Turn!";
+                });
+                if(mainPlayer.chips == 0)
+                {
+                    //Well I guess you're taking that
+                    this.TurnStatus.Invoke((MethodInvoker)delegate
+                    {
+                        this.TurnStatus.Text += "\nWell, I guess you're taking that";
+                    });
+                    System.Threading.Thread.Sleep(3000);
+                    mainPlayer.cards.Add(currentCard);
+                    //Add card to main player's hand 
+                    mainPlayer.chips += currentChips;
+                    this.MainPlayerChipCount.Invoke((MethodInvoker)delegate
+                    {
+                        this.MainPlayerChipCount.Text = mainPlayer.chips.ToString();
+                    });
+
+                    //TODO Send ACCEPT message to server
+                }
+                else
+                {
+                    this.Invoke((MethodInvoker)delegate
+                    {
+                        this.AcceptCardButton.Visible = true;
+                        this.NoGraciasButton.Visible = true;
+                    });
+                }
+            }
+            else
+            {
+                //Someone else's turn :(
+                for (int i = 0; i < opponents.Count; i++)
+                {
+                    if (opponents.ElementAt(i).mName == message)
+                    {
+                        this.TurnStatus.Invoke((MethodInvoker)delegate
+                        {
+                            this.TurnStatus.Text = opponents.ElementAt(i).mName + "'s Turn!";
+                        });
+                    }
+                }
+            }
+        }
+
+        private void UpdateCardInPlay()
+        {
+            byte[] buffer = new byte[2048];
+            int received = mClientSocket.Receive(buffer, SocketFlags.None);
+
+            if (received == 0) return;
+
+            byte[] data = new byte[received];
+            Array.Copy(buffer, data, received);
+            string message = Encoding.ASCII.GetString(data);
+            Console.WriteLine("Message from server in update card...  " + message); //debugging
+
+            string[] cardInfo = message.Split(',');
+            int cardNumber = Int32.Parse(cardInfo[0]);
+            int cardChip = Int32.Parse(cardInfo[1]);
+
+            currentCard = cardNumber;
+            currentChips = cardChip;
+
+            this.TopDeckCardNum.Invoke((MethodInvoker)delegate
+            {
+                this.TopDeckCardNum.Visible = true;
+                this.TopDeckCardNum.Text = cardNumber.ToString();
+            });
+            this.TopDeckChipCounter.Invoke((MethodInvoker)delegate
+            {
+                this.TopDeckChipCounter.Text = cardChip.ToString();
+            });
         }
 
         private void SetupTable()
@@ -333,9 +431,13 @@ namespace NoGracias
             byte[] data = new byte[received];
             Array.Copy(buffer, data, received);
             string message = Encoding.ASCII.GetString(data);
-            Console.WriteLine("Message from server...  " + message); //debugging
+            Console.WriteLine("Message from server in setup table...  " + message); //debugging
 
             string[] playerData = message.Split(',');
+            for(int i=0; i<playerData.Length; i++)
+            {
+                Console.WriteLine("Player Data: " + playerData[i]); //debugging
+            }
             numberOfOpp = Int32.Parse(playerData[0]) - 1;
             mainPlayer.mName = playerData[1];
             for(int i=2; i<playerData.Length; i++)
@@ -347,7 +449,7 @@ namespace NoGracias
             PlayerName = mainPlayer.mName;
             Chips = 11;
 
-            for(int i=0; i<numberOfOpp; i++)
+            for(int i=0; i<playerData.Length - 2; i++)
             {
                 switch (i)
                 {

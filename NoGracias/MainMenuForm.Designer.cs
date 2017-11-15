@@ -4,6 +4,7 @@ using System.Text;
 using System.Windows.Forms;
 using NoGracias.Communication;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace NoGracias
 {
@@ -13,6 +14,8 @@ namespace NoGracias
         private List<string> players = new List<string>();
 
         private static int attempts = 0;
+
+        private bool isCardTableLaunched = false;
 
         /**
 		 *	Public member variable. Holds the IP address of the server and defines getter and setter
@@ -533,7 +536,7 @@ namespace NoGracias
          */
         private void ReceiveLoop()
         {
-            while (true)
+            while (!isCardTableLaunched)
             {
                 ReceiveResponse();
             }
@@ -766,7 +769,8 @@ namespace NoGracias
                 var TableForm = new CardTableForm(mClientSocket);
                 TableForm.Closed += (s, args) => this.Close();
                 TableForm.Show();
-                TableForm.PlayerName = PlayerName;
+                isCardTableLaunched = true;
+                /*TableForm.PlayerName = PlayerName;
                 
                 for(int i = 0; i < players.Count; i++)
                 {
@@ -796,7 +800,7 @@ namespace NoGracias
                             break;
                     }
                 }
-                TableForm.Refresh();
+                TableForm.Refresh();*/
             });
         }
     }

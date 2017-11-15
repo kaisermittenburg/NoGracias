@@ -43,8 +43,8 @@ namespace NoGracias.Server
             {
                 int swapPlace = randomPlace.Next(0, length);
                 int temp = deck[swapPlace].value;
-                deck[swapPlace].value = deck[length].value;
-                deck[length].value = temp;
+                deck[swapPlace].value = deck[length-1].value;
+                deck[length-1].value = temp;
 
                 length--;
             }

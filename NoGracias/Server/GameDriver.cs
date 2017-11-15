@@ -47,7 +47,7 @@ namespace NoGracias.Server
             }*/
             for(int i=0; i<players.Count - 1; i++)
             {
-                players[i].nextPlayer = players[i];
+                players[i].nextPlayer = players[i+1];
             }
             players.Last().nextPlayer = players[0];
 

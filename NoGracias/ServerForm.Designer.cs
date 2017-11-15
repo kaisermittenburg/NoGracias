@@ -873,7 +873,9 @@ namespace NoGracias
             }
             //TODO start card table logic
             GameDriver driver = new GameDriver(Clients);
+            System.Threading.Thread.Sleep(2000);
             driver.Setup();
+            System.Threading.Thread.Sleep(2000);
             driver.Run();
         }
 

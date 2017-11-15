@@ -456,6 +456,7 @@ namespace NoGracias
             this.DeckChip = new System.Windows.Forms.PictureBox();
             this.TopDeckChipCounter = new System.Windows.Forms.Label();
             this.TopDeckChipText = new System.Windows.Forms.Label();
+            this.TurnStatus = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card1)).BeginInit();
@@ -1904,11 +1905,17 @@ namespace NoGracias
             resources.ApplyResources(this.TopDeckChipText, "TopDeckChipText");
             this.TopDeckChipText.Name = "TopDeckChipText";
             // 
+            // TurnStatus
+            // 
+            resources.ApplyResources(this.TurnStatus, "TurnStatus");
+            this.TurnStatus.Name = "TurnStatus";
+            // 
             // CardTableForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LemonChiffon;
+            this.Controls.Add(this.TurnStatus);
             this.Controls.Add(this.TopDeckChipCounter);
             this.Controls.Add(this.TopDeckChipText);
             this.Controls.Add(this.DeckChip);
@@ -2396,6 +2403,7 @@ namespace NoGracias
         #endregion
 
         private Socket mClientSocket;
+        private Label TurnStatus;
     }
 }
 
