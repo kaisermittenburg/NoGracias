@@ -1880,6 +1880,7 @@ namespace NoGracias
             resources.ApplyResources(this.AcceptCardButton, "AcceptCardButton");
             this.AcceptCardButton.Name = "AcceptCardButton";
             this.AcceptCardButton.UseVisualStyleBackColor = false;
+            this.AcceptCardButton.Click += new System.EventHandler(this.AcceptCardButton_Click);
             // 
             // NoGraciasButton
             // 
@@ -1887,6 +1888,7 @@ namespace NoGracias
             resources.ApplyResources(this.NoGraciasButton, "NoGraciasButton");
             this.NoGraciasButton.Name = "NoGraciasButton";
             this.NoGraciasButton.UseVisualStyleBackColor = false;
+            this.NoGraciasButton.Click += new System.EventHandler(this.NoGraciasButton_Click);
             // 
             // DeckChip
             // 

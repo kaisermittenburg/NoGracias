@@ -130,7 +130,7 @@ namespace NoGracias.Server
             }
 
             //Send play options to currentPlayer
-            Console.WriteLine("GameDriver is Sending to " + currentPlayer.mName);
+            /*Console.WriteLine("GameDriver is Sending to " + currentPlayer.mName);
             currentPlayer.mSocket.Send(Encoding.ASCII.GetBytes(Messages.RECEIVE_TURN_OPTIONS.ToString()));
             System.Threading.Thread.Sleep(250);
             if(currentPlayer.chips != 0)
@@ -142,13 +142,14 @@ namespace NoGracias.Server
             {
                 Console.WriteLine("GameDriver is Sending: Accept");
                 currentPlayer.mSocket.Send(Encoding.ASCII.GetBytes("Accept"));
-            }
+            }*/
 
 
-            //TODO: Get currentPlayer's response and store it
-            string msg = "";
-            if (true)
+            //TODO: Get currentPlayer's response
+            bool responseReceived = false;
+            while (!responseReceived)
             {
+                string msg = "";
                 byte[] buffer = new byte[1024];
                 byte[] data;
                 int receivedSize = 0;
@@ -156,34 +157,53 @@ namespace NoGracias.Server
                 {
                     receivedSize = currentPlayer.mSocket.Receive(buffer, SocketFlags.None);
                 }
-                catch(Exception e)
+                catch (Exception e)
                 {
                     Console.WriteLine("ERROR Receive Failed: " + e.ToString());
                 }
 
-                data = new byte[receivedSize];
-                Array.Copy(buffer, data, receivedSize);
-                msg = Encoding.ASCII.GetString(data);
+                if (receivedSize != 0)
+                {
+                    responseReceived = true;
+                    data = new byte[receivedSize];
+                    Array.Copy(buffer, data, receivedSize);
+                    msg = Encoding.ASCII.GetString(data);
+
+
+                    if (msg == "ACCEPT_CARD") //player takes it
+                    {
+                        //Send card update to all players
+                        for(int i=0; i<players.Count; i++)
+                        {
+                            string playerCardInfo = currentPlayer.mName + "," + cardInPlay.value.ToString() + "," + cardInPlay.chipsOnCard.ToString();
+                            Console.WriteLine("GameDriver is Sending: " + playerCardInfo);
+                            players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.RECEIVE_CARD_UPDATE.ToString()));
+                            System.Threading.Thread.Sleep(250);
+                            players[i].mSocket.Send(Encoding.ASCII.GetBytes(playerCardInfo));
+                            System.Threading.Thread.Sleep(1000);
+                        }
+
+                        currentPlayer.cards.Add(cardInPlay.value);
+                        currentPlayer.chips += cardInPlay.chipsOnCard;
+                        if (deck.isEmpty())
+                        {
+                            isOver = true;
+                        }
+                        else
+                        {
+                            cardInPlay = deck.TopCard();
+                        }
+                    }
+                    else if (msg == "REJECT_CARD") //player passes it
+                    {
+                        cardInPlay.chipsOnCard++;
+                    }
+                }
             }
 
-            if (msg=="ACCEPT_CARD") //player takes it
-            {
-                currentPlayer.cards.Add(cardInPlay.value);
-                currentPlayer.chips += cardInPlay.chipsOnCard;
-                if (deck.isEmpty())
-                {
-                    isOver = true;
-                }
-                else
-                {
-                    cardInPlay = deck.TopCard();
-                }
-            }
-            else if(msg=="REJECT_CARD") /*player passes it*/
-            {
-                cardInPlay.chipsOnCard++;
-            }
+            currentPlayer = currentPlayer.nextPlayer;
         }
+
         #endregion
     }
 }

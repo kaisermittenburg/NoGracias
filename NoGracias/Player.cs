@@ -20,10 +20,15 @@ namespace NoGracias
 
         #endregion
 
-        public Player() { chips = 11; }
+        public Player()
+        {
+            cards = new List<int>();
+            chips = 11;
+        }
 
         public Player(string PlayerName)
         {
+            cards = new List<int>();
             mName = PlayerName;
             chips = 11;
         }
@@ -37,6 +42,7 @@ namespace NoGracias
 
         public Player(Socket socket, int PlayerNumber)
         {
+            cards = new List<int>();
             this.mSocket = socket;
             mPlayerNumber = PlayerNumber;
             chips = 11;
@@ -51,6 +57,7 @@ namespace NoGracias
          */
         public Player(Socket socket, int PlayerNumber, string PlayerName)
         {
+            cards = new List<int>();
             this.mSocket = socket;
             mPlayerNumber = PlayerNumber;
             mName = PlayerName;

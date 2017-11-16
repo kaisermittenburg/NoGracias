@@ -264,6 +264,24 @@ namespace NoGracias
         {
 
         }
+
+        private void AcceptCardButton_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine(mainPlayer.mName + "'s Card Table is Sending: ACCEPT_CARD");
+            this.Invoke((MethodInvoker)delegate
+            {
+                mClientSocket.Send(Encoding.ASCII.GetBytes(Messages.ACCEPT_CARD.ToString()));
+            });
+        }
+
+        private void NoGraciasButton_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine(mainPlayer.mName + "'s Card Table is Sending: REJECT_CARD");
+            this.Invoke((MethodInvoker)delegate
+            {
+                mClientSocket.Send(Encoding.ASCII.GetBytes(Messages.REJECT_CARD.ToString()));
+            });
+        }
         #endregion
 
         #region Functions
@@ -326,6 +344,71 @@ namespace NoGracias
             {
                 UpdateTurnPlayer();
             }
+            else if(message == Messages.RECEIVE_CARD_UPDATE.ToString())
+            {
+                UpdatePlayerCard();
+            }
+        }
+
+        private void UpdatePlayerCard()
+        {
+            byte[] buffer = new byte[2048];
+            int received = mClientSocket.Receive(buffer, SocketFlags.None);
+
+            if (received == 0) return;
+
+            byte[] data = new byte[received];
+            Array.Copy(buffer, data, received);
+            string message = Encoding.ASCII.GetString(data);
+            Console.WriteLine("Message from server in update player card...  " + message); //debugging
+
+            string[] playerCardInfo = message.Split(',');
+
+            string playerName = playerCardInfo[0];
+            int cardValue = Int32.Parse(playerCardInfo[1]);
+            int cardChip = Int32.Parse(playerCardInfo[2]);
+
+            if (playerName == mainPlayer.mName)
+            {
+                AddPlayerCard(cardValue, cardChip);
+                mainPlayer.cards.Add(cardValue);
+                mainPlayer.chips += cardChip;
+            }
+            else
+            {
+                for (int i = 0; i < opponents.Count; i++)
+                {
+                    if(playerName == opponents.ElementAt(i).mName)
+                    {
+                        switch(i)
+                        {
+                            case 0:
+                                AddOpp1Card(cardValue, cardChip);
+                                opponents.ElementAt(0).cards.Add(cardValue);
+                                opponents.ElementAt(0).chips += cardChip;
+                                break;
+                            case 1:
+                                AddOpp2Card(cardValue, cardChip);
+                                opponents.ElementAt(1).cards.Add(cardValue);
+                                opponents.ElementAt(1).chips += cardChip;
+                                break;
+                            case 2:
+                                AddOpp3Card(cardValue, cardChip);
+                                opponents.ElementAt(2).cards.Add(cardValue);
+                                opponents.ElementAt(2).chips += cardChip;
+                                break;
+                            case 3:
+                                AddOpp4Card(cardValue, cardChip);
+                                opponents.ElementAt(3).cards.Add(cardValue);
+                                opponents.ElementAt(3).chips += cardChip;
+                                break;
+                            default:
+                                //should never hit this
+                                break;
+                        }
+                    }
+                }
+            }
         }
 
         private void UpdateTurnPlayer()
@@ -354,16 +437,19 @@ namespace NoGracias
                     {
                         this.TurnStatus.Text += "\nWell, I guess you're taking that";
                     });
-                    System.Threading.Thread.Sleep(3000);
-                    mainPlayer.cards.Add(currentCard);
+                    System.Threading.Thread.Sleep(1000);
+                    /*mainPlayer.cards.Add(currentCard);
                     //Add card to main player's hand 
                     mainPlayer.chips += currentChips;
                     this.MainPlayerChipCount.Invoke((MethodInvoker)delegate
                     {
                         this.MainPlayerChipCount.Text = mainPlayer.chips.ToString();
-                    });
+                    });*/
 
                     //TODO Send ACCEPT message to server
+                    Console.WriteLine(mainPlayer.mName + "'s Card Table is Sending: ACCEPT_CARD");
+                    mainPlayer.mSocket.Send(Encoding.ASCII.GetBytes(Messages.ACCEPT_CARD.ToString()));
+                    
                 }
                 else
                 {
@@ -562,6 +648,573 @@ namespace NoGracias
                 this.Opp4ChipCount.Text = "11";
             });
         }
+
+        private void AddPlayerCard(int card, int chips)
+        {
+            int n = mainPlayer.cards.Count;
+            this.Invoke((MethodInvoker)delegate
+            {
+                int playerChips = Int32.Parse(this.MainPlayerChipCount.Text);
+                playerChips += chips;
+                this.MainPlayerChipCount.Text = playerChips.ToString();
+
+                switch (n)
+                {
+                    case 0:
+                        this.MainPlayerNum1.Text = card.ToString();
+                        this.MainPlayerCard1.Visible = true;
+                        this.MainPlayerNum1.Visible = true;
+                        break;
+
+                    case 1:
+                        this.MainPlayerNum2.Text = card.ToString();
+                        this.MainPlayerCard2.Visible = true;
+                        this.MainPlayerNum2.Visible = true;
+                        break;
+
+                    case 2:
+                        this.MainPlayerNum3.Text = card.ToString();
+                        this.MainPlayerCard3.Visible = true;
+                        this.MainPlayerNum3.Visible = true;
+                        break;
+
+                    case 3:
+                        this.MainPlayerNum4.Text = card.ToString();
+                        this.MainPlayerCard4.Visible = true;
+                        this.MainPlayerNum4.Visible = true;
+                        break;
+
+                    case 4:
+                        this.MainPlayerNum5.Text = card.ToString();
+                        this.MainPlayerCard5.Visible = true;
+                        this.MainPlayerNum5.Visible = true;
+                        break;
+
+                    case 5:
+                        this.MainPlayerNum6.Text = card.ToString();
+                        this.MainPlayerCard6.Visible = true;
+                        this.MainPlayerNum6.Visible = true;
+                        break;
+
+                    case 6:
+                        this.MainPlayerNum7.Text = card.ToString();
+                        this.MainPlayerCard7.Visible = true;
+                        this.MainPlayerNum7.Visible = true;
+                        break;
+
+                    case 7:
+                        this.MainPlayerNum8.Text = card.ToString();
+                        this.MainPlayerCard8.Visible = true;
+                        this.MainPlayerNum8.Visible = true;
+                        break;
+
+                    case 8:
+                        this.MainPlayerNum9.Text = card.ToString();
+                        this.MainPlayerCard9.Visible = true;
+                        this.MainPlayerNum9.Visible = true;
+                        break;
+
+                    case 9:
+                        this.MainPlayerNum10.Text = card.ToString();
+                        this.MainPlayerCard10.Visible = true;
+                        this.MainPlayerNum10.Visible = true;
+                        break;
+
+                    case 10:
+                        this.MainPlayerNum11.Text = card.ToString();
+                        this.MainPlayerCard11.Visible = true;
+                        this.MainPlayerNum11.Visible = true;
+                        break;
+
+                    case 11:
+                        this.MainPlayerNum12.Text = card.ToString();
+                        this.MainPlayerCard12.Visible = true;
+                        this.MainPlayerNum12.Visible = true;
+                        break;
+
+                    case 12:
+                        this.MainPlayerNum13.Text = card.ToString();
+                        this.MainPlayerCard13.Visible = true;
+                        this.MainPlayerNum13.Visible = true;
+                        break;
+
+                    case 13:
+                        this.MainPlayerNum14.Text = card.ToString();
+                        this.MainPlayerCard14.Visible = true;
+                        this.MainPlayerNum14.Visible = true;
+                        break;
+
+                    case 14:
+                        this.MainPlayerNum15.Text = card.ToString();
+                        this.MainPlayerCard15.Visible = true;
+                        this.MainPlayerNum15.Visible = true;
+                        break;
+
+                    case 15:
+                        this.MainPlayerNum16.Text = card.ToString();
+                        this.MainPlayerCard16.Visible = true;
+                        this.MainPlayerNum16.Visible = true;
+                        break;
+                    default:
+                        //We have run out of cards. I miscalculated, I'm not a math major
+                        break;
+                }
+            });
+        }
+
+        private void AddOpp1Card(int card, int chips)
+        {
+            int n = opponents.ElementAt(0).cards.Count;
+            this.Invoke((MethodInvoker)delegate
+            {
+                int playerChips = Int32.Parse(this.Opp1ChipCount.Text);
+                playerChips += chips;
+                this.Opp1ChipCount.Text = playerChips.ToString();
+
+                switch (n)
+                {
+                    case 0:
+                        this.Opp1Num1.Text = card.ToString();
+                        this.Opp1Card1.Visible = true;
+                        this.Opp1Num1.Visible = true;
+                        break;
+
+                    case 1:
+                        this.Opp1Num2.Text = card.ToString();
+                        this.Opp1Card2.Visible = true;
+                        this.Opp1Num2.Visible = true;
+                        break;
+
+                    case 2:
+                        this.Opp1Num3.Text = card.ToString();
+                        this.Opp1Card3.Visible = true;
+                        this.Opp1Num3.Visible = true;
+                        break;
+
+                    case 3:
+                        this.Opp1Num4.Text = card.ToString();
+                        this.Opp1Card4.Visible = true;
+                        this.Opp1Num4.Visible = true;
+                        break;
+
+                    case 4:
+                        this.Opp1Num5.Text = card.ToString();
+                        this.Opp1Card5.Visible = true;
+                        this.Opp1Num5.Visible = true;
+                        break;
+
+                    case 5:
+                        this.Opp1Num6.Text = card.ToString();
+                        this.Opp1Card6.Visible = true;
+                        this.Opp1Num6.Visible = true;
+                        break;
+
+                    case 6:
+                        this.Opp1Num7.Text = card.ToString();
+                        this.Opp1Card7.Visible = true;
+                        this.Opp1Num7.Visible = true;
+                        break;
+
+                    case 7:
+                        this.Opp1Num8.Text = card.ToString();
+                        this.Opp1Card8.Visible = true;
+                        this.Opp1Num8.Visible = true;
+                        break;
+
+                    case 8:
+                        this.Opp1Num9.Text = card.ToString();
+                        this.Opp1Card9.Visible = true;
+                        this.Opp1Num9.Visible = true;
+                        break;
+
+                    case 9:
+                        this.Opp1Num10.Text = card.ToString();
+                        this.Opp1Card10.Visible = true;
+                        this.Opp1Num10.Visible = true;
+                        break;
+
+                    case 10:
+                        this.Opp1Num11.Text = card.ToString();
+                        this.Opp1Card11.Visible = true;
+                        this.Opp1Num11.Visible = true;
+                        break;
+
+                    case 11:
+                        this.Opp1Num12.Text = card.ToString();
+                        this.Opp1Card12.Visible = true;
+                        this.Opp1Num12.Visible = true;
+                        break;
+
+                    case 12:
+                        this.Opp1Num13.Text = card.ToString();
+                        this.Opp1Card13.Visible = true;
+                        this.Opp1Num13.Visible = true;
+                        break;
+
+                    case 13:
+                        this.Opp1Num14.Text = card.ToString();
+                        this.Opp1Card14.Visible = true;
+                        this.Opp1Num14.Visible = true;
+                        break;
+
+                    case 14:
+                        this.Opp1Num15.Text = card.ToString();
+                        this.Opp1Card15.Visible = true;
+                        this.Opp1Num15.Visible = true;
+                        break;
+
+                    case 15:
+                        this.Opp1Num16.Text = card.ToString();
+                        this.Opp1Card16.Visible = true;
+                        this.Opp1Num16.Visible = true;
+                        break;
+                    default:
+                        //We have run out of cards. I miscalculated, I'm not a math major
+                        break;
+                }
+            });
+        }
+
+        private void AddOpp2Card(int card, int chips)
+        {
+            int n = opponents.ElementAt(1).cards.Count;
+            this.Invoke((MethodInvoker)delegate
+            {
+                int playerChips = Int32.Parse(this.Opp2ChipCount.Text);
+                playerChips += chips;
+                this.Opp2ChipCount.Text = playerChips.ToString();
+
+                switch (n)
+                {
+                    case 0:
+                        this.Opp2Num1.Text = card.ToString();
+                        this.Opp2Card1.Visible = true;
+                        this.Opp2Num1.Visible = true;
+                        break;
+
+                    case 1:
+                        this.Opp2Num2.Text = card.ToString();
+                        this.Opp2Card2.Visible = true;
+                        this.Opp2Num2.Visible = true;
+                        break;
+
+                    case 2:
+                        this.Opp2Num3.Text = card.ToString();
+                        this.Opp2Card3.Visible = true;
+                        this.Opp2Num3.Visible = true;
+                        break;
+
+                    case 3:
+                        this.Opp2Num4.Text = card.ToString();
+                        this.Opp2Card4.Visible = true;
+                        this.Opp2Num4.Visible = true;
+                        break;
+
+                    case 4:
+                        this.Opp2Num5.Text = card.ToString();
+                        this.Opp2Card5.Visible = true;
+                        this.Opp2Num5.Visible = true;
+                        break;
+
+                    case 5:
+                        this.Opp2Num6.Text = card.ToString();
+                        this.Opp2Card6.Visible = true;
+                        this.Opp2Num6.Visible = true;
+                        break;
+
+                    case 6:
+                        this.Opp2Num7.Text = card.ToString();
+                        this.Opp2Card7.Visible = true;
+                        this.Opp2Num7.Visible = true;
+                        break;
+
+                    case 7:
+                        this.Opp2Num8.Text = card.ToString();
+                        this.Opp2Card8.Visible = true;
+                        this.Opp2Num8.Visible = true;
+                        break;
+
+                    case 8:
+                        this.Opp2Num9.Text = card.ToString();
+                        this.Opp2Card9.Visible = true;
+                        this.Opp2Num9.Visible = true;
+                        break;
+
+                    case 9:
+                        this.Opp2Num10.Text = card.ToString();
+                        this.Opp2Card10.Visible = true;
+                        this.Opp2Num10.Visible = true;
+                        break;
+
+                    case 10:
+                        this.Opp2Num11.Text = card.ToString();
+                        this.Opp2Card11.Visible = true;
+                        this.Opp2Num11.Visible = true;
+                        break;
+
+                    case 11:
+                        this.Opp2Num12.Text = card.ToString();
+                        this.Opp2Card12.Visible = true;
+                        this.Opp2Num12.Visible = true;
+                        break;
+
+                    case 12:
+                        this.Opp2Num13.Text = card.ToString();
+                        this.Opp2Card13.Visible = true;
+                        this.Opp2Num13.Visible = true;
+                        break;
+
+                    case 13:
+                        this.Opp2Num14.Text = card.ToString();
+                        this.Opp2Card14.Visible = true;
+                        this.Opp2Num14.Visible = true;
+                        break;
+
+                    case 14:
+                        this.Opp2Num15.Text = card.ToString();
+                        this.Opp2Card15.Visible = true;
+                        this.Opp2Num15.Visible = true;
+                        break;
+
+                    case 15:
+                        this.Opp2Num16.Text = card.ToString();
+                        this.Opp2Card16.Visible = true;
+                        this.Opp2Num16.Visible = true;
+                        break;
+                    default:
+                        //We have run out of cards. I miscalculated, I'm not a math major
+                        break;
+                }
+            });
+        }
+
+        private void AddOpp3Card(int card, int chips)
+        {
+            int n = opponents.ElementAt(2).cards.Count;
+            this.Invoke((MethodInvoker)delegate
+            {
+                int playerChips = Int32.Parse(this.Opp3ChipCount.Text);
+                playerChips += chips;
+                this.Opp3ChipCount.Text = playerChips.ToString();
+
+                switch (n)
+                {
+                    case 0:
+                        this.Opp3Num1.Text = card.ToString();
+                        this.Opp3Card1.Visible = true;
+                        this.Opp3Num1.Visible = true;
+                        break;
+
+                    case 1:
+                        this.Opp3Num2.Text = card.ToString();
+                        this.Opp3Card2.Visible = true;
+                        this.Opp3Num2.Visible = true;
+                        break;
+
+                    case 2:
+                        this.Opp3Num3.Text = card.ToString();
+                        this.Opp3Card3.Visible = true;
+                        this.Opp3Num3.Visible = true;
+                        break;
+
+                    case 3:
+                        this.Opp3Num4.Text = card.ToString();
+                        this.Opp3Card4.Visible = true;
+                        this.Opp3Num4.Visible = true;
+                        break;
+
+                    case 4:
+                        this.Opp3Num5.Text = card.ToString();
+                        this.Opp3Card5.Visible = true;
+                        this.Opp3Num5.Visible = true;
+                        break;
+
+                    case 5:
+                        this.Opp3Num6.Text = card.ToString();
+                        this.Opp3Card6.Visible = true;
+                        this.Opp3Num6.Visible = true;
+                        break;
+
+                    case 6:
+                        this.Opp3Num7.Text = card.ToString();
+                        this.Opp3Card7.Visible = true;
+                        this.Opp3Num7.Visible = true;
+                        break;
+
+                    case 7:
+                        this.Opp3Num8.Text = card.ToString();
+                        this.Opp3Card8.Visible = true;
+                        this.Opp3Num8.Visible = true;
+                        break;
+
+                    case 8:
+                        this.Opp3Num9.Text = card.ToString();
+                        this.Opp3Card9.Visible = true;
+                        this.Opp3Num9.Visible = true;
+                        break;
+
+                    case 9:
+                        this.Opp3Num10.Text = card.ToString();
+                        this.Opp3Card10.Visible = true;
+                        this.Opp3Num10.Visible = true;
+                        break;
+
+                    case 10:
+                        this.Opp3Num11.Text = card.ToString();
+                        this.Opp3Card11.Visible = true;
+                        this.Opp3Num11.Visible = true;
+                        break;
+
+                    case 11:
+                        this.Opp3Num12.Text = card.ToString();
+                        this.Opp3Card12.Visible = true;
+                        this.Opp3Num12.Visible = true;
+                        break;
+
+                    case 12:
+                        this.Opp3Num13.Text = card.ToString();
+                        this.Opp3Card13.Visible = true;
+                        this.Opp3Num13.Visible = true;
+                        break;
+
+                    case 13:
+                        this.Opp3Num14.Text = card.ToString();
+                        this.Opp3Card14.Visible = true;
+                        this.Opp3Num14.Visible = true;
+                        break;
+
+                    case 14:
+                        this.Opp3Num15.Text = card.ToString();
+                        this.Opp3Card15.Visible = true;
+                        this.Opp3Num15.Visible = true;
+                        break;
+
+                    case 15:
+                        this.Opp3Num16.Text = card.ToString();
+                        this.Opp3Card16.Visible = true;
+                        this.Opp3Num16.Visible = true;
+                        break;
+                    default:
+                        //We have run out of cards. I miscalculated, I'm not a math major
+                        break;
+                }
+            });
+        }
+
+        private void AddOpp4Card(int card, int chips)
+        {
+            int n = opponents.ElementAt(3).cards.Count;
+            this.Invoke((MethodInvoker)delegate
+            {
+                int playerChips = Int32.Parse(this.Opp4ChipCount.Text);
+                playerChips += chips;
+                this.Opp4ChipCount.Text = playerChips.ToString();
+
+                switch (n)
+                {
+                    case 0:
+                        this.Opp4Num1.Text = card.ToString();
+                        this.Opp4Card1.Visible = true;
+                        this.Opp4Num1.Visible = true;
+                        break;
+
+                    case 1:
+                        this.Opp4Num2.Text = card.ToString();
+                        this.Opp4Card2.Visible = true;
+                        this.Opp4Num2.Visible = true;
+                        break;
+
+                    case 2:
+                        this.Opp4Num3.Text = card.ToString();
+                        this.Opp4Card3.Visible = true;
+                        this.Opp4Num3.Visible = true;
+                        break;
+
+                    case 3:
+                        this.Opp4Num4.Text = card.ToString();
+                        this.Opp4Card4.Visible = true;
+                        this.Opp4Num4.Visible = true;
+                        break;
+
+                    case 4:
+                        this.Opp4Num5.Text = card.ToString();
+                        this.Opp4Card5.Visible = true;
+                        this.Opp4Num5.Visible = true;
+                        break;
+
+                    case 5:
+                        this.Opp4Num6.Text = card.ToString();
+                        this.Opp4Card6.Visible = true;
+                        this.Opp4Num6.Visible = true;
+                        break;
+
+                    case 6:
+                        this.Opp4Num7.Text = card.ToString();
+                        this.Opp4Card7.Visible = true;
+                        this.Opp4Num7.Visible = true;
+                        break;
+
+                    case 7:
+                        this.Opp4Num8.Text = card.ToString();
+                        this.Opp4Card8.Visible = true;
+                        this.Opp4Num8.Visible = true;
+                        break;
+
+                    case 8:
+                        this.Opp4Num9.Text = card.ToString();
+                        this.Opp4Card9.Visible = true;
+                        this.Opp4Num9.Visible = true;
+                        break;
+
+                    case 9:
+                        this.Opp4Num10.Text = card.ToString();
+                        this.Opp4Card10.Visible = true;
+                        this.Opp4Num10.Visible = true;
+                        break;
+
+                    case 10:
+                        this.Opp4Num11.Text = card.ToString();
+                        this.Opp4Card11.Visible = true;
+                        this.Opp4Num11.Visible = true;
+                        break;
+
+                    case 11:
+                        this.Opp4Num12.Text = card.ToString();
+                        this.Opp4Card12.Visible = true;
+                        this.Opp4Num12.Visible = true;
+                        break;
+
+                    case 12:
+                        this.Opp4Num13.Text = card.ToString();
+                        this.Opp4Card13.Visible = true;
+                        this.Opp4Num13.Visible = true;
+                        break;
+
+                    case 13:
+                        this.Opp4Num14.Text = card.ToString();
+                        this.Opp4Card14.Visible = true;
+                        this.Opp4Num14.Visible = true;
+                        break;
+
+                    case 14:
+                        this.Opp4Num15.Text = card.ToString();
+                        this.Opp4Card15.Visible = true;
+                        this.Opp4Num15.Visible = true;
+                        break;
+
+                    case 15:
+                        this.Opp4Num16.Text = card.ToString();
+                        this.Opp4Card16.Visible = true;
+                        this.Opp4Num16.Visible = true;
+                        break;
+                    default:
+                        //We have run out of cards. I miscalculated, I'm not a math major
+                        break;
+                }
+            });
+        }
         #endregion
+
+
     }
 }

@@ -32,7 +32,7 @@ namespace NoGracias.Communication
         #region Turn Logic
         RECEIVE_TURN_CARD,
         RECEIVE_TURN_PLAYER,
-        RECEIVE_TURN_OPTIONS,
+        RECEIVE_CARD_UPDATE,
         ACCEPT_CARD,
         REJECT_CARD,
         #endregion

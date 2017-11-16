@@ -48,6 +48,8 @@ namespace NoGracias
 		 *	Public member variable. Decideds whether all players have joined and defines getter and setter
 		 */
         private bool JoiningIsDone = false;
+
+        private bool isGameStarted = false;
         #endregion
 
         #region Generated Code
@@ -419,7 +421,7 @@ namespace NoGracias
         private void ReceiveLoop(object temp)
         {
             Console.WriteLine("Got to ReceiveLoop");
-            while (true)
+            while (!isGameStarted)
             {
                 ReceiveResponse((Socket)temp);
             }
@@ -857,6 +859,7 @@ namespace NoGracias
                 //CPrint(AllReady.ToString());
                 //Console.WriteLine(AllReady.ToString());
             }
+            isGameStarted = true;
             StartGame();
         }
 
