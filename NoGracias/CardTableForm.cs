@@ -726,24 +726,28 @@ namespace NoGracias
                         this.MainPlayerNum1.Text = card.ToString();
                         this.MainPlayerCard1.Visible = true;
                         this.MainPlayerNum1.Visible = true;
+                        this.MainPlayerNum1.BringToFront();
                         break;
 
                     case 1:
                         this.MainPlayerNum2.Text = card.ToString();
                         this.MainPlayerCard2.Visible = true;
                         this.MainPlayerNum2.Visible = true;
+                        this.MainPlayerNum2.BringToFront();
                         break;
 
                     case 2:
                         this.MainPlayerNum3.Text = card.ToString();
                         this.MainPlayerCard3.Visible = true;
                         this.MainPlayerNum3.Visible = true;
+                        this.MainPlayerNum3.BringToFront();
                         break;
 
                     case 3:
                         this.MainPlayerNum4.Text = card.ToString();
                         this.MainPlayerCard4.Visible = true;
                         this.MainPlayerNum4.Visible = true;
+                        this.MainPlayerNum4.BringToFront();
                         break;
 
                     case 4:
