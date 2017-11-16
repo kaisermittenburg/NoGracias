@@ -433,7 +433,9 @@ namespace NoGracias
             string message = Encoding.ASCII.GetString(data);
             Console.WriteLine("Message from server in setup table...  " + message); //debugging
 
+            message = message.Substring(0, message.Length - 1);
             string[] playerData = message.Split(',');
+            
             for(int i=0; i<playerData.Length; i++)
             {
                 Console.WriteLine("Player Data: " + playerData[i]); //debugging
