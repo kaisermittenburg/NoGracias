@@ -1917,6 +1917,7 @@ namespace NoGracias
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LemonChiffon;
+            this.Controls.Add(this.MainPlayerNum1);
             this.Controls.Add(this.TurnStatus);
             this.Controls.Add(this.TopDeckChipCounter);
             this.Controls.Add(this.TopDeckChipText);
@@ -1930,7 +1931,6 @@ namespace NoGracias
             this.Controls.Add(this.MainPlayerNum4);
             this.Controls.Add(this.MainPlayerNum3);
             this.Controls.Add(this.MainPlayerNum2);
-            this.Controls.Add(this.MainPlayerNum1);
             this.Controls.Add(this.MainPlayerNum9);
             this.Controls.Add(this.MainPlayerNum10);
             this.Controls.Add(this.MainPlayerNum11);
@@ -1955,7 +1955,6 @@ namespace NoGracias
             this.Controls.Add(this.MainPlayerCard3);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.MainPlayerCard2);
-            this.Controls.Add(this.MainPlayerCard1);
             this.Controls.Add(this.Opp3Num8);
             this.Controls.Add(this.Opp3Num7);
             this.Controls.Add(this.Opp3Num6);
@@ -2112,6 +2111,7 @@ namespace NoGracias
             this.Controls.Add(this.Opp1Card1);
             this.Controls.Add(this.Opp2Name);
             this.Controls.Add(this.MainPlayerName);
+            this.Controls.Add(this.MainPlayerCard1);
             this.Name = "CardTableForm";
             this.Load += new System.EventHandler(this.CardTableForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card3)).EndInit();

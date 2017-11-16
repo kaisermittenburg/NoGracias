@@ -180,7 +180,7 @@ namespace NoGracias.Server
                             players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.RECEIVE_CARD_UPDATE.ToString()));
                             System.Threading.Thread.Sleep(250);
                             players[i].mSocket.Send(Encoding.ASCII.GetBytes(playerCardInfo));
-                            System.Threading.Thread.Sleep(1000);
+                            System.Threading.Thread.Sleep(500);
                         }
 
                         currentPlayer.cards.Add(cardInPlay.value);
@@ -196,6 +196,17 @@ namespace NoGracias.Server
                     }
                     else if (msg == "REJECT_CARD") //player passes it
                     {
+
+                        
+                        for (int i = 0; i < players.Count; i++)
+                        {
+                            Console.WriteLine("GameDriver is Sending: CARD_REJECTED");
+                            players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.CARD_REJECTED.ToString()));
+                            System.Threading.Thread.Sleep(250);
+                            players[i].mSocket.Send(Encoding.ASCII.GetBytes(currentPlayer.mName));
+                            System.Threading.Thread.Sleep(250);
+                        }
+                        currentPlayer.chips--;
                         cardInPlay.chipsOnCard++;
                     }
                 }

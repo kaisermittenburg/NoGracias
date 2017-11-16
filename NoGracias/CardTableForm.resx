@@ -151,7 +151,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerName.ZOrder" xml:space="preserve">
-    <value>194</value>
+    <value>193</value>
   </data>
   <data name="Opp2Name.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -184,7 +184,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Name.ZOrder" xml:space="preserve">
-    <value>193</value>
+    <value>192</value>
   </data>
   <data name="Opp1Name.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -217,7 +217,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Name.ZOrder" xml:space="preserve">
-    <value>188</value>
+    <value>187</value>
   </data>
   <data name="Opp1Card3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -299,7 +299,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card3.ZOrder" xml:space="preserve">
-    <value>189</value>
+    <value>188</value>
   </data>
   <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
     <value>137, 440</value>
@@ -329,7 +329,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox3.ZOrder" xml:space="preserve">
-    <value>190</value>
+    <value>189</value>
   </data>
   <data name="Opp1Card2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -411,7 +411,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card2.ZOrder" xml:space="preserve">
-    <value>191</value>
+    <value>190</value>
   </data>
   <data name="Opp1Card1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -493,7 +493,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card1.ZOrder" xml:space="preserve">
-    <value>192</value>
+    <value>191</value>
   </data>
   <data name="Opp4Name.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -529,7 +529,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Name.ZOrder" xml:space="preserve">
-    <value>187</value>
+    <value>186</value>
   </data>
   <data name="Opp3Name.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -565,7 +565,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Name.ZOrder" xml:space="preserve">
-    <value>186</value>
+    <value>185</value>
   </data>
   <data name="pictureBox16.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1071,7 +1071,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox16.ZOrder" xml:space="preserve">
-    <value>185</value>
+    <value>184</value>
   </data>
   <data name="pictureBox17.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1577,7 +1577,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox17.ZOrder" xml:space="preserve">
-    <value>184</value>
+    <value>183</value>
   </data>
   <data name="pictureBox18.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2083,7 +2083,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox18.ZOrder" xml:space="preserve">
-    <value>183</value>
+    <value>182</value>
   </data>
   <data name="opp3ChipGraphic.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2592,7 +2592,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;opp3ChipGraphic.ZOrder" xml:space="preserve">
-    <value>182</value>
+    <value>181</value>
   </data>
   <data name="Opp1Card4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2674,7 +2674,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card4.ZOrder" xml:space="preserve">
-    <value>181</value>
+    <value>180</value>
   </data>
   <data name="opp4ChipGraphic.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3183,7 +3183,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;opp4ChipGraphic.ZOrder" xml:space="preserve">
-    <value>180</value>
+    <value>179</value>
   </data>
   <data name="Opp4ChipText.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3216,7 +3216,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4ChipText.ZOrder" xml:space="preserve">
-    <value>179</value>
+    <value>178</value>
   </data>
   <data name="Opp3ChipText.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3249,7 +3249,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3ChipText.ZOrder" xml:space="preserve">
-    <value>178</value>
+    <value>177</value>
   </data>
   <data name="MainPlayerChipText.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3279,7 +3279,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerChipText.ZOrder" xml:space="preserve">
-    <value>177</value>
+    <value>176</value>
   </data>
   <data name="Opp2ChipText.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3309,7 +3309,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2ChipText.ZOrder" xml:space="preserve">
-    <value>176</value>
+    <value>175</value>
   </data>
   <data name="Opp1ChipText.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3339,7 +3339,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1ChipText.ZOrder" xml:space="preserve">
-    <value>175</value>
+    <value>174</value>
   </data>
   <data name="TopDeckCard.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3409,7 +3409,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;TopDeckCard.ZOrder" xml:space="preserve">
-    <value>174</value>
+    <value>173</value>
   </data>
   <data name="GameDeckLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3442,7 +3442,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;GameDeckLabel.ZOrder" xml:space="preserve">
-    <value>173</value>
+    <value>172</value>
   </data>
   <data name="Opp1ChipCount.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3475,7 +3475,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1ChipCount.ZOrder" xml:space="preserve">
-    <value>172</value>
+    <value>171</value>
   </data>
   <data name="Opp2ChipCount.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3508,7 +3508,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2ChipCount.ZOrder" xml:space="preserve">
-    <value>171</value>
+    <value>170</value>
   </data>
   <data name="MainPlayerChipCount.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3541,7 +3541,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerChipCount.ZOrder" xml:space="preserve">
-    <value>170</value>
+    <value>169</value>
   </data>
   <data name="Opp3ChipCount.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3577,7 +3577,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3ChipCount.ZOrder" xml:space="preserve">
-    <value>169</value>
+    <value>168</value>
   </data>
   <data name="Opp4ChipCount.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3613,7 +3613,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4ChipCount.ZOrder" xml:space="preserve">
-    <value>168</value>
+    <value>167</value>
   </data>
   <data name="Opp1Card8.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3698,7 +3698,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card8.ZOrder" xml:space="preserve">
-    <value>164</value>
+    <value>163</value>
   </data>
   <data name="Opp1Card7.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3783,7 +3783,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card7.ZOrder" xml:space="preserve">
-    <value>165</value>
+    <value>164</value>
   </data>
   <data name="Opp1Card6.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3868,7 +3868,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card6.ZOrder" xml:space="preserve">
-    <value>166</value>
+    <value>165</value>
   </data>
   <data name="Opp1Card5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3953,7 +3953,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card5.ZOrder" xml:space="preserve">
-    <value>167</value>
+    <value>166</value>
   </data>
   <data name="Opp1Card12.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4038,7 +4038,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card12.ZOrder" xml:space="preserve">
-    <value>160</value>
+    <value>159</value>
   </data>
   <data name="Opp1Card11.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4123,7 +4123,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card11.ZOrder" xml:space="preserve">
-    <value>161</value>
+    <value>160</value>
   </data>
   <data name="Opp1Card10.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4208,7 +4208,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card10.ZOrder" xml:space="preserve">
-    <value>162</value>
+    <value>161</value>
   </data>
   <data name="Opp1Card9.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4293,7 +4293,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card9.ZOrder" xml:space="preserve">
-    <value>163</value>
+    <value>162</value>
   </data>
   <data name="Opp1Card16.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4378,7 +4378,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card16.ZOrder" xml:space="preserve">
-    <value>156</value>
+    <value>155</value>
   </data>
   <data name="Opp1Card15.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4463,7 +4463,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card15.ZOrder" xml:space="preserve">
-    <value>157</value>
+    <value>156</value>
   </data>
   <data name="Opp1Card14.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4548,7 +4548,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card14.ZOrder" xml:space="preserve">
-    <value>158</value>
+    <value>157</value>
   </data>
   <data name="Opp1Card13.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4633,7 +4633,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Card13.ZOrder" xml:space="preserve">
-    <value>159</value>
+    <value>158</value>
   </data>
   <data name="DeckCard.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -8011,7 +8011,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DeckCard.ZOrder" xml:space="preserve">
-    <value>155</value>
+    <value>154</value>
   </data>
   <data name="TopDeckCardNum.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -8044,7 +8044,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;TopDeckCardNum.ZOrder" xml:space="preserve">
-    <value>154</value>
+    <value>153</value>
   </data>
   <data name="Opp1Num16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -8080,7 +8080,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num16.ZOrder" xml:space="preserve">
-    <value>153</value>
+    <value>152</value>
   </data>
   <data name="Opp1Num15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -8116,7 +8116,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num15.ZOrder" xml:space="preserve">
-    <value>152</value>
+    <value>151</value>
   </data>
   <data name="Opp1Num14.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8155,7 +8155,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num14.ZOrder" xml:space="preserve">
-    <value>151</value>
+    <value>150</value>
   </data>
   <data name="Opp1Num13.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8194,7 +8194,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num13.ZOrder" xml:space="preserve">
-    <value>150</value>
+    <value>149</value>
   </data>
   <data name="Opp1Num12.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8233,7 +8233,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num12.ZOrder" xml:space="preserve">
-    <value>149</value>
+    <value>148</value>
   </data>
   <data name="Opp1Num11.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8272,7 +8272,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num11.ZOrder" xml:space="preserve">
-    <value>148</value>
+    <value>147</value>
   </data>
   <data name="Opp1Num10.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8311,7 +8311,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num10.ZOrder" xml:space="preserve">
-    <value>147</value>
+    <value>146</value>
   </data>
   <data name="Opp1Num9.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8350,7 +8350,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num9.ZOrder" xml:space="preserve">
-    <value>146</value>
+    <value>145</value>
   </data>
   <data name="Opp1Num1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8389,7 +8389,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num1.ZOrder" xml:space="preserve">
-    <value>145</value>
+    <value>144</value>
   </data>
   <data name="Opp1Num2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8428,7 +8428,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num2.ZOrder" xml:space="preserve">
-    <value>144</value>
+    <value>143</value>
   </data>
   <data name="Opp1Num3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8467,7 +8467,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num3.ZOrder" xml:space="preserve">
-    <value>143</value>
+    <value>142</value>
   </data>
   <data name="Opp1Num4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8506,7 +8506,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num4.ZOrder" xml:space="preserve">
-    <value>142</value>
+    <value>141</value>
   </data>
   <data name="Opp1Num5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8545,7 +8545,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num5.ZOrder" xml:space="preserve">
-    <value>141</value>
+    <value>140</value>
   </data>
   <data name="Opp1Num6.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8584,7 +8584,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num6.ZOrder" xml:space="preserve">
-    <value>140</value>
+    <value>139</value>
   </data>
   <data name="Opp1Num7.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8623,7 +8623,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num7.ZOrder" xml:space="preserve">
-    <value>139</value>
+    <value>138</value>
   </data>
   <data name="Opp1Num8.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8662,7 +8662,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp1Num8.ZOrder" xml:space="preserve">
-    <value>138</value>
+    <value>137</value>
   </data>
   <data name="Opp2Num8.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8701,7 +8701,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num8.ZOrder" xml:space="preserve">
-    <value>105</value>
+    <value>104</value>
   </data>
   <data name="Opp2Num7.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8740,7 +8740,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num7.ZOrder" xml:space="preserve">
-    <value>106</value>
+    <value>105</value>
   </data>
   <data name="Opp2Num6.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8779,7 +8779,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num6.ZOrder" xml:space="preserve">
-    <value>107</value>
+    <value>106</value>
   </data>
   <data name="Opp2Num5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8818,7 +8818,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num5.ZOrder" xml:space="preserve">
-    <value>108</value>
+    <value>107</value>
   </data>
   <data name="Opp2Num4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8857,7 +8857,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num4.ZOrder" xml:space="preserve">
-    <value>109</value>
+    <value>108</value>
   </data>
   <data name="Opp2Num3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8896,7 +8896,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num3.ZOrder" xml:space="preserve">
-    <value>110</value>
+    <value>109</value>
   </data>
   <data name="Opp2Num2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8935,7 +8935,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num2.ZOrder" xml:space="preserve">
-    <value>111</value>
+    <value>110</value>
   </data>
   <data name="Opp2Num1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -8974,7 +8974,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num1.ZOrder" xml:space="preserve">
-    <value>112</value>
+    <value>111</value>
   </data>
   <data name="Opp2Num9.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -9013,7 +9013,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num9.ZOrder" xml:space="preserve">
-    <value>113</value>
+    <value>112</value>
   </data>
   <data name="Opp2Num10.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -9052,7 +9052,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num10.ZOrder" xml:space="preserve">
-    <value>114</value>
+    <value>113</value>
   </data>
   <data name="Opp2Num11.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -9091,7 +9091,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num11.ZOrder" xml:space="preserve">
-    <value>115</value>
+    <value>114</value>
   </data>
   <data name="Opp2Num12.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -9130,7 +9130,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num12.ZOrder" xml:space="preserve">
-    <value>116</value>
+    <value>115</value>
   </data>
   <data name="Opp2Num13.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -9169,7 +9169,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num13.ZOrder" xml:space="preserve">
-    <value>117</value>
+    <value>116</value>
   </data>
   <data name="Opp2Num14.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -9208,7 +9208,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num14.ZOrder" xml:space="preserve">
-    <value>118</value>
+    <value>117</value>
   </data>
   <data name="Opp2Num15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -9244,7 +9244,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num15.ZOrder" xml:space="preserve">
-    <value>119</value>
+    <value>118</value>
   </data>
   <data name="Opp2Num16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -9280,7 +9280,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Num16.ZOrder" xml:space="preserve">
-    <value>120</value>
+    <value>119</value>
   </data>
   <data name="Opp2Card16.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -9365,7 +9365,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card16.ZOrder" xml:space="preserve">
-    <value>121</value>
+    <value>120</value>
   </data>
   <data name="Opp2Card15.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -9450,7 +9450,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card15.ZOrder" xml:space="preserve">
-    <value>122</value>
+    <value>121</value>
   </data>
   <data name="Opp2Card14.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -9535,7 +9535,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card14.ZOrder" xml:space="preserve">
-    <value>123</value>
+    <value>122</value>
   </data>
   <data name="Opp2Card13.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -9620,7 +9620,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card13.ZOrder" xml:space="preserve">
-    <value>124</value>
+    <value>123</value>
   </data>
   <data name="Opp2Card12.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -9705,7 +9705,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card12.ZOrder" xml:space="preserve">
-    <value>125</value>
+    <value>124</value>
   </data>
   <data name="Opp2Card11.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -9790,7 +9790,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card11.ZOrder" xml:space="preserve">
-    <value>126</value>
+    <value>125</value>
   </data>
   <data name="Opp2Card10.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -9875,7 +9875,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card10.ZOrder" xml:space="preserve">
-    <value>127</value>
+    <value>126</value>
   </data>
   <data name="Opp2Card9.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -9960,7 +9960,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card9.ZOrder" xml:space="preserve">
-    <value>128</value>
+    <value>127</value>
   </data>
   <data name="Opp2Card8.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -10045,7 +10045,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card8.ZOrder" xml:space="preserve">
-    <value>129</value>
+    <value>128</value>
   </data>
   <data name="Opp2Card7.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -10130,7 +10130,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card7.ZOrder" xml:space="preserve">
-    <value>130</value>
+    <value>129</value>
   </data>
   <data name="Opp2Card6.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -10215,7 +10215,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card6.ZOrder" xml:space="preserve">
-    <value>131</value>
+    <value>130</value>
   </data>
   <data name="Opp2Card5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -10300,7 +10300,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card5.ZOrder" xml:space="preserve">
-    <value>132</value>
+    <value>131</value>
   </data>
   <data name="Opp2Card4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -10385,7 +10385,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card4.ZOrder" xml:space="preserve">
-    <value>133</value>
+    <value>132</value>
   </data>
   <data name="Opp2Card3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -10470,7 +10470,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card3.ZOrder" xml:space="preserve">
-    <value>134</value>
+    <value>133</value>
   </data>
   <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>109, 55</value>
@@ -10500,7 +10500,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
-    <value>135</value>
+    <value>134</value>
   </data>
   <data name="Opp2Card2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -10585,7 +10585,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card2.ZOrder" xml:space="preserve">
-    <value>136</value>
+    <value>135</value>
   </data>
   <data name="Opp2Card1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -10670,7 +10670,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp2Card1.ZOrder" xml:space="preserve">
-    <value>137</value>
+    <value>136</value>
   </data>
   <data name="Opp4Num8.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -10709,7 +10709,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num8.ZOrder" xml:space="preserve">
-    <value>72</value>
+    <value>71</value>
   </data>
   <data name="Opp4Num7.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -10748,7 +10748,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num7.ZOrder" xml:space="preserve">
-    <value>73</value>
+    <value>72</value>
   </data>
   <data name="Opp4Num6.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -10787,7 +10787,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num6.ZOrder" xml:space="preserve">
-    <value>74</value>
+    <value>73</value>
   </data>
   <data name="Opp4Num5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -10826,7 +10826,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num5.ZOrder" xml:space="preserve">
-    <value>75</value>
+    <value>74</value>
   </data>
   <data name="Opp4Num4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -10865,7 +10865,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num4.ZOrder" xml:space="preserve">
-    <value>76</value>
+    <value>75</value>
   </data>
   <data name="Opp4Num3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -10904,7 +10904,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num3.ZOrder" xml:space="preserve">
-    <value>77</value>
+    <value>76</value>
   </data>
   <data name="Opp4Num2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -10943,7 +10943,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num2.ZOrder" xml:space="preserve">
-    <value>78</value>
+    <value>77</value>
   </data>
   <data name="Opp4Num1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -10982,7 +10982,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num1.ZOrder" xml:space="preserve">
-    <value>79</value>
+    <value>78</value>
   </data>
   <data name="Opp4Num9.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -11021,7 +11021,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num9.ZOrder" xml:space="preserve">
-    <value>80</value>
+    <value>79</value>
   </data>
   <data name="Opp4Num10.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -11060,7 +11060,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num10.ZOrder" xml:space="preserve">
-    <value>81</value>
+    <value>80</value>
   </data>
   <data name="Opp4Num11.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -11099,7 +11099,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num11.ZOrder" xml:space="preserve">
-    <value>82</value>
+    <value>81</value>
   </data>
   <data name="Opp4Num12.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -11138,7 +11138,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num12.ZOrder" xml:space="preserve">
-    <value>83</value>
+    <value>82</value>
   </data>
   <data name="Opp4Num13.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -11177,7 +11177,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num13.ZOrder" xml:space="preserve">
-    <value>84</value>
+    <value>83</value>
   </data>
   <data name="Opp4Num14.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -11216,7 +11216,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num14.ZOrder" xml:space="preserve">
-    <value>85</value>
+    <value>84</value>
   </data>
   <data name="Opp4Num15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -11252,7 +11252,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num15.ZOrder" xml:space="preserve">
-    <value>86</value>
+    <value>85</value>
   </data>
   <data name="Opp4Num16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -11288,7 +11288,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Num16.ZOrder" xml:space="preserve">
-    <value>87</value>
+    <value>86</value>
   </data>
   <data name="Opp4Card16.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -11373,7 +11373,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card16.ZOrder" xml:space="preserve">
-    <value>88</value>
+    <value>87</value>
   </data>
   <data name="Opp4Card15.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -11458,7 +11458,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card15.ZOrder" xml:space="preserve">
-    <value>89</value>
+    <value>88</value>
   </data>
   <data name="Opp4Card14.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -11543,7 +11543,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card14.ZOrder" xml:space="preserve">
-    <value>90</value>
+    <value>89</value>
   </data>
   <data name="Opp4Card13.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -11628,7 +11628,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card13.ZOrder" xml:space="preserve">
-    <value>91</value>
+    <value>90</value>
   </data>
   <data name="Opp4Card12.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -11713,7 +11713,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card12.ZOrder" xml:space="preserve">
-    <value>92</value>
+    <value>91</value>
   </data>
   <data name="Opp4Card11.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -11798,7 +11798,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card11.ZOrder" xml:space="preserve">
-    <value>93</value>
+    <value>92</value>
   </data>
   <data name="Opp4Card10.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -11883,7 +11883,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card10.ZOrder" xml:space="preserve">
-    <value>94</value>
+    <value>93</value>
   </data>
   <data name="Opp4Card9.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -11968,7 +11968,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card9.ZOrder" xml:space="preserve">
-    <value>95</value>
+    <value>94</value>
   </data>
   <data name="Opp4Card8.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -12053,7 +12053,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card8.ZOrder" xml:space="preserve">
-    <value>96</value>
+    <value>95</value>
   </data>
   <data name="Opp4Card7.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -12138,7 +12138,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card7.ZOrder" xml:space="preserve">
-    <value>97</value>
+    <value>96</value>
   </data>
   <data name="Opp4Card6.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -12223,7 +12223,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card6.ZOrder" xml:space="preserve">
-    <value>98</value>
+    <value>97</value>
   </data>
   <data name="Opp4Card5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -12308,7 +12308,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card5.ZOrder" xml:space="preserve">
-    <value>99</value>
+    <value>98</value>
   </data>
   <data name="Opp4Card4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -12393,7 +12393,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card4.ZOrder" xml:space="preserve">
-    <value>100</value>
+    <value>99</value>
   </data>
   <data name="Opp4Card3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -12478,7 +12478,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card3.ZOrder" xml:space="preserve">
-    <value>101</value>
+    <value>100</value>
   </data>
   <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>1197, 420</value>
@@ -12508,7 +12508,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
-    <value>102</value>
+    <value>101</value>
   </data>
   <data name="Opp4Card2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -12593,7 +12593,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card2.ZOrder" xml:space="preserve">
-    <value>103</value>
+    <value>102</value>
   </data>
   <data name="Opp4Card1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -12678,7 +12678,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp4Card1.ZOrder" xml:space="preserve">
-    <value>104</value>
+    <value>103</value>
   </data>
   <data name="Opp3Num8.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -12717,7 +12717,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num8.ZOrder" xml:space="preserve">
-    <value>39</value>
+    <value>38</value>
   </data>
   <data name="Opp3Num7.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -12756,7 +12756,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num7.ZOrder" xml:space="preserve">
-    <value>40</value>
+    <value>39</value>
   </data>
   <data name="Opp3Num6.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -12795,7 +12795,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num6.ZOrder" xml:space="preserve">
-    <value>41</value>
+    <value>40</value>
   </data>
   <data name="Opp3Num5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -12834,7 +12834,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num5.ZOrder" xml:space="preserve">
-    <value>42</value>
+    <value>41</value>
   </data>
   <data name="Opp3Num4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -12873,7 +12873,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num4.ZOrder" xml:space="preserve">
-    <value>43</value>
+    <value>42</value>
   </data>
   <data name="Opp3Num3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -12912,7 +12912,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num3.ZOrder" xml:space="preserve">
-    <value>44</value>
+    <value>43</value>
   </data>
   <data name="Opp3Num2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -12951,7 +12951,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num2.ZOrder" xml:space="preserve">
-    <value>45</value>
+    <value>44</value>
   </data>
   <data name="Opp3Num1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -12990,7 +12990,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num1.ZOrder" xml:space="preserve">
-    <value>46</value>
+    <value>45</value>
   </data>
   <data name="Opp3Num9.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -13029,7 +13029,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num9.ZOrder" xml:space="preserve">
-    <value>47</value>
+    <value>46</value>
   </data>
   <data name="Opp3Num10.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -13068,7 +13068,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num10.ZOrder" xml:space="preserve">
-    <value>48</value>
+    <value>47</value>
   </data>
   <data name="Opp3Num11.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -13107,7 +13107,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num11.ZOrder" xml:space="preserve">
-    <value>49</value>
+    <value>48</value>
   </data>
   <data name="Opp3Num12.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -13146,7 +13146,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num12.ZOrder" xml:space="preserve">
-    <value>50</value>
+    <value>49</value>
   </data>
   <data name="Opp3Num13.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -13185,7 +13185,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num13.ZOrder" xml:space="preserve">
-    <value>51</value>
+    <value>50</value>
   </data>
   <data name="Opp3Num14.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -13224,7 +13224,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num14.ZOrder" xml:space="preserve">
-    <value>52</value>
+    <value>51</value>
   </data>
   <data name="Opp3Num15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -13260,7 +13260,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num15.ZOrder" xml:space="preserve">
-    <value>53</value>
+    <value>52</value>
   </data>
   <data name="Opp3Num16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -13296,7 +13296,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Num16.ZOrder" xml:space="preserve">
-    <value>54</value>
+    <value>53</value>
   </data>
   <data name="Opp3Card16.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -13381,7 +13381,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card16.ZOrder" xml:space="preserve">
-    <value>55</value>
+    <value>54</value>
   </data>
   <data name="Opp3Card15.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -13466,7 +13466,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card15.ZOrder" xml:space="preserve">
-    <value>56</value>
+    <value>55</value>
   </data>
   <data name="Opp3Card14.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -13551,7 +13551,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card14.ZOrder" xml:space="preserve">
-    <value>57</value>
+    <value>56</value>
   </data>
   <data name="Opp3Card13.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -13636,7 +13636,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card13.ZOrder" xml:space="preserve">
-    <value>58</value>
+    <value>57</value>
   </data>
   <data name="Opp3Card12.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -13721,7 +13721,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card12.ZOrder" xml:space="preserve">
-    <value>59</value>
+    <value>58</value>
   </data>
   <data name="Opp3Card11.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -13806,7 +13806,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card11.ZOrder" xml:space="preserve">
-    <value>60</value>
+    <value>59</value>
   </data>
   <data name="Opp3Card10.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -13891,7 +13891,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card10.ZOrder" xml:space="preserve">
-    <value>61</value>
+    <value>60</value>
   </data>
   <data name="Opp3Card9.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -13976,7 +13976,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card9.ZOrder" xml:space="preserve">
-    <value>62</value>
+    <value>61</value>
   </data>
   <data name="Opp3Card8.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -14061,7 +14061,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card8.ZOrder" xml:space="preserve">
-    <value>63</value>
+    <value>62</value>
   </data>
   <data name="Opp3Card7.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -14146,7 +14146,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card7.ZOrder" xml:space="preserve">
-    <value>64</value>
+    <value>63</value>
   </data>
   <data name="Opp3Card6.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -14231,7 +14231,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card6.ZOrder" xml:space="preserve">
-    <value>65</value>
+    <value>64</value>
   </data>
   <data name="Opp3Card5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -14316,7 +14316,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card5.ZOrder" xml:space="preserve">
-    <value>66</value>
+    <value>65</value>
   </data>
   <data name="Opp3Card4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -14401,7 +14401,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card4.ZOrder" xml:space="preserve">
-    <value>67</value>
+    <value>66</value>
   </data>
   <data name="Opp3Card3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -14486,7 +14486,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card3.ZOrder" xml:space="preserve">
-    <value>68</value>
+    <value>67</value>
   </data>
   <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing">
     <value>1179, 53</value>
@@ -14516,7 +14516,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox4.ZOrder" xml:space="preserve">
-    <value>69</value>
+    <value>68</value>
   </data>
   <data name="Opp3Card2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -14601,7 +14601,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card2.ZOrder" xml:space="preserve">
-    <value>70</value>
+    <value>69</value>
   </data>
   <data name="Opp3Card1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -14686,7 +14686,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Opp3Card1.ZOrder" xml:space="preserve">
-    <value>71</value>
+    <value>70</value>
   </data>
   <data name="MainPlayerNum8.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -14725,7 +14725,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum8.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="MainPlayerNum7.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -14764,7 +14764,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum7.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="MainPlayerNum6.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -14803,7 +14803,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum6.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="MainPlayerNum5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -14842,7 +14842,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum5.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="MainPlayerNum4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -14881,7 +14881,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum4.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="MainPlayerNum3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -14920,7 +14920,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum3.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="MainPlayerNum2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -14959,7 +14959,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum2.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="MainPlayerNum1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -14998,7 +14998,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerNum1.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>0</value>
   </data>
   <data name="MainPlayerNum9.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6pt</value>
@@ -16694,7 +16694,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainPlayerCard1.ZOrder" xml:space="preserve">
-    <value>38</value>
+    <value>194</value>
   </data>
   <data name="AcceptCardButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Perpetua Titling MT, 7.8pt</value>
@@ -16727,7 +16727,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;AcceptCardButton.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="NoGraciasButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Perpetua Titling MT, 7.8pt</value>
@@ -16763,7 +16763,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;NoGraciasButton.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="DeckChip.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -17272,7 +17272,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DeckChip.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="TopDeckChipCounter.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -17305,7 +17305,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;TopDeckChipCounter.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="TopDeckChipText.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -17338,7 +17338,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;TopDeckChipText.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="TurnStatus.Font" type="System.Drawing.Font, System.Drawing">
     <value>Perpetua Titling MT, 14.25pt, style=Bold</value>
@@ -17365,7 +17365,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;TurnStatus.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

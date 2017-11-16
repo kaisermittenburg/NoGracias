@@ -26,6 +26,7 @@ namespace NoGracias
         {
             InitializeComponent();
             mClientSocket = aClientSocket;
+            mClientSocket.Send(Encoding.ASCII.GetBytes("MESSAGE_TO_CRASH_RECEIVE_LOOP"));
             ListenToServer();
         }
 
@@ -348,6 +349,67 @@ namespace NoGracias
             {
                 UpdatePlayerCard();
             }
+            else if(message == Messages.CARD_REJECTED.ToString())
+            {
+                RejectCardUpdate();
+            }
+        }
+
+        private void RejectCardUpdate()
+        {
+            byte[] buffer = new byte[2048];
+            int received = mClientSocket.Receive(buffer, SocketFlags.None);
+
+            if (received == 0) return;
+
+            byte[] data = new byte[received];
+            Array.Copy(buffer, data, received);
+            string message = Encoding.ASCII.GetString(data);
+            Console.WriteLine("Message from server in reject card update...  " + message); //debugging
+
+            this.Invoke((MethodInvoker)delegate
+            {
+                if (message == mainPlayer.mName)
+                {
+                    mainPlayer.chips--;
+                    this.MainPlayerChipCount.Text = mainPlayer.chips.ToString();
+                }
+                else
+                {
+                    for (int i = 0; i < opponents.Count; i++)
+                    {
+                        if (message == opponents.ElementAt(i).mName)
+                        {
+                            switch (i)
+                            {
+                                case 0:
+                                    opponents.ElementAt(0).chips--;
+                                    this.Opp1ChipCount.Text = opponents.ElementAt(0).chips.ToString();
+                                    break;
+
+                                case 1:
+                                    opponents.ElementAt(1).chips--;
+                                    this.Opp2ChipCount.Text = opponents.ElementAt(1).chips.ToString();
+                                    break;
+
+                                case 2:
+                                    opponents.ElementAt(2).chips--;
+                                    this.Opp3ChipCount.Text = opponents.ElementAt(2).chips.ToString();
+                                    break;
+
+                                case 3:
+                                    opponents.ElementAt(3).chips--;
+                                    this.Opp4ChipCount.Text = opponents.ElementAt(3).chips.ToString();
+                                    break;
+
+                                default:
+                                    //should never hit this
+                                    break;
+                            }
+                        }
+                    }
+                }
+            });
         }
 
         private void UpdatePlayerCard()

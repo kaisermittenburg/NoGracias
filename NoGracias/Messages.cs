@@ -33,6 +33,7 @@ namespace NoGracias.Communication
         RECEIVE_TURN_CARD,
         RECEIVE_TURN_PLAYER,
         RECEIVE_CARD_UPDATE,
+        CARD_REJECTED,
         ACCEPT_CARD,
         REJECT_CARD,
         #endregion
