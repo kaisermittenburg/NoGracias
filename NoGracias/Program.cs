@@ -33,10 +33,21 @@ namespace NoGracias
             //thread.Start(ServerForm);
             #endregion
 
+            /////////////////////////////////////////////////////////////////////////////////////
+            //   Remote Azure WCF Service Concept Prototype.
+            //   Sends int, 2, to the service, service returns string, we print string to console
+            ServiceReference1.Service1Client service = new ServiceReference1.Service1Client();
+            Console.WriteLine(service.GetData(2));
+            /////////////////////////////////////////////////////////////////////////////////////
+
             //Start Server Form
             Application.Run(MainMenu);
            
             Application.Run(ServerForm);
+
+
+
+            
         }
     }
 }
