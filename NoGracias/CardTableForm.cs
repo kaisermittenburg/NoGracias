@@ -20,6 +20,7 @@ namespace NoGracias
         private Player mainPlayer = new Player();
         int currentCard;
         int currentChips;
+        Image[] imgArray = new Image[35];
         
         #endregion
         public CardTableForm(Socket aClientSocket)
@@ -27,6 +28,7 @@ namespace NoGracias
             InitializeComponent();
             mClientSocket = aClientSocket;
             mClientSocket.Send(Encoding.ASCII.GetBytes("MESSAGE_TO_CRASH_RECEIVE_LOOP"));
+            InitializeImgArray();
             ListenToServer();
         }
 
@@ -271,6 +273,8 @@ namespace NoGracias
             Console.WriteLine(mainPlayer.mName + "'s Card Table is Sending: ACCEPT_CARD");
             this.Invoke((MethodInvoker)delegate
             {
+                this.AcceptCardButton.Visible = false;
+                this.NoGraciasButton.Visible = false;
                 mClientSocket.Send(Encoding.ASCII.GetBytes(Messages.ACCEPT_CARD.ToString()));
             });
         }
@@ -280,6 +284,8 @@ namespace NoGracias
             Console.WriteLine(mainPlayer.mName + "'s Card Table is Sending: REJECT_CARD");
             this.Invoke((MethodInvoker)delegate
             {
+                this.AcceptCardButton.Visible = false;
+                this.NoGraciasButton.Visible = false;
                 mClientSocket.Send(Encoding.ASCII.GetBytes(Messages.REJECT_CARD.ToString()));
             });
         }
@@ -557,10 +563,11 @@ namespace NoGracias
             currentCard = cardNumber;
             currentChips = cardChip;
 
-            this.TopDeckCardNum.Invoke((MethodInvoker)delegate
+            this.TopDeckCard.Invoke((MethodInvoker)delegate
             {
-                this.TopDeckCardNum.Visible = true;
-                this.TopDeckCardNum.Text = cardNumber.ToString();
+                this.TopDeckCard.BackgroundImage = imgArray[cardNumber - 1];
+                this.TopDeckCard.Visible = true;
+                this.TopDeckCard.BringToFront();
             });
             this.TopDeckChipCounter.Invoke((MethodInvoker)delegate
             {
@@ -623,6 +630,44 @@ namespace NoGracias
         #endregion
 
         #region Helper Methods
+        private void InitializeImgArray()
+        {
+            imgArray[0] = NoGracias.Properties.Resources.img1;
+            imgArray[1] = NoGracias.Properties.Resources.img2;
+            imgArray[2] = NoGracias.Properties.Resources.img3;
+            imgArray[3] = NoGracias.Properties.Resources.img4;
+            imgArray[4] = NoGracias.Properties.Resources.img5;
+            imgArray[5] = NoGracias.Properties.Resources.img6;
+            imgArray[6] = NoGracias.Properties.Resources.img7;
+            imgArray[7] = NoGracias.Properties.Resources.img8;
+            imgArray[8] = NoGracias.Properties.Resources.img9;
+            imgArray[9] = NoGracias.Properties.Resources.img10;
+            imgArray[10] = NoGracias.Properties.Resources.img11;
+            imgArray[11] = NoGracias.Properties.Resources.img12;
+            imgArray[12] = NoGracias.Properties.Resources.img13;
+            imgArray[13] = NoGracias.Properties.Resources.img14;
+            imgArray[14] = NoGracias.Properties.Resources.img15;
+            imgArray[15] = NoGracias.Properties.Resources.img16;
+            imgArray[16] = NoGracias.Properties.Resources.img17;
+            imgArray[17] = NoGracias.Properties.Resources.img18;
+            imgArray[18] = NoGracias.Properties.Resources.img19;
+            imgArray[19] = NoGracias.Properties.Resources.img20;
+            imgArray[20] = NoGracias.Properties.Resources.img21;
+            imgArray[21] = NoGracias.Properties.Resources.img22;
+            imgArray[22] = NoGracias.Properties.Resources.img23;
+            imgArray[23] = NoGracias.Properties.Resources.img24;
+            imgArray[24] = NoGracias.Properties.Resources.img25;
+            imgArray[25] = NoGracias.Properties.Resources.img26;
+            imgArray[26] = NoGracias.Properties.Resources.img27;
+            imgArray[27] = NoGracias.Properties.Resources.img28;
+            imgArray[28] = NoGracias.Properties.Resources.img29;
+            imgArray[29] = NoGracias.Properties.Resources.img30;
+            imgArray[30] = NoGracias.Properties.Resources.img31;
+            imgArray[31] = NoGracias.Properties.Resources.img32;
+            imgArray[32] = NoGracias.Properties.Resources.img33;
+            imgArray[33] = NoGracias.Properties.Resources.img34;
+            imgArray[34] = NoGracias.Properties.Resources.img35;
+        }
         private void InitializeOpp1(string mName)
         {
             this.Opp1Name.Invoke((MethodInvoker)delegate
@@ -723,131 +768,99 @@ namespace NoGracias
                 switch (n)
                 {
                     case 0:
-                        this.MainPlayerNum1.Text = card.ToString();
+                        this.MainPlayerCard1.BackgroundImage = imgArray[card - 1];
                         this.MainPlayerCard1.Visible = true;
                         this.MainPlayerCard1.BringToFront();
-                        this.MainPlayerNum1.Visible = true;
-                        this.MainPlayerNum1.BringToFront();
                         break;
 
                     case 1:
-                        this.MainPlayerNum2.Text = card.ToString();
+                        this.MainPlayerCard2.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard2.Visible = true;
                         this.MainPlayerCard2.BringToFront();
-                        this.MainPlayerNum2.Visible = true;
-                        this.MainPlayerNum2.BringToFront();
                         break;
 
                     case 2:
-                        this.MainPlayerNum3.Text = card.ToString();
+                        this.MainPlayerCard3.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard3.Visible = true;
                         this.MainPlayerCard3.BringToFront();
-                        this.MainPlayerNum3.Visible = true;
-                        this.MainPlayerNum3.BringToFront();
                         break;
 
                     case 3:
-                        this.MainPlayerNum4.Text = card.ToString();
+                        this.MainPlayerCard4.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard4.Visible = true;
                         this.MainPlayerCard4.BringToFront();
-                        this.MainPlayerNum4.Visible = true;
-                        this.MainPlayerNum4.BringToFront();
                         break;
 
                     case 4:
-                        this.MainPlayerNum5.Text = card.ToString();
+                        this.MainPlayerCard5.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard5.Visible = true;
                         this.MainPlayerCard5.BringToFront();
-                        this.MainPlayerNum5.Visible = true;
-                        this.MainPlayerNum5.BringToFront();
                         break;
 
                     case 5:
-                        this.MainPlayerNum6.Text = card.ToString();
+                        this.MainPlayerCard6.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard6.Visible = true;
                         this.MainPlayerCard6.BringToFront();
-                        this.MainPlayerNum6.Visible = true;
-                        this.MainPlayerNum6.BringToFront();
                         break;
 
                     case 6:
-                        this.MainPlayerNum7.Text = card.ToString();
+                        this.MainPlayerCard7.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard7.Visible = true;
                         this.MainPlayerCard7.BringToFront();
-                        this.MainPlayerNum7.Visible = true;
-                        this.MainPlayerNum7.BringToFront();
                         break;
 
                     case 7:
-                        this.MainPlayerNum8.Text = card.ToString();
+                        this.MainPlayerCard8.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard8.Visible = true;
                         this.MainPlayerCard8.BringToFront();
-                        this.MainPlayerNum8.Visible = true;
-                        this.MainPlayerNum8.BringToFront();
                         break;
 
                     case 8:
-                        this.MainPlayerNum9.Text = card.ToString();
+                        this.MainPlayerCard9.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard9.Visible = true;
                         this.MainPlayerCard9.BringToFront();
-                        this.MainPlayerNum9.Visible = true;
-                        this.MainPlayerNum9.BringToFront();
                         break;
 
                     case 9:
-                        this.MainPlayerNum10.Text = card.ToString();
+                        this.MainPlayerCard10.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard10.Visible = true;
                         this.MainPlayerCard10.BringToFront();
-                        this.MainPlayerNum10.Visible = true;
-                        this.MainPlayerNum10.BringToFront();
                         break;
 
                     case 10:
-                        this.MainPlayerNum11.Text = card.ToString();
+                        this.MainPlayerCard11.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard11.Visible = true;
                         this.MainPlayerCard11.BringToFront();
-                        this.MainPlayerNum11.Visible = true;
-                        this.MainPlayerNum11.BringToFront();
                         break;
 
                     case 11:
-                        this.MainPlayerNum12.Text = card.ToString();
+                        this.MainPlayerCard12.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard12.Visible = true;
                         this.MainPlayerCard12.BringToFront();
-                        this.MainPlayerNum12.Visible = true;
-                        this.MainPlayerNum12.BringToFront();
                         break;
 
                     case 12:
-                        this.MainPlayerNum13.Text = card.ToString();
+                        this.MainPlayerCard13.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard13.Visible = true;
                         this.MainPlayerCard13.BringToFront();
-                        this.MainPlayerNum13.Visible = true;
-                        this.MainPlayerNum13.BringToFront();
                         break;
 
                     case 13:
-                        this.MainPlayerNum14.Text = card.ToString();
+                        this.MainPlayerCard14.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard14.Visible = true;
                         this.MainPlayerCard14.BringToFront();
-                        this.MainPlayerNum14.Visible = true;
-                        this.MainPlayerNum14.BringToFront();
                         break;
 
                     case 14:
-                        this.MainPlayerNum15.Text = card.ToString();
+                        this.MainPlayerCard15.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard15.Visible = true;
                         this.MainPlayerCard15.BringToFront();
-                        this.MainPlayerNum15.Visible = true;
-                        this.MainPlayerNum15.BringToFront();
                         break;
 
                     case 15:
-                        this.MainPlayerNum16.Text = card.ToString();
+                        this.MainPlayerCard16.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard16.Visible = true;
                         this.MainPlayerCard16.BringToFront();
-                        this.MainPlayerNum16.Visible = true;
-                        this.MainPlayerNum16.BringToFront();
                         break;
                     default:
                         //We have run out of cards. I miscalculated, I'm not a math major
@@ -868,131 +881,99 @@ namespace NoGracias
                 switch (n)
                 {
                     case 0:
-                        this.Opp1Num1.Text = card.ToString();
+                        this.Opp1Card1.BackgroundImage = imgArray[card-1];
                         this.Opp1Card1.Visible = true;
                         this.Opp1Card1.BringToFront();
-                        this.Opp1Num1.Visible = true;
-                        this.Opp1Num1.BringToFront();
                         break;
 
                     case 1:
-                        this.Opp1Num2.Text = card.ToString();
+                        this.Opp1Card2.BackgroundImage = imgArray[card-1];
                         this.Opp1Card2.Visible = true;
                         this.Opp1Card2.BringToFront();
-                        this.Opp1Num2.Visible = true;
-                        this.Opp1Num2.BringToFront();
                         break;
 
                     case 2:
-                        this.Opp1Num3.Text = card.ToString();
+                        this.Opp1Card3.BackgroundImage = imgArray[card-1];
                         this.Opp1Card3.Visible = true;
                         this.Opp1Card3.BringToFront();
-                        this.Opp1Num3.Visible = true;
-                        this.Opp1Num3.BringToFront();
                         break;
 
                     case 3:
-                        this.Opp1Num4.Text = card.ToString();
+                        this.Opp1Card4.BackgroundImage = imgArray[card-1];
                         this.Opp1Card4.Visible = true;
                         this.Opp1Card4.BringToFront();
-                        this.Opp1Num4.Visible = true;
-                        this.Opp1Num4.BringToFront();
                         break;
 
                     case 4:
-                        this.Opp1Num5.Text = card.ToString();
+                        this.Opp1Card5.BackgroundImage = imgArray[card-1];
                         this.Opp1Card5.Visible = true;
                         this.Opp1Card5.BringToFront();
-                        this.Opp1Num5.Visible = true;
-                        this.Opp1Num5.BringToFront();
                         break;
 
                     case 5:
-                        this.Opp1Num6.Text = card.ToString();
+                        this.Opp1Card6.BackgroundImage = imgArray[card-1];
                         this.Opp1Card6.Visible = true;
                         this.Opp1Card6.BringToFront();
-                        this.Opp1Num6.Visible = true;
-                        this.Opp1Num6.BringToFront();
                         break;
 
                     case 6:
-                        this.Opp1Num7.Text = card.ToString();
+                        this.Opp1Card7.BackgroundImage = imgArray[card-1];
                         this.Opp1Card7.Visible = true;
                         this.Opp1Card7.BringToFront();
-                        this.Opp1Num7.Visible = true;
-                        this.Opp1Num7.BringToFront();
                         break;
 
                     case 7:
-                        this.Opp1Num8.Text = card.ToString();
+                        this.Opp1Card8.BackgroundImage = imgArray[card-1];
                         this.Opp1Card8.Visible = true;
                         this.Opp1Card8.BringToFront();
-                        this.Opp1Num8.Visible = true;
-                        this.Opp1Num8.BringToFront();
                         break;
 
                     case 8:
-                        this.Opp1Num9.Text = card.ToString();
+                        this.Opp1Card9.BackgroundImage = imgArray[card-1];
                         this.Opp1Card9.Visible = true;
                         this.Opp1Card9.BringToFront();
-                        this.Opp1Num9.Visible = true;
-                        this.Opp1Num9.BringToFront();
                         break;
 
                     case 9:
-                        this.Opp1Num10.Text = card.ToString();
+                        this.Opp1Card10.BackgroundImage = imgArray[card-1];
                         this.Opp1Card10.Visible = true;
                         this.Opp1Card10.BringToFront();
-                        this.Opp1Num10.Visible = true;
-                        this.Opp1Num10.BringToFront();
                         break;
 
                     case 10:
-                        this.Opp1Num11.Text = card.ToString();
+                        this.Opp1Card11.BackgroundImage = imgArray[card-1];
                         this.Opp1Card11.Visible = true;
                         this.Opp1Card11.BringToFront();
-                        this.Opp1Num11.Visible = true;
-                        this.Opp1Num11.BringToFront();
                         break;
 
                     case 11:
-                        this.Opp1Num12.Text = card.ToString();
+                        this.Opp1Card12.BackgroundImage = imgArray[card-1];
                         this.Opp1Card12.Visible = true;
                         this.Opp1Card12.BringToFront();
-                        this.Opp1Num12.Visible = true;
-                        this.Opp1Num12.BringToFront();
                         break;
 
                     case 12:
-                        this.Opp1Num13.Text = card.ToString();
+                        this.Opp1Card13.BackgroundImage = imgArray[card-1];
                         this.Opp1Card13.Visible = true;
                         this.Opp1Card13.BringToFront();
-                        this.Opp1Num13.Visible = true;
-                        this.Opp1Num13.BringToFront();
                         break;
 
                     case 13:
-                        this.Opp1Num14.Text = card.ToString();
+                        this.Opp1Card14.BackgroundImage = imgArray[card-1];
                         this.Opp1Card14.Visible = true;
                         this.Opp1Card14.BringToFront();
-                        this.Opp1Num14.Visible = true;
-                        this.Opp1Num14.BringToFront();
                         break;
 
                     case 14:
-                        this.Opp1Num15.Text = card.ToString();
+                        this.Opp1Card15.BackgroundImage = imgArray[card-1];
                         this.Opp1Card15.Visible = true;
                         this.Opp1Card15.BringToFront();
-                        this.Opp1Num15.Visible = true;
-                        this.Opp1Num15.BringToFront();
                         break;
 
                     case 15:
-                        this.Opp1Num16.Text = card.ToString();
+                        this.Opp1Card16.BackgroundImage = imgArray[card-1];
                         this.Opp1Card16.Visible = true;
                         this.Opp1Card16.BringToFront();
-                        this.Opp1Num16.Visible = true;
-                        this.Opp1Num16.BringToFront();
                         break;
                     default:
                         //We have run out of cards. I miscalculated, I'm not a math major
@@ -1013,131 +994,99 @@ namespace NoGracias
                 switch (n)
                 {
                     case 0:
-                        this.Opp2Num1.Text = card.ToString();
+                        this.Opp2Card1.BackgroundImage = imgArray[card-1];
                         this.Opp2Card1.Visible = true;
                         this.Opp2Card1.BringToFront();
-                        this.Opp2Num1.Visible = true;
-                        this.Opp2Num1.BringToFront();
                         break;
 
                     case 1:
-                        this.Opp2Num2.Text = card.ToString();
+                        this.Opp2Card2.BackgroundImage = imgArray[card-1];
                         this.Opp2Card2.Visible = true;
                         this.Opp2Card2.BringToFront();
-                        this.Opp2Num2.Visible = true;
-                        this.Opp2Num2.BringToFront();
                         break;
 
                     case 2:
-                        this.Opp2Num3.Text = card.ToString();
+                        this.Opp2Card3.BackgroundImage = imgArray[card-1];
                         this.Opp2Card3.Visible = true;
                         this.Opp2Card3.BringToFront();
-                        this.Opp2Num3.Visible = true;
-                        this.Opp2Num3.BringToFront();
                         break;
 
                     case 3:
-                        this.Opp2Num4.Text = card.ToString();
+                        this.Opp2Card4.BackgroundImage = imgArray[card-1];
                         this.Opp2Card4.Visible = true;
                         this.Opp2Card4.BringToFront();
-                        this.Opp2Num4.Visible = true;
-                        this.Opp2Num4.BringToFront();
                         break;
 
                     case 4:
-                        this.Opp2Num5.Text = card.ToString();
+                        this.Opp2Card5.BackgroundImage = imgArray[card-1];
                         this.Opp2Card5.Visible = true;
                         this.Opp2Card5.BringToFront();
-                        this.Opp2Num5.Visible = true;
-                        this.Opp2Num5.BringToFront();
                         break;
 
                     case 5:
-                        this.Opp2Num6.Text = card.ToString();
+                        this.Opp2Card6.BackgroundImage = imgArray[card-1];
                         this.Opp2Card6.Visible = true;
                         this.Opp2Card6.BringToFront();
-                        this.Opp2Num6.Visible = true;
-                        this.Opp2Num6.BringToFront();
                         break;
 
                     case 6:
-                        this.Opp2Num7.Text = card.ToString();
+                        this.Opp2Card7.BackgroundImage = imgArray[card-1];
                         this.Opp2Card7.Visible = true;
                         this.Opp2Card7.BringToFront();
-                        this.Opp2Num7.Visible = true;
-                        this.Opp2Num7.BringToFront();
                         break;
 
                     case 7:
-                        this.Opp2Num8.Text = card.ToString();
+                        this.Opp2Card8.BackgroundImage = imgArray[card-1];
                         this.Opp2Card8.Visible = true;
                         this.Opp2Card8.BringToFront();
-                        this.Opp2Num8.Visible = true;
-                        this.Opp2Num8.BringToFront();
                         break;
 
                     case 8:
-                        this.Opp2Num9.Text = card.ToString();
+                        this.Opp2Card9.BackgroundImage = imgArray[card-1];
                         this.Opp2Card9.Visible = true;
                         this.Opp2Card9.BringToFront();
-                        this.Opp2Num9.Visible = true;
-                        this.Opp2Num9.BringToFront();
                         break;
 
                     case 9:
-                        this.Opp2Num10.Text = card.ToString();
+                        this.Opp2Card10.BackgroundImage = imgArray[card-1];
                         this.Opp2Card10.Visible = true;
                         this.Opp2Card10.BringToFront();
-                        this.Opp2Num10.Visible = true;
-                        this.Opp2Num10.BringToFront();
                         break;
 
                     case 10:
-                        this.Opp2Num11.Text = card.ToString();
+                        this.Opp2Card11.BackgroundImage = imgArray[card-1];
                         this.Opp2Card11.Visible = true;
                         this.Opp2Card11.BringToFront();
-                        this.Opp2Num11.Visible = true;
-                        this.Opp2Num11.BringToFront();
                         break;
 
                     case 11:
-                        this.Opp2Num12.Text = card.ToString();
+                        this.Opp2Card12.BackgroundImage = imgArray[card-1];
                         this.Opp2Card12.Visible = true;
                         this.Opp2Card12.BringToFront();
-                        this.Opp2Num12.Visible = true;
-                        this.Opp2Num12.BringToFront();
                         break;
 
                     case 12:
-                        this.Opp2Num13.Text = card.ToString();
+                        this.Opp2Card13.BackgroundImage = imgArray[card-1];
                         this.Opp2Card13.Visible = true;
                         this.Opp2Card13.BringToFront();
-                        this.Opp2Num13.Visible = true;
-                        this.Opp2Num13.BringToFront();
                         break;
 
                     case 13:
-                        this.Opp2Num14.Text = card.ToString();
+                        this.Opp2Card14.BackgroundImage = imgArray[card-1];
                         this.Opp2Card14.Visible = true;
                         this.Opp2Card14.BringToFront();
-                        this.Opp2Num14.Visible = true;
-                        this.Opp2Num14.BringToFront();
                         break;
 
                     case 14:
-                        this.Opp2Num15.Text = card.ToString();
+                        this.Opp2Card15.BackgroundImage = imgArray[card-1];
                         this.Opp2Card15.Visible = true;
                         this.Opp2Card15.BringToFront();
-                        this.Opp2Num15.Visible = true;
-                        this.Opp2Num15.BringToFront();
                         break;
 
                     case 15:
-                        this.Opp2Num16.Text = card.ToString();
+                        this.Opp2Card16.BackgroundImage = imgArray[card-1];
                         this.Opp2Card16.Visible = true;
                         this.Opp2Card16.BringToFront();
-                        this.Opp2Num16.Visible = true;
-                        this.Opp2Num16.BringToFront();
                         break;
                     default:
                         //We have run out of cards. I miscalculated, I'm not a math major
@@ -1158,131 +1107,99 @@ namespace NoGracias
                 switch (n)
                 {
                     case 0:
-                        this.Opp3Num1.Text = card.ToString();
+                        this.Opp3Card1.BackgroundImage = imgArray[card-1];
                         this.Opp3Card1.Visible = true;
                         this.Opp3Card1.BringToFront();
-                        this.Opp3Num1.Visible = true;
-                        this.Opp3Num1.BringToFront();
                         break;
 
                     case 1:
-                        this.Opp3Num2.Text = card.ToString();
+                        this.Opp3Card2.BackgroundImage = imgArray[card-1];
                         this.Opp3Card2.Visible = true;
                         this.Opp3Card2.BringToFront();
-                        this.Opp3Num2.Visible = true;
-                        this.Opp3Num2.BringToFront();
                         break;
 
                     case 2:
-                        this.Opp3Num3.Text = card.ToString();
+                        this.Opp3Card3.BackgroundImage = imgArray[card-1];
                         this.Opp3Card3.Visible = true;
                         this.Opp3Card3.BringToFront();
-                        this.Opp3Num3.Visible = true;
-                        this.Opp3Num3.BringToFront();
                         break;
 
                     case 3:
-                        this.Opp3Num4.Text = card.ToString();
+                        this.Opp3Card4.BackgroundImage = imgArray[card-1];
                         this.Opp3Card4.Visible = true;
                         this.Opp3Card4.BringToFront();
-                        this.Opp3Num4.Visible = true;
-                        this.Opp3Num4.BringToFront();
                         break;
 
                     case 4:
-                        this.Opp3Num5.Text = card.ToString();
+                        this.Opp3Card5.BackgroundImage = imgArray[card-1];
                         this.Opp3Card5.Visible = true;
                         this.Opp3Card5.BringToFront();
-                        this.Opp3Num5.Visible = true;
-                        this.Opp3Num5.BringToFront();
                         break;
 
                     case 5:
-                        this.Opp3Num6.Text = card.ToString();
+                        this.Opp3Card6.BackgroundImage = imgArray[card-1];
                         this.Opp3Card6.Visible = true;
                         this.Opp3Card6.BringToFront();
-                        this.Opp3Num6.Visible = true;
-                        this.Opp3Num6.BringToFront();
                         break;
 
                     case 6:
-                        this.Opp3Num7.Text = card.ToString();
+                        this.Opp3Card7.BackgroundImage = imgArray[card-1];
                         this.Opp3Card7.Visible = true;
                         this.Opp3Card7.BringToFront();
-                        this.Opp3Num7.Visible = true;
-                        this.Opp3Num7.BringToFront();
                         break;
 
                     case 7:
-                        this.Opp3Num8.Text = card.ToString();
+                        this.Opp3Card8.BackgroundImage = imgArray[card-1];
                         this.Opp3Card8.Visible = true;
                         this.Opp3Card8.BringToFront();
-                        this.Opp3Num8.Visible = true;
-                        this.Opp3Num8.BringToFront();
                         break;
 
                     case 8:
-                        this.Opp3Num9.Text = card.ToString();
+                        this.Opp3Card9.BackgroundImage = imgArray[card-1];
                         this.Opp3Card9.Visible = true;
                         this.Opp3Card9.BringToFront();
-                        this.Opp3Num9.Visible = true;
-                        this.Opp3Num9.BringToFront();
                         break;
 
                     case 9:
-                        this.Opp3Num10.Text = card.ToString();
+                        this.Opp3Card10.BackgroundImage = imgArray[card-1];
                         this.Opp3Card10.Visible = true;
                         this.Opp3Card10.BringToFront();
-                        this.Opp3Num10.Visible = true;
-                        this.Opp3Num10.BringToFront();
                         break;
 
                     case 10:
-                        this.Opp3Num11.Text = card.ToString();
+                        this.Opp3Card11.BackgroundImage = imgArray[card-1];
                         this.Opp3Card11.Visible = true;
                         this.Opp3Card11.BringToFront();
-                        this.Opp3Num11.Visible = true;
-                        this.Opp3Num11.BringToFront();
                         break;
 
                     case 11:
-                        this.Opp3Num12.Text = card.ToString();
+                        this.Opp3Card12.BackgroundImage = imgArray[card-1];
                         this.Opp3Card12.Visible = true;
                         this.Opp3Card12.BringToFront();
-                        this.Opp3Num12.Visible = true;
-                        this.Opp3Num12.BringToFront();
                         break;
 
                     case 12:
-                        this.Opp3Num13.Text = card.ToString();
+                        this.Opp3Card13.BackgroundImage = imgArray[card-1];
                         this.Opp3Card13.Visible = true;
                         this.Opp3Card13.BringToFront();
-                        this.Opp3Num13.Visible = true;
-                        this.Opp3Num13.BringToFront();
                         break;
 
                     case 13:
-                        this.Opp3Num14.Text = card.ToString();
+                        this.Opp3Card14.BackgroundImage = imgArray[card-1];
                         this.Opp3Card14.Visible = true;
                         this.Opp3Card14.BringToFront();
-                        this.Opp3Num14.Visible = true;
-                        this.Opp3Num14.BringToFront();
                         break;
 
                     case 14:
-                        this.Opp3Num15.Text = card.ToString();
+                        this.Opp3Card15.BackgroundImage = imgArray[card-1];
                         this.Opp3Card15.Visible = true;
                         this.Opp3Card15.BringToFront();
-                        this.Opp3Num15.Visible = true;
-                        this.Opp3Num15.BringToFront();
                         break;
 
                     case 15:
-                        this.Opp3Num16.Text = card.ToString();
+                        this.Opp3Card16.BackgroundImage = imgArray[card-1];
                         this.Opp3Card16.Visible = true;
                         this.Opp3Card16.BringToFront();
-                        this.Opp3Num16.Visible = true;
-                        this.Opp3Num16.BringToFront();
                         break;
                     default:
                         //We have run out of cards. I miscalculated, I'm not a math major
@@ -1303,131 +1220,99 @@ namespace NoGracias
                 switch (n)
                 {
                     case 0:
-                        this.Opp4Num1.Text = card.ToString();
+                        this.Opp4Card1.BackgroundImage = imgArray[card-1];
                         this.Opp4Card1.Visible = true;
                         this.Opp4Card1.BringToFront();
-                        this.Opp4Num1.Visible = true;
-                        this.Opp4Num1.BringToFront();
                         break;
 
                     case 1:
-                        this.Opp4Num2.Text = card.ToString();
+                        this.Opp4Card2.BackgroundImage = imgArray[card-1];
                         this.Opp4Card2.Visible = true;
                         this.Opp4Card2.BringToFront();
-                        this.Opp4Num2.Visible = true;
-                        this.Opp4Num2.BringToFront();
                         break;
 
                     case 2:
-                        this.Opp4Num3.Text = card.ToString();
+                        this.Opp4Card3.BackgroundImage = imgArray[card-1];
                         this.Opp4Card3.Visible = true;
                         this.Opp4Card3.BringToFront();
-                        this.Opp4Num3.Visible = true;
-                        this.Opp4Num3.BringToFront();
                         break;
 
                     case 3:
-                        this.Opp4Num4.Text = card.ToString();
+                        this.Opp4Card4.BackgroundImage = imgArray[card-1];
                         this.Opp4Card4.Visible = true;
                         this.Opp4Card4.BringToFront();
-                        this.Opp4Num4.Visible = true;
-                        this.Opp4Num4.BringToFront();
                         break;
 
                     case 4:
-                        this.Opp4Num5.Text = card.ToString();
+                        this.Opp4Card5.BackgroundImage = imgArray[card-1];
                         this.Opp4Card5.Visible = true;
                         this.Opp4Card5.BringToFront();
-                        this.Opp4Num5.Visible = true;
-                        this.Opp4Num5.BringToFront();
                         break;
 
                     case 5:
-                        this.Opp4Num6.Text = card.ToString();
+                        this.Opp4Card6.BackgroundImage = imgArray[card-1];
                         this.Opp4Card6.Visible = true;
                         this.Opp4Card6.BringToFront();
-                        this.Opp4Num6.Visible = true;
-                        this.Opp4Num6.BringToFront();
                         break;
 
                     case 6:
-                        this.Opp4Num7.Text = card.ToString();
+                        this.Opp4Card7.BackgroundImage = imgArray[card-1];
                         this.Opp4Card7.Visible = true;
                         this.Opp4Card7.BringToFront();
-                        this.Opp4Num7.Visible = true;
-                        this.Opp4Num7.BringToFront();
                         break;
 
                     case 7:
-                        this.Opp4Num8.Text = card.ToString();
+                        this.Opp4Card8.BackgroundImage = imgArray[card-1];
                         this.Opp4Card8.Visible = true;
                         this.Opp4Card8.BringToFront();
-                        this.Opp4Num8.Visible = true;
-                        this.Opp4Num8.BringToFront();
                         break;
 
                     case 8:
-                        this.Opp4Num9.Text = card.ToString();
+                        this.Opp4Card9.BackgroundImage = imgArray[card-1];
                         this.Opp4Card9.Visible = true;
                         this.Opp4Card9.BringToFront();
-                        this.Opp4Num9.Visible = true;
-                        this.Opp4Num9.BringToFront();
                         break;
 
                     case 9:
-                        this.Opp4Num10.Text = card.ToString();
+                        this.Opp4Card10.BackgroundImage = imgArray[card-1];
                         this.Opp4Card10.Visible = true;
                         this.Opp4Card10.BringToFront();
-                        this.Opp4Num10.Visible = true;
-                        this.Opp4Num10.BringToFront();
                         break;
 
                     case 10:
-                        this.Opp4Num11.Text = card.ToString();
+                        this.Opp4Card11.BackgroundImage = imgArray[card-1];
                         this.Opp4Card11.Visible = true;
                         this.Opp4Card11.BringToFront();
-                        this.Opp4Num11.Visible = true;
-                        this.Opp4Num11.BringToFront();
                         break;
 
                     case 11:
-                        this.Opp4Num12.Text = card.ToString();
+                        this.Opp4Card12.BackgroundImage = imgArray[card-1];
                         this.Opp4Card12.Visible = true;
                         this.Opp4Card12.BringToFront();
-                        this.Opp4Num12.Visible = true;
-                        this.Opp4Num12.BringToFront();
                         break;
 
                     case 12:
-                        this.Opp4Num13.Text = card.ToString();
+                        this.Opp4Card13.BackgroundImage = imgArray[card-1];
                         this.Opp4Card13.Visible = true;
                         this.Opp4Card13.BringToFront();
-                        this.Opp4Num13.Visible = true;
-                        this.Opp4Num13.BringToFront();
                         break;
 
                     case 13:
-                        this.Opp4Num14.Text = card.ToString();
+                        this.Opp4Card14.BackgroundImage = imgArray[card-1];
                         this.Opp4Card14.Visible = true;
                         this.Opp4Card14.BringToFront();
-                        this.Opp4Num14.Visible = true;
-                        this.Opp4Num14.BringToFront();
                         break;
 
                     case 14:
-                        this.Opp4Num15.Text = card.ToString();
+                        this.Opp4Card15.BackgroundImage = imgArray[card-1];
                         this.Opp4Card15.Visible = true;
                         this.Opp4Card15.BringToFront();
-                        this.Opp4Num15.Visible = true;
-                        this.Opp4Num15.BringToFront();
                         break;
 
                     case 15:
-                        this.Opp4Num16.Text = card.ToString();
+                        this.Opp4Card16.BackgroundImage = imgArray[card-1];
                         this.Opp4Card16.Visible = true;
                         this.Opp4Card16.BringToFront();
-                        this.Opp4Num16.Visible = true;
-                        this.Opp4Num16.BringToFront();
                         break;
                     default:
                         //We have run out of cards. I miscalculated, I'm not a math major
