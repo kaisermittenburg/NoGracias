@@ -147,6 +147,7 @@ namespace NoGracias.Server
 
             //TODO: Get currentPlayer's response
             bool responseReceived = false;
+
             while (!responseReceived)
             {
                 string msg = "";
