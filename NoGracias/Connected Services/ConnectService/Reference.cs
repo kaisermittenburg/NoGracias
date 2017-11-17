@@ -8,14 +8,14 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NoGracias.ServiceReference1 {
+namespace NoGracias.ConnectService {
     using System.Runtime.Serialization;
     using System;
     
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="CompositeType", Namespace="http://schemas.datacontract.org/2004/07/WCFServiceApplication")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="CompositeType", Namespace="http://schemas.datacontract.org/2004/07/wcfService")]
     [System.SerializableAttribute()]
     public partial class CompositeType : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -75,46 +75,52 @@ namespace NoGracias.ServiceReference1 {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference1.IService1")]
-    public interface IService1 {
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ConnectService.IConnect")]
+    public interface IConnect {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetData", ReplyAction="http://tempuri.org/IService1/GetDataResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IConnect/GetData", ReplyAction="http://tempuri.org/IConnect/GetDataResponse")]
         string GetData(int value);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetData", ReplyAction="http://tempuri.org/IService1/GetDataResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IConnect/GetData", ReplyAction="http://tempuri.org/IConnect/GetDataResponse")]
         System.Threading.Tasks.Task<string> GetDataAsync(int value);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetDataUsingDataContract", ReplyAction="http://tempuri.org/IService1/GetDataUsingDataContractResponse")]
-        NoGracias.ServiceReference1.CompositeType GetDataUsingDataContract(NoGracias.ServiceReference1.CompositeType composite);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IConnect/GetBent", ReplyAction="http://tempuri.org/IConnect/GetBentResponse")]
+        string GetBent();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetDataUsingDataContract", ReplyAction="http://tempuri.org/IService1/GetDataUsingDataContractResponse")]
-        System.Threading.Tasks.Task<NoGracias.ServiceReference1.CompositeType> GetDataUsingDataContractAsync(NoGracias.ServiceReference1.CompositeType composite);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IConnect/GetBent", ReplyAction="http://tempuri.org/IConnect/GetBentResponse")]
+        System.Threading.Tasks.Task<string> GetBentAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IConnect/GetDataUsingDataContract", ReplyAction="http://tempuri.org/IConnect/GetDataUsingDataContractResponse")]
+        NoGracias.ConnectService.CompositeType GetDataUsingDataContract(NoGracias.ConnectService.CompositeType composite);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IConnect/GetDataUsingDataContract", ReplyAction="http://tempuri.org/IConnect/GetDataUsingDataContractResponse")]
+        System.Threading.Tasks.Task<NoGracias.ConnectService.CompositeType> GetDataUsingDataContractAsync(NoGracias.ConnectService.CompositeType composite);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IService1Channel : NoGracias.ServiceReference1.IService1, System.ServiceModel.IClientChannel {
+    public interface IConnectChannel : NoGracias.ConnectService.IConnect, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class Service1Client : System.ServiceModel.ClientBase<NoGracias.ServiceReference1.IService1>, NoGracias.ServiceReference1.IService1 {
+    public partial class ConnectClient : System.ServiceModel.ClientBase<NoGracias.ConnectService.IConnect>, NoGracias.ConnectService.IConnect {
         
-        public Service1Client() {
+        public ConnectClient() {
         }
         
-        public Service1Client(string endpointConfigurationName) : 
+        public ConnectClient(string endpointConfigurationName) : 
                 base(endpointConfigurationName) {
         }
         
-        public Service1Client(string endpointConfigurationName, string remoteAddress) : 
+        public ConnectClient(string endpointConfigurationName, string remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public Service1Client(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public ConnectClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public Service1Client(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public ConnectClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(binding, remoteAddress) {
         }
         
@@ -126,11 +132,19 @@ namespace NoGracias.ServiceReference1 {
             return base.Channel.GetDataAsync(value);
         }
         
-        public NoGracias.ServiceReference1.CompositeType GetDataUsingDataContract(NoGracias.ServiceReference1.CompositeType composite) {
+        public string GetBent() {
+            return base.Channel.GetBent();
+        }
+        
+        public System.Threading.Tasks.Task<string> GetBentAsync() {
+            return base.Channel.GetBentAsync();
+        }
+        
+        public NoGracias.ConnectService.CompositeType GetDataUsingDataContract(NoGracias.ConnectService.CompositeType composite) {
             return base.Channel.GetDataUsingDataContract(composite);
         }
         
-        public System.Threading.Tasks.Task<NoGracias.ServiceReference1.CompositeType> GetDataUsingDataContractAsync(NoGracias.ServiceReference1.CompositeType composite) {
+        public System.Threading.Tasks.Task<NoGracias.ConnectService.CompositeType> GetDataUsingDataContractAsync(NoGracias.ConnectService.CompositeType composite) {
             return base.Channel.GetDataUsingDataContractAsync(composite);
         }
     }

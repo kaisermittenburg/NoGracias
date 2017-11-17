@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wcfService", "wcfService\wcfService.csproj", "{906EFE9A-7579-4416-9188-9C4E86B312BA}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "wcfService.Azure", "wcfService.Azure\wcfService.Azure.ccproj", "{FDC55947-98A3-4331-9A86-E5493F2BE079}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{906EFE9A-7579-4416-9188-9C4E86B312BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{906EFE9A-7579-4416-9188-9C4E86B312BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{906EFE9A-7579-4416-9188-9C4E86B312BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{906EFE9A-7579-4416-9188-9C4E86B312BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDC55947-98A3-4331-9A86-E5493F2BE079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC55947-98A3-4331-9A86-E5493F2BE079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC55947-98A3-4331-9A86-E5493F2BE079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC55947-98A3-4331-9A86-E5493F2BE079}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC3099B3-AB81-4DE2-B696-C2982E6D2A19}
+	EndGlobalSection
+EndGlobal

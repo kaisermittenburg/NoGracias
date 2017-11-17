@@ -36,8 +36,9 @@ namespace NoGracias
             /////////////////////////////////////////////////////////////////////////////////////
             //   Remote Azure WCF Service Concept Prototype.
             //   Sends int, 2, to the service, service returns string, we print string to console
-            ServiceReference1.Service1Client service = new ServiceReference1.Service1Client();
+            ConnectService.ConnectClient service = new ConnectService.ConnectClient();
             Console.WriteLine(service.GetData(2));
+            Console.WriteLine(service.GetBent());
             /////////////////////////////////////////////////////////////////////////////////////
 
             //Start Server Form

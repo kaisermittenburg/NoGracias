@@ -5,13 +5,13 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>2.9</ProductVersion>
-    <ProjectGuid>390aa7e2-afa1-40f1-9965-ab7cce29db13</ProjectGuid>
+    <ProjectGuid>fdc55947-98a3-4331-9a86-e5493f2be079</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WCFServiceApplication.Azure</RootNamespace>
-    <AssemblyName>WCFServiceApplication.Azure</AssemblyName>
+    <RootNamespace>wcfService.Azure</RootNamespace>
+    <AssemblyName>wcfService.Azure</AssemblyName>
     <StartDevelopmentStorage>True</StartDevelopmentStorage>
-    <Name>WCFServiceApplication.Azure</Name>
+    <Name>wcfService.Azure</Name>
     <PackageEnableRemoteDebugger>False</PackageEnableRemoteDebugger>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -38,20 +38,24 @@
     <ServiceConfiguration Include="ServiceConfiguration.Cloud.cscfg" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WCFServiceApplication\WCFServiceApplication.csproj">
-      <Name>WCFServiceApplication</Name>
-      <Project>{0d9a0f76-d937-40e8-8ed6-fe4337c7704a}</Project>
+    <ProjectReference Include="..\wcfService\wcfService.csproj">
+      <Name>wcfService</Name>
+      <Project>{906efe9a-7579-4416-9188-9c4e86b312ba}</Project>
       <Private>True</Private>
       <RoleType>Web</RoleType>
-      <RoleName>WCFServiceApplication</RoleName>
+      <RoleName>wcfService</RoleName>
       <UpdateDiagnosticsConnectionStringOnPublish>True</UpdateDiagnosticsConnectionStringOnPublish>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="WCFServiceApplicationContent\" />
+    <Folder Include="Profiles" />
+    <Folder Include="wcfServiceContent\" />
   </ItemGroup>
   <ItemGroup>
-    <DiagnosticsConfiguration Include="WCFServiceApplicationContent\diagnostics.wadcfgx" />
+    <DiagnosticsConfiguration Include="wcfServiceContent\diagnostics.wadcfgx" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishProfile Include="Profiles\NoGraciasProduction.azurePubxml" />
   </ItemGroup>
   <!-- Import the target files for this project template -->
   <PropertyGroup>
