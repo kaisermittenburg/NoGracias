@@ -39,6 +39,7 @@ namespace NoGracias.Communication
         #endregion
 
         #region Game End
+        GAME_OVER,
         RECEIVE_PLAYER_SCORE,
         #endregion
 

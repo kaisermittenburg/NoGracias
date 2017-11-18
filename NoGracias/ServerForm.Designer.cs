@@ -872,7 +872,7 @@ namespace NoGracias
                 player.mSocket.Send(data);
                 Console.WriteLine("Sent start game message");
                 
-                player.mSocket.Send(data);
+                //player.mSocket.Send(data);
             }
             //TODO start card table logic
             GameDriver driver = new GameDriver(Clients);

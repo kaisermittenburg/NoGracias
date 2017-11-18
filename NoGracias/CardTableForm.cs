@@ -20,6 +20,7 @@ namespace NoGracias
         private Player mainPlayer = new Player();
         int currentCard;
         int currentChips;
+        bool isGameOver = false;
         Image[] imgArray = new Image[35];
         
         #endregion
@@ -27,7 +28,7 @@ namespace NoGracias
         {
             InitializeComponent();
             mClientSocket = aClientSocket;
-            mClientSocket.Send(Encoding.ASCII.GetBytes("MESSAGE_TO_CRASH_RECEIVE_LOOP"));
+            //mClientSocket.Send(Encoding.ASCII.GetBytes("MESSAGE_TO_CRASH_RECEIVE_LOOP"));
             InitializeImgArray();
             ListenToServer();
         }
@@ -37,237 +38,7 @@ namespace NoGracias
         {
 
         }
-
-		private void textBox2_TextChanged(object sender, EventArgs e)
-		{
-
-		}
-
-		private void textBox2_TextChanged_1(object sender, EventArgs e)
-		{
-
-		}
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox13_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox14_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label12_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label33_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Card9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Num7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Num6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Num5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Num4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Num3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Num2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Num1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Num9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Num10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Num11_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Num12_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Num13_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Num14_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Num15_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Num16_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Card16_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Card15_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Card14_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Card13_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Card12_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Card11_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Card10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Num8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Card8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Card7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Card6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Card5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Card4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Card3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged_2(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Card2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2Card1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2ChipCount_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Opp2ChipText_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox17_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        		
         private void AcceptCardButton_Click(object sender, EventArgs e)
         {
             Console.WriteLine(mainPlayer.mName + "'s Card Table is Sending: ACCEPT_CARD");
@@ -321,7 +92,8 @@ namespace NoGracias
 
         private void StartReceive()
         {
-            while(true)
+            mClientSocket.Send(Encoding.ASCII.GetBytes("MESSAGE_TO_CRASH_RECEIVE_LOOP")); 
+            while (!isGameOver)
             {
                 ReceiveFromServer();
             }
@@ -359,6 +131,62 @@ namespace NoGracias
             {
                 RejectCardUpdate();
             }
+            else if(message == Messages.GAME_OVER.ToString())
+            {
+                this.TurnStatus.Invoke((MethodInvoker)delegate
+                {
+                    this.TurnStatus.Text = "--GAME OVER--";
+                });
+            }
+            else if(message == Messages.RECEIVE_PLAYER_SCORE.ToString())
+            {
+                isGameOver = true;
+                ShowPlayerScores();
+            }
+        }
+
+        private void ShowPlayerScores()
+        {
+            byte[] buffer = new byte[2048];
+            int received = mClientSocket.Receive(buffer, SocketFlags.None);
+
+            if (received == 0) return;
+
+            byte[] data = new byte[received];
+            Array.Copy(buffer, data, received);
+            string message = Encoding.ASCII.GetString(data);
+            Console.WriteLine("Message from server in show score...  " + message); //debugging
+
+            message = message.Substring(0, message.Length - 1);
+            string[]  scoreString = message.Split(',');
+            int[] score = new int[scoreString.Length];
+            for(int i=0; i<scoreString.Length; i++)
+            {
+                score[i] = Int32.Parse(scoreString[i]);
+            }
+
+            string scoreMessage = "";
+            if (score.Min() == score[0])
+            {
+                scoreMessage = "YOU WON!\n\n";
+            }
+            else
+            {
+                scoreMessage = "YOU LOST :(\n\n";
+            }
+            for (int i=0; i<score.Length; i++)
+            {
+                if(i==0)
+                {
+                    scoreMessage += "Your Score: " + score[0] + "\n";
+                }
+                else
+                {
+                    scoreMessage += opponents.ElementAt(i - 1).mName + "'s Score: " + score[i] + "\n";
+                }
+            }
+
+            MessageBox.Show(scoreMessage, "Scores", MessageBoxButtons.OK);
         }
 
         private void RejectCardUpdate()
@@ -761,6 +589,8 @@ namespace NoGracias
             int n = mainPlayer.cards.Count;
             this.Invoke((MethodInvoker)delegate
             {
+                this.TopDeckCard.BackgroundImage = imgArray[1];
+                this.TopDeckChipCounter.Text = "0";
                 int playerChips = Int32.Parse(this.MainPlayerChipCount.Text);
                 playerChips += chips;
                 this.MainPlayerChipCount.Text = playerChips.ToString();
@@ -871,6 +701,8 @@ namespace NoGracias
 
         private void AddOpp1Card(int card, int chips)
         {
+            this.TopDeckCard.BackgroundImage = imgArray[1];
+            this.TopDeckChipCounter.Text = "0";
             int n = opponents.ElementAt(0).cards.Count;
             this.Invoke((MethodInvoker)delegate
             {
@@ -984,6 +816,8 @@ namespace NoGracias
 
         private void AddOpp2Card(int card, int chips)
         {
+            this.TopDeckCard.BackgroundImage = imgArray[1];
+            this.TopDeckChipCounter.Text = "0";
             int n = opponents.ElementAt(1).cards.Count;
             this.Invoke((MethodInvoker)delegate
             {
@@ -1097,6 +931,8 @@ namespace NoGracias
 
         private void AddOpp3Card(int card, int chips)
         {
+            this.TopDeckCard.BackgroundImage = imgArray[1];
+            this.TopDeckChipCounter.Text = "0";
             int n = opponents.ElementAt(2).cards.Count;
             this.Invoke((MethodInvoker)delegate
             {
@@ -1210,6 +1046,8 @@ namespace NoGracias
 
         private void AddOpp4Card(int card, int chips)
         {
+            this.TopDeckCard.BackgroundImage = imgArray[1];
+            this.TopDeckChipCounter.Text = "0";
             int n = opponents.ElementAt(3).cards.Count;
             this.Invoke((MethodInvoker)delegate
             {
@@ -1320,8 +1158,9 @@ namespace NoGracias
                 }
             });
         }
+
         #endregion
 
-
+        
     }
 }
