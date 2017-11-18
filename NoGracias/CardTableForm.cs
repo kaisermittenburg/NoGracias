@@ -701,11 +701,11 @@ namespace NoGracias
 
         private void AddOpp1Card(int card, int chips)
         {
-            this.TopDeckCard.BackgroundImage = imgArray[1];
-            this.TopDeckChipCounter.Text = "0";
             int n = opponents.ElementAt(0).cards.Count;
             this.Invoke((MethodInvoker)delegate
             {
+                this.TopDeckCard.BackgroundImage = imgArray[1];
+                this.TopDeckChipCounter.Text = "0";
                 int playerChips = Int32.Parse(this.Opp1ChipCount.Text);
                 playerChips += chips;
                 this.Opp1ChipCount.Text = playerChips.ToString();
@@ -816,11 +816,11 @@ namespace NoGracias
 
         private void AddOpp2Card(int card, int chips)
         {
-            this.TopDeckCard.BackgroundImage = imgArray[1];
-            this.TopDeckChipCounter.Text = "0";
             int n = opponents.ElementAt(1).cards.Count;
             this.Invoke((MethodInvoker)delegate
             {
+                this.TopDeckCard.BackgroundImage = imgArray[1];
+                this.TopDeckChipCounter.Text = "0";
                 int playerChips = Int32.Parse(this.Opp2ChipCount.Text);
                 playerChips += chips;
                 this.Opp2ChipCount.Text = playerChips.ToString();
@@ -931,11 +931,11 @@ namespace NoGracias
 
         private void AddOpp3Card(int card, int chips)
         {
-            this.TopDeckCard.BackgroundImage = imgArray[1];
-            this.TopDeckChipCounter.Text = "0";
             int n = opponents.ElementAt(2).cards.Count;
             this.Invoke((MethodInvoker)delegate
             {
+                this.TopDeckCard.BackgroundImage = imgArray[1];
+                this.TopDeckChipCounter.Text = "0";
                 int playerChips = Int32.Parse(this.Opp3ChipCount.Text);
                 playerChips += chips;
                 this.Opp3ChipCount.Text = playerChips.ToString();
@@ -1046,11 +1046,11 @@ namespace NoGracias
 
         private void AddOpp4Card(int card, int chips)
         {
-            this.TopDeckCard.BackgroundImage = imgArray[1];
-            this.TopDeckChipCounter.Text = "0";
             int n = opponents.ElementAt(3).cards.Count;
             this.Invoke((MethodInvoker)delegate
             {
+                this.TopDeckCard.BackgroundImage = imgArray[1];
+                this.TopDeckChipCounter.Text = "0";
                 int playerChips = Int32.Parse(this.Opp4ChipCount.Text);
                 playerChips += chips;
                 this.Opp4ChipCount.Text = playerChips.ToString();
