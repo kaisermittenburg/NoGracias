@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0b3d9711-0c05-48be-ae93-18242ea459e5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://nogracias.cloudapp.net/Connect.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Connect.wsdl" MetadataType="Wsdl" ID="7f97bd76-81e5-4813-a5a3-6b74447a60b2" SourceId="1" SourceUrl="http://nogracias.cloudapp.net/Connect.svc?wsdl" />
+    <MetadataFile FileName="Connect.disco" MetadataType="Disco" ID="044403e3-a75d-4e5e-89e2-5d51470d1f1b" SourceId="1" SourceUrl="http://nogracias.cloudapp.net/Connect.svc?disco" />
+    <MetadataFile FileName="Connect.xsd" MetadataType="Schema" ID="d701db5d-cd70-4ddd-889e-3d8a2aed09f4" SourceId="1" SourceUrl="http://nogracias.cloudapp.net/Connect.svc?xsd=xsd2" />
+    <MetadataFile FileName="Connect1.xsd" MetadataType="Schema" ID="e198d29c-6400-4c00-baa9-36b189319e1b" SourceId="1" SourceUrl="http://nogracias.cloudapp.net/Connect.svc?xsd=xsd0" />
+    <MetadataFile FileName="Connect2.xsd" MetadataType="Schema" ID="a4d35222-c082-4f6f-a6b8-a3cd4fa68b77" SourceId="1" SourceUrl="http://nogracias.cloudapp.net/Connect.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
