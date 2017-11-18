@@ -188,6 +188,7 @@ namespace NoGracias.Server
                         }
 
                         currentPlayer.cards.Add(cardInPlay.value);
+                        currentPlayer.cards.Sort();
                         currentPlayer.chips += cardInPlay.chipsOnCard;
                         if (deck.isEmpty())
                         {

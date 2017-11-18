@@ -71,26 +71,31 @@ namespace NoGracias
          */
         public int Score()
         {
+            string cardList = "";
+            foreach(int i in cards)
+            {
+                cardList += i.ToString() + ",";
+            }
+            Console.WriteLine(mName + " Cards: " + cardList);
+            cards.Sort();
             int n = cards.Count;
             int sum = 0;
 
             if (n != 0)
             {
-                int last = cards.Last();
+                int last = cards.First();
 
-                sum += cards.Last();
-                n--;
-
-                while (n > 1)
+                sum += last;
+                
+                for(int i=1; i<n; i++)
                 {
-                    int current = cards.ElementAt(n - 1);
-                    if (current - 1 != last)
+                    int current = cards.ElementAt(i);
+                    if (last + 1 != current)
                     {
                         sum += current;
                     }
 
                     last = current;
-                    n--;
                 }
             }
 
