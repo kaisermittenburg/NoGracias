@@ -6,7 +6,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Windows.Forms;
 using System.Linq;
-using NoGracias.Communication;
+using Common;
 using System.Threading.Tasks;
 using System.Diagnostics;
 using System.Threading;
