@@ -9,5 +9,14 @@ namespace NoGracias
 {
     public class CallbackHandler : IGameDriverCallback
     {
+        public void OnUserRegistered(string aUsername)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void OnPublishChat(string aUsername, string aChatMessage)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

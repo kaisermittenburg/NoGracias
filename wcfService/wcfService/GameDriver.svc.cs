@@ -23,13 +23,36 @@ namespace wcfService
 
         // Storage containers
         static Dictionary<string, IGameDriverCallback> _callbacks = new Dictionary<string, IGameDriverCallback>();
+        private const string ERROR_USER_ALREADY_EXISTS = "User already registered.";
+        private const string FORMAT_USER_REGISTERED = "{0} has registered.";
         #endregion
 
         public void RegisterUser(string aUsername)
         {
-            mNumberOfPlayers++;
-            mPlayers.Add(new Player() { mPlayerNumber = mNumberOfPlayers, mName = aUsername, chips = 11 });
-            //TODO push player joined notification
+            //mNumberOfPlayers++;
+            //mPlayers.Add(new Player() { mPlayerNumber = mNumberOfPlayers, mName = aUsername, chips = 11 });
+            _currentCallback = OperationContext.Current.GetCallbackChannel<IGameDriverCallback>();
+
+            // Store callback
+            if (!_callbacks.ContainsKey(aUsername))
+            {
+                _callbacks.Add(aUsername, _currentCallback);
+
+                // Notify user of registration
+                _currentCallback.OnUserRegistered(aUsername);
+
+                // Notify clients of new user
+                foreach (string userKey in _callbacks.Keys)
+                {
+                    _currentCallback = _callbacks[userKey];
+                    _currentCallback.OnPublishChat("Mittens", string.Format(FORMAT_USER_REGISTERED, aUsername));
+                }
+            }
+            else
+            {
+                // User already registered, throw exception
+                throw new Exception(ERROR_USER_ALREADY_EXISTS);
+            }
         }
 
         #region Proof Of Concept

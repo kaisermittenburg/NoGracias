@@ -16,6 +16,8 @@ namespace wcfService
         [OperationContract(IsOneWay = true)]
         void RegisterUser(string aUsername);
 
+        
+
         #region Proof Of Concept
         [OperationContract]
         string GetData(int value);
