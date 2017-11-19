@@ -24,7 +24,7 @@ namespace wcfService
         // Storage containers
         static Dictionary<string, IGameDriverCallback> _callbacks = new Dictionary<string, IGameDriverCallback>();
         #endregion
-        
+
         public void RegisterUser(string aUsername)
         {
             mNumberOfPlayers++;
