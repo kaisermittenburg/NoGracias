@@ -2,7 +2,7 @@
 using System.Net.Sockets;
 using System.Text;
 using System.Windows.Forms;
-using NoGracias.Communication;
+using Common;
 using System.Collections.Generic;
 using System.Diagnostics;
 

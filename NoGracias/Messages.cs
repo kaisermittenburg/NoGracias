@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NoGracias.Communication
+namespace Common
 {
     static class MessageClass
     {

@@ -49,6 +49,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\wcfService\wcfService\IGameDriverCallback.cs">
+      <Link>IGameDriverCallback.cs</Link>
+    </Compile>
+    <Compile Include="CallbackHandler.cs" />
     <Compile Include="CardTableForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -257,6 +261,6 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-</ItemGroup>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
