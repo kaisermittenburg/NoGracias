@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a4d83994-c9b1-4838-b614-0d3e419dea9a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://nogracias.cloudapp.net/GameDriver.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="GameDriver.wsdl" MetadataType="Wsdl" ID="7f0132ac-0796-4196-8826-fe71f48e7b7c" SourceId="1" SourceUrl="http://nogracias.cloudapp.net/GameDriver.svc?wsdl" />
+    <MetadataFile FileName="GameDriver.disco" MetadataType="Disco" ID="9b8a90cf-5d22-41af-a69b-2239e691303b" SourceId="1" SourceUrl="http://nogracias.cloudapp.net/GameDriver.svc?disco" />
+    <MetadataFile FileName="GameDriver.xsd" MetadataType="Schema" ID="8e3bfcf5-c8e3-48fe-b4cc-913120f4ef49" SourceId="1" SourceUrl="http://nogracias.cloudapp.net/GameDriver.svc?xsd=xsd0" />
+    <MetadataFile FileName="GameDriver1.xsd" MetadataType="Schema" ID="e9934238-7bfb-469f-9951-95149df653e4" SourceId="1" SourceUrl="http://nogracias.cloudapp.net/GameDriver.svc?xsd=xsd1" />
+    <MetadataFile FileName="GameDriver2.xsd" MetadataType="Schema" ID="b8158ca9-9322-4ce9-8e1f-8c69d64668f0" SourceId="1" SourceUrl="http://nogracias.cloudapp.net/GameDriver.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Net.Sockets;
-using NoGracias.Communication;
+using Common;
 using System.Threading;
 
 namespace NoGracias.Server
