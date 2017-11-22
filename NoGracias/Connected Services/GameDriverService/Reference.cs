@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NoGracias.ConnectService {
+namespace NoGracias.GameDriverService {
     using System.Runtime.Serialization;
     using System;
     
@@ -75,53 +75,67 @@ namespace NoGracias.ConnectService {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ConnectService.IConnect")]
-    public interface IConnect {
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="GameDriverService.IGameDriver")]
+    public interface IGameDriver {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IConnect/GetData", ReplyAction="http://tempuri.org/IConnect/GetDataResponse")]
+        [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="http://tempuri.org/IGameDriver/RegisterUser")]
+        void RegisterUser(string aUsername);
+        
+        [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="http://tempuri.org/IGameDriver/RegisterUser")]
+        System.Threading.Tasks.Task RegisterUserAsync(string aUsername);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IGameDriver/GetData", ReplyAction="http://tempuri.org/IGameDriver/GetDataResponse")]
         string GetData(int value);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IConnect/GetData", ReplyAction="http://tempuri.org/IConnect/GetDataResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IGameDriver/GetData", ReplyAction="http://tempuri.org/IGameDriver/GetDataResponse")]
         System.Threading.Tasks.Task<string> GetDataAsync(int value);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IConnect/GetBent", ReplyAction="http://tempuri.org/IConnect/GetBentResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IGameDriver/GetBent", ReplyAction="http://tempuri.org/IGameDriver/GetBentResponse")]
         string GetBent();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IConnect/GetBent", ReplyAction="http://tempuri.org/IConnect/GetBentResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IGameDriver/GetBent", ReplyAction="http://tempuri.org/IGameDriver/GetBentResponse")]
         System.Threading.Tasks.Task<string> GetBentAsync();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IConnect/GetDataUsingDataContract", ReplyAction="http://tempuri.org/IConnect/GetDataUsingDataContractResponse")]
-        NoGracias.ConnectService.CompositeType GetDataUsingDataContract(NoGracias.ConnectService.CompositeType composite);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IGameDriver/GetDataUsingDataContract", ReplyAction="http://tempuri.org/IGameDriver/GetDataUsingDataContractResponse")]
+        NoGracias.GameDriverService.CompositeType GetDataUsingDataContract(NoGracias.GameDriverService.CompositeType composite);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IConnect/GetDataUsingDataContract", ReplyAction="http://tempuri.org/IConnect/GetDataUsingDataContractResponse")]
-        System.Threading.Tasks.Task<NoGracias.ConnectService.CompositeType> GetDataUsingDataContractAsync(NoGracias.ConnectService.CompositeType composite);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IGameDriver/GetDataUsingDataContract", ReplyAction="http://tempuri.org/IGameDriver/GetDataUsingDataContractResponse")]
+        System.Threading.Tasks.Task<NoGracias.GameDriverService.CompositeType> GetDataUsingDataContractAsync(NoGracias.GameDriverService.CompositeType composite);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IConnectChannel : NoGracias.ConnectService.IConnect, System.ServiceModel.IClientChannel {
+    public interface IGameDriverChannel : NoGracias.GameDriverService.IGameDriver, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class ConnectClient : System.ServiceModel.ClientBase<NoGracias.ConnectService.IConnect>, NoGracias.ConnectService.IConnect {
+    public partial class GameDriverClient : System.ServiceModel.ClientBase<NoGracias.GameDriverService.IGameDriver>, NoGracias.GameDriverService.IGameDriver {
         
-        public ConnectClient() {
+        public GameDriverClient() {
         }
         
-        public ConnectClient(string endpointConfigurationName) : 
+        public GameDriverClient(string endpointConfigurationName) : 
                 base(endpointConfigurationName) {
         }
         
-        public ConnectClient(string endpointConfigurationName, string remoteAddress) : 
+        public GameDriverClient(string endpointConfigurationName, string remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public ConnectClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public GameDriverClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public ConnectClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public GameDriverClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(binding, remoteAddress) {
+        }
+        
+        public void RegisterUser(string aUsername) {
+            base.Channel.RegisterUser(aUsername);
+        }
+        
+        public System.Threading.Tasks.Task RegisterUserAsync(string aUsername) {
+            return base.Channel.RegisterUserAsync(aUsername);
         }
         
         public string GetData(int value) {
@@ -140,11 +154,11 @@ namespace NoGracias.ConnectService {
             return base.Channel.GetBentAsync();
         }
         
-        public NoGracias.ConnectService.CompositeType GetDataUsingDataContract(NoGracias.ConnectService.CompositeType composite) {
+        public NoGracias.GameDriverService.CompositeType GetDataUsingDataContract(NoGracias.GameDriverService.CompositeType composite) {
             return base.Channel.GetDataUsingDataContract(composite);
         }
         
-        public System.Threading.Tasks.Task<NoGracias.ConnectService.CompositeType> GetDataUsingDataContractAsync(NoGracias.ConnectService.CompositeType composite) {
+        public System.Threading.Tasks.Task<NoGracias.GameDriverService.CompositeType> GetDataUsingDataContractAsync(NoGracias.GameDriverService.CompositeType composite) {
             return base.Channel.GetDataUsingDataContractAsync(composite);
         }
     }

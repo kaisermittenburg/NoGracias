@@ -59,7 +59,7 @@
     <Compile Include="CardTableForm.Designer.cs">
       <DependentUpon>CardTableForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Connected Services\ConnectService\Reference.cs">
+    <Compile Include="Connected Services\GameDriverService\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -104,17 +104,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="Connected Services\ConnectService\Connect.wsdl" />
-    <None Include="Connected Services\ConnectService\Connect.xsd">
+    <None Include="Connected Services\GameDriverService\GameDriver.wsdl" />
+    <None Include="Connected Services\GameDriverService\GameDriver.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\ConnectService\Connect1.xsd">
+    <None Include="Connected Services\GameDriverService\GameDriver1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\ConnectService\Connect2.xsd">
+    <None Include="Connected Services\GameDriverService\GameDriver2.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\ConnectService\NoGracias.ConnectService.CompositeType.datasource">
+    <None Include="Connected Services\GameDriverService\NoGracias.GameDriverService.CompositeType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
@@ -245,19 +245,19 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\ConnectService\" />
+    <WCFMetadataStorage Include="Connected Services\GameDriverService\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ConnectService\Connect.disco" />
+    <None Include="Connected Services\GameDriverService\GameDriver.disco" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ConnectService\configuration91.svcinfo" />
+    <None Include="Connected Services\GameDriverService\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ConnectService\configuration.svcinfo" />
+    <None Include="Connected Services\GameDriverService\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ConnectService\Reference.svcmap">
+    <None Include="Connected Services\GameDriverService\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
