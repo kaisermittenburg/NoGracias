@@ -97,11 +97,13 @@ namespace NoGracias
             // 
             // button2
             // 
+            this.button2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(57, 69);
+            this.button2.Location = new System.Drawing.Point(43, 56);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(102, 37);
+            this.button2.Size = new System.Drawing.Size(76, 30);
             this.button2.TabIndex = 26;
             this.button2.Text = "Player";
             this.button2.UseVisualStyleBackColor = true;
@@ -109,81 +111,96 @@ namespace NoGracias
             // 
             // label5
             // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label5.BackColor = System.Drawing.Color.YellowGreen;
             this.label5.Font = new System.Drawing.Font("Palatino Linotype", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(266, 141);
+            this.label5.Location = new System.Drawing.Point(200, 115);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(661, 53);
+            this.label5.Size = new System.Drawing.Size(496, 43);
             this.label5.TabIndex = 24;
             this.label5.Text = "No Gracias Server Menu";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.ForestGreen;
             this.label2.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(317, 274);
+            this.label2.Location = new System.Drawing.Point(238, 223);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 23);
+            this.label2.Size = new System.Drawing.Size(36, 19);
             this.label2.TabIndex = 21;
             this.label2.Text = "Port";
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.ForestGreen;
             this.label1.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(317, 229);
+            this.label1.Location = new System.Drawing.Point(238, 186);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(26, 23);
+            this.label1.Size = new System.Drawing.Size(23, 19);
             this.label1.TabIndex = 20;
             this.label1.Text = "IP";
             // 
             // Status_textbox
             // 
-            this.Status_textbox.Location = new System.Drawing.Point(403, 314);
+            this.Status_textbox.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Status_textbox.Location = new System.Drawing.Point(302, 255);
+            this.Status_textbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Status_textbox.Multiline = true;
             this.Status_textbox.Name = "Status_textbox";
             this.Status_textbox.ReadOnly = true;
             this.Status_textbox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.Status_textbox.Size = new System.Drawing.Size(427, 229);
+            this.Status_textbox.Size = new System.Drawing.Size(321, 187);
             this.Status_textbox.TabIndex = 18;
             // 
             // Port_textbox
             // 
-            this.Port_textbox.Location = new System.Drawing.Point(403, 274);
+            this.Port_textbox.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Port_textbox.Location = new System.Drawing.Point(302, 223);
+            this.Port_textbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Port_textbox.Name = "Port_textbox";
             this.Port_textbox.ReadOnly = true;
-            this.Port_textbox.Size = new System.Drawing.Size(427, 22);
+            this.Port_textbox.Size = new System.Drawing.Size(321, 20);
             this.Port_textbox.TabIndex = 17;
             // 
             // IP_textbox
             // 
-            this.IP_textbox.Location = new System.Drawing.Point(403, 224);
+            this.IP_textbox.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.IP_textbox.Location = new System.Drawing.Point(302, 182);
+            this.IP_textbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.IP_textbox.Name = "IP_textbox";
             this.IP_textbox.ReadOnly = true;
-            this.IP_textbox.Size = new System.Drawing.Size(427, 22);
+            this.IP_textbox.Size = new System.Drawing.Size(321, 20);
             this.IP_textbox.TabIndex = 16;
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(317, 314);
+            this.label3.Location = new System.Drawing.Point(238, 255);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(59, 23);
+            this.label3.Size = new System.Drawing.Size(50, 19);
             this.label3.TabIndex = 27;
             this.label3.Text = "Status";
             // 
             // StartServerButton
             // 
+            this.StartServerButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.StartServerButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.StartServerButton.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StartServerButton.Location = new System.Drawing.Point(57, 490);
-            this.StartServerButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.StartServerButton.Location = new System.Drawing.Point(302, 466);
+            this.StartServerButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.StartServerButton.Name = "StartServerButton";
-            this.StartServerButton.Size = new System.Drawing.Size(154, 52);
+            this.StartServerButton.Size = new System.Drawing.Size(116, 42);
             this.StartServerButton.TabIndex = 28;
             this.StartServerButton.Text = "Start Server";
             this.StartServerButton.UseVisualStyleBackColor = true;
@@ -191,13 +208,14 @@ namespace NoGracias
             // 
             // ShutdownServerButton
             // 
+            this.ShutdownServerButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.ShutdownServerButton.Enabled = false;
             this.ShutdownServerButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.ShutdownServerButton.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShutdownServerButton.Location = new System.Drawing.Point(239, 490);
-            this.ShutdownServerButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ShutdownServerButton.Location = new System.Drawing.Point(539, 466);
+            this.ShutdownServerButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ShutdownServerButton.Name = "ShutdownServerButton";
-            this.ShutdownServerButton.Size = new System.Drawing.Size(112, 52);
+            this.ShutdownServerButton.Size = new System.Drawing.Size(84, 42);
             this.ShutdownServerButton.TabIndex = 29;
             this.ShutdownServerButton.Text = "Shutdown";
             this.ShutdownServerButton.UseVisualStyleBackColor = true;
@@ -205,65 +223,70 @@ namespace NoGracias
             // 
             // checkBox1
             // 
+            this.checkBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(884, 314);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBox1.Location = new System.Drawing.Point(663, 255);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(66, 21);
+            this.checkBox1.Size = new System.Drawing.Size(54, 17);
             this.checkBox1.TabIndex = 30;
             this.checkBox1.Text = "NULL";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // checkBox2
             // 
+            this.checkBox2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(884, 338);
-            this.checkBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBox2.Location = new System.Drawing.Point(663, 275);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(66, 21);
+            this.checkBox2.Size = new System.Drawing.Size(54, 17);
             this.checkBox2.TabIndex = 31;
             this.checkBox2.Text = "NULL";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // checkBox3
             // 
+            this.checkBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(884, 362);
-            this.checkBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBox3.Location = new System.Drawing.Point(663, 294);
+            this.checkBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(66, 21);
+            this.checkBox3.Size = new System.Drawing.Size(54, 17);
             this.checkBox3.TabIndex = 32;
             this.checkBox3.Text = "NULL";
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
             // checkBox4
             // 
+            this.checkBox4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(884, 386);
-            this.checkBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBox4.Location = new System.Drawing.Point(663, 314);
+            this.checkBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(66, 21);
+            this.checkBox4.Size = new System.Drawing.Size(54, 17);
             this.checkBox4.TabIndex = 33;
             this.checkBox4.Text = "NULL";
             this.checkBox4.UseVisualStyleBackColor = true;
             // 
             // checkBox5
             // 
+            this.checkBox5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(884, 410);
-            this.checkBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBox5.Location = new System.Drawing.Point(663, 333);
+            this.checkBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(66, 21);
+            this.checkBox5.Size = new System.Drawing.Size(54, 17);
             this.checkBox5.TabIndex = 34;
             this.checkBox5.Text = "NULL";
             this.checkBox5.UseVisualStyleBackColor = true;
             // 
-            // MainMenuServerForm
+            // ServerForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.ForestGreen;
-            this.ClientSize = new System.Drawing.Size(1198, 566);
+            this.ClientSize = new System.Drawing.Size(898, 531);
             this.Controls.Add(this.checkBox5);
             this.Controls.Add(this.checkBox4);
             this.Controls.Add(this.checkBox3);
@@ -279,7 +302,8 @@ namespace NoGracias
             this.Controls.Add(this.Status_textbox);
             this.Controls.Add(this.Port_textbox);
             this.Controls.Add(this.IP_textbox);
-            this.Name = "MainMenuServerForm";
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Name = "ServerForm";
             this.Text = "MainMenuServer";
             this.ResumeLayout(false);
             this.PerformLayout();
