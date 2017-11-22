@@ -157,7 +157,7 @@
     <value>20</value>
   </data>
   <data name="Opp1Name.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Left</value>
   </data>
   <data name="Opp1Name.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -193,7 +193,7 @@
     <value>16</value>
   </data>
   <data name="Opp1Card3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Left</value>
   </data>
   <data name="Opp1Card3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -235,7 +235,7 @@
     <value>17</value>
   </data>
   <data name="textBox3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Left</value>
   </data>
   <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
     <value>102, 399</value>
@@ -271,7 +271,7 @@
     <value>18</value>
   </data>
   <data name="Opp1Card2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Left</value>
   </data>
   <data name="Opp1Card2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -313,7 +313,7 @@
     <value>19</value>
   </data>
   <data name="Opp1Card1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Left</value>
   </data>
   <data name="Opp1Card1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -397,7 +397,7 @@
     <value>20</value>
   </data>
   <data name="Opp3Name.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Right</value>
   </data>
   <data name="Opp3Name.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -469,7 +469,7 @@
     <value>19</value>
   </data>
   <data name="pictureBox18.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Left</value>
   </data>
   <data name="pictureBox18.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
@@ -499,7 +499,7 @@
     <value>15</value>
   </data>
   <data name="opp3ChipGraphic.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Right</value>
   </data>
   <data name="opp3ChipGraphic.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
@@ -532,7 +532,7 @@
     <value>19</value>
   </data>
   <data name="Opp1Card4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Left</value>
   </data>
   <data name="Opp1Card4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -646,7 +646,7 @@
     <value>18</value>
   </data>
   <data name="Opp3ChipText.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Right</value>
   </data>
   <data name="Opp3ChipText.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -721,7 +721,7 @@
     <value>18</value>
   </data>
   <data name="Opp1ChipText.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Left</value>
   </data>
   <data name="Opp1ChipText.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -793,7 +793,7 @@
     <value>1</value>
   </data>
   <data name="Opp1ChipCount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Left</value>
   </data>
   <data name="Opp1ChipCount.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -871,7 +871,7 @@
     <value>0</value>
   </data>
   <data name="Opp3ChipCount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Right</value>
   </data>
   <data name="Opp3ChipCount.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -955,7 +955,7 @@
     <value>0</value>
   </data>
   <data name="Opp1Card8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Left</value>
   </data>
   <data name="Opp1Card8.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1000,7 +1000,7 @@
     <value>9</value>
   </data>
   <data name="Opp1Card7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Left</value>
   </data>
   <data name="Opp1Card7.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1045,7 +1045,7 @@
     <value>10</value>
   </data>
   <data name="Opp1Card6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Left</value>
   </data>
   <data name="Opp1Card6.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1090,7 +1090,7 @@
     <value>11</value>
   </data>
   <data name="Opp1Card5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Left</value>
   </data>
   <data name="Opp1Card5.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1135,7 +1135,7 @@
     <value>12</value>
   </data>
   <data name="Opp1Card12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Left</value>
   </data>
   <data name="Opp1Card12.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1180,7 +1180,7 @@
     <value>5</value>
   </data>
   <data name="Opp1Card11.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Left</value>
   </data>
   <data name="Opp1Card11.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1225,7 +1225,7 @@
     <value>6</value>
   </data>
   <data name="Opp1Card10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Left</value>
   </data>
   <data name="Opp1Card10.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1270,7 +1270,7 @@
     <value>7</value>
   </data>
   <data name="Opp1Card9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Left</value>
   </data>
   <data name="Opp1Card9.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1315,7 +1315,7 @@
     <value>8</value>
   </data>
   <data name="Opp1Card16.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Left</value>
   </data>
   <data name="Opp1Card16.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1360,7 +1360,7 @@
     <value>1</value>
   </data>
   <data name="Opp1Card15.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Left</value>
   </data>
   <data name="Opp1Card15.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1405,7 +1405,7 @@
     <value>2</value>
   </data>
   <data name="Opp1Card14.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Left</value>
   </data>
   <data name="Opp1Card14.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1450,7 +1450,7 @@
     <value>3</value>
   </data>
   <data name="Opp1Card13.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Left</value>
   </data>
   <data name="Opp1Card13.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -2326,7 +2326,7 @@
     <value>1</value>
   </data>
   <data name="Opp3Card16.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Right</value>
   </data>
   <data name="Opp3Card16.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -2371,7 +2371,7 @@
     <value>1</value>
   </data>
   <data name="Opp3Card15.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Right</value>
   </data>
   <data name="Opp3Card15.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -2416,7 +2416,7 @@
     <value>2</value>
   </data>
   <data name="Opp3Card14.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Right</value>
   </data>
   <data name="Opp3Card14.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -2461,7 +2461,7 @@
     <value>3</value>
   </data>
   <data name="Opp3Card13.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Right</value>
   </data>
   <data name="Opp3Card13.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -2506,7 +2506,7 @@
     <value>4</value>
   </data>
   <data name="Opp3Card12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Right</value>
   </data>
   <data name="Opp3Card12.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -2551,7 +2551,7 @@
     <value>5</value>
   </data>
   <data name="Opp3Card11.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Right</value>
   </data>
   <data name="Opp3Card11.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -2596,7 +2596,7 @@
     <value>6</value>
   </data>
   <data name="Opp3Card10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Right</value>
   </data>
   <data name="Opp3Card10.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -2641,7 +2641,7 @@
     <value>7</value>
   </data>
   <data name="Opp3Card9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Right</value>
   </data>
   <data name="Opp3Card9.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -2686,7 +2686,7 @@
     <value>8</value>
   </data>
   <data name="Opp3Card8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Right</value>
   </data>
   <data name="Opp3Card8.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -2731,7 +2731,7 @@
     <value>9</value>
   </data>
   <data name="Opp3Card7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Right</value>
   </data>
   <data name="Opp3Card7.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -2776,7 +2776,7 @@
     <value>10</value>
   </data>
   <data name="Opp3Card6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Right</value>
   </data>
   <data name="Opp3Card6.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -2821,7 +2821,7 @@
     <value>11</value>
   </data>
   <data name="Opp3Card5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Right</value>
   </data>
   <data name="Opp3Card5.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -2866,7 +2866,7 @@
     <value>12</value>
   </data>
   <data name="Opp3Card4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Right</value>
   </data>
   <data name="Opp3Card4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -2911,7 +2911,7 @@
     <value>13</value>
   </data>
   <data name="Opp3Card3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Right</value>
   </data>
   <data name="Opp3Card3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -2956,7 +2956,7 @@
     <value>14</value>
   </data>
   <data name="textBox4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Right</value>
   </data>
   <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing">
     <value>132, 58</value>
@@ -2992,7 +2992,7 @@
     <value>15</value>
   </data>
   <data name="Opp3Card2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Right</value>
   </data>
   <data name="Opp3Card2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -3037,7 +3037,7 @@
     <value>16</value>
   </data>
   <data name="Opp3Card1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+    <value>Right</value>
   </data>
   <data name="Opp3Card1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -4000,7 +4000,7 @@
     <value>Top</value>
   </data>
   <data name="AcceptCardButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+    <value>Popup</value>
   </data>
   <data name="AcceptCardButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Berlin Sans FB Demi, 12pt, style=Bold</value>
@@ -4042,7 +4042,7 @@
     <value>Top</value>
   </data>
   <data name="NoGraciasButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+    <value>Popup</value>
   </data>
   <data name="NoGraciasButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Berlin Sans FB Demi, 12pt, style=Bold</value>
