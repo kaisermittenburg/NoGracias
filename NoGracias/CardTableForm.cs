@@ -18,8 +18,9 @@ namespace NoGracias
         #region Variables
         private List<Player> opponents = new List<Player>();
         private Player mainPlayer = new Player();
-        int currentCard;
-        int currentChips;
+        int currentCard = 0;
+        int currentChips = 0;
+        int cardsInDeck = 24;
         bool isGameOver = false;
         Image[] imgArray = new Image[35];
         
@@ -388,19 +389,39 @@ namespace NoGracias
             int cardNumber = Int32.Parse(cardInfo[0]);
             int cardChip = Int32.Parse(cardInfo[1]);
 
-            currentCard = cardNumber;
-            currentChips = cardChip;
+            if (currentCard == cardNumber)
+            {
+                currentChips = cardChip;
+                this.TopDeckChipCounter.Invoke((MethodInvoker)delegate
+                {
+                    this.TopDeckChipCounter.Text = cardChip.ToString();
+                });
+            }
+            else
+            {
+                currentCard = cardNumber;
+                currentChips = cardChip;
+                if(cardsInDeck>4)
+                {
+                    cardsInDeck--;
+                }
+                else
+                {
+                    RemoveDeckCard();
+                    cardsInDeck--;
+                }
 
-            this.TopDeckCard.Invoke((MethodInvoker)delegate
-            {
-                this.TopDeckCard.BackgroundImage = imgArray[cardNumber - 1];
-                this.TopDeckCard.Visible = true;
-                this.TopDeckCard.BringToFront();
-            });
-            this.TopDeckChipCounter.Invoke((MethodInvoker)delegate
-            {
-                this.TopDeckChipCounter.Text = cardChip.ToString();
-            });
+                this.TopDeckCard.Invoke((MethodInvoker)delegate
+                {
+                    this.TopDeckCard.BackgroundImage = imgArray[cardNumber - 1];
+                    this.TopDeckCard.Visible = true;
+                    this.TopDeckCard.BringToFront();
+                });
+                this.TopDeckChipCounter.Invoke((MethodInvoker)delegate
+                {
+                    this.TopDeckChipCounter.Text = cardChip.ToString();
+                });
+            }
         }
 
         private void SetupTable()
@@ -1154,6 +1175,32 @@ namespace NoGracias
                         break;
                     default:
                         //We have run out of cards. I miscalculated, I'm not a math major
+                        break;
+                }
+            });
+        }
+
+        private void RemoveDeckCard()
+        {
+            this.Invoke((MethodInvoker)delegate
+            {
+                switch (cardsInDeck)
+                {
+                    case 1:
+                        this.DeckCard4.Visible = false;
+                        break;
+                    case 2:
+                        this.DeckCard3.Visible = false;
+                        break;
+                    case 3:
+                        this.DeckCard2.Visible = false;
+                        break;
+                    case 4:
+                        this.DeckCard1.Visible = false;
+                        break;
+                    default:
+                        //should never hit this
+                        Console.WriteLine("ERROR: RemoveDeckCard was called unexpectedly");
                         break;
                 }
             });

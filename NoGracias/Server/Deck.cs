@@ -10,7 +10,7 @@ namespace NoGracias.Server
     {
         #region Variables
         List<Card> deck = new List<Card>();
-
+        
         #endregion
 
         /**
