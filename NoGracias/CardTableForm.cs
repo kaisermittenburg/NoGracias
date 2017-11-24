@@ -187,7 +187,11 @@ namespace NoGracias
                 }
             }
 
-            MessageBox.Show(scoreMessage, "Scores", MessageBoxButtons.OK);
+            //MessageBox.Show(scoreMessage, "Scores", MessageBoxButtons.OK);
+            this.Invoke((MethodInvoker)delegate
+            {
+                ScoreBox.ShowBox(scoreMessage);
+            });
         }
 
         private void RejectCardUpdate()

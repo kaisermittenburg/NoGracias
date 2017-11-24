@@ -41,9 +41,9 @@ namespace NoGracias
             //Console.WriteLine(service.GetData(2));
             //Console.WriteLine(service.GetBent());
             
-            GameDriverService.GameDriverClient service = new GameDriverService.GameDriverClient();
-            Console.WriteLine(service.GetData(2));
-            Console.WriteLine(service.GetBent());
+            //GameDriverService.GameDriverClient service = new GameDriverService.GameDriverClient();
+            //Console.WriteLine(service.GetData(2));
+            //Console.WriteLine(service.GetBent());
             /////////////////////////////////////////////////////////////////////////////////////
 
             //Start Server Form

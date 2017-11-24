@@ -355,6 +355,9 @@ namespace NoGracias
             this.Opp4Card2 = new System.Windows.Forms.PictureBox();
             this.Opp4Card1 = new System.Windows.Forms.PictureBox();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.DeckCard2 = new System.Windows.Forms.PictureBox();
+            this.DeckCard3 = new System.Windows.Forms.PictureBox();
+            this.DeckCard4 = new System.Windows.Forms.PictureBox();
             this.TopDeckCard = new System.Windows.Forms.PictureBox();
             this.AcceptCardButton = new System.Windows.Forms.Button();
             this.NoGraciasButton = new System.Windows.Forms.Button();
@@ -385,9 +388,6 @@ namespace NoGracias
             this.MainPlayerCard1 = new System.Windows.Forms.PictureBox();
             this.TopDeckChipCounter = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.DeckCard2 = new System.Windows.Forms.PictureBox();
-            this.DeckCard3 = new System.Windows.Forms.PictureBox();
-            this.DeckCard4 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp1Card1)).BeginInit();
@@ -464,6 +464,9 @@ namespace NoGracias
             ((System.ComponentModel.ISupportInitialize)(this.Opp4Card2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Opp4Card1)).BeginInit();
             this.panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DeckCard2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DeckCard3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DeckCard4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TopDeckCard)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DeckChip)).BeginInit();
             this.panel9.SuspendLayout();
@@ -485,9 +488,6 @@ namespace NoGracias
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard1)).BeginInit();
             this.panel10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DeckCard2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DeckCard3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DeckCard4)).BeginInit();
             this.SuspendLayout();
             // 
             // Opp2Name
@@ -1272,6 +1272,27 @@ namespace NoGracias
             resources.ApplyResources(this.panel8, "panel8");
             this.panel8.Name = "panel8";
             // 
+            // DeckCard2
+            // 
+            resources.ApplyResources(this.DeckCard2, "DeckCard2");
+            this.DeckCard2.BackgroundImage = global::NoGracias.Properties.Resources.img1;
+            this.DeckCard2.Name = "DeckCard2";
+            this.DeckCard2.TabStop = false;
+            // 
+            // DeckCard3
+            // 
+            resources.ApplyResources(this.DeckCard3, "DeckCard3");
+            this.DeckCard3.BackgroundImage = global::NoGracias.Properties.Resources.img1;
+            this.DeckCard3.Name = "DeckCard3";
+            this.DeckCard3.TabStop = false;
+            // 
+            // DeckCard4
+            // 
+            resources.ApplyResources(this.DeckCard4, "DeckCard4");
+            this.DeckCard4.BackgroundImage = global::NoGracias.Properties.Resources.img1;
+            this.DeckCard4.Name = "DeckCard4";
+            this.DeckCard4.TabStop = false;
+            // 
             // TopDeckCard
             // 
             resources.ApplyResources(this.TopDeckCard, "TopDeckCard");
@@ -1525,27 +1546,6 @@ namespace NoGracias
             resources.ApplyResources(this.panel10, "panel10");
             this.panel10.Name = "panel10";
             // 
-            // DeckCard2
-            // 
-            resources.ApplyResources(this.DeckCard2, "DeckCard2");
-            this.DeckCard2.BackgroundImage = global::NoGracias.Properties.Resources.img1;
-            this.DeckCard2.Name = "DeckCard2";
-            this.DeckCard2.TabStop = false;
-            // 
-            // DeckCard3
-            // 
-            resources.ApplyResources(this.DeckCard3, "DeckCard3");
-            this.DeckCard3.BackgroundImage = global::NoGracias.Properties.Resources.img1;
-            this.DeckCard3.Name = "DeckCard3";
-            this.DeckCard3.TabStop = false;
-            // 
-            // DeckCard4
-            // 
-            resources.ApplyResources(this.DeckCard4, "DeckCard4");
-            this.DeckCard4.BackgroundImage = global::NoGracias.Properties.Resources.img1;
-            this.DeckCard4.Name = "DeckCard4";
-            this.DeckCard4.TabStop = false;
-            // 
             // CardTableForm
             // 
             resources.ApplyResources(this, "$this");
@@ -1640,6 +1640,9 @@ namespace NoGracias
             ((System.ComponentModel.ISupportInitialize)(this.Opp4Card1)).EndInit();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DeckCard2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DeckCard3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DeckCard4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TopDeckCard)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DeckChip)).EndInit();
             this.panel9.ResumeLayout(false);
@@ -1663,9 +1666,6 @@ namespace NoGracias
             ((System.ComponentModel.ISupportInitialize)(this.MainPlayerCard1)).EndInit();
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DeckCard2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DeckCard3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DeckCard4)).EndInit();
             this.ResumeLayout(false);
 
         }

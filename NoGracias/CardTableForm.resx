@@ -247,7 +247,7 @@
     <value>89, 135</value>
   </data>
   <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
+    <value>89, 13</value>
   </data>
   <data name="textBox3.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -3165,9 +3165,6 @@
   <data name="panel7.TabIndex" type="System.Int32, mscorlib">
     <value>254</value>
   </data>
-  <data name="panel7.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="&gt;&gt;panel7.Name" xml:space="preserve">
     <value>panel7</value>
   </data>
@@ -3778,7 +3775,7 @@
     <value>89, 135</value>
   </data>
   <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
+    <value>89, 13</value>
   </data>
   <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
     <value>204</value>
@@ -5294,9 +5291,6 @@
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1361, 796</value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 1, 2, 1</value>
