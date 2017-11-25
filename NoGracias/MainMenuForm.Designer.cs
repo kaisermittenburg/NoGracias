@@ -181,6 +181,7 @@ namespace NoGracias
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainMenuForm));
             this.IP_textbox = new System.Windows.Forms.TextBox();
             this.Port_textbox = new System.Windows.Forms.TextBox();
             this.PlayerName_textbox = new System.Windows.Forms.TextBox();
@@ -206,7 +207,7 @@ namespace NoGracias
             this.IP_textbox.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.IP_textbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.IP_textbox.Location = new System.Drawing.Point(297, 145);
-            this.IP_textbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.IP_textbox.Margin = new System.Windows.Forms.Padding(2);
             this.IP_textbox.Name = "IP_textbox";
             this.IP_textbox.Size = new System.Drawing.Size(342, 20);
             this.IP_textbox.TabIndex = 5;
@@ -216,7 +217,7 @@ namespace NoGracias
             // 
             this.Port_textbox.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.Port_textbox.Location = new System.Drawing.Point(297, 185);
-            this.Port_textbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Port_textbox.Margin = new System.Windows.Forms.Padding(2);
             this.Port_textbox.Name = "Port_textbox";
             this.Port_textbox.Size = new System.Drawing.Size(342, 20);
             this.Port_textbox.TabIndex = 6;
@@ -225,7 +226,7 @@ namespace NoGracias
             // 
             this.PlayerName_textbox.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.PlayerName_textbox.Location = new System.Drawing.Point(297, 227);
-            this.PlayerName_textbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PlayerName_textbox.Margin = new System.Windows.Forms.Padding(2);
             this.PlayerName_textbox.Name = "PlayerName_textbox";
             this.PlayerName_textbox.Size = new System.Drawing.Size(342, 20);
             this.PlayerName_textbox.TabIndex = 7;
@@ -291,7 +292,7 @@ namespace NoGracias
             this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label5.Font = new System.Drawing.Font("Perpetua Titling MT", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(279, 63);
-            this.label5.Margin = new System.Windows.Forms.Padding(24, 24, 24, 24);
+            this.label5.Margin = new System.Windows.Forms.Padding(24);
             this.label5.MaximumSize = new System.Drawing.Size(560, 40);
             this.label5.MinimumSize = new System.Drawing.Size(400, 40);
             this.label5.Name = "label5";
@@ -329,7 +330,7 @@ namespace NoGracias
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Perpetua Titling MT", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(0, 0);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(985, 30);
             this.button2.TabIndex = 15;
@@ -371,7 +372,7 @@ namespace NoGracias
             // 
             this.Status_Textbox.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.Status_Textbox.Location = new System.Drawing.Point(297, 299);
-            this.Status_Textbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Status_Textbox.Margin = new System.Windows.Forms.Padding(2);
             this.Status_Textbox.Multiline = true;
             this.Status_Textbox.Name = "Status_Textbox";
             this.Status_Textbox.ReadOnly = true;
@@ -470,7 +471,8 @@ namespace NoGracias
             this.Controls.Add(this.PlayerName_textbox);
             this.Controls.Add(this.Port_textbox);
             this.Controls.Add(this.IP_textbox);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MainMenuForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main Menu";

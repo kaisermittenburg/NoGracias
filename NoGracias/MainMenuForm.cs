@@ -98,7 +98,10 @@ namespace NoGracias
 
         private void MainMenuForm_Load(object sender, EventArgs e)
         {
-
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer(NoGracias.Properties.Resources.bensound_jazzyfrenchy);
+            //player.SoundLocation = @"C:\Users\Public\Music\Sample Music\xxxx.wav";
+            player.Load();
+            player.PlayLooping();
         }
     }
 }

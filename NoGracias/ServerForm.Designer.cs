@@ -78,6 +78,7 @@ namespace NoGracias
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ServerForm));
             this.button2 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -93,6 +94,7 @@ namespace NoGracias
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button2
@@ -101,7 +103,7 @@ namespace NoGracias
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(43, 56);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(76, 30);
             this.button2.TabIndex = 26;
@@ -124,11 +126,10 @@ namespace NoGracias
             // 
             // label2
             // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.ForestGreen;
             this.label2.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(238, 223);
+            this.label2.Location = new System.Drawing.Point(238, 219);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(36, 19);
@@ -137,7 +138,6 @@ namespace NoGracias
             // 
             // label1
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.ForestGreen;
             this.label1.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -150,9 +150,11 @@ namespace NoGracias
             // 
             // Status_textbox
             // 
-            this.Status_textbox.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Status_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Status_textbox.Location = new System.Drawing.Point(302, 255);
-            this.Status_textbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Status_textbox.Margin = new System.Windows.Forms.Padding(2);
             this.Status_textbox.Multiline = true;
             this.Status_textbox.Name = "Status_textbox";
             this.Status_textbox.ReadOnly = true;
@@ -162,9 +164,10 @@ namespace NoGracias
             // 
             // Port_textbox
             // 
-            this.Port_textbox.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.Port_textbox.Location = new System.Drawing.Point(302, 223);
-            this.Port_textbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Port_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Port_textbox.Location = new System.Drawing.Point(302, 219);
+            this.Port_textbox.Margin = new System.Windows.Forms.Padding(2);
             this.Port_textbox.Name = "Port_textbox";
             this.Port_textbox.ReadOnly = true;
             this.Port_textbox.Size = new System.Drawing.Size(321, 20);
@@ -172,9 +175,10 @@ namespace NoGracias
             // 
             // IP_textbox
             // 
-            this.IP_textbox.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.IP_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.IP_textbox.Location = new System.Drawing.Point(302, 182);
-            this.IP_textbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.IP_textbox.Margin = new System.Windows.Forms.Padding(2);
             this.IP_textbox.Name = "IP_textbox";
             this.IP_textbox.ReadOnly = true;
             this.IP_textbox.Size = new System.Drawing.Size(321, 20);
@@ -182,7 +186,6 @@ namespace NoGracias
             // 
             // label3
             // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(238, 255);
@@ -194,11 +197,11 @@ namespace NoGracias
             // 
             // StartServerButton
             // 
-            this.StartServerButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.StartServerButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.StartServerButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.StartServerButton.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StartServerButton.Location = new System.Drawing.Point(302, 466);
-            this.StartServerButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.StartServerButton.Margin = new System.Windows.Forms.Padding(2);
             this.StartServerButton.Name = "StartServerButton";
             this.StartServerButton.Size = new System.Drawing.Size(116, 42);
             this.StartServerButton.TabIndex = 28;
@@ -208,14 +211,14 @@ namespace NoGracias
             // 
             // ShutdownServerButton
             // 
-            this.ShutdownServerButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.ShutdownServerButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.ShutdownServerButton.Enabled = false;
             this.ShutdownServerButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.ShutdownServerButton.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShutdownServerButton.Location = new System.Drawing.Point(539, 466);
-            this.ShutdownServerButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ShutdownServerButton.Location = new System.Drawing.Point(507, 466);
+            this.ShutdownServerButton.Margin = new System.Windows.Forms.Padding(2);
             this.ShutdownServerButton.Name = "ShutdownServerButton";
-            this.ShutdownServerButton.Size = new System.Drawing.Size(84, 42);
+            this.ShutdownServerButton.Size = new System.Drawing.Size(116, 42);
             this.ShutdownServerButton.TabIndex = 29;
             this.ShutdownServerButton.Text = "Shutdown";
             this.ShutdownServerButton.UseVisualStyleBackColor = true;
@@ -223,10 +226,10 @@ namespace NoGracias
             // 
             // checkBox1
             // 
-            this.checkBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.checkBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(663, 255);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(54, 17);
             this.checkBox1.TabIndex = 30;
@@ -235,10 +238,10 @@ namespace NoGracias
             // 
             // checkBox2
             // 
-            this.checkBox2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.checkBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox2.AutoSize = true;
             this.checkBox2.Location = new System.Drawing.Point(663, 275);
-            this.checkBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(54, 17);
             this.checkBox2.TabIndex = 31;
@@ -247,10 +250,10 @@ namespace NoGracias
             // 
             // checkBox3
             // 
-            this.checkBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.checkBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox3.AutoSize = true;
             this.checkBox3.Location = new System.Drawing.Point(663, 294);
-            this.checkBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox3.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(54, 17);
             this.checkBox3.TabIndex = 32;
@@ -259,10 +262,10 @@ namespace NoGracias
             // 
             // checkBox4
             // 
-            this.checkBox4.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.checkBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox4.AutoSize = true;
             this.checkBox4.Location = new System.Drawing.Point(663, 314);
-            this.checkBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox4.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(54, 17);
             this.checkBox4.TabIndex = 33;
@@ -271,15 +274,26 @@ namespace NoGracias
             // 
             // checkBox5
             // 
-            this.checkBox5.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.checkBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox5.AutoSize = true;
             this.checkBox5.Location = new System.Drawing.Point(663, 333);
-            this.checkBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox5.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox5.Name = "checkBox5";
             this.checkBox5.Size = new System.Drawing.Size(54, 17);
             this.checkBox5.TabIndex = 34;
             this.checkBox5.Text = "NULL";
             this.checkBox5.UseVisualStyleBackColor = true;
+            // 
+            // label4
+            // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(660, 226);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(71, 18);
+            this.label4.TabIndex = 35;
+            this.label4.Text = "Player List";
             // 
             // ServerForm
             // 
@@ -287,6 +301,7 @@ namespace NoGracias
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.ForestGreen;
             this.ClientSize = new System.Drawing.Size(898, 531);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.checkBox5);
             this.Controls.Add(this.checkBox4);
             this.Controls.Add(this.checkBox3);
@@ -302,7 +317,8 @@ namespace NoGracias
             this.Controls.Add(this.Status_textbox);
             this.Controls.Add(this.Port_textbox);
             this.Controls.Add(this.IP_textbox);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ServerForm";
             this.Text = "MainMenuServer";
             this.ResumeLayout(false);
@@ -918,5 +934,7 @@ namespace NoGracias
                 this.Status_textbox.AppendText("\r\n" + s);
             });
         }
+
+        private Label label4;
     }
 }
