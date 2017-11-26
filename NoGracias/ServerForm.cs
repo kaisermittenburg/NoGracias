@@ -36,12 +36,15 @@ namespace NoGracias
             StartServerButton.Enabled = false;
             ShutdownServerButton.Enabled = true;
             this.Refresh();
+            isServerShutDown = false;
             ServerSetup();
 
+            AllReady = false;
             var thread = new Thread(ReadyUp);
             thread.TrySetApartmentState(ApartmentState.STA);
             thread.Start();
 
+            JoiningIsDone = false;
             var thread2 = new Thread(AlertNewPlayer);
             thread2.TrySetApartmentState(ApartmentState.STA);
             thread2.Start();
@@ -61,7 +64,35 @@ namespace NoGracias
         {
             StartServerButton.Enabled = true;
             ShutdownServerButton.Enabled = false;
+            isServerShutDown = true;
+            AllReady = true;
+            JoiningIsDone = true;
             ServerShutdown();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void StartServerButton_MouseEnter(object sender, EventArgs e)
+        {
+            this.StartServerButton.BackColor = Color.FromArgb(90, 90, 90);
+        }
+
+        private void StartServerButton_MouseLeave(object sender, EventArgs e)
+        {
+            this.StartServerButton.BackColor = Color.FromArgb(48, 48, 48);
+        }
+
+        private void ShutdownServerButton_MouseEnter(object sender, EventArgs e)
+        {
+            this.ShutdownServerButton.BackColor = Color.FromArgb(90, 90, 90);
+        }
+
+        private void ShutdownServerButton_MouseLeave(object sender, EventArgs e)
+        {
+            this.ShutdownServerButton.BackColor = Color.FromArgb(48, 48, 48);
         }
     }
 }

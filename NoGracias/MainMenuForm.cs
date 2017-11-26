@@ -48,19 +48,36 @@ namespace NoGracias
 		 */
         private void Connect_Button_Click(object sender, EventArgs e)
         {
-            ConnectToServer();
+            bool connSuccess = true;
+            if (this.PlayerName_textbox.Text == "")
+            {
+                CustomMessageBox.ShowBox("You need a name buddy");
+            }
+            else
+            {
+                try
+                {
+                    ConnectToServer();
+                }
+                catch(ArgumentException)
+                {
+                    connSuccess = false;
+                }
+                if (connSuccess)
+                {
+                    Connect_Button.Enabled = false;
+                    Ready_Up_Button.Enabled = true;
 
-            Connect_Button.Enabled = false;
-            Ready_Up_Button.Enabled = true;
+                    you_checkBox.Visible = true;
+                    YouCheckBox = PlayerName;
 
-            you_checkBox.Visible = true;
-            YouCheckBox = PlayerName;
+                    this.Refresh();
 
-            this.Refresh();
-
-            var thread = new Thread(ReceiveLoop);
-            thread.TrySetApartmentState(ApartmentState.STA);
-            thread.Start();
+                    var thread = new Thread(ReceiveLoop);
+                    thread.TrySetApartmentState(ApartmentState.STA);
+                    thread.Start();
+                }
+            }
         }
 
         /**
@@ -96,12 +113,34 @@ namespace NoGracias
             this.Close();
         }
 
-        private void MainMenuForm_Load(object sender, EventArgs e)
+        private void Connect_Button_MouseEnter(object sender, EventArgs e)
         {
-            System.Media.SoundPlayer player = new System.Media.SoundPlayer(NoGracias.Properties.Resources.bensound_jazzyfrenchy);
-            //player.SoundLocation = @"C:\Users\Public\Music\Sample Music\xxxx.wav";
-            player.Load();
-            player.PlayLooping();
+            this.Connect_Button.BackColor = Color.FromArgb(90, 90, 90);
+        }
+
+        private void Connect_Button_MouseLeave(object sender, EventArgs e)
+        {
+            this.Connect_Button.BackColor = Color.FromArgb(48, 48, 48);
+        }
+
+        private void Ready_Up_Button_MouseEnter(object sender, EventArgs e)
+        {
+            this.Ready_Up_Button.BackColor = Color.FromArgb(90, 90, 90);
+        }
+
+        private void Ready_Up_Button_MouseLeave(object sender, EventArgs e)
+        {
+            this.Ready_Up_Button.BackColor = Color.FromArgb(48, 48, 48);
+        }
+
+        private void button2_MouseEnter(object sender, EventArgs e)
+        {
+            this.button2.BackColor = Color.FromArgb(90, 90, 90);
+        }
+
+        private void button2_MouseLeave(object sender, EventArgs e)
+        {
+            this.button2.BackColor = Color.FromArgb(48, 48, 48);
         }
     }
 }

@@ -335,6 +335,7 @@ namespace NoGracias
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -494,14 +495,14 @@ namespace NoGracias
             // 
             resources.ApplyResources(this.Opp2Name, "Opp2Name");
             this.Opp2Name.BackColor = System.Drawing.Color.Transparent;
-            this.Opp2Name.ForeColor = System.Drawing.Color.LemonChiffon;
+            this.Opp2Name.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.Opp2Name.Name = "Opp2Name";
             // 
             // Opp1Name
             // 
             resources.ApplyResources(this.Opp1Name, "Opp1Name");
             this.Opp1Name.BackColor = System.Drawing.Color.Transparent;
-            this.Opp1Name.ForeColor = System.Drawing.Color.LemonChiffon;
+            this.Opp1Name.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.Opp1Name.Name = "Opp1Name";
             // 
             // Opp1Card3
@@ -538,21 +539,21 @@ namespace NoGracias
             // 
             resources.ApplyResources(this.Opp4Name, "Opp4Name");
             this.Opp4Name.BackColor = System.Drawing.Color.Transparent;
-            this.Opp4Name.ForeColor = System.Drawing.Color.LemonChiffon;
+            this.Opp4Name.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.Opp4Name.Name = "Opp4Name";
             // 
             // Opp3Name
             // 
             resources.ApplyResources(this.Opp3Name, "Opp3Name");
             this.Opp3Name.BackColor = System.Drawing.Color.Transparent;
-            this.Opp3Name.ForeColor = System.Drawing.Color.LemonChiffon;
+            this.Opp3Name.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.Opp3Name.Name = "Opp3Name";
             // 
             // pictureBox17
             // 
             resources.ApplyResources(this.pictureBox17, "pictureBox17");
             this.pictureBox17.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox17.BackgroundImage = global::NoGracias.Properties.Resources.chip;
+            this.pictureBox17.BackgroundImage = global::NoGracias.Properties.Resources.chip2;
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.TabStop = false;
             // 
@@ -560,7 +561,7 @@ namespace NoGracias
             // 
             resources.ApplyResources(this.pictureBox18, "pictureBox18");
             this.pictureBox18.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox18.BackgroundImage = global::NoGracias.Properties.Resources.chip;
+            this.pictureBox18.BackgroundImage = global::NoGracias.Properties.Resources.chip2;
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.TabStop = false;
             // 
@@ -568,7 +569,7 @@ namespace NoGracias
             // 
             resources.ApplyResources(this.opp3ChipGraphic, "opp3ChipGraphic");
             this.opp3ChipGraphic.BackColor = System.Drawing.Color.Transparent;
-            this.opp3ChipGraphic.BackgroundImage = global::NoGracias.Properties.Resources.chip;
+            this.opp3ChipGraphic.BackgroundImage = global::NoGracias.Properties.Resources.chip2;
             this.opp3ChipGraphic.Name = "opp3ChipGraphic";
             this.opp3ChipGraphic.TabStop = false;
             // 
@@ -584,56 +585,65 @@ namespace NoGracias
             // 
             resources.ApplyResources(this.opp4ChipGraphic, "opp4ChipGraphic");
             this.opp4ChipGraphic.BackColor = System.Drawing.Color.Transparent;
-            this.opp4ChipGraphic.BackgroundImage = global::NoGracias.Properties.Resources.chip;
+            this.opp4ChipGraphic.BackgroundImage = global::NoGracias.Properties.Resources.chip2;
             this.opp4ChipGraphic.Name = "opp4ChipGraphic";
             this.opp4ChipGraphic.TabStop = false;
             // 
             // Opp4ChipText
             // 
             resources.ApplyResources(this.Opp4ChipText, "Opp4ChipText");
+            this.Opp4ChipText.ForeColor = System.Drawing.Color.White;
             this.Opp4ChipText.Name = "Opp4ChipText";
             // 
             // Opp3ChipText
             // 
             resources.ApplyResources(this.Opp3ChipText, "Opp3ChipText");
             this.Opp3ChipText.BackColor = System.Drawing.Color.Transparent;
+            this.Opp3ChipText.ForeColor = System.Drawing.Color.White;
             this.Opp3ChipText.Name = "Opp3ChipText";
             // 
             // Opp2ChipText
             // 
             resources.ApplyResources(this.Opp2ChipText, "Opp2ChipText");
+            this.Opp2ChipText.ForeColor = System.Drawing.Color.White;
             this.Opp2ChipText.Name = "Opp2ChipText";
             // 
             // Opp1ChipText
             // 
             resources.ApplyResources(this.Opp1ChipText, "Opp1ChipText");
+            this.Opp1ChipText.ForeColor = System.Drawing.Color.White;
             this.Opp1ChipText.Name = "Opp1ChipText";
             // 
             // GameDeckLabel
             // 
             resources.ApplyResources(this.GameDeckLabel, "GameDeckLabel");
             this.GameDeckLabel.BackColor = System.Drawing.Color.Transparent;
+            this.GameDeckLabel.ForeColor = System.Drawing.Color.White;
             this.GameDeckLabel.Name = "GameDeckLabel";
             // 
             // Opp1ChipCount
             // 
             resources.ApplyResources(this.Opp1ChipCount, "Opp1ChipCount");
+            this.Opp1ChipCount.ForeColor = System.Drawing.Color.White;
             this.Opp1ChipCount.Name = "Opp1ChipCount";
             // 
             // Opp2ChipCount
             // 
             resources.ApplyResources(this.Opp2ChipCount, "Opp2ChipCount");
+            this.Opp2ChipCount.ForeColor = System.Drawing.Color.White;
             this.Opp2ChipCount.Name = "Opp2ChipCount";
             // 
             // Opp3ChipCount
             // 
             resources.ApplyResources(this.Opp3ChipCount, "Opp3ChipCount");
             this.Opp3ChipCount.BackColor = System.Drawing.Color.Transparent;
+            this.Opp3ChipCount.ForeColor = System.Drawing.Color.White;
             this.Opp3ChipCount.Name = "Opp3ChipCount";
             // 
             // Opp4ChipCount
             // 
             resources.ApplyResources(this.Opp4ChipCount, "Opp4ChipCount");
+            this.Opp4ChipCount.ForeColor = System.Drawing.Color.White;
             this.Opp4ChipCount.Name = "Opp4ChipCount";
             // 
             // Opp1Card8
@@ -1051,6 +1061,7 @@ namespace NoGracias
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.button1);
             this.panel3.Controls.Add(this.Opp1ChipCount);
             this.panel3.Controls.Add(this.Opp1Card16);
             this.panel3.Controls.Add(this.Opp1Card15);
@@ -1074,6 +1085,16 @@ namespace NoGracias
             this.panel3.Controls.Add(this.Opp1Card1);
             resources.ApplyResources(this.panel3, "panel3");
             this.panel3.Name = "panel3";
+            // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.BackgroundImage = global::NoGracias.Properties.Resources.speaker;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.MouseEnter += new System.EventHandler(this.button1_MouseEnter);
             // 
             // panel5
             // 
@@ -1304,7 +1325,7 @@ namespace NoGracias
             // AcceptCardButton
             // 
             resources.ApplyResources(this.AcceptCardButton, "AcceptCardButton");
-            this.AcceptCardButton.BackColor = System.Drawing.Color.Green;
+            this.AcceptCardButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(170)))), ((int)(((byte)(70)))));
             this.AcceptCardButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.AcceptCardButton.FlatAppearance.BorderSize = 0;
             this.AcceptCardButton.Name = "AcceptCardButton";
@@ -1314,7 +1335,7 @@ namespace NoGracias
             // NoGraciasButton
             // 
             resources.ApplyResources(this.NoGraciasButton, "NoGraciasButton");
-            this.NoGraciasButton.BackColor = System.Drawing.Color.Red;
+            this.NoGraciasButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.NoGraciasButton.FlatAppearance.BorderSize = 0;
             this.NoGraciasButton.Name = "NoGraciasButton";
             this.NoGraciasButton.UseVisualStyleBackColor = false;
@@ -1324,21 +1345,23 @@ namespace NoGracias
             // 
             resources.ApplyResources(this.DeckChip, "DeckChip");
             this.DeckChip.BackColor = System.Drawing.Color.Transparent;
-            this.DeckChip.BackgroundImage = global::NoGracias.Properties.Resources.chip;
+            this.DeckChip.BackgroundImage = global::NoGracias.Properties.Resources.chip2;
             this.DeckChip.Name = "DeckChip";
             this.DeckChip.TabStop = false;
             // 
             // TopDeckChipText
             // 
             resources.ApplyResources(this.TopDeckChipText, "TopDeckChipText");
-            this.TopDeckChipText.ForeColor = System.Drawing.Color.Black;
+            this.TopDeckChipText.ForeColor = System.Drawing.Color.White;
             this.TopDeckChipText.Name = "TopDeckChipText";
             // 
             // TurnStatus
             // 
             resources.ApplyResources(this.TurnStatus, "TurnStatus");
             this.TurnStatus.BackColor = System.Drawing.Color.Transparent;
-            this.TurnStatus.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.TurnStatus.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TurnStatus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TurnStatus.ForeColor = System.Drawing.Color.White;
             this.TurnStatus.Name = "TurnStatus";
             // 
             // panel9
@@ -1371,6 +1394,7 @@ namespace NoGracias
             // MainPlayerChipCount
             // 
             resources.ApplyResources(this.MainPlayerChipCount, "MainPlayerChipCount");
+            this.MainPlayerChipCount.ForeColor = System.Drawing.Color.White;
             this.MainPlayerChipCount.Name = "MainPlayerChipCount";
             // 
             // MainPlayerCard16
@@ -1502,13 +1526,14 @@ namespace NoGracias
             // MainPlayerChipText
             // 
             resources.ApplyResources(this.MainPlayerChipText, "MainPlayerChipText");
+            this.MainPlayerChipText.ForeColor = System.Drawing.Color.White;
             this.MainPlayerChipText.Name = "MainPlayerChipText";
             // 
             // pictureBox16
             // 
             resources.ApplyResources(this.pictureBox16, "pictureBox16");
             this.pictureBox16.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox16.BackgroundImage = global::NoGracias.Properties.Resources.chip;
+            this.pictureBox16.BackgroundImage = global::NoGracias.Properties.Resources.chip2;
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.TabStop = false;
             // 
@@ -1516,7 +1541,7 @@ namespace NoGracias
             // 
             resources.ApplyResources(this.MainPlayerName, "MainPlayerName");
             this.MainPlayerName.BackColor = System.Drawing.Color.Transparent;
-            this.MainPlayerName.ForeColor = System.Drawing.Color.LemonChiffon;
+            this.MainPlayerName.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.MainPlayerName.Name = "MainPlayerName";
             // 
             // MainPlayerCard1
@@ -1530,7 +1555,7 @@ namespace NoGracias
             // TopDeckChipCounter
             // 
             resources.ApplyResources(this.TopDeckChipCounter, "TopDeckChipCounter");
-            this.TopDeckChipCounter.ForeColor = System.Drawing.Color.Black;
+            this.TopDeckChipCounter.ForeColor = System.Drawing.Color.White;
             this.TopDeckChipCounter.Name = "TopDeckChipCounter";
             // 
             // panel10
@@ -1550,8 +1575,7 @@ namespace NoGracias
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LemonChiffon;
-            this.BackgroundImage = global::NoGracias.Properties.Resources.background;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
             this.Controls.Add(this.panel10);
             this.Controls.Add(this.panel9);
             this.Controls.Add(this.panel8);
@@ -1800,6 +1824,7 @@ namespace NoGracias
         private PictureBox DeckCard2;
         private PictureBox DeckCard3;
         private PictureBox DeckCard4;
+        private Button button1;
     }
 }
 

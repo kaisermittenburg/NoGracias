@@ -23,6 +23,8 @@ namespace NoGracias
         int cardsInDeck = 24;
         bool isGameOver = false;
         Image[] imgArray = new Image[35];
+        System.Media.SoundPlayer soundDriver;
+        bool isSoundPlaying = true;
         
         #endregion
         public CardTableForm(Socket aClientSocket)
@@ -37,7 +39,9 @@ namespace NoGracias
         #region Event Handlers
         private void CardTableForm_Load(object sender, EventArgs e)
         {
-
+            soundDriver = new System.Media.SoundPlayer(NoGracias.Properties.Resources.bensound_jazzyfrenchy);
+            soundDriver.Load();
+            soundDriver.PlayLooping();
         }
         		
         private void AcceptCardButton_Click(object sender, EventArgs e)
@@ -60,6 +64,27 @@ namespace NoGracias
                 this.NoGraciasButton.Visible = false;
                 mClientSocket.Send(Encoding.ASCII.GetBytes(Messages.REJECT_CARD.ToString()));
             });
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if(isSoundPlaying)
+            {
+                this.button1.BackgroundImage = NoGracias.Properties.Resources.speaker_mute;
+                soundDriver.Stop();
+                isSoundPlaying = false;
+            }
+            else
+            {
+                this.button1.BackgroundImage = NoGracias.Properties.Resources.speaker;
+                soundDriver.PlayLooping();
+                isSoundPlaying = true;
+            }
+        }
+
+        private void button1_MouseEnter(object sender, EventArgs e)
+        {
+            this.button1.BackColor = Color.FromArgb(48, 48, 48);
         }
         #endregion
 
@@ -143,6 +168,7 @@ namespace NoGracias
             {
                 isGameOver = true;
                 ShowPlayerScores();
+                this.Close();
             }
         }
 
@@ -190,7 +216,7 @@ namespace NoGracias
             //MessageBox.Show(scoreMessage, "Scores", MessageBoxButtons.OK);
             this.Invoke((MethodInvoker)delegate
             {
-                ScoreBox.ShowBox(scoreMessage);
+                CustomMessageBox.ShowBox(scoreMessage);
             });
         }
 
@@ -1210,8 +1236,8 @@ namespace NoGracias
             });
         }
 
+
         #endregion
 
-        
     }
 }

@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace NoGracias
 {
-    public partial class ScoreBox : Form
+    public partial class CustomMessageBox : Form
     {
         #region Variables
-        static ScoreBox newScoreBox;
+        static CustomMessageBox newScoreBox;
 
         #endregion
 
-        public ScoreBox()
+        public CustomMessageBox()
         {
             InitializeComponent();
         }
@@ -25,7 +25,7 @@ namespace NoGracias
         #region Functions
         public static void ShowBox(string message)
         {
-            newScoreBox = new ScoreBox();
+            newScoreBox = new CustomMessageBox();
             newScoreBox.label1.Text = message;
             newScoreBox.ShowDialog();
         }
@@ -34,6 +34,16 @@ namespace NoGracias
         private void OKButton_Click(object sender, EventArgs e)
         {
             newScoreBox.Dispose();
+        }
+
+        private void OKButton_MouseEnter(object sender, EventArgs e)
+        {
+            this.OKButton.BackColor = Color.FromArgb(40, 200, 200);
+        }
+
+        private void OKButton_MouseLeave(object sender, EventArgs e)
+        {
+            this.OKButton.BackColor = Color.LightSeaGreen;
         }
     }
 }

@@ -119,7 +119,7 @@
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Opp2Name.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+    <value>Left</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Opp2Name.AutoSize" type="System.Boolean, mscorlib">
@@ -190,7 +190,7 @@
     <value>panel3</value>
   </data>
   <data name="&gt;&gt;Opp1Name.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="Opp1Card3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
@@ -232,7 +232,7 @@
     <value>panel3</value>
   </data>
   <data name="&gt;&gt;Opp1Card3.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>18</value>
   </data>
   <data name="textBox3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
@@ -268,7 +268,7 @@
     <value>panel3</value>
   </data>
   <data name="&gt;&gt;textBox3.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>19</value>
   </data>
   <data name="Opp1Card2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
@@ -310,7 +310,7 @@
     <value>panel3</value>
   </data>
   <data name="&gt;&gt;Opp1Card2.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>20</value>
   </data>
   <data name="Opp1Card1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
@@ -352,10 +352,10 @@
     <value>panel3</value>
   </data>
   <data name="&gt;&gt;Opp1Card1.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>21</value>
   </data>
   <data name="Opp4Name.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom</value>
+    <value>Right</value>
   </data>
   <data name="Opp4Name.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -364,7 +364,7 @@
     <value>Berlin Sans FB Demi, 18pt, style=Bold</value>
   </data>
   <data name="Opp4Name.Location" type="System.Drawing.Point, System.Drawing">
-    <value>86, 604</value>
+    <value>86, 585</value>
   </data>
   <data name="Opp4Name.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
@@ -439,7 +439,7 @@
     <value>20</value>
   </data>
   <data name="pictureBox17.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+    <value>Left</value>
   </data>
   <data name="pictureBox17.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
@@ -496,7 +496,7 @@
     <value>panel3</value>
   </data>
   <data name="&gt;&gt;pictureBox18.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="opp3ChipGraphic.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Right</value>
@@ -571,16 +571,16 @@
     <value>panel3</value>
   </data>
   <data name="&gt;&gt;Opp1Card4.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="opp4ChipGraphic.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom</value>
+    <value>Right</value>
   </data>
   <data name="opp4ChipGraphic.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
   </data>
   <data name="opp4ChipGraphic.Location" type="System.Drawing.Point, System.Drawing">
-    <value>245, 604</value>
+    <value>245, 585</value>
   </data>
   <data name="opp4ChipGraphic.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -607,7 +607,7 @@
     <value>19</value>
   </data>
   <data name="Opp4ChipText.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom</value>
+    <value>Right</value>
   </data>
   <data name="Opp4ChipText.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -616,7 +616,7 @@
     <value>Berlin Sans FB Demi, 12pt, style=Bold</value>
   </data>
   <data name="Opp4ChipText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>114, 633</value>
+    <value>114, 614</value>
   </data>
   <data name="Opp4ChipText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
@@ -685,7 +685,7 @@
     <value>18</value>
   </data>
   <data name="Opp2ChipText.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+    <value>Left</value>
   </data>
   <data name="Opp2ChipText.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -754,7 +754,7 @@
     <value>panel3</value>
   </data>
   <data name="&gt;&gt;Opp1ChipText.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="GameDeckLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom</value>
@@ -829,10 +829,10 @@
     <value>panel3</value>
   </data>
   <data name="&gt;&gt;Opp1ChipCount.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="Opp2ChipCount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+    <value>Left</value>
   </data>
   <data name="Opp2ChipCount.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -913,7 +913,7 @@
     <value>0</value>
   </data>
   <data name="Opp4ChipCount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom</value>
+    <value>Right</value>
   </data>
   <data name="Opp4ChipCount.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -925,7 +925,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4ChipCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>204, 633</value>
+    <value>204, 614</value>
   </data>
   <data name="Opp4ChipCount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
@@ -997,7 +997,7 @@
     <value>panel3</value>
   </data>
   <data name="&gt;&gt;Opp1Card8.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="Opp1Card7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
@@ -1042,7 +1042,7 @@
     <value>panel3</value>
   </data>
   <data name="&gt;&gt;Opp1Card7.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="Opp1Card6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
@@ -1087,7 +1087,7 @@
     <value>panel3</value>
   </data>
   <data name="&gt;&gt;Opp1Card6.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="Opp1Card5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
@@ -1132,7 +1132,7 @@
     <value>panel3</value>
   </data>
   <data name="&gt;&gt;Opp1Card5.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="Opp1Card12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
@@ -1177,7 +1177,7 @@
     <value>panel3</value>
   </data>
   <data name="&gt;&gt;Opp1Card12.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="Opp1Card11.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
@@ -1222,7 +1222,7 @@
     <value>panel3</value>
   </data>
   <data name="&gt;&gt;Opp1Card11.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="Opp1Card10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
@@ -1267,7 +1267,7 @@
     <value>panel3</value>
   </data>
   <data name="&gt;&gt;Opp1Card10.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="Opp1Card9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
@@ -1312,7 +1312,7 @@
     <value>panel3</value>
   </data>
   <data name="&gt;&gt;Opp1Card9.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="Opp1Card16.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
@@ -1357,7 +1357,7 @@
     <value>panel3</value>
   </data>
   <data name="&gt;&gt;Opp1Card16.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="Opp1Card15.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
@@ -1402,7 +1402,7 @@
     <value>panel3</value>
   </data>
   <data name="&gt;&gt;Opp1Card15.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="Opp1Card14.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
@@ -1447,7 +1447,7 @@
     <value>panel3</value>
   </data>
   <data name="&gt;&gt;Opp1Card14.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="Opp1Card13.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
@@ -1492,7 +1492,7 @@
     <value>panel3</value>
   </data>
   <data name="&gt;&gt;Opp1Card13.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="DeckCard1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom</value>
@@ -1525,7 +1525,7 @@
     <value>0</value>
   </data>
   <data name="Opp2Card16.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+    <value>Left</value>
   </data>
   <data name="Opp2Card16.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1570,7 +1570,7 @@
     <value>1</value>
   </data>
   <data name="Opp2Card15.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+    <value>Left</value>
   </data>
   <data name="Opp2Card15.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1615,7 +1615,7 @@
     <value>2</value>
   </data>
   <data name="Opp2Card14.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+    <value>Left</value>
   </data>
   <data name="Opp2Card14.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1660,7 +1660,7 @@
     <value>3</value>
   </data>
   <data name="Opp2Card13.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+    <value>Left</value>
   </data>
   <data name="Opp2Card13.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1705,7 +1705,7 @@
     <value>4</value>
   </data>
   <data name="Opp2Card12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+    <value>Left</value>
   </data>
   <data name="Opp2Card12.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1750,7 +1750,7 @@
     <value>5</value>
   </data>
   <data name="Opp2Card11.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+    <value>Left</value>
   </data>
   <data name="Opp2Card11.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1795,7 +1795,7 @@
     <value>6</value>
   </data>
   <data name="Opp2Card10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+    <value>Left</value>
   </data>
   <data name="Opp2Card10.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1840,7 +1840,7 @@
     <value>7</value>
   </data>
   <data name="Opp2Card9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+    <value>Left</value>
   </data>
   <data name="Opp2Card9.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1885,7 +1885,7 @@
     <value>8</value>
   </data>
   <data name="Opp2Card8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+    <value>Left</value>
   </data>
   <data name="Opp2Card8.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1930,7 +1930,7 @@
     <value>9</value>
   </data>
   <data name="Opp2Card7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+    <value>Left</value>
   </data>
   <data name="Opp2Card7.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1975,7 +1975,7 @@
     <value>10</value>
   </data>
   <data name="Opp2Card6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+    <value>Left</value>
   </data>
   <data name="Opp2Card6.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -2020,7 +2020,7 @@
     <value>11</value>
   </data>
   <data name="Opp2Card5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+    <value>Left</value>
   </data>
   <data name="Opp2Card5.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -2065,7 +2065,7 @@
     <value>12</value>
   </data>
   <data name="Opp2Card4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+    <value>Left</value>
   </data>
   <data name="Opp2Card4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -2110,7 +2110,7 @@
     <value>13</value>
   </data>
   <data name="Opp2Card3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+    <value>Left</value>
   </data>
   <data name="Opp2Card3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -2155,7 +2155,7 @@
     <value>14</value>
   </data>
   <data name="textBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+    <value>Left</value>
   </data>
   <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>100, 56</value>
@@ -2191,7 +2191,7 @@
     <value>15</value>
   </data>
   <data name="Opp2Card2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+    <value>Left</value>
   </data>
   <data name="Opp2Card2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -2236,7 +2236,7 @@
     <value>16</value>
   </data>
   <data name="Opp2Card1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+    <value>Left</value>
   </data>
   <data name="Opp2Card1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -2281,7 +2281,7 @@
     <value>17</value>
   </data>
   <data name="Opp4Card16.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom</value>
+    <value>Right</value>
   </data>
   <data name="Opp4Card16.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -2290,7 +2290,7 @@
     <value>NoControl</value>
   </data>
   <data name="Opp4Card16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>245, 449</value>
+    <value>245, 430</value>
   </data>
   <data name="Opp4Card16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -3081,18 +3081,6 @@
   <data name="&gt;&gt;Opp3Card1.ZOrder" xml:space="preserve">
     <value>17</value>
   </data>
-  <data name="panel4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>371, 342</value>
-  </data>
-  <data name="panel4.TabIndex" type="System.Int32, mscorlib">
-    <value>189</value>
-  </data>
   <data name="&gt;&gt;panel4.Name" xml:space="preserve">
     <value>panel4</value>
   </data>
@@ -3104,18 +3092,6 @@
   </data>
   <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="panel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>371, 796</value>
-  </data>
-  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
-    <value>188</value>
   </data>
   <data name="&gt;&gt;panel3.Name" xml:space="preserve">
     <value>panel3</value>
@@ -3153,6 +3129,144 @@
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="panel4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>371, 342</value>
+  </data>
+  <data name="panel4.TabIndex" type="System.Int32, mscorlib">
+    <value>189</value>
+  </data>
+  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>371, 796</value>
+  </data>
+  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>188</value>
+  </data>
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="button1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 756</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 33</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel7.Name" xml:space="preserve">
+    <value>panel7</value>
+  </data>
+  <data name="&gt;&gt;panel7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel7.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;panel7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel6.Name" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;panel6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel6.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;panel6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1000, 0</value>
+  </data>
+  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>361, 796</value>
+  </data>
+  <data name="panel5.TabIndex" type="System.Int32, mscorlib">
+    <value>309</value>
+  </data>
+  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="panel7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
@@ -3177,39 +3291,6 @@
   <data name="&gt;&gt;panel7.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="Opp4Card15.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="Opp4Card15.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="Opp4Card15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Opp4Card15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>215, 449</value>
-  </data>
-  <data name="Opp4Card15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="Opp4Card15.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>108, 139</value>
-  </data>
-  <data name="Opp4Card15.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card15.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>AutoSize</value>
-  </data>
-  <data name="Opp4Card15.TabIndex" type="System.Int32, mscorlib">
-    <value>218</value>
-  </data>
-  <data name="Opp4Card15.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="&gt;&gt;Opp4Card15.Name" xml:space="preserve">
     <value>Opp4Card15</value>
   </data>
@@ -3221,39 +3302,6 @@
   </data>
   <data name="&gt;&gt;Opp4Card15.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="Opp4Card14.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="Opp4Card14.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="Opp4Card14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Opp4Card14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>185, 449</value>
-  </data>
-  <data name="Opp4Card14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="Opp4Card14.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>108, 139</value>
-  </data>
-  <data name="Opp4Card14.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card14.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>AutoSize</value>
-  </data>
-  <data name="Opp4Card14.TabIndex" type="System.Int32, mscorlib">
-    <value>216</value>
-  </data>
-  <data name="Opp4Card14.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Card14.Name" xml:space="preserve">
     <value>Opp4Card14</value>
@@ -3267,39 +3315,6 @@
   <data name="&gt;&gt;Opp4Card14.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="Opp4Card13.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="Opp4Card13.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="Opp4Card13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Opp4Card13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>155, 449</value>
-  </data>
-  <data name="Opp4Card13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="Opp4Card13.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>108, 139</value>
-  </data>
-  <data name="Opp4Card13.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card13.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>AutoSize</value>
-  </data>
-  <data name="Opp4Card13.TabIndex" type="System.Int32, mscorlib">
-    <value>217</value>
-  </data>
-  <data name="Opp4Card13.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="&gt;&gt;Opp4Card13.Name" xml:space="preserve">
     <value>Opp4Card13</value>
   </data>
@@ -3311,39 +3326,6 @@
   </data>
   <data name="&gt;&gt;Opp4Card13.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="Opp4Card12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="Opp4Card12.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="Opp4Card12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Opp4Card12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>125, 449</value>
-  </data>
-  <data name="Opp4Card12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="Opp4Card12.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>108, 139</value>
-  </data>
-  <data name="Opp4Card12.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card12.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>AutoSize</value>
-  </data>
-  <data name="Opp4Card12.TabIndex" type="System.Int32, mscorlib">
-    <value>215</value>
-  </data>
-  <data name="Opp4Card12.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Card12.Name" xml:space="preserve">
     <value>Opp4Card12</value>
@@ -3357,39 +3339,6 @@
   <data name="&gt;&gt;Opp4Card12.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="Opp4Card11.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="Opp4Card11.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="Opp4Card11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Opp4Card11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>95, 449</value>
-  </data>
-  <data name="Opp4Card11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="Opp4Card11.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>108, 139</value>
-  </data>
-  <data name="Opp4Card11.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card11.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>AutoSize</value>
-  </data>
-  <data name="Opp4Card11.TabIndex" type="System.Int32, mscorlib">
-    <value>214</value>
-  </data>
-  <data name="Opp4Card11.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="&gt;&gt;Opp4Card11.Name" xml:space="preserve">
     <value>Opp4Card11</value>
   </data>
@@ -3401,39 +3350,6 @@
   </data>
   <data name="&gt;&gt;Opp4Card11.ZOrder" xml:space="preserve">
     <value>6</value>
-  </data>
-  <data name="Opp4Card10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="Opp4Card10.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="Opp4Card10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Opp4Card10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>65, 449</value>
-  </data>
-  <data name="Opp4Card10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="Opp4Card10.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>108, 139</value>
-  </data>
-  <data name="Opp4Card10.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card10.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>AutoSize</value>
-  </data>
-  <data name="Opp4Card10.TabIndex" type="System.Int32, mscorlib">
-    <value>212</value>
-  </data>
-  <data name="Opp4Card10.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Card10.Name" xml:space="preserve">
     <value>Opp4Card10</value>
@@ -3447,39 +3363,6 @@
   <data name="&gt;&gt;Opp4Card10.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="Opp4Card9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="Opp4Card9.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="Opp4Card9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Opp4Card9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 449</value>
-  </data>
-  <data name="Opp4Card9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="Opp4Card9.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>108, 139</value>
-  </data>
-  <data name="Opp4Card9.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card9.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>AutoSize</value>
-  </data>
-  <data name="Opp4Card9.TabIndex" type="System.Int32, mscorlib">
-    <value>213</value>
-  </data>
-  <data name="Opp4Card9.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="&gt;&gt;Opp4Card9.Name" xml:space="preserve">
     <value>Opp4Card9</value>
   </data>
@@ -3491,39 +3374,6 @@
   </data>
   <data name="&gt;&gt;Opp4Card9.ZOrder" xml:space="preserve">
     <value>8</value>
-  </data>
-  <data name="Opp4Card8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="Opp4Card8.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="Opp4Card8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Opp4Card8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>222, 418</value>
-  </data>
-  <data name="Opp4Card8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="Opp4Card8.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>108, 139</value>
-  </data>
-  <data name="Opp4Card8.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card8.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>AutoSize</value>
-  </data>
-  <data name="Opp4Card8.TabIndex" type="System.Int32, mscorlib">
-    <value>211</value>
-  </data>
-  <data name="Opp4Card8.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Card8.Name" xml:space="preserve">
     <value>Opp4Card8</value>
@@ -3537,39 +3387,6 @@
   <data name="&gt;&gt;Opp4Card8.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="Opp4Card7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="Opp4Card7.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="Opp4Card7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Opp4Card7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>192, 418</value>
-  </data>
-  <data name="Opp4Card7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="Opp4Card7.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>108, 139</value>
-  </data>
-  <data name="Opp4Card7.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card7.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>AutoSize</value>
-  </data>
-  <data name="Opp4Card7.TabIndex" type="System.Int32, mscorlib">
-    <value>210</value>
-  </data>
-  <data name="Opp4Card7.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="&gt;&gt;Opp4Card7.Name" xml:space="preserve">
     <value>Opp4Card7</value>
   </data>
@@ -3581,39 +3398,6 @@
   </data>
   <data name="&gt;&gt;Opp4Card7.ZOrder" xml:space="preserve">
     <value>10</value>
-  </data>
-  <data name="Opp4Card6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="Opp4Card6.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="Opp4Card6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Opp4Card6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>162, 418</value>
-  </data>
-  <data name="Opp4Card6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="Opp4Card6.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>108, 139</value>
-  </data>
-  <data name="Opp4Card6.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card6.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>AutoSize</value>
-  </data>
-  <data name="Opp4Card6.TabIndex" type="System.Int32, mscorlib">
-    <value>208</value>
-  </data>
-  <data name="Opp4Card6.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Card6.Name" xml:space="preserve">
     <value>Opp4Card6</value>
@@ -3627,39 +3411,6 @@
   <data name="&gt;&gt;Opp4Card6.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="Opp4Card5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="Opp4Card5.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="Opp4Card5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Opp4Card5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 418</value>
-  </data>
-  <data name="Opp4Card5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="Opp4Card5.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>108, 139</value>
-  </data>
-  <data name="Opp4Card5.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card5.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>AutoSize</value>
-  </data>
-  <data name="Opp4Card5.TabIndex" type="System.Int32, mscorlib">
-    <value>209</value>
-  </data>
-  <data name="Opp4Card5.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="&gt;&gt;Opp4Card5.Name" xml:space="preserve">
     <value>Opp4Card5</value>
   </data>
@@ -3671,39 +3422,6 @@
   </data>
   <data name="&gt;&gt;Opp4Card5.ZOrder" xml:space="preserve">
     <value>12</value>
-  </data>
-  <data name="Opp4Card4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="Opp4Card4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="Opp4Card4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Opp4Card4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>102, 418</value>
-  </data>
-  <data name="Opp4Card4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="Opp4Card4.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>108, 139</value>
-  </data>
-  <data name="Opp4Card4.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>AutoSize</value>
-  </data>
-  <data name="Opp4Card4.TabIndex" type="System.Int32, mscorlib">
-    <value>207</value>
-  </data>
-  <data name="Opp4Card4.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Card4.Name" xml:space="preserve">
     <value>Opp4Card4</value>
@@ -3717,39 +3435,6 @@
   <data name="&gt;&gt;Opp4Card4.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
-  <data name="Opp4Card3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="Opp4Card3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="Opp4Card3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Opp4Card3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>73, 418</value>
-  </data>
-  <data name="Opp4Card3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="Opp4Card3.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>108, 139</value>
-  </data>
-  <data name="Opp4Card3.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>AutoSize</value>
-  </data>
-  <data name="Opp4Card3.TabIndex" type="System.Int32, mscorlib">
-    <value>206</value>
-  </data>
-  <data name="Opp4Card3.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="&gt;&gt;Opp4Card3.Name" xml:space="preserve">
     <value>Opp4Card3</value>
   </data>
@@ -3761,30 +3446,6 @@
   </data>
   <data name="&gt;&gt;Opp4Card3.ZOrder" xml:space="preserve">
     <value>14</value>
-  </data>
-  <data name="textBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>138, 439</value>
-  </data>
-  <data name="textBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="textBox1.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 13</value>
-  </data>
-  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>204</value>
-  </data>
-  <data name="textBox1.Text" xml:space="preserve">
-    <value>30</value>
-  </data>
-  <data name="textBox1.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
     <value>textBox1</value>
@@ -3798,39 +3459,6 @@
   <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="Opp4Card2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="Opp4Card2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="Opp4Card2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Opp4Card2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 418</value>
-  </data>
-  <data name="Opp4Card2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="Opp4Card2.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>108, 139</value>
-  </data>
-  <data name="Opp4Card2.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>AutoSize</value>
-  </data>
-  <data name="Opp4Card2.TabIndex" type="System.Int32, mscorlib">
-    <value>203</value>
-  </data>
-  <data name="Opp4Card2.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="&gt;&gt;Opp4Card2.Name" xml:space="preserve">
     <value>Opp4Card2</value>
   </data>
@@ -3842,39 +3470,6 @@
   </data>
   <data name="&gt;&gt;Opp4Card2.ZOrder" xml:space="preserve">
     <value>16</value>
-  </data>
-  <data name="Opp4Card1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="Opp4Card1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="Opp4Card1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Opp4Card1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 418</value>
-  </data>
-  <data name="Opp4Card1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="Opp4Card1.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>108, 139</value>
-  </data>
-  <data name="Opp4Card1.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 135</value>
-  </data>
-  <data name="Opp4Card1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>AutoSize</value>
-  </data>
-  <data name="Opp4Card1.TabIndex" type="System.Int32, mscorlib">
-    <value>205</value>
-  </data>
-  <data name="Opp4Card1.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="&gt;&gt;Opp4Card1.Name" xml:space="preserve">
     <value>Opp4Card1</value>
@@ -3912,29 +3507,776 @@
   <data name="&gt;&gt;panel6.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="panel5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="Opp4Card15.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Right</value>
   </data>
-  <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1000, 0</value>
+  <data name="Opp4Card15.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
   </data>
-  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>361, 796</value>
+  <data name="Opp4Card15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="panel5.TabIndex" type="System.Int32, mscorlib">
-    <value>309</value>
+  <data name="Opp4Card15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 430</value>
   </data>
-  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
-    <value>panel5</value>
+  <data name="Opp4Card15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
-  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
+  <data name="Opp4Card15.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>108, 139</value>
+  </data>
+  <data name="Opp4Card15.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card15.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Opp4Card15.TabIndex" type="System.Int32, mscorlib">
+    <value>218</value>
+  </data>
+  <data name="Opp4Card15.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card15.Name" xml:space="preserve">
+    <value>Opp4Card15</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card15.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card15.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Opp4Card14.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="Opp4Card14.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Opp4Card14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Opp4Card14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 430</value>
+  </data>
+  <data name="Opp4Card14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Opp4Card14.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>108, 139</value>
+  </data>
+  <data name="Opp4Card14.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card14.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Opp4Card14.TabIndex" type="System.Int32, mscorlib">
+    <value>216</value>
+  </data>
+  <data name="Opp4Card14.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card14.Name" xml:space="preserve">
+    <value>Opp4Card14</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card14.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card14.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Opp4Card13.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="Opp4Card13.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Opp4Card13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Opp4Card13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 430</value>
+  </data>
+  <data name="Opp4Card13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Opp4Card13.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>108, 139</value>
+  </data>
+  <data name="Opp4Card13.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card13.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Opp4Card13.TabIndex" type="System.Int32, mscorlib">
+    <value>217</value>
+  </data>
+  <data name="Opp4Card13.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card13.Name" xml:space="preserve">
+    <value>Opp4Card13</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card13.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card13.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Opp4Card12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="Opp4Card12.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Opp4Card12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Opp4Card12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 430</value>
+  </data>
+  <data name="Opp4Card12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Opp4Card12.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>108, 139</value>
+  </data>
+  <data name="Opp4Card12.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card12.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Opp4Card12.TabIndex" type="System.Int32, mscorlib">
+    <value>215</value>
+  </data>
+  <data name="Opp4Card12.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card12.Name" xml:space="preserve">
+    <value>Opp4Card12</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card12.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card12.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Opp4Card11.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="Opp4Card11.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Opp4Card11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Opp4Card11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 430</value>
+  </data>
+  <data name="Opp4Card11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Opp4Card11.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>108, 139</value>
+  </data>
+  <data name="Opp4Card11.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card11.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Opp4Card11.TabIndex" type="System.Int32, mscorlib">
+    <value>214</value>
+  </data>
+  <data name="Opp4Card11.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card11.Name" xml:space="preserve">
+    <value>Opp4Card11</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card11.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card11.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Opp4Card10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="Opp4Card10.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Opp4Card10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Opp4Card10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 430</value>
+  </data>
+  <data name="Opp4Card10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Opp4Card10.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>108, 139</value>
+  </data>
+  <data name="Opp4Card10.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card10.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Opp4Card10.TabIndex" type="System.Int32, mscorlib">
+    <value>212</value>
+  </data>
+  <data name="Opp4Card10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card10.Name" xml:space="preserve">
+    <value>Opp4Card10</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card10.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card10.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Opp4Card9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="Opp4Card9.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Opp4Card9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Opp4Card9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 430</value>
+  </data>
+  <data name="Opp4Card9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Opp4Card9.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>108, 139</value>
+  </data>
+  <data name="Opp4Card9.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card9.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Opp4Card9.TabIndex" type="System.Int32, mscorlib">
+    <value>213</value>
+  </data>
+  <data name="Opp4Card9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card9.Name" xml:space="preserve">
+    <value>Opp4Card9</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card9.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card9.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Opp4Card8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="Opp4Card8.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Opp4Card8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Opp4Card8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 399</value>
+  </data>
+  <data name="Opp4Card8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Opp4Card8.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>108, 139</value>
+  </data>
+  <data name="Opp4Card8.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card8.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Opp4Card8.TabIndex" type="System.Int32, mscorlib">
+    <value>211</value>
+  </data>
+  <data name="Opp4Card8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card8.Name" xml:space="preserve">
+    <value>Opp4Card8</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card8.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card8.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Opp4Card7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="Opp4Card7.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Opp4Card7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Opp4Card7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 399</value>
+  </data>
+  <data name="Opp4Card7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Opp4Card7.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>108, 139</value>
+  </data>
+  <data name="Opp4Card7.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card7.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Opp4Card7.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="Opp4Card7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card7.Name" xml:space="preserve">
+    <value>Opp4Card7</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card7.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card7.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Opp4Card6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="Opp4Card6.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Opp4Card6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Opp4Card6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 399</value>
+  </data>
+  <data name="Opp4Card6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Opp4Card6.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>108, 139</value>
+  </data>
+  <data name="Opp4Card6.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card6.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Opp4Card6.TabIndex" type="System.Int32, mscorlib">
+    <value>208</value>
+  </data>
+  <data name="Opp4Card6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card6.Name" xml:space="preserve">
+    <value>Opp4Card6</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card6.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card6.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Opp4Card5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="Opp4Card5.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Opp4Card5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Opp4Card5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 399</value>
+  </data>
+  <data name="Opp4Card5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Opp4Card5.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>108, 139</value>
+  </data>
+  <data name="Opp4Card5.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card5.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Opp4Card5.TabIndex" type="System.Int32, mscorlib">
+    <value>209</value>
+  </data>
+  <data name="Opp4Card5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card5.Name" xml:space="preserve">
+    <value>Opp4Card5</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card5.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card5.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Opp4Card4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="Opp4Card4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Opp4Card4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Opp4Card4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 399</value>
+  </data>
+  <data name="Opp4Card4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Opp4Card4.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>108, 139</value>
+  </data>
+  <data name="Opp4Card4.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Opp4Card4.TabIndex" type="System.Int32, mscorlib">
+    <value>207</value>
+  </data>
+  <data name="Opp4Card4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card4.Name" xml:space="preserve">
+    <value>Opp4Card4</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card4.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card4.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Opp4Card3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="Opp4Card3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Opp4Card3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Opp4Card3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 399</value>
+  </data>
+  <data name="Opp4Card3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Opp4Card3.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>108, 139</value>
+  </data>
+  <data name="Opp4Card3.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Opp4Card3.TabIndex" type="System.Int32, mscorlib">
+    <value>206</value>
+  </data>
+  <data name="Opp4Card3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card3.Name" xml:space="preserve">
+    <value>Opp4Card3</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card3.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card3.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="textBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 420</value>
+  </data>
+  <data name="textBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="textBox1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 13</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>204</value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="textBox1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Opp4Card2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="Opp4Card2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Opp4Card2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Opp4Card2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 399</value>
+  </data>
+  <data name="Opp4Card2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Opp4Card2.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>108, 139</value>
+  </data>
+  <data name="Opp4Card2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Opp4Card2.TabIndex" type="System.Int32, mscorlib">
+    <value>203</value>
+  </data>
+  <data name="Opp4Card2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card2.Name" xml:space="preserve">
+    <value>Opp4Card2</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card2.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card2.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="Opp4Card1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="Opp4Card1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Opp4Card1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Opp4Card1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 399</value>
+  </data>
+  <data name="Opp4Card1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Opp4Card1.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>108, 139</value>
+  </data>
+  <data name="Opp4Card1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 135</value>
+  </data>
+  <data name="Opp4Card1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Opp4Card1.TabIndex" type="System.Int32, mscorlib">
+    <value>205</value>
+  </data>
+  <data name="Opp4Card1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card1.Name" xml:space="preserve">
+    <value>Opp4Card1</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card1.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;Opp4Card1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;DeckCard2.Name" xml:space="preserve">
+    <value>DeckCard2</value>
+  </data>
+  <data name="&gt;&gt;DeckCard2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DeckCard2.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;DeckCard2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;DeckCard3.Name" xml:space="preserve">
+    <value>DeckCard3</value>
+  </data>
+  <data name="&gt;&gt;DeckCard3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DeckCard3.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;DeckCard3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;DeckCard4.Name" xml:space="preserve">
+    <value>DeckCard4</value>
+  </data>
+  <data name="&gt;&gt;DeckCard4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DeckCard4.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;DeckCard4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panel8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>371, 0</value>
+  </data>
+  <data name="panel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>629, 193</value>
+  </data>
+  <data name="panel8.TabIndex" type="System.Int32, mscorlib">
+    <value>310</value>
+  </data>
+  <data name="&gt;&gt;panel8.Name" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;panel8.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panel8.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;panel8.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="DeckCard2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom</value>
@@ -4035,30 +4377,6 @@
   <data name="&gt;&gt;DeckCard4.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="panel8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="panel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>371, 0</value>
-  </data>
-  <data name="panel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>629, 193</value>
-  </data>
-  <data name="panel8.TabIndex" type="System.Int32, mscorlib">
-    <value>310</value>
-  </data>
-  <data name="&gt;&gt;panel8.Name" xml:space="preserve">
-    <value>panel8</value>
-  </data>
-  <data name="&gt;&gt;panel8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel8.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel8.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="TopDeckCard.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
@@ -4069,7 +4387,7 @@
     <value>NoControl</value>
   </data>
   <data name="TopDeckCard.Location" type="System.Drawing.Point, System.Drawing">
-    <value>192, 14</value>
+    <value>192, 30</value>
   </data>
   <data name="TopDeckCard.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -4096,7 +4414,7 @@
     <value>Top</value>
   </data>
   <data name="AcceptCardButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
+    <value>Flat</value>
   </data>
   <data name="AcceptCardButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Berlin Sans FB Demi, 12pt, style=Bold</value>
@@ -4105,13 +4423,13 @@
     <value>NoControl</value>
   </data>
   <data name="AcceptCardButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>192, 165</value>
+    <value>65, 258</value>
   </data>
   <data name="AcceptCardButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
   <data name="AcceptCardButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 42</value>
+    <value>252, 42</value>
   </data>
   <data name="AcceptCardButton.TabIndex" type="System.Int32, mscorlib">
     <value>302</value>
@@ -4138,7 +4456,7 @@
     <value>Top</value>
   </data>
   <data name="NoGraciasButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
+    <value>Flat</value>
   </data>
   <data name="NoGraciasButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Berlin Sans FB Demi, 12pt, style=Bold</value>
@@ -4147,13 +4465,13 @@
     <value>NoControl</value>
   </data>
   <data name="NoGraciasButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>310, 165</value>
+    <value>317, 258</value>
   </data>
   <data name="NoGraciasButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
   <data name="NoGraciasButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 42</value>
+    <value>252, 42</value>
   </data>
   <data name="NoGraciasButton.TabIndex" type="System.Int32, mscorlib">
     <value>303</value>
@@ -4186,7 +4504,7 @@
     <value>NoControl</value>
   </data>
   <data name="DeckChip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>325, 50</value>
+    <value>337, 66</value>
   </data>
   <data name="DeckChip.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -4222,7 +4540,7 @@
     <value>NoControl</value>
   </data>
   <data name="TopDeckChipText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>290, 106</value>
+    <value>302, 122</value>
   </data>
   <data name="TopDeckChipText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
@@ -4258,7 +4576,7 @@
     <value>NoControl</value>
   </data>
   <data name="TurnStatus.Location" type="System.Drawing.Point, System.Drawing">
-    <value>65, 221</value>
+    <value>65, 186</value>
   </data>
   <data name="TurnStatus.Size" type="System.Drawing.Size, System.Drawing">
     <value>504, 73</value>
@@ -4279,6 +4597,282 @@
     <value>panel10</value>
   </data>
   <data name="&gt;&gt;TurnStatus.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerChipCount.Name" xml:space="preserve">
+    <value>MainPlayerChipCount</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerChipCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerChipCount.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerChipCount.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard16.Name" xml:space="preserve">
+    <value>MainPlayerCard16</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard16.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard16.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard15.Name" xml:space="preserve">
+    <value>MainPlayerCard15</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard15.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard15.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard14.Name" xml:space="preserve">
+    <value>MainPlayerCard14</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard14.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard14.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard13.Name" xml:space="preserve">
+    <value>MainPlayerCard13</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard13.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard13.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard12.Name" xml:space="preserve">
+    <value>MainPlayerCard12</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard12.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard12.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard11.Name" xml:space="preserve">
+    <value>MainPlayerCard11</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard11.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard11.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard10.Name" xml:space="preserve">
+    <value>MainPlayerCard10</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard10.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard10.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard9.Name" xml:space="preserve">
+    <value>MainPlayerCard9</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard9.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard9.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard8.Name" xml:space="preserve">
+    <value>MainPlayerCard8</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard8.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard8.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard7.Name" xml:space="preserve">
+    <value>MainPlayerCard7</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard7.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard7.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard6.Name" xml:space="preserve">
+    <value>MainPlayerCard6</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard6.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard6.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard5.Name" xml:space="preserve">
+    <value>MainPlayerCard5</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard5.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard5.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard4.Name" xml:space="preserve">
+    <value>MainPlayerCard4</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard4.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard4.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard3.Name" xml:space="preserve">
+    <value>MainPlayerCard3</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard3.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard3.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;textBox5.Name" xml:space="preserve">
+    <value>textBox5</value>
+  </data>
+  <data name="&gt;&gt;textBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox5.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;textBox5.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard2.Name" xml:space="preserve">
+    <value>MainPlayerCard2</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard2.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard2.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerChipText.Name" xml:space="preserve">
+    <value>MainPlayerChipText</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerChipText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerChipText.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerChipText.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;pictureBox16.Name" xml:space="preserve">
+    <value>pictureBox16</value>
+  </data>
+  <data name="&gt;&gt;pictureBox16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox16.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;pictureBox16.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerName.Name" xml:space="preserve">
+    <value>MainPlayerName</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerName.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerName.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard1.Name" xml:space="preserve">
+    <value>MainPlayerCard1</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard1.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;MainPlayerCard1.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="panel9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="panel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>371, 514</value>
+  </data>
+  <data name="panel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>629, 282</value>
+  </data>
+  <data name="panel9.TabIndex" type="System.Int32, mscorlib">
+    <value>311</value>
+  </data>
+  <data name="&gt;&gt;panel9.Name" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;panel9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel9.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="MainPlayerChipCount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -5190,30 +5784,6 @@
   <data name="&gt;&gt;MainPlayerCard1.ZOrder" xml:space="preserve">
     <value>20</value>
   </data>
-  <data name="panel9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="panel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>371, 514</value>
-  </data>
-  <data name="panel9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>629, 282</value>
-  </data>
-  <data name="panel9.TabIndex" type="System.Int32, mscorlib">
-    <value>311</value>
-  </data>
-  <data name="&gt;&gt;panel9.Name" xml:space="preserve">
-    <value>panel9</value>
-  </data>
-  <data name="&gt;&gt;panel9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel9.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel9.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="TopDeckChipCounter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
@@ -5227,7 +5797,7 @@
     <value>NoControl</value>
   </data>
   <data name="TopDeckChipCounter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>380, 106</value>
+    <value>392, 122</value>
   </data>
   <data name="TopDeckChipCounter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>

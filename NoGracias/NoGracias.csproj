@@ -70,11 +70,11 @@
     <Compile Include="MainMenuForm.Designer.cs">
       <DependentUpon>MainMenuForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ScoreBox.cs">
+    <Compile Include="CustomMessageBox.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ScoreBox.Designer.cs">
-      <DependentUpon>ScoreBox.cs</DependentUpon>
+    <Compile Include="CustomMessageBox.Designer.cs">
+      <DependentUpon>CustomMessageBox.cs</DependentUpon>
     </Compile>
     <Compile Include="ServerForm.cs">
       <SubType>Form</SubType>
@@ -97,8 +97,8 @@
     <EmbeddedResource Include="MainMenuForm.resx">
       <DependentUpon>MainMenuForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ScoreBox.resx">
-      <DependentUpon>ScoreBox.cs</DependentUpon>
+    <EmbeddedResource Include="CustomMessageBox.resx">
+      <DependentUpon>CustomMessageBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ServerForm.resx">
       <DependentUpon>ServerForm.cs</DependentUpon>
@@ -276,6 +276,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bensound-jazzyfrenchy.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\201gr.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
