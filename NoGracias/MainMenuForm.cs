@@ -108,9 +108,9 @@ namespace NoGracias
 		 */
         private void button2_Click(object sender, EventArgs e)
         {
-            //MainMenuServerForm myServeMenu = new MainMenuServerForm();
-            //myServeMenu.Show();
-            this.Close();
+            ServerForm myServeMenu = new ServerForm();
+            myServeMenu.Show();
+            //this.Close();
         }
 
         private void Connect_Button_MouseEnter(object sender, EventArgs e)
@@ -133,14 +133,36 @@ namespace NoGracias
             this.Ready_Up_Button.BackColor = Color.FromArgb(48, 48, 48);
         }
 
-        private void button2_MouseEnter(object sender, EventArgs e)
+        private void JoinGameButton_Click(object sender, EventArgs e)
         {
-            this.button2.BackColor = Color.FromArgb(90, 90, 90);
+            this.MainPanel.Visible = false;
+            this.CreditsPanel.Visible = false;
         }
 
-        private void button2_MouseLeave(object sender, EventArgs e)
+        private void MainPanel_Paint(object sender, PaintEventArgs e)
         {
-            this.button2.BackColor = Color.FromArgb(48, 48, 48);
+
+        }
+
+        private void HomeButton_Click(object sender, EventArgs e)
+        {
+            this.CreditsPanel.Visible = false;
+            this.MainPanel.Visible = true;
+            this.MainPanel.BringToFront();
+        }
+
+        private void CreditsButton_Click(object sender, EventArgs e)
+        {
+            //this.MainPanel.Visible = false;
+            this.CreditsPanel.Visible = true;
+            this.CreditsPanel.BringToFront();
+        }
+
+        private void HomeButton1_Click(object sender, EventArgs e)
+        {
+            this.CreditsPanel.Visible = false;
+            this.MainPanel.Visible = true;
+            this.MainPanel.BringToFront();
         }
     }
 }

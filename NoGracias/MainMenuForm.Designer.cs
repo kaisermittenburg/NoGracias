@@ -200,7 +200,20 @@ namespace NoGracias
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.MainPanel = new System.Windows.Forms.Panel();
+            this.CreditsPanel = new System.Windows.Forms.Panel();
+            this.HomeButton1 = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.CreditsButton = new System.Windows.Forms.Button();
+            this.JoinGameButton = new System.Windows.Forms.Button();
+            this.HomeButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.MainPanel.SuspendLayout();
+            this.CreditsPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // IP_textbox
@@ -315,21 +328,20 @@ namespace NoGracias
             // 
             // button2
             // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button2.BackgroundImage = global::NoGracias.Properties.Resources.server2;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.LightSeaGreen;
+            this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.button2.Location = new System.Drawing.Point(0, 568);
+            this.button2.Font = new System.Drawing.Font("Berlin Sans FB Demi", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Black;
+            this.button2.Location = new System.Drawing.Point(38, 261);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(985, 49);
+            this.button2.Size = new System.Drawing.Size(288, 311);
             this.button2.TabIndex = 15;
-            this.button2.Text = "Server Menu";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            this.button2.MouseEnter += new System.EventHandler(this.button2_MouseEnter);
-            this.button2.MouseLeave += new System.EventHandler(this.button2_MouseLeave);
             // 
             // Connect_Button
             // 
@@ -382,13 +394,12 @@ namespace NoGracias
             // you_checkBox
             // 
             this.you_checkBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.you_checkBox.AutoSize = true;
             this.you_checkBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.you_checkBox.ForeColor = System.Drawing.Color.White;
             this.you_checkBox.Location = new System.Drawing.Point(693, 335);
             this.you_checkBox.Margin = new System.Windows.Forms.Padding(24, 2, 24, 2);
             this.you_checkBox.Name = "you_checkBox";
-            this.you_checkBox.Size = new System.Drawing.Size(61, 20);
+            this.you_checkBox.Size = new System.Drawing.Size(247, 20);
             this.you_checkBox.TabIndex = 19;
             this.you_checkBox.Text = "NULL";
             this.you_checkBox.UseVisualStyleBackColor = true;
@@ -398,13 +409,12 @@ namespace NoGracias
             // checkBox2
             // 
             this.checkBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBox2.AutoSize = true;
             this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox2.ForeColor = System.Drawing.Color.White;
             this.checkBox2.Location = new System.Drawing.Point(693, 353);
             this.checkBox2.Margin = new System.Windows.Forms.Padding(24, 2, 24, 2);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(61, 20);
+            this.checkBox2.Size = new System.Drawing.Size(247, 20);
             this.checkBox2.TabIndex = 20;
             this.checkBox2.Text = "NULL";
             this.checkBox2.UseVisualStyleBackColor = true;
@@ -413,13 +423,12 @@ namespace NoGracias
             // checkBox3
             // 
             this.checkBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBox3.AutoSize = true;
             this.checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox3.ForeColor = System.Drawing.Color.White;
             this.checkBox3.Location = new System.Drawing.Point(693, 371);
             this.checkBox3.Margin = new System.Windows.Forms.Padding(24, 2, 24, 2);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(61, 20);
+            this.checkBox3.Size = new System.Drawing.Size(247, 20);
             this.checkBox3.TabIndex = 21;
             this.checkBox3.Text = "NULL";
             this.checkBox3.UseVisualStyleBackColor = true;
@@ -428,13 +437,12 @@ namespace NoGracias
             // checkBox4
             // 
             this.checkBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBox4.AutoSize = true;
             this.checkBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox4.ForeColor = System.Drawing.Color.White;
             this.checkBox4.Location = new System.Drawing.Point(693, 389);
             this.checkBox4.Margin = new System.Windows.Forms.Padding(24, 2, 24, 2);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(61, 20);
+            this.checkBox4.Size = new System.Drawing.Size(247, 20);
             this.checkBox4.TabIndex = 22;
             this.checkBox4.Text = "NULL";
             this.checkBox4.UseVisualStyleBackColor = true;
@@ -443,13 +451,12 @@ namespace NoGracias
             // checkBox5
             // 
             this.checkBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBox5.AutoSize = true;
             this.checkBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox5.ForeColor = System.Drawing.Color.White;
             this.checkBox5.Location = new System.Drawing.Point(693, 407);
             this.checkBox5.Margin = new System.Windows.Forms.Padding(24, 2, 24, 2);
             this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(61, 20);
+            this.checkBox5.Size = new System.Drawing.Size(247, 20);
             this.checkBox5.TabIndex = 23;
             this.checkBox5.Text = "NULL";
             this.checkBox5.UseVisualStyleBackColor = true;
@@ -467,14 +474,138 @@ namespace NoGracias
             this.pictureBox1.TabIndex = 37;
             this.pictureBox1.TabStop = false;
             // 
+            // MainPanel
+            // 
+            this.MainPanel.Controls.Add(this.CreditsPanel);
+            this.MainPanel.Controls.Add(this.pictureBox2);
+            this.MainPanel.Controls.Add(this.button2);
+            this.MainPanel.Controls.Add(this.CreditsButton);
+            this.MainPanel.Controls.Add(this.JoinGameButton);
+            this.MainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.MainPanel.Location = new System.Drawing.Point(0, 0);
+            this.MainPanel.Name = "MainPanel";
+            this.MainPanel.Size = new System.Drawing.Size(985, 617);
+            this.MainPanel.TabIndex = 38;
+            this.MainPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.MainPanel_Paint);
+            // 
+            // CreditsPanel
+            // 
+            this.CreditsPanel.Controls.Add(this.HomeButton1);
+            this.CreditsPanel.Controls.Add(this.pictureBox3);
+            this.CreditsPanel.Controls.Add(this.label5);
+            this.CreditsPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.CreditsPanel.Location = new System.Drawing.Point(0, 0);
+            this.CreditsPanel.MinimumSize = new System.Drawing.Size(985, 617);
+            this.CreditsPanel.Name = "CreditsPanel";
+            this.CreditsPanel.Size = new System.Drawing.Size(985, 617);
+            this.CreditsPanel.TabIndex = 41;
+            this.CreditsPanel.Visible = false;
+            // 
+            // HomeButton1
+            // 
+            this.HomeButton1.BackgroundImage = global::NoGracias.Properties.Resources.home;
+            this.HomeButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.HomeButton1.FlatAppearance.BorderSize = 0;
+            this.HomeButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.HomeButton1.Location = new System.Drawing.Point(16, 14);
+            this.HomeButton1.Name = "HomeButton1";
+            this.HomeButton1.Padding = new System.Windows.Forms.Padding(5);
+            this.HomeButton1.Size = new System.Drawing.Size(60, 48);
+            this.HomeButton1.TabIndex = 42;
+            this.HomeButton1.UseVisualStyleBackColor = true;
+            this.HomeButton1.Click += new System.EventHandler(this.HomeButton1_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox3.Location = new System.Drawing.Point(235, 12);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(470, 192);
+            this.pictureBox3.TabIndex = 39;
+            this.pictureBox3.TabStop = false;
+            // 
+            // label5
+            // 
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.label5.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.label5.Location = new System.Drawing.Point(38, 266);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(906, 306);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "I\'ll come up with actual credits at some point";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.Location = new System.Drawing.Point(235, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(470, 192);
+            this.pictureBox2.TabIndex = 38;
+            this.pictureBox2.TabStop = false;
+            // 
+            // CreditsButton
+            // 
+            this.CreditsButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.CreditsButton.BackgroundImage = global::NoGracias.Properties.Resources.credits;
+            this.CreditsButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.CreditsButton.FlatAppearance.BorderSize = 0;
+            this.CreditsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CreditsButton.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CreditsButton.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.CreditsButton.Location = new System.Drawing.Point(648, 261);
+            this.CreditsButton.Name = "CreditsButton";
+            this.CreditsButton.Size = new System.Drawing.Size(288, 311);
+            this.CreditsButton.TabIndex = 40;
+            this.CreditsButton.UseVisualStyleBackColor = true;
+            this.CreditsButton.Click += new System.EventHandler(this.CreditsButton_Click);
+            // 
+            // JoinGameButton
+            // 
+            this.JoinGameButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.JoinGameButton.BackgroundImage = global::NoGracias.Properties.Resources.join;
+            this.JoinGameButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.JoinGameButton.FlatAppearance.BorderColor = System.Drawing.Color.LightSeaGreen;
+            this.JoinGameButton.FlatAppearance.BorderSize = 0;
+            this.JoinGameButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.JoinGameButton.Font = new System.Drawing.Font("Berlin Sans FB Demi", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JoinGameButton.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.JoinGameButton.Location = new System.Drawing.Point(343, 261);
+            this.JoinGameButton.Name = "JoinGameButton";
+            this.JoinGameButton.Size = new System.Drawing.Size(288, 311);
+            this.JoinGameButton.TabIndex = 39;
+            this.JoinGameButton.UseVisualStyleBackColor = true;
+            this.JoinGameButton.Click += new System.EventHandler(this.JoinGameButton_Click);
+            // 
+            // HomeButton
+            // 
+            this.HomeButton.BackgroundImage = global::NoGracias.Properties.Resources.home;
+            this.HomeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.HomeButton.FlatAppearance.BorderSize = 0;
+            this.HomeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.HomeButton.Location = new System.Drawing.Point(12, 12);
+            this.HomeButton.Name = "HomeButton";
+            this.HomeButton.Padding = new System.Windows.Forms.Padding(5);
+            this.HomeButton.Size = new System.Drawing.Size(60, 48);
+            this.HomeButton.TabIndex = 41;
+            this.HomeButton.UseVisualStyleBackColor = true;
+            this.HomeButton.Click += new System.EventHandler(this.HomeButton_Click);
+            // 
             // MainMenuForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(985, 617);
+            this.Controls.Add(this.MainPanel);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.checkBox5);
             this.Controls.Add(this.checkBox4);
@@ -484,7 +615,6 @@ namespace NoGracias
             this.Controls.Add(this.Status_Textbox);
             this.Controls.Add(this.Status_Label);
             this.Controls.Add(this.Connect_Button);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.Ready_Up_Button);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -493,12 +623,17 @@ namespace NoGracias
             this.Controls.Add(this.PlayerName_textbox);
             this.Controls.Add(this.Port_textbox);
             this.Controls.Add(this.IP_textbox);
+            this.Controls.Add(this.HomeButton);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MainMenuForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "No Gracias";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.MainPanel.ResumeLayout(false);
+            this.CreditsPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -856,5 +991,14 @@ namespace NoGracias
         }
 
         private PictureBox pictureBox1;
+        private Panel MainPanel;
+        private Button JoinGameButton;
+        private PictureBox pictureBox2;
+        private Button CreditsButton;
+        private Button HomeButton;
+        private Panel CreditsPanel;
+        private Label label5;
+        private PictureBox pictureBox3;
+        private Button HomeButton1;
     }
 }

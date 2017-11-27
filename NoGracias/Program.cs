@@ -24,7 +24,7 @@ namespace NoGracias
             Socket ClientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
             MainMenuForm MainMenu = new MainMenuForm(ClientSocket);
-            ServerForm ServerForm = new ServerForm();
+            //ServerForm ServerForm = new ServerForm();
             //CardTableForm Table = new CardTableForm(ClientSocket);
 
             #region Thread Example
@@ -49,7 +49,7 @@ namespace NoGracias
             //Start Server Form
             Application.Run(MainMenu);
            
-            Application.Run(ServerForm);
+            //Application.Run(ServerForm);
 
 
 

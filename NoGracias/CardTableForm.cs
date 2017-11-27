@@ -168,7 +168,10 @@ namespace NoGracias
             {
                 isGameOver = true;
                 ShowPlayerScores();
-                this.Close();
+                this.Invoke((MethodInvoker)delegate
+                {
+                    this.Close();
+                });
             }
         }
 
