@@ -51,10 +51,21 @@ namespace NoGracias
                 this.Port_textbox.Clear();
                 this.PlayerName_textbox.Clear();
                 this.Status_Textbox.Clear();
+                this.Ready_Up_Button.Enabled = false;
+                this.Connect_Button.Enabled = true;
+                this.HomeButton.Enabled = true;
+                this.MainPanel.Visible = true;
+                this.MainPanel.BringToFront();
                 this.Show();
             });
-
-            mClientSocket.Disconnect(true);
+            try
+            {
+                mClientSocket.Disconnect(true);
+            }
+            catch(SocketException e)
+            {
+                CustomMessageBox.ShowBox("SOCKET EXCEPTION");
+            }
         }
 
         /**
@@ -126,6 +137,7 @@ namespace NoGracias
         private void button2_Click(object sender, EventArgs e)
         {
             serverOpen = true;
+            this.button2.Enabled = false;
             ServerForm myServeMenu = new ServerForm();
             myServeMenu.Closed += (s, args) => this.ServerCloseHandler(); 
             myServeMenu.Show();
@@ -135,6 +147,7 @@ namespace NoGracias
         private void ServerCloseHandler()
         {
             serverOpen = false;
+            this.button2.Enabled = true;
             if(mainHidden)
             {
                 this.Close();

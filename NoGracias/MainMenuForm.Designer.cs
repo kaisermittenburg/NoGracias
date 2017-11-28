@@ -723,6 +723,7 @@ namespace NoGracias
                 {
                     Console.WriteLine("Connected");
                     Status = "Connected";
+                    this.HomeButton.Visible = false;
                     mClientSocket.EndConnect(result);
                     players.Add(PlayerName);
                     ReceiveResponse();
