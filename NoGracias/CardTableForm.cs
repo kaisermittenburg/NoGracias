@@ -766,7 +766,7 @@ namespace NoGracias
                     case 8:
                         new_x_loc = this.MainPlayerCard9.Location.X;
                         new_y_loc = this.MainPlayerCard9.Location.Y;
-                        Console.WriteLine("Original Location:" + this.MainPlayerCard9.Location);
+                        Console.WriteLine("New Location:" + this.MainPlayerCard9.Location);
 
                         for (int i = 0; i < 100; i++)
                         {
@@ -780,7 +780,7 @@ namespace NoGracias
                     case 9:
                         new_x_loc = this.MainPlayerCard10.Location.X;
                         new_y_loc = this.MainPlayerCard10.Location.Y;
-                        Console.WriteLine("Original Location:" + this.MainPlayerCard10.Location);
+                        Console.WriteLine("New Location:" + this.MainPlayerCard10.Location);
 
                         for (int i = 0; i < 100; i++)
                         {
@@ -794,7 +794,7 @@ namespace NoGracias
                     case 10:
                         new_x_loc = this.MainPlayerCard11.Location.X;
                         new_y_loc = this.MainPlayerCard11.Location.Y;
-                        Console.WriteLine("Original Location:" + this.MainPlayerCard11.Location);
+                        Console.WriteLine("New Location:" + this.MainPlayerCard11.Location);
 
                         for (int i = 0; i < 100; i++)
                         {
@@ -808,7 +808,7 @@ namespace NoGracias
                     case 11:
                         new_x_loc = this.MainPlayerCard12.Location.X;
                         new_y_loc = this.MainPlayerCard12.Location.Y;
-                        Console.WriteLine("Original Location:" + this.MainPlayerCard12.Location);
+                        Console.WriteLine("New Location:" + this.MainPlayerCard12.Location);
 
                         for (int i = 0; i < 100; i++)
                         {
@@ -822,7 +822,7 @@ namespace NoGracias
                     case 12:
                         new_x_loc = this.MainPlayerCard13.Location.X;
                         new_y_loc = this.MainPlayerCard13.Location.Y;
-                        Console.WriteLine("Original Location:" + this.MainPlayerCard13.Location);
+                        Console.WriteLine("New Location:" + this.MainPlayerCard13.Location);
 
                         for (int i = 0; i < 100; i++)
                         {
@@ -836,7 +836,7 @@ namespace NoGracias
                     case 13:
                         new_x_loc = this.MainPlayerCard14.Location.X;
                         new_y_loc = this.MainPlayerCard14.Location.Y;
-                        Console.WriteLine("Original Location:" + this.MainPlayerCard14.Location);
+                        Console.WriteLine("New Location:" + this.MainPlayerCard14.Location);
 
                         for (int i = 0; i < 100; i++)
                         {
@@ -850,7 +850,7 @@ namespace NoGracias
                     case 14:
                         new_x_loc = this.MainPlayerCard15.Location.X;
                         new_y_loc = this.MainPlayerCard15.Location.Y;
-                        Console.WriteLine("Original Location:" + this.MainPlayerCard15.Location);
+                        Console.WriteLine("New Location:" + this.MainPlayerCard15.Location);
 
                         for (int i = 0; i < 100; i++)
                         {
@@ -864,7 +864,7 @@ namespace NoGracias
                     case 15:
                         new_x_loc = this.MainPlayerCard16.Location.X;
                         new_y_loc = this.MainPlayerCard16.Location.Y;
-                        Console.WriteLine("Original Location:" + this.MainPlayerCard16.Location);
+                        Console.WriteLine("New Location:" + this.MainPlayerCard16.Location);
 
                         for (int i = 0; i < 100; i++)
                         {
@@ -892,100 +892,231 @@ namespace NoGracias
             int n = opponents.ElementAt(0).cards.Count;
             this.Invoke((MethodInvoker)delegate
             {
-                
+                int org_x_loc = this.TopDeckCard.Location.X;
+                int org_y_loc = this.TopDeckCard.Location.Y;
+                int new_x_loc;
+                int new_y_loc;
                 switch (n)
                 {
                     case 0:
+                        new_x_loc = this.Opp1Card1.Location.X;
+                        new_y_loc = this.Opp1Card1.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp1Card1.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.Opp1Card1.BackgroundImage = imgArray[card-1];
                         this.Opp1Card1.Visible = true;
                         this.Opp1Card1.BringToFront();
                         break;
 
                     case 1:
+                        new_x_loc = this.Opp1Card2.Location.X;
+                        new_y_loc = this.Opp1Card2.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp1Card2.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.Opp1Card2.BackgroundImage = imgArray[card-1];
                         this.Opp1Card2.Visible = true;
                         this.Opp1Card2.BringToFront();
                         break;
 
                     case 2:
+                        new_x_loc = this.Opp1Card3.Location.X;
+                        new_y_loc = this.Opp1Card3.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp1Card3.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.Opp1Card3.BackgroundImage = imgArray[card-1];
                         this.Opp1Card3.Visible = true;
                         this.Opp1Card3.BringToFront();
                         break;
 
                     case 3:
+                        new_x_loc = this.Opp1Card4.Location.X;
+                        new_y_loc = this.Opp1Card4.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp1Card4.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.Opp1Card4.BackgroundImage = imgArray[card-1];
                         this.Opp1Card4.Visible = true;
                         this.Opp1Card4.BringToFront();
                         break;
 
                     case 4:
+                        new_x_loc = this.Opp1Card5.Location.X;
+                        new_y_loc = this.Opp1Card5.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp1Card5.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.Opp1Card5.BackgroundImage = imgArray[card-1];
                         this.Opp1Card5.Visible = true;
                         this.Opp1Card5.BringToFront();
                         break;
 
                     case 5:
+                        new_x_loc = this.Opp1Card6.Location.X;
+                        new_y_loc = this.Opp1Card6.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp1Card6.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.Opp1Card6.BackgroundImage = imgArray[card-1];
                         this.Opp1Card6.Visible = true;
                         this.Opp1Card6.BringToFront();
                         break;
 
                     case 6:
+                        new_x_loc = this.Opp1Card7.Location.X;
+                        new_y_loc = this.Opp1Card7.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp1Card7.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.Opp1Card7.BackgroundImage = imgArray[card-1];
                         this.Opp1Card7.Visible = true;
                         this.Opp1Card7.BringToFront();
                         break;
 
                     case 7:
+                        new_x_loc = this.Opp1Card8.Location.X;
+                        new_y_loc = this.Opp1Card8.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp1Card8.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.Opp1Card8.BackgroundImage = imgArray[card-1];
                         this.Opp1Card8.Visible = true;
                         this.Opp1Card8.BringToFront();
                         break;
 
                     case 8:
+                        new_x_loc = this.Opp1Card9.Location.X;
+                        new_y_loc = this.Opp1Card9.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp1Card9.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.Opp1Card9.BackgroundImage = imgArray[card-1];
                         this.Opp1Card9.Visible = true;
                         this.Opp1Card9.BringToFront();
                         break;
 
                     case 9:
+                        new_x_loc = this.Opp1Card10.Location.X;
+                        new_y_loc = this.Opp1Card10.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp1Card10.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.Opp1Card10.BackgroundImage = imgArray[card-1];
                         this.Opp1Card10.Visible = true;
                         this.Opp1Card10.BringToFront();
                         break;
 
                     case 10:
+                        new_x_loc = this.Opp1Card11.Location.X;
+                        new_y_loc = this.Opp1Card11.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp1Card11.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.Opp1Card11.BackgroundImage = imgArray[card-1];
                         this.Opp1Card11.Visible = true;
                         this.Opp1Card11.BringToFront();
                         break;
 
                     case 11:
+                        new_x_loc = this.Opp1Card12.Location.X;
+                        new_y_loc = this.Opp1Card12.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp1Card12.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.Opp1Card12.BackgroundImage = imgArray[card-1];
                         this.Opp1Card12.Visible = true;
                         this.Opp1Card12.BringToFront();
                         break;
 
                     case 12:
+                        new_x_loc = this.Opp1Card13.Location.X;
+                        new_y_loc = this.Opp1Card13.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp1Card13.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.Opp1Card13.BackgroundImage = imgArray[card-1];
                         this.Opp1Card13.Visible = true;
                         this.Opp1Card13.BringToFront();
                         break;
 
                     case 13:
+                        new_x_loc = this.Opp1Card14.Location.X;
+                        new_y_loc = this.Opp1Card14.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp1Card14.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.Opp1Card14.BackgroundImage = imgArray[card-1];
                         this.Opp1Card14.Visible = true;
                         this.Opp1Card14.BringToFront();
                         break;
 
                     case 14:
+                        new_x_loc = this.Opp1Card15.Location.X;
+                        new_y_loc = this.Opp1Card15.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp1Card15.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.Opp1Card15.BackgroundImage = imgArray[card-1];
                         this.Opp1Card15.Visible = true;
                         this.Opp1Card15.BringToFront();
                         break;
 
                     case 15:
+                        new_x_loc = this.Opp1Card16.Location.X;
+                        new_y_loc = this.Opp1Card16.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp1Card16.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.Opp1Card16.BackgroundImage = imgArray[card-1];
                         this.Opp1Card16.Visible = true;
                         this.Opp1Card16.BringToFront();
@@ -994,6 +1125,7 @@ namespace NoGracias
                         //We have run out of cards. I miscalculated, I'm not a math major
                         break;
                 }
+                this.TopDeckCard.Location = new Point(org_x_loc, org_y_loc);
                 this.TopDeckCard.BackgroundImage = imgArray[1];
                 this.TopDeckChipCounter.Text = "0";
                 int playerChips = Int32.Parse(this.Opp1ChipCount.Text);
@@ -1008,102 +1140,234 @@ namespace NoGracias
             int n = opponents.ElementAt(1).cards.Count;
             this.Invoke((MethodInvoker)delegate
             {
-               
 
+
+                int org_x_loc = this.TopDeckCard.Location.X;
+                int org_y_loc = this.TopDeckCard.Location.Y;
+                int new_x_loc;
+                int new_y_loc;
                 switch (n)
                 {
                     case 0:
-                        this.Opp2Card1.BackgroundImage = imgArray[card-1];
+                        new_x_loc = this.Opp2Card1.Location.X;
+                        new_y_loc = this.Opp2Card1.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp2Card1.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
+                        this.Opp2Card1.BackgroundImage = imgArray[card - 1];
                         this.Opp2Card1.Visible = true;
                         this.Opp2Card1.BringToFront();
                         break;
 
                     case 1:
-                        this.Opp2Card2.BackgroundImage = imgArray[card-1];
+                        new_x_loc = this.Opp2Card2.Location.X;
+                        new_y_loc = this.Opp2Card2.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp2Card2.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
+                        this.Opp2Card2.BackgroundImage = imgArray[card - 1];
                         this.Opp2Card2.Visible = true;
                         this.Opp2Card2.BringToFront();
                         break;
 
                     case 2:
-                        this.Opp2Card3.BackgroundImage = imgArray[card-1];
+                        new_x_loc = this.Opp2Card3.Location.X;
+                        new_y_loc = this.Opp2Card3.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp2Card3.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
+                        this.Opp2Card3.BackgroundImage = imgArray[card - 1];
                         this.Opp2Card3.Visible = true;
                         this.Opp2Card3.BringToFront();
                         break;
 
                     case 3:
-                        this.Opp2Card4.BackgroundImage = imgArray[card-1];
+                        new_x_loc = this.Opp2Card4.Location.X;
+                        new_y_loc = this.Opp2Card4.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp2Card4.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
+                        this.Opp2Card4.BackgroundImage = imgArray[card - 1];
                         this.Opp2Card4.Visible = true;
                         this.Opp2Card4.BringToFront();
                         break;
 
                     case 4:
-                        this.Opp2Card5.BackgroundImage = imgArray[card-1];
+                        new_x_loc = this.Opp2Card5.Location.X;
+                        new_y_loc = this.Opp2Card5.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp2Card5.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
+                        this.Opp2Card5.BackgroundImage = imgArray[card - 1];
                         this.Opp2Card5.Visible = true;
                         this.Opp2Card5.BringToFront();
                         break;
 
                     case 5:
-                        this.Opp2Card6.BackgroundImage = imgArray[card-1];
+                        new_x_loc = this.Opp2Card6.Location.X;
+                        new_y_loc = this.Opp2Card6.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp2Card6.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
+                        this.Opp2Card6.BackgroundImage = imgArray[card - 1];
                         this.Opp2Card6.Visible = true;
                         this.Opp2Card6.BringToFront();
                         break;
 
                     case 6:
-                        this.Opp2Card7.BackgroundImage = imgArray[card-1];
+                        new_x_loc = this.Opp2Card7.Location.X;
+                        new_y_loc = this.Opp2Card7.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp2Card7.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
+                        this.Opp2Card7.BackgroundImage = imgArray[card - 1];
                         this.Opp2Card7.Visible = true;
                         this.Opp2Card7.BringToFront();
                         break;
 
                     case 7:
-                        this.Opp2Card8.BackgroundImage = imgArray[card-1];
+                        new_x_loc = this.Opp2Card8.Location.X;
+                        new_y_loc = this.Opp2Card8.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp2Card8.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
+                        this.Opp2Card8.BackgroundImage = imgArray[card - 1];
                         this.Opp2Card8.Visible = true;
                         this.Opp2Card8.BringToFront();
                         break;
 
                     case 8:
-                        this.Opp2Card9.BackgroundImage = imgArray[card-1];
+                        new_x_loc = this.Opp2Card9.Location.X;
+                        new_y_loc = this.Opp2Card9.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp2Card9.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
+                        this.Opp2Card9.BackgroundImage = imgArray[card - 1];
                         this.Opp2Card9.Visible = true;
                         this.Opp2Card9.BringToFront();
                         break;
 
                     case 9:
-                        this.Opp2Card10.BackgroundImage = imgArray[card-1];
+                        new_x_loc = this.Opp2Card10.Location.X;
+                        new_y_loc = this.Opp2Card10.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp2Card10.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
+                        this.Opp2Card10.BackgroundImage = imgArray[card - 1];
                         this.Opp2Card10.Visible = true;
                         this.Opp2Card10.BringToFront();
                         break;
 
                     case 10:
-                        this.Opp2Card11.BackgroundImage = imgArray[card-1];
+                        new_x_loc = this.Opp2Card11.Location.X;
+                        new_y_loc = this.Opp2Card11.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp2Card11.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
+                        this.Opp2Card11.BackgroundImage = imgArray[card - 1];
                         this.Opp2Card11.Visible = true;
                         this.Opp2Card11.BringToFront();
                         break;
 
                     case 11:
-                        this.Opp2Card12.BackgroundImage = imgArray[card-1];
+                        new_x_loc = this.Opp2Card12.Location.X;
+                        new_y_loc = this.Opp2Card12.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp2Card12.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
+                        this.Opp2Card12.BackgroundImage = imgArray[card - 1];
                         this.Opp2Card12.Visible = true;
                         this.Opp2Card12.BringToFront();
                         break;
 
                     case 12:
-                        this.Opp2Card13.BackgroundImage = imgArray[card-1];
+                        new_x_loc = this.Opp2Card13.Location.X;
+                        new_y_loc = this.Opp2Card13.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp2Card13.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
+                        this.Opp2Card13.BackgroundImage = imgArray[card - 1];
                         this.Opp2Card13.Visible = true;
                         this.Opp2Card13.BringToFront();
                         break;
 
                     case 13:
-                        this.Opp2Card14.BackgroundImage = imgArray[card-1];
+                        new_x_loc = this.Opp2Card14.Location.X;
+                        new_y_loc = this.Opp2Card14.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp2Card14.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
+                        this.Opp2Card14.BackgroundImage = imgArray[card - 1];
                         this.Opp2Card14.Visible = true;
                         this.Opp2Card14.BringToFront();
                         break;
 
                     case 14:
-                        this.Opp2Card15.BackgroundImage = imgArray[card-1];
+                        new_x_loc = this.Opp2Card15.Location.X;
+                        new_y_loc = this.Opp2Card15.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp2Card15.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
+                        this.Opp2Card15.BackgroundImage = imgArray[card - 1];
                         this.Opp2Card15.Visible = true;
                         this.Opp2Card15.BringToFront();
                         break;
 
                     case 15:
-                        this.Opp2Card16.BackgroundImage = imgArray[card-1];
+                        new_x_loc = this.Opp2Card16.Location.X;
+                        new_y_loc = this.Opp2Card16.Location.Y;
+                        Console.WriteLine("New Location:" + this.Opp2Card16.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
+                        this.Opp2Card16.BackgroundImage = imgArray[card - 1];
                         this.Opp2Card16.Visible = true;
                         this.Opp2Card16.BringToFront();
                         break;
@@ -1111,6 +1375,7 @@ namespace NoGracias
                         //We have run out of cards. I miscalculated, I'm not a math major
                         break;
                 }
+                this.TopDeckCard.Location = new Point(org_x_loc, org_y_loc);
                 this.TopDeckCard.BackgroundImage = imgArray[1];
                 this.TopDeckChipCounter.Text = "0";
                 int playerChips = Int32.Parse(this.Opp2ChipCount.Text);
