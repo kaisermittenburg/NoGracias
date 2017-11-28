@@ -644,105 +644,232 @@ namespace NoGracias
             int n = mainPlayer.cards.Count;
             this.Invoke((MethodInvoker)delegate
             {
-                this.TopDeckCard.BackgroundImage = imgArray[1];
-                this.TopDeckChipCounter.Text = "0";
-                int playerChips = Int32.Parse(this.MainPlayerChipCount.Text);
-                playerChips += chips;
-                this.MainPlayerChipCount.Text = playerChips.ToString();
+                int org_x_loc = this.TopDeckCard.Location.X;
+                int org_y_loc = this.TopDeckCard.Location.Y;
+                int new_x_loc;
+                int new_y_loc;
 
                 switch (n)
                 {
                     case 0:
+                        new_x_loc = this.MainPlayerCard1.Location.X;
+                        new_y_loc = this.MainPlayerCard1.Location.Y;
+                        Console.WriteLine("Original Location:" + this.MainPlayerCard1.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.MainPlayerCard1.BackgroundImage = imgArray[card - 1];
                         this.MainPlayerCard1.Visible = true;
                         this.MainPlayerCard1.BringToFront();
                         break;
 
                     case 1:
+                        new_x_loc = this.MainPlayerCard2.Location.X;
+                        new_y_loc = this.MainPlayerCard2.Location.Y;
+                        Console.WriteLine("Original Location:" + this.MainPlayerCard2.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.MainPlayerCard2.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard2.Visible = true;
                         this.MainPlayerCard2.BringToFront();
                         break;
 
                     case 2:
+                        new_x_loc = this.MainPlayerCard3.Location.X;
+                        new_y_loc = this.MainPlayerCard3.Location.Y;
+                        Console.WriteLine("Original Location:" + this.MainPlayerCard3.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.MainPlayerCard3.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard3.Visible = true;
                         this.MainPlayerCard3.BringToFront();
                         break;
 
                     case 3:
+                        new_x_loc = this.MainPlayerCard4.Location.X;
+                        new_y_loc = this.MainPlayerCard4.Location.Y;
+                        Console.WriteLine("Original Location:" + this.MainPlayerCard4.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.MainPlayerCard4.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard4.Visible = true;
                         this.MainPlayerCard4.BringToFront();
                         break;
 
                     case 4:
+                        new_x_loc = this.MainPlayerCard5.Location.X;
+                        new_y_loc = this.MainPlayerCard5.Location.Y;
+                        Console.WriteLine("Original Location:" + this.MainPlayerCard5.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.MainPlayerCard5.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard5.Visible = true;
                         this.MainPlayerCard5.BringToFront();
                         break;
 
                     case 5:
+                        new_x_loc = this.MainPlayerCard6.Location.X;
+                        new_y_loc = this.MainPlayerCard6.Location.Y;
+                        Console.WriteLine("Original Location:" + this.MainPlayerCard6.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.MainPlayerCard6.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard6.Visible = true;
                         this.MainPlayerCard6.BringToFront();
                         break;
 
                     case 6:
+                        new_x_loc = this.MainPlayerCard7.Location.X;
+                        new_y_loc = this.MainPlayerCard7.Location.Y;
+                        Console.WriteLine("Original Location:" + this.MainPlayerCard7.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.MainPlayerCard7.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard7.Visible = true;
                         this.MainPlayerCard7.BringToFront();
                         break;
 
                     case 7:
+                        new_x_loc = this.MainPlayerCard8.Location.X;
+                        new_y_loc = this.MainPlayerCard8.Location.Y;
+                        Console.WriteLine("Original Location:" + this.MainPlayerCard8.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.MainPlayerCard8.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard8.Visible = true;
                         this.MainPlayerCard8.BringToFront();
                         break;
 
                     case 8:
+                        new_x_loc = this.MainPlayerCard9.Location.X;
+                        new_y_loc = this.MainPlayerCard9.Location.Y;
+                        Console.WriteLine("Original Location:" + this.MainPlayerCard9.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.MainPlayerCard9.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard9.Visible = true;
                         this.MainPlayerCard9.BringToFront();
                         break;
 
                     case 9:
+                        new_x_loc = this.MainPlayerCard10.Location.X;
+                        new_y_loc = this.MainPlayerCard10.Location.Y;
+                        Console.WriteLine("Original Location:" + this.MainPlayerCard10.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.MainPlayerCard10.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard10.Visible = true;
                         this.MainPlayerCard10.BringToFront();
                         break;
 
                     case 10:
+                        new_x_loc = this.MainPlayerCard11.Location.X;
+                        new_y_loc = this.MainPlayerCard11.Location.Y;
+                        Console.WriteLine("Original Location:" + this.MainPlayerCard11.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.MainPlayerCard11.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard11.Visible = true;
                         this.MainPlayerCard11.BringToFront();
                         break;
 
                     case 11:
+                        new_x_loc = this.MainPlayerCard12.Location.X;
+                        new_y_loc = this.MainPlayerCard12.Location.Y;
+                        Console.WriteLine("Original Location:" + this.MainPlayerCard12.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.MainPlayerCard12.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard12.Visible = true;
                         this.MainPlayerCard12.BringToFront();
                         break;
 
                     case 12:
+                        new_x_loc = this.MainPlayerCard13.Location.X;
+                        new_y_loc = this.MainPlayerCard13.Location.Y;
+                        Console.WriteLine("Original Location:" + this.MainPlayerCard13.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.MainPlayerCard13.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard13.Visible = true;
                         this.MainPlayerCard13.BringToFront();
                         break;
 
                     case 13:
+                        new_x_loc = this.MainPlayerCard14.Location.X;
+                        new_y_loc = this.MainPlayerCard14.Location.Y;
+                        Console.WriteLine("Original Location:" + this.MainPlayerCard14.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.MainPlayerCard14.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard14.Visible = true;
                         this.MainPlayerCard14.BringToFront();
                         break;
 
                     case 14:
+                        new_x_loc = this.MainPlayerCard15.Location.X;
+                        new_y_loc = this.MainPlayerCard15.Location.Y;
+                        Console.WriteLine("Original Location:" + this.MainPlayerCard15.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.MainPlayerCard15.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard15.Visible = true;
                         this.MainPlayerCard15.BringToFront();
                         break;
 
                     case 15:
+                        new_x_loc = this.MainPlayerCard16.Location.X;
+                        new_y_loc = this.MainPlayerCard16.Location.Y;
+                        Console.WriteLine("Original Location:" + this.MainPlayerCard16.Location);
+
+                        for (int i = 0; i < 100; i++)
+                        {
+                            this.TopDeckCard.Location = new Point(this.TopDeckCard.Location.X + ((new_x_loc - org_x_loc) / 100), this.TopDeckCard.Location.Y + ((new_y_loc - org_y_loc) / 100));
+                        }
                         this.MainPlayerCard16.BackgroundImage = imgArray[card-1];
                         this.MainPlayerCard16.Visible = true;
                         this.MainPlayerCard16.BringToFront();
@@ -751,6 +878,12 @@ namespace NoGracias
                         //We have run out of cards. I miscalculated, I'm not a math major
                         break;
                 }
+                this.TopDeckCard.Location = new Point(org_x_loc, org_y_loc);
+                this.TopDeckCard.BackgroundImage = imgArray[1];
+                this.TopDeckChipCounter.Text = "0";
+                int playerChips = Int32.Parse(this.MainPlayerChipCount.Text);
+                playerChips += chips;
+                this.MainPlayerChipCount.Text = playerChips.ToString();
             });
         }
 
@@ -759,12 +892,7 @@ namespace NoGracias
             int n = opponents.ElementAt(0).cards.Count;
             this.Invoke((MethodInvoker)delegate
             {
-                this.TopDeckCard.BackgroundImage = imgArray[1];
-                this.TopDeckChipCounter.Text = "0";
-                int playerChips = Int32.Parse(this.Opp1ChipCount.Text);
-                playerChips += chips;
-                this.Opp1ChipCount.Text = playerChips.ToString();
-
+                
                 switch (n)
                 {
                     case 0:
@@ -866,6 +994,12 @@ namespace NoGracias
                         //We have run out of cards. I miscalculated, I'm not a math major
                         break;
                 }
+                this.TopDeckCard.BackgroundImage = imgArray[1];
+                this.TopDeckChipCounter.Text = "0";
+                int playerChips = Int32.Parse(this.Opp1ChipCount.Text);
+                playerChips += chips;
+                this.Opp1ChipCount.Text = playerChips.ToString();
+
             });
         }
 
@@ -874,11 +1008,7 @@ namespace NoGracias
             int n = opponents.ElementAt(1).cards.Count;
             this.Invoke((MethodInvoker)delegate
             {
-                this.TopDeckCard.BackgroundImage = imgArray[1];
-                this.TopDeckChipCounter.Text = "0";
-                int playerChips = Int32.Parse(this.Opp2ChipCount.Text);
-                playerChips += chips;
-                this.Opp2ChipCount.Text = playerChips.ToString();
+               
 
                 switch (n)
                 {
@@ -981,6 +1111,11 @@ namespace NoGracias
                         //We have run out of cards. I miscalculated, I'm not a math major
                         break;
                 }
+                this.TopDeckCard.BackgroundImage = imgArray[1];
+                this.TopDeckChipCounter.Text = "0";
+                int playerChips = Int32.Parse(this.Opp2ChipCount.Text);
+                playerChips += chips;
+                this.Opp2ChipCount.Text = playerChips.ToString();
             });
         }
 
