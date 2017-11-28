@@ -53,11 +53,11 @@
       <Link>IGameDriverCallback.cs</Link>
     </Compile>
     <Compile Include="CallbackHandler.cs" />
-    <Compile Include="CardTableForm.cs">
+    <Compile Include="CardTable.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CardTableForm.Designer.cs">
-      <DependentUpon>CardTableForm.cs</DependentUpon>
+    <Compile Include="CardTable.Designer.cs">
+      <DependentUpon>CardTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Connected Services\GameDriverService\Reference.cs">
       <AutoGen>True</AutoGen>
@@ -91,8 +91,8 @@
     <Compile Include="Server\Deck.cs" />
     <Compile Include="Server\GameDriver.cs" />
     <Compile Include="Server\Server.cs" />
-    <EmbeddedResource Include="CardTableForm.resx">
-      <DependentUpon>CardTableForm.cs</DependentUpon>
+    <EmbeddedResource Include="CardTable.resx">
+      <DependentUpon>CardTable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenuForm.resx">
       <DependentUpon>MainMenuForm.cs</DependentUpon>
@@ -137,7 +137,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\img1.png" />
@@ -291,6 +293,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speaker-mute.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

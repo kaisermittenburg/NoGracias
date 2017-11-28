@@ -14,6 +14,9 @@ namespace NoGracias
 {
     public partial class MainMenuForm : Form
     {
+        bool serverOpen = false;
+        bool mainHidden = false;
+
         public MainMenuForm(Socket aClientSocket)
         {
             InitializeComponent();
@@ -108,9 +111,20 @@ namespace NoGracias
 		 */
         private void button2_Click(object sender, EventArgs e)
         {
+            serverOpen = true;
             ServerForm myServeMenu = new ServerForm();
+            myServeMenu.Closed += (s, args) => this.ServerCloseHandler(); 
             myServeMenu.Show();
             //this.Close();
+        }
+
+        private void ServerCloseHandler()
+        {
+            serverOpen = false;
+            if(mainHidden)
+            {
+                this.Close();
+            }
         }
 
         private void Connect_Button_MouseEnter(object sender, EventArgs e)
@@ -163,6 +177,20 @@ namespace NoGracias
             this.CreditsPanel.Visible = false;
             this.MainPanel.Visible = true;
             this.MainPanel.BringToFront();
+        }
+
+        private void MainMenuForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if(serverOpen)
+            {
+                e.Cancel = true;
+                mainHidden = true;
+                this.Hide();
+            }
+            else 
+            {
+                e.Cancel = false;               
+            }
         }
     }
 }

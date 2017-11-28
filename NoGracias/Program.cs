@@ -25,7 +25,7 @@ namespace NoGracias
 
             MainMenuForm MainMenu = new MainMenuForm(ClientSocket);
             //ServerForm ServerForm = new ServerForm();
-            //CardTableForm Table = new CardTableForm(ClientSocket);
+            //CardTable Table = new CardTable(ClientSocket);
 
             #region Thread Example
             //var thread = new Thread(ThreadStart);

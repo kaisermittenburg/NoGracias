@@ -309,8 +309,8 @@ namespace NoGracias
             this.Ready_Up_Button.BackColor = System.Drawing.Color.Transparent;
             this.Ready_Up_Button.Enabled = false;
             this.Ready_Up_Button.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.Ready_Up_Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.Ready_Up_Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray;
+            this.Ready_Up_Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.Ready_Up_Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
             this.Ready_Up_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Ready_Up_Button.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Ready_Up_Button.ForeColor = System.Drawing.Color.LightSeaGreen;
@@ -598,6 +598,7 @@ namespace NoGracias
             // 
             // MainMenuForm
             // 
+            this.AcceptButton = this.Connect_Button;
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoSize = true;
@@ -629,6 +630,7 @@ namespace NoGracias
             this.Name = "MainMenuForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "No Gracias";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainMenuForm_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.MainPanel.ResumeLayout(false);
             this.CreditsPanel.ResumeLayout(false);
@@ -952,7 +954,7 @@ namespace NoGracias
             {
                 // Running on the UI thread
                 this.Hide();
-                var TableForm = new CardTableForm(mClientSocket);
+                var TableForm = new CardTable(mClientSocket);
                 TableForm.Closed += (s, args) => this.Show();
                 TableForm.Show();
                 isCardTableLaunched = true;
