@@ -686,7 +686,7 @@ namespace NoGracias
          */
         private void ConnectToServer()
         {
-            players.Add(PlayerName);
+            /*players.Add(PlayerName);
             while (!mClientSocket.Connected)
             {
                 try
@@ -710,14 +710,44 @@ namespace NoGracias
                     throw new System.ArgumentException();
                     //break;
                 }
+            }*/
+
+            Console.WriteLine("Connection attempt...");
+            Status = "Connection attempt...";
+            try
+            {
+                IAsyncResult result = mClientSocket.BeginConnect(IP, int.Parse(Port), null, null);
+                bool successConnect = result.AsyncWaitHandle.WaitOne(5000, true);
+
+                if (mClientSocket.Connected)
+                {
+                    Console.WriteLine("Connected");
+                    Status = "Connected";
+                    mClientSocket.EndConnect(result);
+                    players.Add(PlayerName);
+                    ReceiveResponse();
+                }
+                else
+                {
+                    //mClientSocket.Disconnect(true);
+                    CustomMessageBox.ShowBox("CONNECTION FAILED\nINVALID CONNECTION PARAMETERS");
+                    throw new System.Exception();
+                }
             }
+            catch(SocketException)
+            {
+                CustomMessageBox.ShowBox("CONNECTION ERROR" + "\nSOCKET EXCEPTION");
+                throw new System.Exception();
+            }
+            catch(FormatException)
+            {
+                CustomMessageBox.ShowBox("CONNECTION FAILED" + "\nINVALID PORT");
+                throw new System.Exception();
+            }
+                     
 
-            
-
-            ReceiveResponse();
-
-            Console.WriteLine("Connected");
-            Status = "Connected";
+            //Console.WriteLine("Connected");
+            //Status = "Connected";
         }
 
         /**
@@ -957,7 +987,7 @@ namespace NoGracias
                 // Running on the UI thread
                 this.Hide();
                 var TableForm = new CardTableForm(mClientSocket);
-                TableForm.Closed += (s, args) => this.Show();
+                TableForm.Closed += (s, args) => this.Reset();
                 TableForm.Show();
                 isCardTableLaunched = true;
                 /*TableForm.PlayerName = PlayerName;

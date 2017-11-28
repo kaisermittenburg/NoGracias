@@ -43,6 +43,20 @@ namespace NoGracias
 
         }
 
+        private void Reset()
+        {
+            this.Invoke((MethodInvoker)delegate
+            {
+                this.IP_textbox.Clear();
+                this.Port_textbox.Clear();
+                this.PlayerName_textbox.Clear();
+                this.Status_Textbox.Clear();
+                this.Show();
+            });
+
+            mClientSocket.Disconnect(true);
+        }
+
         /**
 		 *	Private method that takes two arguments of type object and EventArgs and does not return.
 		 *	Details: Connects to the server, disables the connect button, enables the ready up button and refreshes the page along with starting new thread.
@@ -62,7 +76,7 @@ namespace NoGracias
                 {
                     ConnectToServer();
                 }
-                catch(ArgumentException)
+                catch
                 {
                     connSuccess = false;
                 }
