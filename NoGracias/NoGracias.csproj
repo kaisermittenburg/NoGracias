@@ -53,11 +53,11 @@
       <Link>IGameDriverCallback.cs</Link>
     </Compile>
     <Compile Include="CallbackHandler.cs" />
-    <Compile Include="CardTable.cs">
+    <Compile Include="CardTableForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CardTable.Designer.cs">
-      <DependentUpon>CardTable.cs</DependentUpon>
+    <Compile Include="CardTableForm.Designer.cs">
+      <DependentUpon>CardTableForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Connected Services\GameDriverService\Reference.cs">
       <AutoGen>True</AutoGen>
@@ -91,8 +91,8 @@
     <Compile Include="Server\Deck.cs" />
     <Compile Include="Server\GameDriver.cs" />
     <Compile Include="Server\Server.cs" />
-    <EmbeddedResource Include="CardTable.resx">
-      <DependentUpon>CardTable.cs</DependentUpon>
+    <EmbeddedResource Include="CardTableForm.resx">
+      <DependentUpon>CardTableForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenuForm.resx">
       <DependentUpon>MainMenuForm.cs</DependentUpon>

@@ -13,7 +13,7 @@ using Common;
 
 namespace NoGracias
 {
-    public partial class CardTable : Form
+    public partial class CardTableForm : Form
     {
         #region Variables
         private List<Player> opponents = new List<Player>();
@@ -27,7 +27,7 @@ namespace NoGracias
         bool isSoundPlaying = true;
         
         #endregion
-        public CardTable(Socket aClientSocket)
+        public CardTableForm(Socket aClientSocket)
         {
             InitializeComponent();
             mClientSocket = aClientSocket;

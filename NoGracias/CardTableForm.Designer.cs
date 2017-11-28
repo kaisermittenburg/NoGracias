@@ -4,7 +4,7 @@ using System.Windows.Forms;
 
 namespace NoGracias
 {
-    partial class CardTable
+    partial class CardTableForm
     {
         #region Player
         public string PlayerName
@@ -261,7 +261,7 @@ namespace NoGracias
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CardTable));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CardTableForm));
             this.Opp2ChipCount = new System.Windows.Forms.Label();
             this.Opp2Card16 = new System.Windows.Forms.PictureBox();
             this.Opp2Card15 = new System.Windows.Forms.PictureBox();

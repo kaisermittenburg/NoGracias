@@ -535,7 +535,7 @@ namespace NoGracias
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(906, 306);
             this.label5.TabIndex = 0;
-            this.label5.Text = "I\'ll come up with actual credits at some point";
+            this.label5.Text = "Royalty free music from Bensound";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox2
@@ -711,6 +711,8 @@ namespace NoGracias
                     //break;
                 }
             }
+
+            
 
             ReceiveResponse();
 
@@ -954,7 +956,7 @@ namespace NoGracias
             {
                 // Running on the UI thread
                 this.Hide();
-                var TableForm = new CardTable(mClientSocket);
+                var TableForm = new CardTableForm(mClientSocket);
                 TableForm.Closed += (s, args) => this.Show();
                 TableForm.Show();
                 isCardTableLaunched = true;
