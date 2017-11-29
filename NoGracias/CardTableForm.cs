@@ -183,6 +183,11 @@ namespace NoGracias
 
             if (received == 0) return;
 
+            mClientSocket.BeginDisconnect(true, (IAsyncResult ar) =>
+            {
+                mClientSocket.EndDisconnect(ar);
+            }, null);
+
             byte[] data = new byte[received];
             Array.Copy(buffer, data, received);
             string message = Encoding.ASCII.GetString(data);

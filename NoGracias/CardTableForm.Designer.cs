@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Net.Sockets;
 using System.Windows.Forms;
 
@@ -29,6 +30,17 @@ namespace NoGracias
                {
                    this.MainPlayerChipCount.Text = value.ToString();
                });
+            }
+        }
+        public Image PlayerCard
+        {
+            get { return this.MainPlayerCard1.BackgroundImage; }
+            set
+            {
+                this.Invoke((MethodInvoker)delegate
+                {
+                    this.MainPlayerCard1.BackgroundImage = value;
+                });
             }
         }
         public bool Card1
@@ -125,6 +137,30 @@ namespace NoGracias
                 });
             }
         }
+
+        public string Opp1ChipNumber
+        {
+            get { return this.Opp1ChipCount.Text; }
+            set
+            {
+                this.Opp1ChipCount.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.Opp1ChipCount.Text = value;
+                });
+            }
+        }
+        public Image Opp1Card
+        {
+            get { return this.Opp1Card1.BackgroundImage; }
+            set
+            {
+                this.Invoke((MethodInvoker)delegate
+                {
+                    this.Opp1Card1.BackgroundImage = value;
+                });
+            }
+        }
         #endregion
         #region Opp2
         public string Opp2PlayerName
@@ -136,6 +172,30 @@ namespace NoGracias
                 {
                     // Running on the UI thread
                     this.Opp2Name.Text = value;
+                });
+            }
+        }
+
+        public string Opp2ChipNumber
+        {
+            get { return this.Opp2ChipCount.Text; }
+            set
+            {
+                this.Opp2ChipCount.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.Opp2ChipCount.Text = value;
+                });
+            }
+        }
+        public Image Opp2Card
+        {
+            get { return this.Opp2Card1.BackgroundImage; }
+            set
+            {
+                this.Invoke((MethodInvoker)delegate
+                {
+                    this.Opp2Card1.BackgroundImage = value;
                 });
             }
         }
@@ -180,10 +240,25 @@ namespace NoGracias
         }
         public string Opp3ChipNumber
         {
-            get { return Opp3ChipText.Text; }
+            get { return this.Opp3ChipCount.Text; }
             set
             {
-                Opp3ChipText.Text = value;
+                this.Opp3ChipCount.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.Opp3ChipCount.Text = value;
+                });
+            }
+        }
+        public Image Opp3Card
+        {
+            get { return this.Opp3Card1.BackgroundImage; }
+            set
+            {
+                this.Invoke((MethodInvoker)delegate
+                {
+                    this.Opp3Card1.BackgroundImage = value;
+                });
             }
         }
         #endregion
@@ -227,13 +302,90 @@ namespace NoGracias
         }
         public string Opp4ChipNumber
         {
-            get { return Opp4ChipText.Text; }
+            get { return this.Opp4ChipCount.Text; }
             set
             {
-                Opp4ChipText.Text = value;
+                this.Opp4ChipCount.Invoke((MethodInvoker)delegate
+                {
+                    // Running on the UI thread
+                    this.Opp4ChipCount.Text = value;
+                });
+            }
+        }
+        public Image Opp4Card
+        {
+            get { return this.Opp4Card1.BackgroundImage; }
+            set
+            {
+                this.Invoke((MethodInvoker)delegate
+                {
+                    this.Opp4Card1.BackgroundImage = value;
+                });
             }
         }
         #endregion
+        #region Turn Card
+        public Image TurnCard
+        {
+            get { return this.TopDeckCard.BackgroundImage; }
+            set
+            {
+                this.Invoke((MethodInvoker)delegate
+                {
+                    this.TopDeckCard.BackgroundImage = value;
+                });
+            }
+        }
+
+        public string TurnChipNumber
+        {
+            get { return this.TopDeckChipCounter.Text; }
+            set
+            {
+                this.Invoke((MethodInvoker)delegate
+                {
+                    this.TopDeckChipCounter.Text = value;
+                });
+            }
+        }
+        #endregion
+        #region Turn Status
+        public string TurnStatusText
+        {
+            get { return this.TurnStatus.Text; }
+            set
+            {
+                this.Invoke((MethodInvoker)delegate
+                {
+                    this.TurnStatus.Text = value;
+                });
+            }
+        }
+        #endregion
+        #region Buttons
+        public Button Accept
+        {
+            get { return this.AcceptCardButton; }
+            set
+            {
+                this.Invoke((MethodInvoker)delegate
+                {
+                    this.AcceptCardButton = value;
+                });
+            }
+        }
+        public Button Reject
+        {
+            get { return this.NoGraciasButton; }
+            set
+            {
+                this.Invoke((MethodInvoker)delegate
+                {
+                    this.NoGraciasButton = value;
+                });
+            }
+        }
+        #endregion 
         #region Generated Code
         /// <summary>
         /// Required designer variable.

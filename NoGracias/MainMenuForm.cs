@@ -45,27 +45,53 @@ namespace NoGracias
 
         private void Reset()
         {
-            this.Invoke((MethodInvoker)delegate
-            {
-                this.IP_textbox.Clear();
-                this.Port_textbox.Clear();
-                this.PlayerName_textbox.Clear();
-                this.Status_Textbox.Clear();
-                this.Ready_Up_Button.Enabled = false;
-                this.Connect_Button.Enabled = true;
-                this.HomeButton.Enabled = true;
-                this.MainPanel.Visible = true;
-                this.MainPanel.BringToFront();
-                this.Show();
-            });
+            this.IP_textbox.Clear();
+            this.Port_textbox.Clear();
+            this.PlayerName_textbox.Clear();
+
+            this.Status_Textbox.Clear();
+            this.you_checkBox.Checked = false;
+            this.you_checkBox.Text = "NULL";
+            this.you_checkBox.Visible = false;
+
+            this.checkBox2.Checked = false;
+            this.checkBox2.Text = "NULL";
+            this.checkBox2.Visible = false;
+
+            this.checkBox3.Checked = false;
+            this.checkBox3.Text = "NULL";
+            this.checkBox3.Visible = false;
+
+            this.checkBox4.Checked = false;
+            this.checkBox4.Text = "NULL";
+            this.checkBox4.Visible = false;
+
+            this.checkBox5.Checked = false;
+            this.checkBox5.Text = "NULL";
+            this.checkBox5.Visible = false;
+
+            this.Ready_Up_Button.Enabled = false;
+            this.Connect_Button.Enabled = true;
+
+            this.HomeButton.Enabled = true;
+            this.HomeButton.Visible = true;
+
+            this.MainPanel.Visible = true;
+            this.MainPanel.BringToFront();
+
+            this.Show();
+            /*
             try
             {
                 mClientSocket.Disconnect(true);
+                Console.WriteLine("socket disconnected");
             }
             catch(SocketException e)
             {
+                Console.WriteLine("Socket Exception");
                 CustomMessageBox.ShowBox("SOCKET EXCEPTION");
             }
+            */
         }
 
         /**
@@ -178,6 +204,7 @@ namespace NoGracias
         {
             this.MainPanel.Visible = false;
             this.CreditsPanel.Visible = false;
+            this.HomeButton.BringToFront();
         }
 
         private void MainPanel_Paint(object sender, PaintEventArgs e)
