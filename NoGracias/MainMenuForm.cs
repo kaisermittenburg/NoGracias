@@ -43,7 +43,7 @@ namespace NoGracias
 
         }
 
-        private void Reset()
+        private void Reset(bool tryToDisconnectFromServer)
         {
             this.Invoke((MethodInvoker)delegate
             {
@@ -58,13 +58,16 @@ namespace NoGracias
                 this.MainPanel.BringToFront();
                 this.Show();
             });
-            try
+            if (tryToDisconnectFromServer)
             {
-                mClientSocket.Disconnect(true);
-            }
-            catch(SocketException e)
-            {
-                CustomMessageBox.ShowBox("SOCKET EXCEPTION");
+                try
+                {
+                    mClientSocket.Disconnect(true);
+                }
+                catch (SocketException e)
+                {
+                    CustomMessageBox.ShowBox("SOCKET EXCEPTION");
+                }
             }
         }
 
@@ -95,7 +98,7 @@ namespace NoGracias
                 {
                     Connect_Button.Enabled = false;
                     Ready_Up_Button.Enabled = true;
-
+                    isConnected = true;
                     you_checkBox.Visible = true;
                     YouCheckBox = PlayerName;
 
