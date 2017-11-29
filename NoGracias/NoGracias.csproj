@@ -60,7 +60,7 @@
     <ManifestKeyFile>NoGracias_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <GenerateManifests>true</GenerateManifests>
+    <GenerateManifests>false</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
     <SignManifests>false</SignManifests>
@@ -90,20 +90,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\wcfService\wcfService\IGameDriverCallback.cs">
-      <Link>IGameDriverCallback.cs</Link>
-    </Compile>
-    <Compile Include="CallbackHandler.cs" />
     <Compile Include="CardTableForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CardTableForm.Designer.cs">
       <DependentUpon>CardTableForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Connected Services\GameDriverService\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="TestForm.cs">
       <SubType>Form</SubType>
@@ -154,7 +145,7 @@
       <DependentUpon>ServerForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -163,19 +154,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="Connected Services\GameDriverService\GameDriver.wsdl" />
-    <None Include="Connected Services\GameDriverService\GameDriver.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\GameDriverService\GameDriver1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\GameDriverService\GameDriver2.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\GameDriverService\NoGracias.GameDriverService.CompositeType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
     <None Include="NoGracias_TemporaryKey.pfx" />
     <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
@@ -308,24 +286,6 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\GameDriverService\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\GameDriverService\GameDriver.disco" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\GameDriverService\configuration91.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\GameDriverService\configuration.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\GameDriverService\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\icon.ico" />
   </ItemGroup>
   <ItemGroup>
@@ -363,6 +323,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Custom-Icon-Design-Pretty-Office-7-Game-diamond.ico" />
+    <None Include="Resources\Title.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -221,10 +221,10 @@ namespace NoGracias
             this.IP_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.IP_textbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IP_textbox.Location = new System.Drawing.Point(297, 184);
-            this.IP_textbox.Margin = new System.Windows.Forms.Padding(2);
+            this.IP_textbox.Location = new System.Drawing.Point(520, 322);
+            this.IP_textbox.Margin = new System.Windows.Forms.Padding(4);
             this.IP_textbox.Name = "IP_textbox";
-            this.IP_textbox.Size = new System.Drawing.Size(342, 20);
+            this.IP_textbox.Size = new System.Drawing.Size(597, 29);
             this.IP_textbox.TabIndex = 5;
             this.IP_textbox.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
@@ -232,20 +232,20 @@ namespace NoGracias
             // 
             this.Port_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Port_textbox.Location = new System.Drawing.Point(297, 224);
-            this.Port_textbox.Margin = new System.Windows.Forms.Padding(2);
+            this.Port_textbox.Location = new System.Drawing.Point(520, 392);
+            this.Port_textbox.Margin = new System.Windows.Forms.Padding(4);
             this.Port_textbox.Name = "Port_textbox";
-            this.Port_textbox.Size = new System.Drawing.Size(342, 20);
+            this.Port_textbox.Size = new System.Drawing.Size(596, 29);
             this.Port_textbox.TabIndex = 6;
             // 
             // PlayerName_textbox
             // 
             this.PlayerName_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.PlayerName_textbox.Location = new System.Drawing.Point(297, 266);
-            this.PlayerName_textbox.Margin = new System.Windows.Forms.Padding(2);
+            this.PlayerName_textbox.Location = new System.Drawing.Point(520, 466);
+            this.PlayerName_textbox.Margin = new System.Windows.Forms.Padding(4);
             this.PlayerName_textbox.Name = "PlayerName_textbox";
-            this.PlayerName_textbox.Size = new System.Drawing.Size(342, 20);
+            this.PlayerName_textbox.Size = new System.Drawing.Size(596, 29);
             this.PlayerName_textbox.TabIndex = 7;
             // 
             // label1
@@ -254,10 +254,10 @@ namespace NoGracias
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label1.Location = new System.Drawing.Point(228, 188);
-            this.label1.Margin = new System.Windows.Forms.Padding(24, 0, 24, 0);
+            this.label1.Location = new System.Drawing.Point(399, 329);
+            this.label1.Margin = new System.Windows.Forms.Padding(42, 0, 42, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(26, 22);
+            this.label1.Size = new System.Drawing.Size(45, 38);
             this.label1.TabIndex = 9;
             this.label1.Text = "IP";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -268,10 +268,10 @@ namespace NoGracias
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label2.Location = new System.Drawing.Point(228, 224);
-            this.label2.Margin = new System.Windows.Forms.Padding(24, 0, 24, 0);
+            this.label2.Location = new System.Drawing.Point(399, 392);
+            this.label2.Margin = new System.Windows.Forms.Padding(42, 0, 42, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 22);
+            this.label2.Size = new System.Drawing.Size(70, 38);
             this.label2.TabIndex = 10;
             this.label2.Text = "Port";
             // 
@@ -281,10 +281,10 @@ namespace NoGracias
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label3.Location = new System.Drawing.Point(228, 266);
-            this.label3.Margin = new System.Windows.Forms.Padding(24, 0, 24, 0);
+            this.label3.Location = new System.Drawing.Point(399, 466);
+            this.label3.Margin = new System.Windows.Forms.Padding(42, 0, 42, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(54, 22);
+            this.label3.Size = new System.Drawing.Size(93, 38);
             this.label3.TabIndex = 11;
             this.label3.Text = "Name";
             // 
@@ -295,10 +295,10 @@ namespace NoGracias
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label4.Location = new System.Drawing.Point(690, 307);
-            this.label4.Margin = new System.Windows.Forms.Padding(24, 0, 24, 0);
+            this.label4.Location = new System.Drawing.Point(1208, 537);
+            this.label4.Margin = new System.Windows.Forms.Padding(42, 0, 42, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(63, 22);
+            this.label4.Size = new System.Drawing.Size(109, 38);
             this.label4.TabIndex = 12;
             this.label4.Text = "Players";
             // 
@@ -314,11 +314,11 @@ namespace NoGracias
             this.Ready_Up_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Ready_Up_Button.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Ready_Up_Button.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.Ready_Up_Button.Location = new System.Drawing.Point(509, 511);
-            this.Ready_Up_Button.Margin = new System.Windows.Forms.Padding(2, 24, 2, 24);
-            this.Ready_Up_Button.MinimumSize = new System.Drawing.Size(130, 37);
+            this.Ready_Up_Button.Location = new System.Drawing.Point(891, 894);
+            this.Ready_Up_Button.Margin = new System.Windows.Forms.Padding(4, 42, 4, 42);
+            this.Ready_Up_Button.MinimumSize = new System.Drawing.Size(228, 65);
             this.Ready_Up_Button.Name = "Ready_Up_Button";
-            this.Ready_Up_Button.Size = new System.Drawing.Size(130, 37);
+            this.Ready_Up_Button.Size = new System.Drawing.Size(228, 65);
             this.Ready_Up_Button.TabIndex = 14;
             this.Ready_Up_Button.Text = "Ready Up";
             this.Ready_Up_Button.UseVisualStyleBackColor = false;
@@ -335,10 +335,10 @@ namespace NoGracias
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Berlin Sans FB Demi", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(38, 261);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Location = new System.Drawing.Point(66, 457);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(288, 311);
+            this.button2.Size = new System.Drawing.Size(504, 544);
             this.button2.TabIndex = 15;
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -352,11 +352,11 @@ namespace NoGracias
             this.Connect_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Connect_Button.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Connect_Button.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.Connect_Button.Location = new System.Drawing.Point(297, 511);
-            this.Connect_Button.Margin = new System.Windows.Forms.Padding(24, 2, 24, 2);
-            this.Connect_Button.MinimumSize = new System.Drawing.Size(130, 37);
+            this.Connect_Button.Location = new System.Drawing.Point(520, 894);
+            this.Connect_Button.Margin = new System.Windows.Forms.Padding(42, 4, 42, 4);
+            this.Connect_Button.MinimumSize = new System.Drawing.Size(228, 65);
             this.Connect_Button.Name = "Connect_Button";
-            this.Connect_Button.Size = new System.Drawing.Size(130, 37);
+            this.Connect_Button.Size = new System.Drawing.Size(228, 65);
             this.Connect_Button.TabIndex = 16;
             this.Connect_Button.Text = "Connect";
             this.Connect_Button.UseVisualStyleBackColor = false;
@@ -370,10 +370,10 @@ namespace NoGracias
             this.Status_Label.BackColor = System.Drawing.Color.Transparent;
             this.Status_Label.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Status_Label.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.Status_Label.Location = new System.Drawing.Point(231, 307);
-            this.Status_Label.Margin = new System.Windows.Forms.Padding(24, 0, 24, 0);
+            this.Status_Label.Location = new System.Drawing.Point(404, 537);
+            this.Status_Label.Margin = new System.Windows.Forms.Padding(42, 0, 42, 0);
             this.Status_Label.Name = "Status_Label";
-            this.Status_Label.Size = new System.Drawing.Size(57, 22);
+            this.Status_Label.Size = new System.Drawing.Size(95, 38);
             this.Status_Label.TabIndex = 17;
             this.Status_Label.Text = "Status";
             // 
@@ -382,13 +382,13 @@ namespace NoGracias
             this.Status_Textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Status_Textbox.Location = new System.Drawing.Point(297, 307);
-            this.Status_Textbox.Margin = new System.Windows.Forms.Padding(2);
+            this.Status_Textbox.Location = new System.Drawing.Point(520, 537);
+            this.Status_Textbox.Margin = new System.Windows.Forms.Padding(4);
             this.Status_Textbox.Multiline = true;
             this.Status_Textbox.Name = "Status_Textbox";
             this.Status_Textbox.ReadOnly = true;
             this.Status_Textbox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.Status_Textbox.Size = new System.Drawing.Size(342, 182);
+            this.Status_Textbox.Size = new System.Drawing.Size(596, 316);
             this.Status_Textbox.TabIndex = 18;
             // 
             // you_checkBox
@@ -396,10 +396,10 @@ namespace NoGracias
             this.you_checkBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.you_checkBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.you_checkBox.ForeColor = System.Drawing.Color.White;
-            this.you_checkBox.Location = new System.Drawing.Point(693, 335);
-            this.you_checkBox.Margin = new System.Windows.Forms.Padding(24, 2, 24, 2);
+            this.you_checkBox.Location = new System.Drawing.Point(1213, 586);
+            this.you_checkBox.Margin = new System.Windows.Forms.Padding(42, 4, 42, 4);
             this.you_checkBox.Name = "you_checkBox";
-            this.you_checkBox.Size = new System.Drawing.Size(247, 20);
+            this.you_checkBox.Size = new System.Drawing.Size(432, 35);
             this.you_checkBox.TabIndex = 19;
             this.you_checkBox.Text = "NULL";
             this.you_checkBox.UseVisualStyleBackColor = true;
@@ -411,10 +411,10 @@ namespace NoGracias
             this.checkBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox2.ForeColor = System.Drawing.Color.White;
-            this.checkBox2.Location = new System.Drawing.Point(693, 353);
-            this.checkBox2.Margin = new System.Windows.Forms.Padding(24, 2, 24, 2);
+            this.checkBox2.Location = new System.Drawing.Point(1213, 618);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(42, 4, 42, 4);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(247, 20);
+            this.checkBox2.Size = new System.Drawing.Size(432, 35);
             this.checkBox2.TabIndex = 20;
             this.checkBox2.Text = "NULL";
             this.checkBox2.UseVisualStyleBackColor = true;
@@ -425,10 +425,10 @@ namespace NoGracias
             this.checkBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox3.ForeColor = System.Drawing.Color.White;
-            this.checkBox3.Location = new System.Drawing.Point(693, 371);
-            this.checkBox3.Margin = new System.Windows.Forms.Padding(24, 2, 24, 2);
+            this.checkBox3.Location = new System.Drawing.Point(1213, 649);
+            this.checkBox3.Margin = new System.Windows.Forms.Padding(42, 4, 42, 4);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(247, 20);
+            this.checkBox3.Size = new System.Drawing.Size(432, 35);
             this.checkBox3.TabIndex = 21;
             this.checkBox3.Text = "NULL";
             this.checkBox3.UseVisualStyleBackColor = true;
@@ -439,10 +439,10 @@ namespace NoGracias
             this.checkBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox4.ForeColor = System.Drawing.Color.White;
-            this.checkBox4.Location = new System.Drawing.Point(693, 389);
-            this.checkBox4.Margin = new System.Windows.Forms.Padding(24, 2, 24, 2);
+            this.checkBox4.Location = new System.Drawing.Point(1213, 681);
+            this.checkBox4.Margin = new System.Windows.Forms.Padding(42, 4, 42, 4);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(247, 20);
+            this.checkBox4.Size = new System.Drawing.Size(432, 35);
             this.checkBox4.TabIndex = 22;
             this.checkBox4.Text = "NULL";
             this.checkBox4.UseVisualStyleBackColor = true;
@@ -453,10 +453,10 @@ namespace NoGracias
             this.checkBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox5.ForeColor = System.Drawing.Color.White;
-            this.checkBox5.Location = new System.Drawing.Point(693, 407);
-            this.checkBox5.Margin = new System.Windows.Forms.Padding(24, 2, 24, 2);
+            this.checkBox5.Location = new System.Drawing.Point(1213, 712);
+            this.checkBox5.Margin = new System.Windows.Forms.Padding(42, 4, 42, 4);
             this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(247, 20);
+            this.checkBox5.Size = new System.Drawing.Size(432, 35);
             this.checkBox5.TabIndex = 23;
             this.checkBox5.Text = "NULL";
             this.checkBox5.UseVisualStyleBackColor = true;
@@ -468,9 +468,10 @@ namespace NoGracias
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(291, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(509, 21);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(352, 141);
+            this.pictureBox1.Size = new System.Drawing.Size(616, 247);
             this.pictureBox1.TabIndex = 37;
             this.pictureBox1.TabStop = false;
             // 
@@ -483,8 +484,9 @@ namespace NoGracias
             this.MainPanel.Controls.Add(this.JoinGameButton);
             this.MainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MainPanel.Location = new System.Drawing.Point(0, 0);
+            this.MainPanel.Margin = new System.Windows.Forms.Padding(5);
             this.MainPanel.Name = "MainPanel";
-            this.MainPanel.Size = new System.Drawing.Size(985, 617);
+            this.MainPanel.Size = new System.Drawing.Size(1724, 1080);
             this.MainPanel.TabIndex = 38;
             this.MainPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.MainPanel_Paint);
             // 
@@ -495,9 +497,10 @@ namespace NoGracias
             this.CreditsPanel.Controls.Add(this.label5);
             this.CreditsPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.CreditsPanel.Location = new System.Drawing.Point(0, 0);
-            this.CreditsPanel.MinimumSize = new System.Drawing.Size(985, 617);
+            this.CreditsPanel.Margin = new System.Windows.Forms.Padding(5);
+            this.CreditsPanel.MinimumSize = new System.Drawing.Size(1724, 1080);
             this.CreditsPanel.Name = "CreditsPanel";
-            this.CreditsPanel.Size = new System.Drawing.Size(985, 617);
+            this.CreditsPanel.Size = new System.Drawing.Size(1724, 1080);
             this.CreditsPanel.TabIndex = 41;
             this.CreditsPanel.Visible = false;
             // 
@@ -507,10 +510,11 @@ namespace NoGracias
             this.HomeButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.HomeButton1.FlatAppearance.BorderSize = 0;
             this.HomeButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.HomeButton1.Location = new System.Drawing.Point(16, 14);
+            this.HomeButton1.Location = new System.Drawing.Point(28, 24);
+            this.HomeButton1.Margin = new System.Windows.Forms.Padding(5);
             this.HomeButton1.Name = "HomeButton1";
-            this.HomeButton1.Padding = new System.Windows.Forms.Padding(5);
-            this.HomeButton1.Size = new System.Drawing.Size(60, 48);
+            this.HomeButton1.Padding = new System.Windows.Forms.Padding(9);
+            this.HomeButton1.Size = new System.Drawing.Size(105, 84);
             this.HomeButton1.TabIndex = 42;
             this.HomeButton1.UseVisualStyleBackColor = true;
             this.HomeButton1.Click += new System.EventHandler(this.HomeButton1_Click);
@@ -518,11 +522,12 @@ namespace NoGracias
             // pictureBox3
             // 
             this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
+            this.pictureBox3.BackgroundImage = global::NoGracias.Properties.Resources.Title;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox3.Location = new System.Drawing.Point(235, 12);
+            this.pictureBox3.Location = new System.Drawing.Point(411, 21);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(5);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(470, 192);
+            this.pictureBox3.Size = new System.Drawing.Size(822, 336);
             this.pictureBox3.TabIndex = 39;
             this.pictureBox3.TabStop = false;
             // 
@@ -531,9 +536,10 @@ namespace NoGracias
             this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label5.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label5.Location = new System.Drawing.Point(38, 266);
+            this.label5.Location = new System.Drawing.Point(66, 466);
+            this.label5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(906, 306);
+            this.label5.Size = new System.Drawing.Size(1586, 536);
             this.label5.TabIndex = 0;
             this.label5.Text = "Royalty free music from Bensound";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -543,9 +549,10 @@ namespace NoGracias
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(235, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(411, 21);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(5);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(470, 192);
+            this.pictureBox2.Size = new System.Drawing.Size(822, 336);
             this.pictureBox2.TabIndex = 38;
             this.pictureBox2.TabStop = false;
             // 
@@ -558,9 +565,10 @@ namespace NoGracias
             this.CreditsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CreditsButton.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CreditsButton.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.CreditsButton.Location = new System.Drawing.Point(648, 261);
+            this.CreditsButton.Location = new System.Drawing.Point(1134, 457);
+            this.CreditsButton.Margin = new System.Windows.Forms.Padding(5);
             this.CreditsButton.Name = "CreditsButton";
-            this.CreditsButton.Size = new System.Drawing.Size(288, 311);
+            this.CreditsButton.Size = new System.Drawing.Size(504, 544);
             this.CreditsButton.TabIndex = 40;
             this.CreditsButton.UseVisualStyleBackColor = true;
             this.CreditsButton.Click += new System.EventHandler(this.CreditsButton_Click);
@@ -575,9 +583,10 @@ namespace NoGracias
             this.JoinGameButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.JoinGameButton.Font = new System.Drawing.Font("Berlin Sans FB Demi", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.JoinGameButton.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.JoinGameButton.Location = new System.Drawing.Point(343, 261);
+            this.JoinGameButton.Location = new System.Drawing.Point(600, 457);
+            this.JoinGameButton.Margin = new System.Windows.Forms.Padding(5);
             this.JoinGameButton.Name = "JoinGameButton";
-            this.JoinGameButton.Size = new System.Drawing.Size(288, 311);
+            this.JoinGameButton.Size = new System.Drawing.Size(504, 544);
             this.JoinGameButton.TabIndex = 39;
             this.JoinGameButton.UseVisualStyleBackColor = true;
             this.JoinGameButton.Click += new System.EventHandler(this.JoinGameButton_Click);
@@ -588,10 +597,11 @@ namespace NoGracias
             this.HomeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.HomeButton.FlatAppearance.BorderSize = 0;
             this.HomeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.HomeButton.Location = new System.Drawing.Point(12, 12);
+            this.HomeButton.Location = new System.Drawing.Point(21, 21);
+            this.HomeButton.Margin = new System.Windows.Forms.Padding(5);
             this.HomeButton.Name = "HomeButton";
-            this.HomeButton.Padding = new System.Windows.Forms.Padding(5);
-            this.HomeButton.Size = new System.Drawing.Size(60, 48);
+            this.HomeButton.Padding = new System.Windows.Forms.Padding(9);
+            this.HomeButton.Size = new System.Drawing.Size(105, 84);
             this.HomeButton.TabIndex = 41;
             this.HomeButton.UseVisualStyleBackColor = true;
             this.HomeButton.Click += new System.EventHandler(this.HomeButton_Click);
@@ -599,13 +609,13 @@ namespace NoGracias
             // MainMenuForm
             // 
             this.AcceptButton = this.Connect_Button;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(168F, 168F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(985, 617);
+            this.ClientSize = new System.Drawing.Size(1724, 1080);
             this.Controls.Add(this.MainPanel);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.checkBox5);
@@ -626,7 +636,7 @@ namespace NoGracias
             this.Controls.Add(this.IP_textbox);
             this.Controls.Add(this.HomeButton);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainMenuForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "No Gracias";
@@ -660,6 +670,7 @@ namespace NoGracias
         private CheckBox checkBox3;
         private CheckBox checkBox4;
         private CheckBox checkBox5;
+        private bool isConnected = false;
 
         #region AbleOpus Adapted Code
         //The following code in this c# "region" has been adapted from a repo called NetworkingSamples by GitHub user AbleOpus
@@ -757,7 +768,7 @@ namespace NoGracias
          */
         private void ReceiveLoop()
         {
-            while (!isCardTableLaunched)
+            while (!isCardTableLaunched && isConnected)
             {
                 ReceiveResponse();
             }
@@ -829,14 +840,38 @@ namespace NoGracias
             {
                 StartGame(mClientSocket);
             }
+            else if(message == Messages.SERVER_SHUTDOWN.ToString())
+            {
+                ServerShutdown();
+            }
         }
 
-        /**
-		 *	Public method that takes no arguments and does not return.
-		 *	Details: Creates buffer to recieve from the client socket in order to send a message to the console and act upon the response.
-         */
-
         #endregion
+
+        /**
+		 *	Private method that takes no arguments and does not return.
+		 *	Details: Handles the server shutting down (by design)
+         */
+        private void ServerShutdown()
+        {
+            isConnected = false;
+            try
+            {
+                mClientSocket.Close();
+            }
+            catch (SocketException)
+            {
+                Console.WriteLine("Warning: Socket Exception at ServerShutdown()");
+            }
+            mClientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            Reset(false);
+            this.Invoke((MethodInvoker)delegate
+            {
+                // Running on the UI thread
+                Refresh();
+            });
+            CustomMessageBox.ShowBox("The server shutdown (on purpose). Contact the host to find out why...");
+        }
 
         /**
 		 *	Private method that takes no arguments and does not return.
@@ -988,7 +1023,7 @@ namespace NoGracias
                 // Running on the UI thread
                 this.Hide();
                 var TableForm = new CardTableForm(mClientSocket);
-                TableForm.Closed += (s, args) => this.Reset();
+                TableForm.Closed += (s, args) => this.Reset(true);
                 TableForm.Show();
                 isCardTableLaunched = true;
                 /*TableForm.PlayerName = PlayerName;

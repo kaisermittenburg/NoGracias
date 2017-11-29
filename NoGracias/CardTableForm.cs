@@ -174,6 +174,15 @@ namespace NoGracias
                     this.Close();
                 });
             }
+            else if(message == Messages.CARD_TABLE_ERROR.ToString())
+            {
+                CustomMessageBox.ShowBox("Either a player disconnected or the server crashed! Going back to main menu...");
+                isGameOver = true;
+                this.Invoke((MethodInvoker)delegate
+                {
+                    this.Close();
+                });
+            }
         }
 
         private void ShowPlayerScores()
@@ -182,6 +191,11 @@ namespace NoGracias
             int received = mClientSocket.Receive(buffer, SocketFlags.None);
 
             if (received == 0) return;
+
+            mClientSocket.BeginDisconnect(true, (IAsyncResult ar) =>
+            {
+                mClientSocket.EndDisconnect(ar);
+            }, null);
 
             byte[] data = new byte[received];
             Array.Copy(buffer, data, received);
