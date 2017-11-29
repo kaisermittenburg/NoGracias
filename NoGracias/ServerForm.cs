@@ -65,9 +65,33 @@ namespace NoGracias
             StartServerButton.Enabled = true;
             ShutdownServerButton.Enabled = false;
             isServerShutDown = true;
-            AllReady = true;
+            
+            AllReady = true;              //I think these are uneeded. isServerShutDown will successfully terminate all loops.
             JoiningIsDone = true;
+
+            SendShutDownNotice();
             ServerShutdown();
+            System.Threading.Thread.Sleep(2000);
+            Reset();
+        }
+
+        private void Reset()
+        {
+            this.NumberOfPlayers = 0;   
+            this.IP_textbox.ResetText();
+            this.Port_textbox.Clear();
+            this.checkBox1.ResetText();
+            this.checkBox2.ResetText();
+            this.checkBox3.ResetText();
+            this.checkBox4.ResetText();
+            this.checkBox5.ResetText();
+            this.checkBox1.Checked = false;
+            this.checkBox2.Checked = false;
+            this.checkBox3.Checked = false;
+            this.checkBox4.Checked = false;
+            this.checkBox5.Checked = false;
+            this.Refresh();
+            this.Show();
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -93,6 +117,11 @@ namespace NoGracias
         private void ShutdownServerButton_MouseLeave(object sender, EventArgs e)
         {
             this.ShutdownServerButton.BackColor = Color.FromArgb(48, 48, 48);
+        }
+
+        private void ServerForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

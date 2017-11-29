@@ -44,6 +44,7 @@ namespace Common
         #endregion
 
         #region Misc
+        SERVER_SHUTDOWN,
         SEND_NOTHING,                              //--Dummy Message
         SEND_MESSAGE,                              //--Send a message
         #endregion
