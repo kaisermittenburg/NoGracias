@@ -47,6 +47,21 @@ namespace NoGracias
         {
             this.Invoke((MethodInvoker)delegate
             {
+                this.you_checkBox.Checked = false;
+                this.you_checkBox.ResetText();
+                this.you_checkBox.Visible = false;
+                this.checkBox2.Checked = false;
+                this.checkBox2.ResetText();
+                this.checkBox2.Visible = false;
+                this.checkBox3.Checked = false;
+                this.checkBox3.ResetText();
+                this.checkBox3.Visible = false;
+                this.checkBox4.Checked = false;
+                this.checkBox4.ResetText();
+                this.checkBox4.Visible = false;
+                this.checkBox5.Checked = false;
+                this.checkBox5.ResetText();
+                this.checkBox5.Visible = false;
                 this.IP_textbox.Clear();
                 this.Port_textbox.Clear();
                 this.PlayerName_textbox.Clear();
