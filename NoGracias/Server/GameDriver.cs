@@ -74,9 +74,32 @@ namespace NoGracias.Server
          */
         public void Run()
         {
-            while(!isOver)
+            bool endOnError = false;
+            while (!isOver)
             {
-                playTurn();
+                try
+                {
+                    playTurn();
+                }
+                catch (SocketException)
+                {
+                    foreach (Player p in players.ToList())
+                    {
+                        try
+                        {
+                            p.mSocket.Send(Encoding.ASCII.GetBytes(Messages.CARD_TABLE_ERROR.ToString()));
+                        }
+                        catch (SocketException)
+                        {
+                            //Do nada, they are the one who left.
+                        }
+                    }
+                    endOnError = true;
+                }
+            }
+            if(endOnError)
+            {
+                return;
             }
 
             List<int> scores = new List<int>();

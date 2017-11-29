@@ -43,8 +43,9 @@ namespace NoGracias
 
         }
 
-        private void Reset()
+        private void Reset(bool tryToDisconnectFromServer)
         {
+
             this.IP_textbox.Clear();
             this.Port_textbox.Clear();
             this.PlayerName_textbox.Clear();
@@ -121,7 +122,7 @@ namespace NoGracias
                 {
                     Connect_Button.Enabled = false;
                     Ready_Up_Button.Enabled = true;
-
+                    isConnected = true;
                     you_checkBox.Visible = true;
                     YouCheckBox = PlayerName;
 
