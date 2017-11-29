@@ -174,6 +174,15 @@ namespace NoGracias
                     this.Close();
                 });
             }
+            else if(message == Messages.CARD_TABLE_ERROR.ToString())
+            {
+                CustomMessageBox.ShowBox("Either a player disconnected or the server crashed! Going back to main menu...");
+                isGameOver = true;
+                this.Invoke((MethodInvoker)delegate
+                {
+                    this.Close();
+                });
+            }
         }
 
         private void ShowPlayerScores()

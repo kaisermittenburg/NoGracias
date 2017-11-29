@@ -44,6 +44,7 @@ namespace Common
         #endregion
 
         #region Misc
+        CARD_TABLE_ERROR,
         SERVER_SHUTDOWN,
         SEND_NOTHING,                              //--Dummy Message
         SEND_MESSAGE,                              //--Send a message
