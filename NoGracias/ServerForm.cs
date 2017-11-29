@@ -77,15 +77,21 @@ namespace NoGracias
 
         private void Reset()
         {
-                this.IP_textbox.ResetText();
-                this.Port_textbox.Clear();
-                this.checkBox1.ResetText();
-                this.checkBox2.ResetText();
-                this.checkBox3.ResetText();
-                this.checkBox4.ResetText();
-                this.checkBox5.ResetText();
-                this.Refresh();
-                this.Show();
+            this.NumberOfPlayers = 0;   
+            this.IP_textbox.ResetText();
+            this.Port_textbox.Clear();
+            this.checkBox1.ResetText();
+            this.checkBox2.ResetText();
+            this.checkBox3.ResetText();
+            this.checkBox4.ResetText();
+            this.checkBox5.ResetText();
+            this.checkBox1.Checked = false;
+            this.checkBox2.Checked = false;
+            this.checkBox3.Checked = false;
+            this.checkBox4.Checked = false;
+            this.checkBox5.Checked = false;
+            this.Refresh();
+            this.Show();
         }
 
         private void label5_Click(object sender, EventArgs e)
