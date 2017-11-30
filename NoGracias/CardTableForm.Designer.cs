@@ -32,14 +32,14 @@ namespace NoGracias
                });
             }
         }
-        public Image PlayerCard
+        public bool PlayerCard
         {
-            get { return this.MainPlayerCard1.BackgroundImage; }
+            get { return this.MainPlayerCard1.Visible; }
             set
             {
                 this.Invoke((MethodInvoker)delegate
                 {
-                    this.MainPlayerCard1.BackgroundImage = value;
+                    this.MainPlayerCard1.Visible = value;
                 });
             }
         }
@@ -150,14 +150,14 @@ namespace NoGracias
                 });
             }
         }
-        public Image Opp1Card
+        public bool Opp1Card
         {
-            get { return this.Opp1Card1.BackgroundImage; }
+            get { return this.Opp1Card1.Visible; }
             set
             {
                 this.Invoke((MethodInvoker)delegate
                 {
-                    this.Opp1Card1.BackgroundImage = value;
+                    this.Opp1Card1.Visible = value;
                 });
             }
         }
@@ -188,14 +188,14 @@ namespace NoGracias
                 });
             }
         }
-        public Image Opp2Card
+        public bool Opp2Card
         {
-            get { return this.Opp2Card1.BackgroundImage; }
+            get { return this.Opp2Card1.Visible; }
             set
             {
                 this.Invoke((MethodInvoker)delegate
                 {
-                    this.Opp2Card1.BackgroundImage = value;
+                    this.Opp2Card1.Visible = value;
                 });
             }
         }
@@ -250,14 +250,14 @@ namespace NoGracias
                 });
             }
         }
-        public Image Opp3Card
+        public bool Opp3Card
         {
-            get { return this.Opp3Card1.BackgroundImage; }
+            get { return this.Opp3Card1.Visible; }
             set
             {
                 this.Invoke((MethodInvoker)delegate
                 {
-                    this.Opp3Card1.BackgroundImage = value;
+                    this.Opp3Card1.Visible = value;
                 });
             }
         }
@@ -312,14 +312,14 @@ namespace NoGracias
                 });
             }
         }
-        public Image Opp4Card
+        public bool Opp4Card
         {
-            get { return this.Opp4Card1.BackgroundImage; }
+            get { return this.Opp4Card1.Visible; }
             set
             {
                 this.Invoke((MethodInvoker)delegate
                 {
-                    this.Opp4Card1.BackgroundImage = value;
+                    this.Opp4Card1.Visible = value;
                 });
             }
         }
@@ -336,7 +336,17 @@ namespace NoGracias
                 });
             }
         }
-
+        public string TurnCardValue
+        {
+            get { return this.currentCard.ToString(); }
+            set
+            {
+                this.Invoke((MethodInvoker)delegate
+                {
+                    this.currentCard = Int32.Parse(value);
+                });
+            }
+        }
         public string TurnChipNumber
         {
             get { return this.TopDeckChipCounter.Text; }
@@ -382,6 +392,17 @@ namespace NoGracias
                 this.Invoke((MethodInvoker)delegate
                 {
                     this.NoGraciasButton = value;
+                });
+            }
+        }
+        public System.Media.SoundPlayer Sound
+        {
+            get { return this.soundDriver; }
+            set
+            {
+                this.Invoke((MethodInvoker)delegate
+                {
+                    this.soundDriver = value;
                 });
             }
         }

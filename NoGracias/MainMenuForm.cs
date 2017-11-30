@@ -247,5 +247,14 @@ namespace NoGracias
                 e.Cancel = false;               
             }
         }
+
+        private void LaunchTestButton_Click(object sender, EventArgs e)
+        {
+            Thread testThread = new Thread(new ThreadStart(() =>
+            {
+                Application.Run(new TestForm());
+            }));
+            testThread.Start();            
+        }
     }
 }

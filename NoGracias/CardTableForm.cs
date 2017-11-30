@@ -169,10 +169,13 @@ namespace NoGracias
             {
                 isGameOver = true;
                 ShowPlayerScores();
-                this.Invoke((MethodInvoker)delegate
+                if (this.IsHandleCreated)
                 {
-                    this.Close();
-                });
+                    this.Invoke((MethodInvoker)delegate
+                    {
+                        this.Close();
+                    });
+                }
             }
             else if(message == Messages.CARD_TABLE_ERROR.ToString())
             {
