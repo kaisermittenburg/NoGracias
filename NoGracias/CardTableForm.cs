@@ -197,7 +197,7 @@ namespace NoGracias
             }
             else if (message == Messages.SERVER_PULSE.ToString())
             {
-                mClientSocket.Send(Encoding.ASCII.GetBytes(Messages.SERVER_PULSE.ToString()));
+                //mClientSocket.Send(Encoding.ASCII.GetBytes(Messages.SERVER_PULSE.ToString()));
             }
         }
 

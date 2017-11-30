@@ -77,9 +77,16 @@ namespace NoGracias.Server
                 }
 
                 Console.WriteLine("GameDriver is Sending to "+players[i].mName+": " + playerInfo);
-                players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.RECEIVE_PLAYER_POSITION.ToString()));
-                System.Threading.Thread.Sleep(250);
-                players[i].mSocket.Send(Encoding.ASCII.GetBytes(playerInfo));
+                try
+                {
+                    players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.RECEIVE_PLAYER_POSITION.ToString()));
+                    System.Threading.Thread.Sleep(250);
+                    players[i].mSocket.Send(Encoding.ASCII.GetBytes(playerInfo));
+                }
+                catch(Exception)
+                {
+                    DisconnectPlayers();
+                }
             }
         }
 
@@ -88,9 +95,10 @@ namespace NoGracias.Server
          */
         public void Run()
         {
-            var thread = new Thread(CheckForDisconnects);
-            thread.TrySetApartmentState(ApartmentState.STA);
-            thread.Start();
+            //KHM
+            //var thread = new Thread(CheckForDisconnects);
+            //thread.TrySetApartmentState(ApartmentState.STA);
+            //thread.Start();
 
             var thread2 = new Thread(ReceiveLoop);
             thread2.TrySetApartmentState(ApartmentState.STA);
@@ -119,9 +127,16 @@ namespace NoGracias.Server
                 }
 
                 Console.WriteLine("GameDriver is Sending to "+players[i].mName+": " + playerScores);
-                players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.RECEIVE_PLAYER_SCORE.ToString()));
-                System.Threading.Thread.Sleep(250);
-                players[i].mSocket.Send(Encoding.ASCII.GetBytes(playerScores));
+                try
+                {
+                    players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.RECEIVE_PLAYER_SCORE.ToString()));
+                    System.Threading.Thread.Sleep(250);
+                    players[i].mSocket.Send(Encoding.ASCII.GetBytes(playerScores));
+                }
+                catch(Exception)
+                {
+                    DisconnectPlayers();
+                }
             }
             //Send exit message to clients
         }
@@ -145,30 +160,13 @@ namespace NoGracias.Server
                         }
                         catch (SocketException)
                         {
-
+                            DisconnectPlayers();
                         }
                     }
                     if (!StopPulse)
                     {
-                        System.Threading.Thread.Sleep(15000);
-                        if ((PulseReturns < players.Count()) && !StopPulse)
-                        {
-                            break;
-                        }
+                        System.Threading.Thread.Sleep(10000);
                     }
-                    
-                }
-                PulseReturns = 0;
-            }
-            foreach (Player i in players.ToList())
-            {
-                try
-                {
-                    i.mSocket.Send(Encoding.ASCII.GetBytes(Messages.CARD_TABLE_ERROR.ToString()));
-                }
-                catch (Exception)
-                {
-
                 }
             }
         }
@@ -187,18 +185,32 @@ namespace NoGracias.Server
             {
                 string turnCard = cardInPlay.value.ToString() + "," + cardInPlay.chipsOnCard.ToString();
                 Console.WriteLine("GameDriver is Sending to "+players[i].mName+": " + turnCard);
-                players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.RECEIVE_TURN_CARD.ToString()));
-                System.Threading.Thread.Sleep(250);
-                players[i].mSocket.Send(Encoding.ASCII.GetBytes(turnCard));
+                try
+                {
+                    players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.RECEIVE_TURN_CARD.ToString()));
+                    System.Threading.Thread.Sleep(250);
+                    players[i].mSocket.Send(Encoding.ASCII.GetBytes(turnCard));
+                }
+                catch(Exception)
+                {
+                    DisconnectPlayers();
+                }
             }
 
             //Send current player to all clients
             for (int i = 0; i < players.Count; i++)
             {
                 Console.WriteLine("GameDriver is Sending to "+players[i].mName+": " + currentPlayer.mName);
-                players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.RECEIVE_TURN_PLAYER.ToString()));
-                System.Threading.Thread.Sleep(250);
-                players[i].mSocket.Send(Encoding.ASCII.GetBytes(currentPlayer.mName));
+                try
+                {
+                    players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.RECEIVE_TURN_PLAYER.ToString()));
+                    System.Threading.Thread.Sleep(250);
+                    players[i].mSocket.Send(Encoding.ASCII.GetBytes(currentPlayer.mName));
+                }
+                catch(Exception)
+                {
+                    DisconnectPlayers();
+                }
             }
             
             StopPulse = false;
@@ -240,7 +252,14 @@ namespace NoGracias.Server
                 int receivedSize = 0;
                 try
                 {
-                    receivedSize = p.mSocket.Receive(buffer, SocketFlags.None);
+                    try
+                    {
+                        receivedSize = p.mSocket.Receive(buffer, SocketFlags.None);
+                    }
+                    catch(Exception)
+                    {
+                        DisconnectPlayers();
+                    }
                     if (receivedSize != 0)
                     {
 
@@ -258,9 +277,16 @@ namespace NoGracias.Server
                             {
                                 string playerCardInfo = currentPlayer.mName + "," + cardInPlay.value.ToString() + "," + cardInPlay.chipsOnCard.ToString();
                                 Console.WriteLine("GameDriver is Sending to " + players[i].mName + ": " + playerCardInfo);
-                                players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.RECEIVE_CARD_UPDATE.ToString()));
-                                System.Threading.Thread.Sleep(350);
-                                players[i].mSocket.Send(Encoding.ASCII.GetBytes(playerCardInfo));
+                                try
+                                {
+                                    players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.RECEIVE_CARD_UPDATE.ToString()));
+                                    System.Threading.Thread.Sleep(350);
+                                    players[i].mSocket.Send(Encoding.ASCII.GetBytes(playerCardInfo));
+                                }
+                                catch(Exception)
+                                {
+                                    DisconnectPlayers();
+                                }
 
                             }
                             System.Threading.Thread.Sleep(500);
@@ -272,8 +298,15 @@ namespace NoGracias.Server
                                 isOver = true;
                                 for (int i = 0; i < players.Count; i++)
                                 {
-                                    Console.WriteLine("GameDriver is Sending to " + players[i].mName + ": GAME_OVER");
-                                    players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.GAME_OVER.ToString()));
+                                    try
+                                    {
+                                        Console.WriteLine("GameDriver is Sending to " + players[i].mName + ": GAME_OVER");
+                                        players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.GAME_OVER.ToString()));
+                                    }
+                                    catch(Exception)
+                                    {
+                                        DisconnectPlayers();
+                                    }
                                 }
                             }
                             else
@@ -288,9 +321,16 @@ namespace NoGracias.Server
                             for (int i = 0; i < players.Count; i++)
                             {
                                 Console.WriteLine("GameDriver is Sending to " + players[i].mName + ": CARD_REJECTED");
-                                players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.CARD_REJECTED.ToString()));
-                                System.Threading.Thread.Sleep(250);
-                                players[i].mSocket.Send(Encoding.ASCII.GetBytes(currentPlayer.mName));
+                                try
+                                {
+                                    players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.CARD_REJECTED.ToString()));
+                                    System.Threading.Thread.Sleep(250);
+                                    players[i].mSocket.Send(Encoding.ASCII.GetBytes(currentPlayer.mName));
+                                }
+                                catch(Exception)
+                                {
+                                    DisconnectPlayers();
+                                }
 
                             }
                             currentPlayer.chips--;
@@ -313,6 +353,22 @@ namespace NoGracias.Server
                 p = p.nextPlayer;
             }
 
+        }
+        private void DisconnectPlayers()
+        {
+            isOver = true;
+            StopPulse = true;
+            foreach (Player i in players.ToList())
+            {
+                try
+                {
+                    i.mSocket.Send(Encoding.ASCII.GetBytes(Messages.CARD_TABLE_ERROR.ToString()));
+                }
+                catch (Exception)
+                {
+
+                }
+            }
         }
 
         #endregion
