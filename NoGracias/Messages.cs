@@ -52,6 +52,7 @@ namespace Common
         #endregion
 
         #region Misc
+        SERVER_PULSE,                              //--Ping the clients to see if everyone is still connected
         CARD_TABLE_ERROR,
         SERVER_SHUTDOWN,
         SEND_NOTHING,                              //--Dummy Message

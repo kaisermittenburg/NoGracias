@@ -190,14 +190,19 @@ namespace NoGracias
                     });
                 }
             }
-            else if(message == Messages.CARD_TABLE_ERROR.ToString())
+            else if(message.Contains(Messages.CARD_TABLE_ERROR.ToString()))
             {
-                CustomMessageBox.ShowBox("Either a player disconnected or the server crashed! Going back to main menu...");
+                
                 isGameOver = true;
                 this.Invoke((MethodInvoker)delegate
                 {
                     this.Close();
+                    CustomMessageBox.ShowBox("Either a player disconnected or the server crashed! Back to main menu...");
                 });
+            }
+            else if (message == Messages.SERVER_PULSE.ToString())
+            {
+                //mClientSocket.Send(Encoding.ASCII.GetBytes(Messages.SERVER_PULSE.ToString()));
             }
         }
 
