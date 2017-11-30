@@ -369,5 +369,12 @@ namespace NoGracias
             else return "FAILED";
         }*/
         #endregion
+
+        private void TestForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            //playerSocket.Disconnect(true);
+            clientSocket.Disconnect(true);
+            serverSocket.Close();
+        }
     }
 }

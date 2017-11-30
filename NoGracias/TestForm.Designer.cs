@@ -85,6 +85,7 @@ namespace NoGracias
             this.TestStatus.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TestStatus.Location = new System.Drawing.Point(325, 179);
             this.TestStatus.Name = "TestStatus";
+            this.TestStatus.ReadOnly = true;
             this.TestStatus.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
             this.TestStatus.Size = new System.Drawing.Size(448, 338);
             this.TestStatus.TabIndex = 4;
@@ -102,6 +103,7 @@ namespace NoGracias
             this.Controls.Add(this.label1);
             this.Name = "TestForm";
             this.Text = "Test";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.TestForm_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
