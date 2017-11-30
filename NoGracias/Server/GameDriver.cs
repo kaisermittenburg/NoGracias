@@ -1,4 +1,12 @@
-﻿using System;
+﻿/**************************************************************
+ * File:  GameDriver.cs
+ * 
+ * Authors: Andrew Growney, Kaiser Mittenburg, Juzer Zarif          
+ * 
+ * Description: Logic to run the game 
+ *                                                            
+ * ***********************************************************/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

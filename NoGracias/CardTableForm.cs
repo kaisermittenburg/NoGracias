@@ -1,4 +1,12 @@
-﻿using System;
+﻿/**************************************************************
+ * File:  CardTableForm.cs
+ * 
+ * Authors: Andrew Growney, Kaiser Mittenburg, Juzer Zarif          
+ * 
+ * Description: The Card Table window
+ *                                                            
+ * ***********************************************************/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

@@ -1,4 +1,12 @@
-﻿using System;
+﻿/**************************************************************
+ * File:  ServerForm.cs
+ * 
+ * Authors: Andrew Growney, Kaiser Mittenburg, Juzer Zarif          
+ * 
+ * Description: The server window
+ *                                                            
+ * ***********************************************************/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

@@ -1,4 +1,12 @@
-﻿namespace NoGracias
+﻿/**************************************************************
+ * File:  CustomMessageBox.Designer.cs
+ * 
+ * Authors: Andrew Growney, Kaiser Mittenburg, Juzer Zarif          
+ * 
+ * Description: Logic for the custom popup box
+ *                                                            
+ * ***********************************************************/
+namespace NoGracias
 {
     partial class CustomMessageBox
     {

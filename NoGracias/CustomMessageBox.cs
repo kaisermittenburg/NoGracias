@@ -1,4 +1,12 @@
-﻿using System;
+﻿/**************************************************************
+ * File:  CustomMessageBox.cs
+ * 
+ * Authors: Andrew Growney, Kaiser Mittenburg, Juzer Zarif          
+ * 
+ * Description: The custom popup box
+ *                                                            
+ * ***********************************************************/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

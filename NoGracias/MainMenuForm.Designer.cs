@@ -1,4 +1,12 @@
-﻿using System;
+﻿/**************************************************************
+ * File:  MainMenuForm.Designer.cs
+ * 
+ * Authors: Andrew Growney, Kaiser Mittenburg, Juzer Zarif          
+ * 
+ * Description: Logic for the Main Menu window
+ *                                                            
+ * ***********************************************************/
+using System;
 using System.Net.Sockets;
 using System.Text;
 using System.Windows.Forms;

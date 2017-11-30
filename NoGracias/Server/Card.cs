@@ -1,4 +1,12 @@
-﻿using System;
+﻿/**************************************************************
+ * File:  Card.cs
+ * 
+ * Authors: Andrew Growney, Kaiser Mittenburg, Juzer Zarif          
+ * 
+ * Description: Card object
+ *                                                            
+ * ***********************************************************/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
