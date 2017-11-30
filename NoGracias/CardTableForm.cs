@@ -95,6 +95,11 @@ namespace NoGracias
         {
             this.button1.BackColor = Color.FromArgb(48, 48, 48);
         }
+
+        private void CardTableForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
+        }
         #endregion
 
         #region Functions
@@ -203,9 +208,11 @@ namespace NoGracias
 
             if (received == 0) return;
 
+            mClientSocket.Shutdown(SocketShutdown.Both);
             mClientSocket.BeginDisconnect(true, (IAsyncResult ar) =>
             {
                 mClientSocket.EndDisconnect(ar);
+                //mClientSocket.Close();
             }, null);
 
             byte[] data = new byte[received];

@@ -233,6 +233,7 @@ namespace NoGracias.Server
                         else
                         {
                             cardInPlay = deck.TopCard();
+                            Console.WriteLine("GameDriver card after Accept: " + cardInPlay.value);
                         }
                     }
                     else if (msg == "REJECT_CARD") //player passes it
