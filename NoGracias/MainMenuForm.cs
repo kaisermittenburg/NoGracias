@@ -1,4 +1,12 @@
-﻿using System;
+﻿/**************************************************************
+ * File:  MainMenuForm.cs
+ * 
+ * Authors: Andrew Growney, Kaiser Mittenburg, Juzer Zarif          
+ * 
+ * Description: The Main Menu window
+ *                                                            
+ * ***********************************************************/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

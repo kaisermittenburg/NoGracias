@@ -1,4 +1,12 @@
-﻿using System;
+﻿/**************************************************************
+ * File:  Server.cs
+ * 
+ * Authors: Andrew Growney, Kaiser Mittenburg, Juzer Zarif          
+ * 
+ * Description: Proof of concept for the server window
+ *                                                            
+ * ***********************************************************/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;

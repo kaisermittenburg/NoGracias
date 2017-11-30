@@ -1,4 +1,12 @@
-﻿using System;
+﻿/**************************************************************
+ * File:  Deck.cs
+ * 
+ * Authors: Andrew Growney, Kaiser Mittenburg, Juzer Zarif          
+ * 
+ * Description: Deck object
+ *                                                            
+ * ***********************************************************/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

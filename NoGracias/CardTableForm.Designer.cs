@@ -1,4 +1,12 @@
-﻿using System;
+﻿/**************************************************************
+ * File:  CardTableForm.Designer.cs
+ * 
+ * Authors: Andrew Growney, Kaiser Mittenburg, Juzer Zarif          
+ * 
+ * Description: Logic for the Card Table window
+ *                                                            
+ * ***********************************************************/
+using System;
 using System.Drawing;
 using System.Net.Sockets;
 using System.Windows.Forms;

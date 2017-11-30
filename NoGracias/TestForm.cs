@@ -1,4 +1,12 @@
-﻿using Common;
+﻿/**************************************************************
+ * File:  TestForm.cs
+ * 
+ * Authors: Andrew Growney, Kaiser Mittenburg, Juzer Zarif          
+ * 
+ * Description: The test suite window
+ *                                                            
+ * ***********************************************************/
+using Common;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;

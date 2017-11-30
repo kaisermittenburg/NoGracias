@@ -1,4 +1,12 @@
-﻿namespace NoGracias
+﻿/**************************************************************
+ * File:  TestForm.Designer.cs
+ * 
+ * Authors: Andrew Growney, Kaiser Mittenburg, Juzer Zarif          
+ * 
+ * Description: Logic for the test suite
+ *                                                            
+ * ***********************************************************/
+namespace NoGracias
 {
     partial class TestForm
     {

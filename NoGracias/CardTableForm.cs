@@ -1,4 +1,12 @@
-﻿using System;
+﻿/**************************************************************
+ * File:  CardTableForm.cs
+ * 
+ * Authors: Andrew Growney, Kaiser Mittenburg, Juzer Zarif          
+ * 
+ * Description: The Card Table window
+ *                                                            
+ * ***********************************************************/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -1407,7 +1415,6 @@ namespace NoGracias
             this.Invoke((MethodInvoker)delegate
             {
 
-
                 int org_x_loc = this.TopDeckCard.Location.X;
                 int org_y_loc = this.TopDeckCard.Location.Y;
                 int new_x_loc;
@@ -1655,7 +1662,6 @@ namespace NoGracias
             int n = opponents.ElementAt(3).cards.Count;
             this.Invoke((MethodInvoker)delegate
             {
-
 
                 int org_x_loc = this.TopDeckCard.Location.X;
                 int org_y_loc = this.TopDeckCard.Location.Y;

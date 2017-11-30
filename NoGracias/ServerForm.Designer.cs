@@ -1,4 +1,12 @@
-﻿using NoGracias.Server;
+﻿/**************************************************************
+ * File:  ServerForm.Designer.cs
+ * 
+ * Authors: Andrew Growney, Kaiser Mittenburg, Juzer Zarif          
+ * 
+ * Description: Logic for the Server window
+ *                                                            
+ * ***********************************************************/
+using NoGracias.Server;
 using System;
 using System.Collections.Generic;
 using System.Net;
