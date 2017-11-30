@@ -432,8 +432,15 @@ namespace NoGracias
         {
             foreach (Player player in Clients)
             {
-                player.mSocket.Shutdown(SocketShutdown.Both);
-                player.mSocket.Close();
+                try
+                {
+                    player.mSocket.Shutdown(SocketShutdown.Both);
+                    player.mSocket.Close();
+                }
+                catch(Exception)
+                {
+
+                }
             }
             try
             {
@@ -513,7 +520,14 @@ namespace NoGracias
             foreach (Player player in Clients.ToList())
             {
                 byte[] data = Encoding.ASCII.GetBytes(Messages.SERVER_SHUTDOWN.ToString());
-                player.mSocket.Send(data);
+                try
+                {
+                    player.mSocket.Send(data);
+                }
+                catch(Exception)
+                {
+
+                }
                 Console.WriteLine("Sent server shutdown message");
                 System.Threading.Thread.Sleep(250); 
             }

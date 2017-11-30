@@ -27,6 +27,7 @@ namespace NoGracias.Server
         Card cardInPlay;
         int PulseReturns;
         bool responseReceived;
+        bool StopPulse;
 
         #endregion
 
@@ -35,6 +36,7 @@ namespace NoGracias.Server
          */
         public GameDriver(List<Player> clients)
         {
+            StopPulse = true;
             responseReceived = false;
             PulseReturns = 0;
             players = clients;
@@ -42,6 +44,7 @@ namespace NoGracias.Server
             isOver = false;
             currentPlayer = this.players[0];
             cardInPlay = deck.TopCard();
+            
         }
 
         #region Functions
@@ -125,23 +128,35 @@ namespace NoGracias.Server
 
         private void CheckForDisconnects()
         {
+            //System.Threading.Thread.Sleep(5000);
             while (true)
             {
-                foreach (Player p in players.ToList())
+                if (!StopPulse)
                 {
-                    try
+                    foreach (Player p in players.ToList())
                     {
-                        p.mSocket.Send(Encoding.ASCII.GetBytes(Messages.SERVER_PULSE.ToString()));
+                        try
+                        {
+                            if (!StopPulse)
+                            {
+                                p.mSocket.Send(Encoding.ASCII.GetBytes(Messages.SERVER_PULSE.ToString()));
+                                //System.Threading.Thread.Sleep(500);
+                            }
+                        }
+                        catch (SocketException)
+                        {
+
+                        }
                     }
-                    catch (SocketException)
+                    if (!StopPulse)
                     {
-                       
+                        System.Threading.Thread.Sleep(15000);
+                        if ((PulseReturns < players.Count()) && !StopPulse)
+                        {
+                            break;
+                        }
                     }
-                }
-                System.Threading.Thread.Sleep(4000);
-                if(PulseReturns != players.Count())
-                {
-                    break;
+                    
                 }
                 PulseReturns = 0;
             }
@@ -164,14 +179,16 @@ namespace NoGracias.Server
          */
         public void playTurn()
         {
-            responseReceived = false; 
+            responseReceived = false;
             //TODO: Show card number and chips to all clients
+            StopPulse = true;
+            System.Threading.Thread.Sleep(200);
             for(int i=0; i<players.Count; i++)
             {
                 string turnCard = cardInPlay.value.ToString() + "," + cardInPlay.chipsOnCard.ToString();
                 Console.WriteLine("GameDriver is Sending to "+players[i].mName+": " + turnCard);
                 players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.RECEIVE_TURN_CARD.ToString()));
-                System.Threading.Thread.Sleep(200);
+                System.Threading.Thread.Sleep(250);
                 players[i].mSocket.Send(Encoding.ASCII.GetBytes(turnCard));
             }
 
@@ -180,10 +197,11 @@ namespace NoGracias.Server
             {
                 Console.WriteLine("GameDriver is Sending to "+players[i].mName+": " + currentPlayer.mName);
                 players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.RECEIVE_TURN_PLAYER.ToString()));
-                System.Threading.Thread.Sleep(200);
+                System.Threading.Thread.Sleep(250);
                 players[i].mSocket.Send(Encoding.ASCII.GetBytes(currentPlayer.mName));
             }
-
+            
+            StopPulse = false;
             //Send play options to currentPlayer
             /*Console.WriteLine("GameDriver is Sending to " + currentPlayer.mName);
             currentPlayer.mSocket.Send(Encoding.ASCII.GetBytes(Messages.RECEIVE_TURN_OPTIONS.ToString()));
@@ -203,7 +221,7 @@ namespace NoGracias.Server
             {
 
             }
-            
+            System.Threading.Thread.Sleep(250);
             currentPlayer = currentPlayer.nextPlayer;
         }
         private void ReceiveLoop()
@@ -212,6 +230,7 @@ namespace NoGracias.Server
             Console.WriteLine("GameDriver before response loop");
             
             Console.WriteLine("GameDriver value of responseReceived: " + responseReceived.ToString());
+            Player p = currentPlayer;
             while (true)
             {
                 Console.WriteLine("Inside GameDriver Receive loop");
@@ -221,67 +240,68 @@ namespace NoGracias.Server
                 int receivedSize = 0;
                 try
                 {
-                    foreach (Player p in players.ToList())
+                    receivedSize = p.mSocket.Receive(buffer, SocketFlags.None);
+                    if (receivedSize != 0)
                     {
-                        receivedSize = p.mSocket.Receive(buffer, SocketFlags.None);
-                        if (receivedSize != 0)
+
+                        data = new byte[receivedSize];
+                        Array.Copy(buffer, data, receivedSize);
+                        msg = Encoding.ASCII.GetString(data);
+                        Console.WriteLine("GameDriver received in receive loop: " + msg); //debug
+
+                        if (msg.Contains("ACCEPT_CARD")) //player takes it
                         {
+                            StopPulse = true;
 
-                            data = new byte[receivedSize];
-                            Array.Copy(buffer, data, receivedSize);
-                            msg = Encoding.ASCII.GetString(data);
-                            Console.WriteLine("GameDriver received in receive loop: " + msg); //debug
-
-                            if (msg == "ACCEPT_CARD") //player takes it
+                            //Send card update to all players
+                            for (int i = 0; i < players.Count; i++)
                             {
-                                responseReceived = true;
-                                //Send card update to all players
+                                string playerCardInfo = currentPlayer.mName + "," + cardInPlay.value.ToString() + "," + cardInPlay.chipsOnCard.ToString();
+                                Console.WriteLine("GameDriver is Sending to " + players[i].mName + ": " + playerCardInfo);
+                                players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.RECEIVE_CARD_UPDATE.ToString()));
+                                System.Threading.Thread.Sleep(350);
+                                players[i].mSocket.Send(Encoding.ASCII.GetBytes(playerCardInfo));
+
+                            }
+                            System.Threading.Thread.Sleep(500);
+                            currentPlayer.cards.Add(cardInPlay.value);
+                            currentPlayer.cards.Sort();
+                            currentPlayer.chips += cardInPlay.chipsOnCard;
+                            if (deck.isEmpty())
+                            {
+                                isOver = true;
                                 for (int i = 0; i < players.Count; i++)
                                 {
-                                    string playerCardInfo = currentPlayer.mName + "," + cardInPlay.value.ToString() + "," + cardInPlay.chipsOnCard.ToString();
-                                    Console.WriteLine("GameDriver is Sending to " + players[i].mName + ": " + playerCardInfo);
-                                    players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.RECEIVE_CARD_UPDATE.ToString()));
-                                    System.Threading.Thread.Sleep(250);
-                                    players[i].mSocket.Send(Encoding.ASCII.GetBytes(playerCardInfo));
-                                    System.Threading.Thread.Sleep(500);
-                                }
-
-                                currentPlayer.cards.Add(cardInPlay.value);
-                                currentPlayer.cards.Sort();
-                                currentPlayer.chips += cardInPlay.chipsOnCard;
-                                if (deck.isEmpty())
-                                {
-                                    isOver = true;
-                                    for (int i = 0; i < players.Count; i++)
-                                    {
-                                        Console.WriteLine("GameDriver is Sending to " + players[i].mName + ": GAME_OVER");
-                                        players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.GAME_OVER.ToString()));
-                                    }
-                                }
-                                else
-                                {
-                                    cardInPlay = deck.TopCard();
+                                    Console.WriteLine("GameDriver is Sending to " + players[i].mName + ": GAME_OVER");
+                                    players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.GAME_OVER.ToString()));
                                 }
                             }
-                            else if (msg == "REJECT_CARD") //player passes it
+                            else
                             {
-
-                                responseReceived = true;
-                                for (int i = 0; i < players.Count; i++)
-                                {
-                                    Console.WriteLine("GameDriver is Sending to " + players[i].mName + ": CARD_REJECTED");
-                                    players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.CARD_REJECTED.ToString()));
-                                    System.Threading.Thread.Sleep(250);
-                                    players[i].mSocket.Send(Encoding.ASCII.GetBytes(currentPlayer.mName));
-                                    System.Threading.Thread.Sleep(250);
-                                }
-                                currentPlayer.chips--;
-                                cardInPlay.chipsOnCard++;
+                                cardInPlay = deck.TopCard();
                             }
-                            else if (msg == Messages.SERVER_PULSE.ToString())
+                            responseReceived = true;
+                        }
+                        else if (msg.Contains("REJECT_CARD")) //player passes it
+                        {
+                            StopPulse = true;
+                            for (int i = 0; i < players.Count; i++)
                             {
-                                PulseReturns++;
+                                Console.WriteLine("GameDriver is Sending to " + players[i].mName + ": CARD_REJECTED");
+                                players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.CARD_REJECTED.ToString()));
+                                System.Threading.Thread.Sleep(250);
+                                players[i].mSocket.Send(Encoding.ASCII.GetBytes(currentPlayer.mName));
+
                             }
+                            currentPlayer.chips--;
+                            cardInPlay.chipsOnCard++;
+                            responseReceived = true;
+
+                        }
+                        else if (msg.Contains(Messages.SERVER_PULSE.ToString()))
+                        {
+                            PulseReturns++;
+                            System.Threading.Thread.Sleep(300);
                         }
                     }
                 }
@@ -290,7 +310,7 @@ namespace NoGracias.Server
                     Console.WriteLine("ERROR Receive Failed: " + e.ToString());
                 }
 
-                
+                p = p.nextPlayer;
             }
 
         }
