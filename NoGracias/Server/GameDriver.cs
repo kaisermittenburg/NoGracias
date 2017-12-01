@@ -96,9 +96,9 @@ namespace NoGracias.Server
         public void Run()
         {
             //KHM
-            //var thread = new Thread(CheckForDisconnects);
-            //thread.TrySetApartmentState(ApartmentState.STA);
-            //thread.Start();
+            var thread = new Thread(CheckForDisconnects);
+            thread.TrySetApartmentState(ApartmentState.STA);
+            thread.Start();
 
             var thread2 = new Thread(ReceiveLoop);
             thread2.TrySetApartmentState(ApartmentState.STA);
@@ -143,7 +143,7 @@ namespace NoGracias.Server
 
         private void CheckForDisconnects()
         {
-            //System.Threading.Thread.Sleep(5000);
+            System.Threading.Thread.Sleep(5000);
             while (true)
             {
                 if (!StopPulse)
@@ -155,6 +155,7 @@ namespace NoGracias.Server
                             if (!StopPulse)
                             {
                                 p.mSocket.Send(Encoding.ASCII.GetBytes(Messages.SERVER_PULSE.ToString()));
+                                Console.WriteLine("Sent Pulse");
                                 //System.Threading.Thread.Sleep(500);
                             }
                         }
@@ -163,10 +164,7 @@ namespace NoGracias.Server
                             DisconnectPlayers();
                         }
                     }
-                    if (!StopPulse)
-                    {
-                        System.Threading.Thread.Sleep(10000);
-                    }
+                    System.Threading.Thread.Sleep(10000);
                 }
             }
         }
