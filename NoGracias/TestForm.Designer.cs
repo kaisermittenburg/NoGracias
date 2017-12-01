@@ -40,8 +40,7 @@ namespace NoGracias
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.TestStatus = new System.Windows.Forms.RichTextBox();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.progressLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -93,19 +92,17 @@ namespace NoGracias
             this.TestStatus.TabIndex = 4;
             this.TestStatus.Text = "";
             // 
-            // backgroundWorker1
+            // progressLabel
             // 
-            this.backgroundWorker1.WorkerReportsProgress = true;
-            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
-            this.backgroundWorker1.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.backgroundWorker1_ProgressChanged);
-            // 
-            // progressBar1
-            // 
-            this.progressBar1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.progressBar1.Location = new System.Drawing.Point(0, 557);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(861, 30);
-            this.progressBar1.TabIndex = 5;
+            this.progressLabel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.progressLabel.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.progressLabel.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.progressLabel.Location = new System.Drawing.Point(0, 549);
+            this.progressLabel.Name = "progressLabel";
+            this.progressLabel.Size = new System.Drawing.Size(861, 38);
+            this.progressLabel.TabIndex = 5;
+            this.progressLabel.Text = "IN PROGRESS...";
+            this.progressLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // TestForm
             // 
@@ -113,7 +110,7 @@ namespace NoGracias
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
             this.ClientSize = new System.Drawing.Size(861, 587);
-            this.Controls.Add(this.progressBar1);
+            this.Controls.Add(this.progressLabel);
             this.Controls.Add(this.TestStatus);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
@@ -132,7 +129,6 @@ namespace NoGracias
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.RichTextBox TestStatus;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.Label progressLabel;
     }
 }
