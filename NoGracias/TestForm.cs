@@ -417,17 +417,27 @@ namespace NoGracias
             Console.WriteLine("-----------------------------------------------------------");
             gameDriver = new GameDriver(players);
 
+            Thread receiveThread = new Thread(new ThreadStart(gameDriver.ReceiveLoop));
+            receiveThread.Start();
+
             /////////////////////////////////////////////////////////////////////////////////
             /////////////////////////////////////////////////////////////////////////////////
 
             StatusPrint("GameDriver Setup Send Test: ", GameDriverSetupTest());
-            backgroundWorker.ReportProgress(offset + (maxPercent / 3));
-            StatusPrint("GameDriver Play Turn Accept Test: ", GameDriverTurnTest());
-            backgroundWorker.ReportProgress(offset + ((2 * maxPercent) / 3));
+            backgroundWorker.ReportProgress(offset + (maxPercent / 4));
+
+            StatusPrint("GameDriver Play Turn Accept Test: ", GameDriverTurnAcceptTest());
+            backgroundWorker.ReportProgress(offset + ((2 * maxPercent) / 4));
+
             System.Threading.Thread.Sleep(500);
             StatusPrint("GameDriver Play Turn Reject Test: ", GameDriverTurnRejectTest());
+            backgroundWorker.ReportProgress(offset + ((3 * maxPercent) / 4));
+
+            System.Threading.Thread.Sleep(500);
+            StatusPrint("GameDriver Turn Player Test: ", GameDriverPlayerTest());
             backgroundWorker.ReportProgress(offset + maxPercent);
 
+            receiveThread.Abort();
             for (int i=0; i<numberOfPlayers; i++)
             {
                 players[i].mSocket.Close();
@@ -473,7 +483,7 @@ namespace NoGracias
             return check;
         }
 
-        private bool GameDriverTurnTest()
+        private bool GameDriverTurnAcceptTest()
         {
             bool check = true;
             int card = 0;
@@ -512,27 +522,16 @@ namespace NoGracias
             #region Receive Turn Player
             for (int i = 0; i < playerSockets.Count; i++)
             {
-                byte[] buffer1 = new byte[1024];
-                byte[] data1;
-                int size1 = playerSockets[i].Receive(buffer1, SocketFlags.None);
-                data1 = new byte[size1];
-                Array.Copy(buffer1, data1, size1);
-                string msg1 = Encoding.ASCII.GetString(data1);
-                Console.WriteLine(players[i].mName + "'s message1 received: " + msg1);
-                if (msg1 != Messages.RECEIVE_TURN_PLAYER.ToString()) check = false;
-
-                byte[] buffer2 = new byte[1024];
-                byte[] data2;
-                int size2 = playerSockets[i].Receive(buffer2, SocketFlags.None);
-                data2 = new byte[size2];
-                Array.Copy(buffer2, data2, size2);
-                string msg2 = Encoding.ASCII.GetString(data2);
-                Console.WriteLine(players[i].mName + "'s message2 received: " + msg2);
-                if (msg2 != "Player1") check = false;
+                byte[] buffer = new byte[1024];
+                int size = playerSockets[i].Receive(buffer, SocketFlags.None);
+                Console.WriteLine("Turn Player Message received");
+                size = playerSockets[i].Receive(buffer, SocketFlags.None);
+                Console.WriteLine("Turn Player Name received");
             }
             #endregion
 
             playerSockets[0].Send(Encoding.ASCII.GetBytes(Messages.ACCEPT_CARD.ToString()));
+            Console.WriteLine("ACCEPT_CARD Sent");
 
             #region Receive Card Update
             for (int i = 0; i < playerSockets.Count; i++)
@@ -617,7 +616,7 @@ namespace NoGracias
                 int size = playerSockets[i].Receive(buffer, SocketFlags.None);
                 size = playerSockets[i].Receive(buffer, SocketFlags.None);
             }
-
+            
             System.Threading.Thread.Sleep(500);
             Thread turnThread2 = new Thread(new ThreadStart(gameDriver.playTurn));
             turnThread2.Start();
@@ -658,6 +657,112 @@ namespace NoGracias
             }
 
             playerSockets[2].Send(Encoding.ASCII.GetBytes(Messages.REJECT_CARD.ToString()));
+
+            //Discard Response
+            for (int i = 0; i < playerSockets.Count; i++)
+            {
+                byte[] buffer = new byte[1024];
+                int size = playerSockets[i].Receive(buffer, SocketFlags.None);
+                size = playerSockets[i].Receive(buffer, SocketFlags.None);
+            }
+
+            return check;
+        }
+
+        private bool GameDriverPlayerTest()
+        {
+            bool check = true;
+            string player = "";
+
+            Thread turnThread = new Thread(new ThreadStart(gameDriver.playTurn));
+            turnThread.Start();
+
+            //Discard Turn Card Data - not relevant to test
+            for(int i=0; i<playerSockets.Count; i++)
+            {
+                byte[] buffer = new byte[1024];
+                int size = playerSockets[i].Receive(buffer, SocketFlags.None);
+                size = playerSockets[i].Receive(buffer, SocketFlags.None);
+            }
+
+            #region Receive Turn Player
+
+            for(int i=0; i<playerSockets.Count; i++)
+            {
+                byte[] buffer = new byte[1024];
+                byte[] data;
+                int size = playerSockets[i].Receive(buffer, SocketFlags.None);
+                data = new byte[size];
+                Array.Copy(buffer, data, size);
+                string message = Encoding.ASCII.GetString(data);
+
+                if (message != Messages.RECEIVE_TURN_PLAYER.ToString()) { check = false; Console.WriteLine("Incorrect Turn message"); }
+            }
+
+            for (int i = 0; i < playerSockets.Count; i++)
+            {
+                byte[] buffer = new byte[1024];
+                byte[] data;
+                int size = playerSockets[i].Receive(buffer, SocketFlags.None);
+                data = new byte[size];
+                Array.Copy(buffer, data, size);
+                string message = Encoding.ASCII.GetString(data);
+
+                if (message != "Player4") { check = false; Console.WriteLine("Incorrect Turn Player"); }
+                else player = message;
+            }
+            #endregion
+
+            playerSockets[3].Send(Encoding.ASCII.GetBytes(Messages.ACCEPT_CARD.ToString()));
+
+            //Discard Response
+            for (int i = 0; i < playerSockets.Count; i++)
+            {
+                byte[] buffer = new byte[1024];
+                int size = playerSockets[i].Receive(buffer, SocketFlags.None);
+                size = playerSockets[i].Receive(buffer, SocketFlags.None);
+            }
+
+            System.Threading.Thread.Sleep(500);
+            Thread turnThread2 = new Thread(new ThreadStart(gameDriver.playTurn));
+            turnThread2.Start();
+
+            //Discard Turn Card Data - not relevant to test
+            for (int i = 0; i < playerSockets.Count; i++)
+            {
+                byte[] buffer = new byte[1024];
+                int size = playerSockets[i].Receive(buffer, SocketFlags.None);
+                size = playerSockets[i].Receive(buffer, SocketFlags.None);
+            }
+
+            #region Receive Turn Player
+
+            for (int i = 0; i < playerSockets.Count; i++)
+            {
+                byte[] buffer = new byte[1024];
+                byte[] data;
+                int size = playerSockets[i].Receive(buffer, SocketFlags.None);
+                data = new byte[size];
+                Array.Copy(buffer, data, size);
+                string message = Encoding.ASCII.GetString(data);
+
+                if (message != Messages.RECEIVE_TURN_PLAYER.ToString()) { check = false; Console.WriteLine("Incorrect Turn message"); }
+            }
+
+            for (int i = 0; i < playerSockets.Count; i++)
+            {
+                byte[] buffer = new byte[1024];
+                byte[] data;
+                int size = playerSockets[i].Receive(buffer, SocketFlags.None);
+                data = new byte[size];
+                Array.Copy(buffer, data, size);
+                string message = Encoding.ASCII.GetString(data);
+
+                if (message == player) { check = false; Console.WriteLine("Incorrect Turn Player"); }                
+            }
+            #endregion
+
+            playerSockets[4].Send(Encoding.ASCII.GetBytes(Messages.ACCEPT_CARD.ToString()));
 
             //Discard Response
             for (int i = 0; i < playerSockets.Count; i++)
@@ -730,6 +835,8 @@ namespace NoGracias
         }*/
         #endregion
 
+        #region Event Handlers
+
         private void TestForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             //playerSocket.Disconnect(true);
@@ -746,5 +853,6 @@ namespace NoGracias
         {
             StartTests(sender, e);
         }
+        #endregion
     }
 }
