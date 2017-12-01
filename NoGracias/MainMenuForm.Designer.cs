@@ -216,8 +216,8 @@ namespace NoGracias
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.CreditsButton = new System.Windows.Forms.Button();
             this.JoinGameButton = new System.Windows.Forms.Button();
-            this.HomeButton = new System.Windows.Forms.Button();
             this.LaunchTestButton = new System.Windows.Forms.Button();
+            this.HomeButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.MainPanel.SuspendLayout();
             this.CreditsPanel.SuspendLayout();
@@ -231,7 +231,7 @@ namespace NoGracias
             | System.Windows.Forms.AnchorStyles.Right)));
             this.IP_textbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.IP_textbox.Location = new System.Drawing.Point(297, 184);
-            this.IP_textbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.IP_textbox.Margin = new System.Windows.Forms.Padding(2);
             this.IP_textbox.Name = "IP_textbox";
             this.IP_textbox.Size = new System.Drawing.Size(342, 20);
             this.IP_textbox.TabIndex = 5;
@@ -242,7 +242,7 @@ namespace NoGracias
             this.Port_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Port_textbox.Location = new System.Drawing.Point(297, 224);
-            this.Port_textbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Port_textbox.Margin = new System.Windows.Forms.Padding(2);
             this.Port_textbox.Name = "Port_textbox";
             this.Port_textbox.Size = new System.Drawing.Size(342, 20);
             this.Port_textbox.TabIndex = 6;
@@ -252,7 +252,7 @@ namespace NoGracias
             this.PlayerName_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.PlayerName_textbox.Location = new System.Drawing.Point(297, 266);
-            this.PlayerName_textbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PlayerName_textbox.Margin = new System.Windows.Forms.Padding(2);
             this.PlayerName_textbox.Name = "PlayerName_textbox";
             this.PlayerName_textbox.Size = new System.Drawing.Size(342, 20);
             this.PlayerName_textbox.TabIndex = 7;
@@ -345,7 +345,7 @@ namespace NoGracias
             this.button2.Font = new System.Drawing.Font("Berlin Sans FB Demi", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Black;
             this.button2.Location = new System.Drawing.Point(38, 261);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(288, 311);
             this.button2.TabIndex = 15;
@@ -392,7 +392,7 @@ namespace NoGracias
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Status_Textbox.Location = new System.Drawing.Point(297, 307);
-            this.Status_Textbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Status_Textbox.Margin = new System.Windows.Forms.Padding(2);
             this.Status_Textbox.Multiline = true;
             this.Status_Textbox.Name = "Status_Textbox";
             this.Status_Textbox.ReadOnly = true;
@@ -519,7 +519,7 @@ namespace NoGracias
             this.HomeButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.HomeButton1.Location = new System.Drawing.Point(16, 14);
             this.HomeButton1.Name = "HomeButton1";
-            this.HomeButton1.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.HomeButton1.Padding = new System.Windows.Forms.Padding(5);
             this.HomeButton1.Size = new System.Drawing.Size(60, 48);
             this.HomeButton1.TabIndex = 42;
             this.HomeButton1.UseVisualStyleBackColor = true;
@@ -592,24 +592,10 @@ namespace NoGracias
             this.JoinGameButton.UseVisualStyleBackColor = true;
             this.JoinGameButton.Click += new System.EventHandler(this.JoinGameButton_Click);
             // 
-            // HomeButton
-            // 
-            this.HomeButton.BackgroundImage = global::NoGracias.Properties.Resources.home;
-            this.HomeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.HomeButton.FlatAppearance.BorderSize = 0;
-            this.HomeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.HomeButton.Location = new System.Drawing.Point(12, 12);
-            this.HomeButton.Name = "HomeButton";
-            this.HomeButton.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.HomeButton.Size = new System.Drawing.Size(60, 48);
-            this.HomeButton.TabIndex = 41;
-            this.HomeButton.UseVisualStyleBackColor = true;
-            this.HomeButton.Click += new System.EventHandler(this.HomeButton_Click);
-            // 
             // LaunchTestButton
             // 
             this.LaunchTestButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.LaunchTestButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.LaunchTestButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.LaunchTestButton.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LaunchTestButton.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.LaunchTestButton.Location = new System.Drawing.Point(841, 15);
@@ -619,6 +605,20 @@ namespace NoGracias
             this.LaunchTestButton.Text = "Launch Test Suite";
             this.LaunchTestButton.UseVisualStyleBackColor = true;
             this.LaunchTestButton.Click += new System.EventHandler(this.LaunchTestButton_Click);
+            // 
+            // HomeButton
+            // 
+            this.HomeButton.BackgroundImage = global::NoGracias.Properties.Resources.home;
+            this.HomeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.HomeButton.FlatAppearance.BorderSize = 0;
+            this.HomeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.HomeButton.Location = new System.Drawing.Point(12, 12);
+            this.HomeButton.Name = "HomeButton";
+            this.HomeButton.Padding = new System.Windows.Forms.Padding(5);
+            this.HomeButton.Size = new System.Drawing.Size(60, 48);
+            this.HomeButton.TabIndex = 41;
+            this.HomeButton.UseVisualStyleBackColor = true;
+            this.HomeButton.Click += new System.EventHandler(this.HomeButton_Click);
             // 
             // MainMenuForm
             // 
@@ -650,7 +650,7 @@ namespace NoGracias
             this.Controls.Add(this.IP_textbox);
             this.Controls.Add(this.HomeButton);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MainMenuForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "No Gracias";
@@ -736,7 +736,7 @@ namespace NoGracias
                     //break;
                 }
             }*/
-
+            mClientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             Console.WriteLine("Connection attempt...");
             Status = "Connection attempt...";
             try
@@ -748,6 +748,7 @@ namespace NoGracias
                 {
                     Console.WriteLine("Connected");
                     Status = "Connected";
+                    isConnected = true;
                     this.HomeButton.Visible = false;
                     mClientSocket.EndConnect(result);
                     players.Add(PlayerName);
@@ -760,9 +761,9 @@ namespace NoGracias
                     throw new System.Exception();
                 }
             }
-            catch(SocketException)
+            catch(SocketException e)
             {
-                CustomMessageBox.ShowBox("CONNECTION ERROR" + "\nSOCKET EXCEPTION");
+                CustomMessageBox.ShowBox("CONNECTION ERROR" + "\nSOCKET EXCEPTION\n" + e.Message);
                 throw new System.Exception();
             }
             catch(FormatException)

@@ -53,6 +53,7 @@ namespace NoGracias
 
         private void Reset(bool tryToDisconnectFromServer)
         {
+            isCardTableLaunched = false;
 
             this.IP_textbox.Clear();
             this.Port_textbox.Clear();
@@ -92,12 +93,19 @@ namespace NoGracias
             /*
             try
             {
-                mClientSocket.Disconnect(true);
-                Console.WriteLine("socket disconnected");
+                if (mClientSocket.Connected)
+                {
+                    mClientSocket.BeginDisconnect(true, (IAsyncResult ar) =>
+                    {
+                        mClientSocket.EndDisconnect(ar);
+                        mClientSocket.Close();
+                    }, null);
+                    Console.WriteLine("socket disconnected");
+                }
             }
             catch(SocketException e)
             {
-                Console.WriteLine("Socket Exception");
+                Console.WriteLine("Socket Exception "+e.Message);
                 CustomMessageBox.ShowBox("SOCKET EXCEPTION");
             }
             */
