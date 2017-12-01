@@ -423,6 +423,7 @@ namespace NoGracias
                 {
                     this.Invoke((MethodInvoker)delegate
                     {
+                        System.Threading.Thread.Sleep(1000);
                         this.AcceptCardButton.Visible = true;
                         this.NoGraciasButton.Visible = true;
                     });

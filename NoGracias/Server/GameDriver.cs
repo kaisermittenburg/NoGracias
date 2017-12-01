@@ -186,8 +186,9 @@ namespace NoGracias.Server
                 try
                 {
                     players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.RECEIVE_TURN_CARD.ToString()));
-                    System.Threading.Thread.Sleep(250);
+                    System.Threading.Thread.Sleep(300);
                     players[i].mSocket.Send(Encoding.ASCII.GetBytes(turnCard));
+                    System.Threading.Thread.Sleep(300);
                 }
                 catch(Exception)
                 {
@@ -202,8 +203,9 @@ namespace NoGracias.Server
                 try
                 {
                     players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.RECEIVE_TURN_PLAYER.ToString()));
-                    System.Threading.Thread.Sleep(250);
+                    System.Threading.Thread.Sleep(300);
                     players[i].mSocket.Send(Encoding.ASCII.GetBytes(currentPlayer.mName));
+                    System.Threading.Thread.Sleep(300);
                 }
                 catch(Exception)
                 {
@@ -227,10 +229,10 @@ namespace NoGracias.Server
                 currentPlayer.mSocket.Send(Encoding.ASCII.GetBytes("Accept"));
             }*/
 
-            while(!responseReceived)
+            do
             {
 
-            }
+            } while (!responseReceived);
             //System.Threading.Thread.Sleep(250);
             currentPlayer = currentPlayer.nextPlayer;
         }
@@ -280,6 +282,7 @@ namespace NoGracias.Server
                                     players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.RECEIVE_CARD_UPDATE.ToString()));
                                     System.Threading.Thread.Sleep(350);
                                     players[i].mSocket.Send(Encoding.ASCII.GetBytes(playerCardInfo));
+                                    System.Threading.Thread.Sleep(300);
                                 }
                                 catch(Exception)
                                 {
@@ -324,6 +327,7 @@ namespace NoGracias.Server
                                     players[i].mSocket.Send(Encoding.ASCII.GetBytes(Messages.CARD_REJECTED.ToString()));
                                     System.Threading.Thread.Sleep(250);
                                     players[i].mSocket.Send(Encoding.ASCII.GetBytes(currentPlayer.mName));
+                                    System.Threading.Thread.Sleep(300);
                                 }
                                 catch(Exception)
                                 {
