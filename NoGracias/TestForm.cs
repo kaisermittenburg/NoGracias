@@ -411,8 +411,8 @@ namespace NoGracias
             Console.WriteLine("-----------------------------------------------------------");
             gameDriver = new GameDriver(players);
 
-            Thread receiveThread = new Thread(new ThreadStart(gameDriver.ReceiveLoop));
-            receiveThread.Start();
+            //Thread receiveThread = new Thread(new ThreadStart(gameDriver.ReceiveLoop));
+            //receiveThread.Start();
 
             /////////////////////////////////////////////////////////////////////////////////
             /////////////////////////////////////////////////////////////////////////////////
@@ -424,7 +424,7 @@ namespace NoGracias
             System.Threading.Thread.Sleep(500);
             StatusPrint("GameDriver Turn Player Test: ", GameDriverPlayerTest());
             
-            receiveThread.Abort();
+            //receiveThread.Abort();
             for (int i=0; i<numberOfPlayers; i++)
             {
                 players[i].mSocket.Close();
