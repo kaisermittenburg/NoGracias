@@ -877,6 +877,11 @@ namespace NoGracias
                         player.mSocket.Send(data);
                         Console.WriteLine("Sent names");
 
+                        var list = Clients.ToList().Where(x => x.mState == PlayerState.READY).ToList();
+                        foreach (Player p in list)
+                        {
+                            SendPlayerAlreadyReady(p.mName, ToAlert[0]);
+                        }
 
                         ///////////////////////////debug//////////////////////
                         //Pretend to add another player
@@ -920,6 +925,19 @@ namespace NoGracias
                 Console.WriteLine("Sent name");
                 //player.mSocket.BeginReceive(Buffer, 0, BUFFER_SIZE, SocketFlags.None, Recieve, player.mSocket);//KHM may break here
             }
+        }
+
+        private void SendPlayerAlreadyReady(string readyPlayer, string sendTo)
+        {
+            byte[] data = Encoding.ASCII.GetBytes(Messages.ALERT_PLAYER_READY_UPPED.ToString());
+            var player = Clients.Where(x => x.mName == sendTo).FirstOrDefault();
+            player.mSocket.Send(data);
+            Console.WriteLine("Sent Player ready up alert");
+            System.Threading.Thread.Sleep(250); //wait, then send another message
+            Console.WriteLine("spept");
+            data = Encoding.ASCII.GetBytes(readyPlayer);
+            player.mSocket.Send(data);
+            Console.WriteLine("Sent name");
         }
 
         /** 
