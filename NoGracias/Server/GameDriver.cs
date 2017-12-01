@@ -236,7 +236,7 @@ namespace NoGracias.Server
             System.Threading.Thread.Sleep(250);
             currentPlayer = currentPlayer.nextPlayer;
         }
-        private void ReceiveLoop()
+        public void ReceiveLoop()
         {
             //TODO: Get currentPlayer's response
             Console.WriteLine("GameDriver before response loop");
