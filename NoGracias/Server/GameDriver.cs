@@ -231,7 +231,7 @@ namespace NoGracias.Server
             {
 
             }
-            System.Threading.Thread.Sleep(250);
+            //System.Threading.Thread.Sleep(250);
             currentPlayer = currentPlayer.nextPlayer;
         }
         public void ReceiveLoop()
@@ -240,7 +240,7 @@ namespace NoGracias.Server
             Console.WriteLine("GameDriver before response loop");
             
             Console.WriteLine("GameDriver value of responseReceived: " + responseReceived.ToString());
-            Player p = currentPlayer;
+            //Player p = currentPlayer;
             while (true)
             {
                 Console.WriteLine("Inside GameDriver Receive loop");
@@ -252,7 +252,7 @@ namespace NoGracias.Server
                 {
                     try
                     {
-                        receivedSize = p.mSocket.Receive(buffer, SocketFlags.None);
+                        receivedSize = currentPlayer.mSocket.Receive(buffer, SocketFlags.None);
                     }
                     catch(Exception)
                     {
@@ -348,7 +348,7 @@ namespace NoGracias.Server
                     Console.WriteLine("ERROR Receive Failed: " + e.ToString());
                 }
 
-                p = p.nextPlayer;
+                //p = p.nextPlayer;
             }
 
         }
