@@ -1,0 +1,9 @@
+------------------------------------------------------------------------
+-- Group: Purple C#bras
+-- Group members: Kaiser Mittenburg, Juzer Zarif, Andrew Growney
+-- Project Name: No Gracias
+------------------------------------------------------------------------
+
+1) Multiple players can't have the same name
+2) Various race conditions will prevent updates to be sent to players and/or server if multiple events happen at the same time or close to each other
+3) If the turn player exits the game, the other players will not receive an update and will be stuck on that screen
